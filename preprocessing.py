@@ -2,22 +2,18 @@ import os
 import xml.etree.ElementTree as et
 from transformers import T5Tokenizer
 import numpy as np
-from datasets import load_dataset
-import pandas
-import random
-import re
-from collections import Counter
 
 tokenizer = T5Tokenizer.from_pretrained('google/t5-v1_1-base')
 MAX_TOKENS = 512
 
 
 def save(filepath, data):
+    os.makedirs(filepath.rsplit('/', 1)[0], exist_ok=True)
     np.save(filepath + ".npy", np.array(data), allow_pickle=True)
+
 
 def preprocessing_score_kn1(path, file):
     array = []
-    test = []
     for files in os.listdir(path):
         if files.endswith('.xml'):
             root = et.parse(path + '/' + files).getroot()
@@ -39,7 +35,7 @@ def preprocessing_score_kn1(path, file):
                         tokenizer(answer.lower(), max_length=128, padding='max_length').input_ids[:128],
                         tokenizer(label, max_length=4, padding='max_length').input_ids                 
                     ])
-    save(file, array)
+    save(file, np.array(array, dtype=object))
 
 
 def preprocessing_ver_kn1(path, file):
@@ -67,14 +63,14 @@ def preprocessing_ver_kn1(path, file):
                         tokenizer(label.lower(), max_length=4, padding='max_length').input_ids,
                         len(tokenizer(answer.lower()).input_ids)
                     ])
-    save(file, array)
+    save(file, np.array(array, dtype=object))
 
 
 # Preprocessing
-preprocessing_score_kn1('datasets/raw/kn1/training', 'datasets/preprocessed/score_kn1_train')
-preprocessing_score_kn1('datasets/raw/kn1/UA', 'datasets/preprocessed/score_kn1_ua')
-preprocessing_score_kn1('datasets/raw/kn1/UQ', 'datasets/preprocessed/score_kn1_uq')
+preprocessing_score_kn1('kn1/training', 'preprocessed/score_kn1_train')
+preprocessing_score_kn1('kn1/UA', 'preprocessed/score_kn1_ua')
+preprocessing_score_kn1('kn1/UQ', 'preprocessed/score_kn1_uq')
 
-preprocessing_ver_kn1('datasets/raw/kn1/training', 'datasets/preprocessed/ver_kn1_train')
-preprocessing_ver_kn1('datasets/raw/kn1/UA', 'datasets/preprocessed/ver_kn1_ua')
-preprocessing_ver_kn1('datasets/raw/kn1/UQ', 'datasets/preprocessed/ver_kn1_uq')
+preprocessing_ver_kn1('kn1/training', 'preprocessed/ver_kn1_train')
+preprocessing_ver_kn1('kn1/UA', 'preprocessed/ver_kn1_ua')
+preprocessing_ver_kn1('kn1/UQ', 'preprocessed/ver_kn1_uq')

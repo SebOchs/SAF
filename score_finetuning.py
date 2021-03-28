@@ -1,14 +1,14 @@
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint
-from litT5 import LitFineT5
+from litT5 import LitScoreFineT5
 
 checkpoint_callback = ModelCheckpoint(
     monitor='my_metric',
     mode="max",
-    filepath='models/kn1_t5_{epoch}-{my_metric:.4f}',
+    filepath='models/score_kn1_t5_{epoch}-{my_metric:.4f}',
     save_top_k=3
 )
-score_t5 = LitFineT5(4)
+score_t5 = LitScoreFineT5(4)
 
 trainer = pl.Trainer(
     gpus=2,

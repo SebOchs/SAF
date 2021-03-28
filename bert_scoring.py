@@ -1,10 +1,14 @@
 import numpy as np
 import datasets
-from utils import extract_pred
+from utils import extract_pred, extract_model_pred
 bert_score = datasets.load_metric('bertscore')
 
-val_data = np.load('final_kn1_uq_data_for_bertscore.npy', allow_pickle=True)
-pred = extract_pred(val_data[0])
+file = 'score_kn1_ua_bertscore.npy'
+val_data = np.load('score_kn1_ua_bertscore.npy', allow_pickle=True)
+if file.startswith('score'):
+    pred = extract_model_pred(val_data[0])
+elif file.startswith('ver'):
+    pred = extract_pred(val_data[0])
 truth = [x.split(':', 1)[1] for x in val_data[1]]
 score = bert_score.compute(predictions=pred, references=truth, lang='en', rescale_with_baseline=True
                            )
