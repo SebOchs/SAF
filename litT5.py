@@ -21,9 +21,11 @@ class LitScoreFineT5(pl.LightningModule):
 
     def __init__(self, batch_size):
         super(LitScoreFineT5, self).__init__()
+        # Load model and tokenizer
         self.model = T5ForConditionalGeneration.from_pretrained('t5-base')
         self.tokenizer = T5Tokenizer.from_pretrained('t5-base')
         self.batch_size = batch_size
+        # Load and split data
         data = dl.T5Dataset('preprocessed/score_kn1_train.npy')
         self.train_data, self.val_data = random_split(data, split(len(data)),
                                                       generator=torch.Generator().manual_seed(42))
@@ -31,6 +33,7 @@ class LitScoreFineT5(pl.LightningModule):
         self.save_hyperparameters()
 
     def forward(self, tok_seq, attn_seq):
+        # force min length of prediction
         return self.tokenizer.decode(self.model.generate(input_ids=tok_seq, attention_mask=attn_seq, min_length=11,
                                                          max_length=128)[0],
                                      skip_special_tokens=True)
@@ -100,6 +103,7 @@ class LitScoreFineT5(pl.LightningModule):
         rouge_score = rouge.compute(predictions=pred, references=truth)['rouge2'].mid.fmeasure
         meteor_score = meteor.compute(predictions=pred, references=truth)['meteor']
 
+        # Check if there are no empty predictions for mse
         if len(acc_data[1]) > 0:
             mse_val, invalid = mse(acc_data[1], acc_data[0])
             self.log('mse', mse_val)
@@ -112,6 +116,8 @@ class LitScoreFineT5(pl.LightningModule):
         self.log('meteor', meteor_score)
         print('MSE = {:.4f}, BLEU = {:.4f}, Rouge = {:.4f}, Meteor = {:.4f}'
               .format(mse_val, sacrebleu_score, rouge_score, meteor_score))
+
+        # FIXME: Currently recognizes different test sets by length, not safe!
         if acc_data.shape[1] == 252:
             np.save('score_kn1_ua_bertscore.npy', np.array(test_data[:3]), allow_pickle=True)
         else:
@@ -220,6 +226,7 @@ class LitVerFineT5(pl.LightningModule):
         self.log('weighted', val_weighted)
         print('Acc = {:.4f}, M-F1 = {:.4f}, W-F1 = {:.4f}, BLEU = {:.4f}, Rouge = {:.4f}, Meteor = {:.4f}'
               .format(val_acc, val_macro, val_weighted, sacrebleu_score, rouge_score, meteor_score))
+        # FIXME: Currently recognizes different test sets by length, not safe!
         if acc_data.shape[1] == 252:
             np.save('ver_kn1_ua_bertscore.npy', np.array(test_data[:3]), allow_pickle=True)
         else:

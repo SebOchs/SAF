@@ -3,14 +3,27 @@ from litT5 import LitScoreFineT5, LitVerFineT5
 from torch.utils.data import DataLoader
 import dataloading as dl
 
-# If test data set is not unseen-answers, specify here:
-# test_loader = DataLoader(dl.T5Dataset('preprocessed/score_kn1_uq.npy'))
+# Settings
+########################################################################################################################
+MODEL = "models/kn1_t5_epoch=1-my_metric=0.3404.ckpt"
+TEST_SET = 'preprocessed/score_kn1_uq.npy'
+MODE = 'score'  # or 'ver'
+########################################################################################################################
 
-# Load model (specify if model is either LitScoreFineT5 or LitVerFineT5)
-t5_test = LitScoreFineT5.load_from_checkpoint("models/kn1_t5_epoch=1-my_metric=0.3404.ckpt")
-trainer = pl.Trainer(gpus=1)
 
-# remove test_dataloaders if results for default test data set are needed
-trainer.test(t5_test#, test_dataloaders=test_loader
-)
-print("finished testing")
+def testing(model_path, test_set, mode):
+    # Load test set from file path test_set
+    test_loader = DataLoader(dl.T5Dataset(test_set))
+
+    # Load model from checkpoint file path
+    if mode == 'score':
+        t5_test = LitScoreFineT5.load_from_checkpoint(model_path)
+    elif mode == 'ver':
+        t5_test = LitVerFineT5.load_from_checkpoint(model_path)
+
+    trainer = pl.Trainer(gpus=1)
+    trainer.test(t5_test, test_dataloaders=test_loader)
+
+
+testing(MODEL, TEST_SET, MODE)
+

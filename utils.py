@@ -69,10 +69,12 @@ def sep_val(pred_lab_short, idx):
 
 
 def split(number, portion=0.9):
+    # splitting data set
     return [round(portion * number), round((1 - portion) * number)]
 
 
 def isfloat(value):
+    # boolean test if string can be converted to float
     try:
         float(value)
         return True
@@ -81,8 +83,7 @@ def isfloat(value):
 
 
 def mse(pred, labs):
-
-
+    # calculates mse
     idx = np.where(np.array([isfloat(x) for x in pred]) == True)
     if idx[0].size > 0:
         preds = np.array([float(x) for x in pred[idx]])
@@ -105,6 +106,7 @@ def mse(pred, labs):
 
 
 def extract_pred(predictions):
+    # extract the model prediction without the label at the beginning
     array = []
     for pred in predictions:
         try:
@@ -122,6 +124,7 @@ def extract_pred(predictions):
 
 
 def extract_model_pred(predictions):
+    # extract the model prediction without the label at the beginning
     array = []
     for pred in predictions:
         try:
@@ -136,6 +139,7 @@ def extract_model_pred(predictions):
 
 
 def extract_label(predictions):
+    # extract the predicted label without the following prediction
     array = []
     for pred in predictions:
         if pred.startswith('correct'):
@@ -148,4 +152,3 @@ def extract_label(predictions):
             x = 'wrong label'
         array.append(x)
     return array
-
