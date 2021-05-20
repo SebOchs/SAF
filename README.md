@@ -12,4 +12,6 @@
 6. Testing saves the model predictions to a file, which can then be utilized to calculate and print out the BERT score. As file convention, the file should start with 'score' or 'ver' as indication for different modes.
 > python bert_scoring.py
 
+You may also adjust the seeding in the litT5.py script.
+
 In cooperation with Anna Filighera and the Multimedia Communications Lab at TU Darmstadt.

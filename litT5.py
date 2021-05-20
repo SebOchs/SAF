@@ -6,7 +6,14 @@ import dataloading as dl
 import warnings
 import datasets
 import torch
+import numpy as np
+import random
 
+# set seeds
+SEED = 73
+torch.manual_seed(SEED)
+np.random.seed(SEED)
+random.seed(SEED)
 # just here for cleaner console output
 warnings.filterwarnings("ignore")
 
