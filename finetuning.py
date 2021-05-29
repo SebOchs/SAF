@@ -58,8 +58,6 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
             progress_bar_refresh_rate=100
         )
     elif server:
-        print(torch.cuda.is_available())
-        print(torch.cuda.current_device())
         trainer = pl.Trainer(
             gpus=1,
             auto_select_gpus=True,

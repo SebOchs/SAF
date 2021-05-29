@@ -4,7 +4,7 @@
    I built the environment to reproduce our results in the following way (for linux, uncomment pywin32=300 in requirements.txt):
 > conda create --name baseline python=3.7   
 > conda activate baseline  
-> conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
+> conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
 > pip install -r requirements
 2. Download and copy the kn1 data set into the repository.
 3. Run preprocessing script to preprocess the data set, eventually edit the file path in the script
