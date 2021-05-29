@@ -79,5 +79,5 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     trainer.fit(t5_version)
 
 
-finetuning('ver', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD)
-finetuning('score', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD)
+finetuning('ver', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, server=SERVER)
+finetuning('score', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, server=SERVER)
