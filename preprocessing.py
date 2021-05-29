@@ -2,6 +2,8 @@ import os
 import xml.etree.ElementTree as et
 from transformers import T5Tokenizer
 import numpy as np
+import sys
+from utils import *
 
 # Settings
 ########################################################################################################################
@@ -9,22 +11,14 @@ import numpy as np
 TOKENIZER = T5Tokenizer.from_pretrained('google/t5-v1_1-base')
 MAX_TOKENS = 512
 OUTPUT_LENGTH = 128
-# paths to kn1 data set
+# paths to kn1 data set folders
 TRAIN = 'kn1/training'
 UA = 'kn1/UA'
 UQ = 'kn1/UQ'
 ########################################################################################################################
 
 
-def save(filepath, data):
-    """
-    Function to save the preprocessed data into a folder structure
-    :param filepath: string - path of the file to save
-    :param data: list of preprocessed data
-    :return: Nothing
-    """
-    os.makedirs(filepath.rsplit('/', 1)[0], exist_ok=True)
-    np.save(filepath + ".npy", np.array(data), allow_pickle=True)
+
 
 
 def preprocessing_score_kn1(path, file, tokenizer):
