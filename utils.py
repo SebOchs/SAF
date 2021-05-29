@@ -1,6 +1,10 @@
 import numpy as np
 import torch
 from sklearn.metrics import mean_squared_error
+import os
+import sys
+# Slurm fix
+sys.path.append(os.getcwd())
 
 
 def f1(pr, tr, class_num):
@@ -152,3 +156,14 @@ def extract_label(predictions):
             x = 'wrong label'
         array.append(x)
     return array
+
+
+def save(filepath, data):
+    """
+    Function to save the preprocessed data into a folder structure
+    :param filepath: string - path of the file to save
+    :param data: list of preprocessed data
+    :return: Nothing
+    """
+    os.makedirs(filepath.rsplit('/', 1)[0], exist_ok=True)
+    np.save(filepath, np.array(data), allow_pickle=True)

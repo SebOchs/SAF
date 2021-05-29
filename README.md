@@ -1,11 +1,15 @@
 # KN1-baseline
 
-1. Install the necessary libraries with: 
+1. The experiments were run with a conda python environment using python version 3.7.10.
+   I built the environment to reproduce our results in the following way:
+> conda create --name baseline python=3.7   
+> conda activate baseline  
+> conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
 > pip install -r requirements
 2. Download and copy the kn1 data set into the repository.
 3. Run preprocessing script to preprocess the data set, eventually edit the file path in the script
 > python preprocessing.py
-4. Run finetuning script to train the models. Adjust variable mode to select if you want to train on scores or verification feedback
+4. Run finetuning script to train the models. Adjust variable mode to select if you want to train on scores or verification feedback, you can also edit hyperparameters here
 > python finetuning.py
 5. A model can be tested by running the testing script. Adjust model path in the script.
 > python testing.py
