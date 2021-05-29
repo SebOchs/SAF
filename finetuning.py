@@ -46,6 +46,7 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     if ddp and server:
         trainer = pl.Trainer(
             gpus=gpus,
+            auto_select_gpus=True,
             num_nodes=1,
             accelerator='ddp',
             max_epochs=epochs,
@@ -58,6 +59,7 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     elif server:
         trainer = pl.Trainer(
             gpus=1,
+            auto_select_gpus=True,
             num_nodes=1,
             max_epochs=epochs,
             accumulate_grad_batches=acc_grad,
