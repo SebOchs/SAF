@@ -1,7 +1,6 @@
 import sys
 import os
 import pytorch_lightning as pl
-import torch.cuda
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
 from litT5 import LitScoreFineT5, LitVerFineT5
 # Slurm fix
@@ -11,14 +10,14 @@ sys.path.append(os.getcwd())
 ########################################################################################################################
 MODE = 'ver'  # Replace with 'ver' for finetuning on verification feedback
 # Hyperparameters
-BATCH_SIZE = 4
+BATCH_SIZE = [2, 4]
 EPOCH = 64
-ACCUMULATE_GRAD = 4  # best performing
+ACCUMULATE_GRAD = [2, 8]  # best performing
 # Training settings
 N_TOP_MODELS = 3
 DISTRIBUTED = False
 N_GPUS = 1
-SERVER = True
+SERVER = False
 ########################################################################################################################
 
 
@@ -82,5 +81,5 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     trainer.fit(t5_version)
 
 
-finetuning('ver', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, server=SERVER)
-finetuning('score', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, server=SERVER)
+finetuning('ver', batch_size=BATCH_SIZE[1], epochs=EPOCH, acc_grad=ACCUMULATE_GRAD[1], server=SERVER)
+finetuning('score', batch_size=BATCH_SIZE[0], epochs=EPOCH, acc_grad=ACCUMULATE_GRAD[0], server=SERVER)
