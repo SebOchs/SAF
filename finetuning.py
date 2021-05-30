@@ -12,7 +12,7 @@ MODE = 'ver'  # Replace with 'ver' for finetuning on verification feedback
 # Hyperparameters
 BATCH_SIZE = [2, 4]
 EPOCH = 64
-ACCUMULATE_GRAD = [2, 8]  # best performing
+ACCUMULATE_GRAD = [2, 4]  # best performing
 # Training settings
 N_TOP_MODELS = 3
 DISTRIBUTED = False
@@ -34,7 +34,7 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     early = EarlyStopping(
         monitor='my_metric',
         mode="max",
-        patience=2,
+        patience=4,
         verbose=False
     )
     # Initialize model and trainer
