@@ -15,13 +15,12 @@ EPOCH = 64
 ACCUMULATE_GRAD = [2, 4]  # best performing
 # Training settings
 N_TOP_MODELS = 3
-DISTRIBUTED = False
-N_GPUS = 1
-SERVER = False
+DISTRIBUTED = True
+N_GPUS = 2
 ########################################################################################################################
 
 
-def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gpus=1, server=False):
+def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gpus=1):
     # Checkpointing
     checkpoint_callback = ModelCheckpoint(
         dirpath='models/' + mode,
@@ -43,24 +42,12 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     elif mode == 'ver':
         t5_version = LitVerFineT5(batch_size)
 
-    if ddp and server:
+    if ddp:
         trainer = pl.Trainer(
             gpus=gpus,
             auto_select_gpus=True,
             num_nodes=1,
             accelerator='ddp',
-            max_epochs=epochs,
-            accumulate_grad_batches=acc_grad,
-            checkpoint_callback=True,
-            callbacks=[checkpoint_callback, early],
-            num_sanity_val_steps=0,
-            progress_bar_refresh_rate=100
-        )
-    elif server:
-        trainer = pl.Trainer(
-            gpus=1,
-            auto_select_gpus=True,
-            num_nodes=1,
             max_epochs=epochs,
             accumulate_grad_batches=acc_grad,
             checkpoint_callback=True,
@@ -81,5 +68,5 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
     trainer.fit(t5_version)
 
 
-finetuning('ver', batch_size=BATCH_SIZE[1], epochs=EPOCH, acc_grad=ACCUMULATE_GRAD[1], server=SERVER)
-finetuning('score', batch_size=BATCH_SIZE[0], epochs=EPOCH, acc_grad=ACCUMULATE_GRAD[0], server=SERVER)
+finetuning('ver', batch_size=BATCH_SIZE[1], epochs=EPOCH, acc_grad=ACCUMULATE_GRAD[0], gpus=N_GPUS)
+finetuning('score', batch_size=BATCH_SIZE[0], epochs=EPOCH, acc_grad=ACCUMULATE_GRAD[0], gpus=N_GPUS)
