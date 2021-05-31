@@ -47,4 +47,4 @@ def multitasking(batch_size, acc_grad, ddp=False, gpus=1):
     trainer.fit(t5_version)
 
 
-multitasking(2, 8)
+multitasking(4, 4, ddp=True, gpus=2)
