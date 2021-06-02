@@ -8,8 +8,8 @@ import dataloading as dl
 sys.path.append(os.getcwd())
 # Settings
 ########################################################################################################################
-MODEL = "models/ver/kn1_t5_epoch=3-my_metric=0.3536_ver.ckpt"
-TEST_SET = 'preprocessed/ver_kn1_ua.npy'
+MODEL = "models/score/kn1_t5_epoch=9-my_metric=0.4049_score.ckpt"
+TEST_SET = 'preprocessed/score_kn1_uq.npy'
 ########################################################################################################################
 
 

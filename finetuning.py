@@ -3,6 +3,7 @@ import os
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
 from litT5 import LitScoreFineT5, LitVerFineT5, LitMultiT5
+
 # Slurm fix
 sys.path.append(os.getcwd())
 
@@ -10,15 +11,17 @@ sys.path.append(os.getcwd())
 ########################################################################################################################
 MODE = ['ver', 'score', 'multi']  # Replace with 'ver' for finetuning on verification feedback
 # Hyperparameters
-BATCH_SIZE = 2
-EPOCH = 64
-ACCUMULATE_GRAD = 4  # best performing
+# BATCH_SIZE = [2, 4] # 2 is best for score, 4 is best for ver
+EPOCH = 16
+ACCUMULATE_GRAD = 6  # best performing
 # Training settings
-N_TOP_MODELS = 3
-DISTRIBUTED = True
-N_GPUS = 2
+N_TOP_MODELS = 1
+DISTRIBUTED = False
+N_GPUS = 1
 # Path to model ckpt if finetuning the multitask model
 multi_path = ''
+
+
 ########################################################################################################################
 
 
@@ -68,15 +71,15 @@ def finetuning(mode, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gp
             checkpoint_callback=True,
             callbacks=[checkpoint_callback, early],
             num_sanity_val_steps=0,
-            progress_bar_refresh_rate=100
+            progress_bar_refresh_rate=100,
+            # stochastic_weight_avg=False
         )
     trainer.fit(t5_version)
     print("Best model with batchsize {} and acc_grad {} is: ".format(batch_size, acc_grad) +
           checkpoint_callback.best_model_path)
 
+
 # Example scripts
-
-# finetuning('ver', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, gpus=N_GPUS)
-# finetuning('score', batch_size=BATCH_SIZE, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, gpus=N_GPUS)
-
+finetuning('score', batch_size=2, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, gpus=N_GPUS)
+finetuning('ver', batch_size=4, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, gpus=N_GPUS)
 
