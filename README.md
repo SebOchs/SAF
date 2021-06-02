@@ -6,6 +6,7 @@
 > conda activate baseline  
 > conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
 > pip install -r requirements
+> pip install bert-score (forgot to include in requirements)
 2. Download and copy the kn1 data set into the repository.
 3. Run preprocessing script to preprocess the data set, eventually edit the file path in the script
 > python preprocessing.py
