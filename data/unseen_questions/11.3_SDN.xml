@@ -1,0 +1,916 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<question id="11.3" module="SDN">
+   <questionText>Name the two modes of control plane distribution and name one downside for each of them.
+</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="SDN_11.3_a1">
+Two modes of physical distribution of control plane and associated drawbacks are:
+Replication
+● Issue of scalability
+● More resources, more cost
+● Wastage of resources as the replicated node is on standby and no actual load
+distribution occurs.
+● The problem to keep the data consistent in the replicated node is hard and complex.
+Partitioning
+● Raises issues similar to P2P networks
+● Knowledge about neighborhood
+● Coordination and consistency
+● Lower availability
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers>
+	 <studentAnswer id="SDN_11.3.1"> 
+	 <response>No submission. 
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.2"> 
+	 <response>Control plane distribution can be done by performing replication or partitioning.
+With replication, all requests to the control plane are still served by only one controller, which can be a scalability issue.
+With partitioning, there has to be performed more complex coordination between the parts of the control plane.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.3"> 
+	 <response>In the class we learned about two control plane distributions, the first one being replication and the second partitioning. The first relays on the dealing with failures, if the primary server fails, the secondary, also called slave, will take over. A downside of this is that the secondary is just there for back up, it won't “help” the primary as a peer in order to support large-scale deployment.
+
+Then the partitioning is quite the opposite. We have two different servers with their own partitions, they are peers (coordinated and consistent) and have knowledge about their neighborhood. The downside of it, is that if one of the servers fails, it doesn't have a backup like in the first case.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. Note that coordination and consistency are requirements in partitioning mode.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.4"> 
+	 <response>-	Replication: Holding a backup to take over if the master (primary) is not available. However, this is not an efficient way to use resources.
+-	Partitioning: Large networks can be supported more easily while using resources efficiently. However, coordination and consistency have to be managed (creating overhead) and typical P2P issues arise.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.5"> 
+	 <response>The two modes of control plane distribution are replication and partitioning. On replication, it has OpenFlow standard which allows for connections from switch to multiple controllers. Partitioning supports large-scale deployment in which it raises issues similar to peer to peer networks, it contains knowledge of the neighborhood and it has good coordination and consistency.  
+	 </response>
+     
+     <response_feedback>The replication mode's downside is not stated. Partitioning has similar issues as peer-to-peer networks, that is correct. However, the explanation is contradictory as it states coordination and consistency as an advantage instead of a problem. Apart from that, the response is correct.</response_feedback>
+     <score>0.625</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.6"> 
+	 <response>The first mode is Replication. Here, a master/slave architecture is used where one server in the network is the master and the switches act as its slaves. It comes with the drawback that this server might be a single point of failure. However, a secondary master can be used in the network but this can require some overhead in order to be started up.
+The second mode is Partition. Here, several servers in the network divide their payload of switches they are responsible for. It comes with the drawback that there needs to be additional coordination by these servers in order to make the network reliable.
+
+	 </response>
+     
+     <response_feedback>The downside of the replication mode is incorrect as the slaves are the replicated servers, not the switches and it results in wastage of resources. Apart from that, the response is incorrect.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.7"> 
+	 <response>Replication and Partitioning. 
+
+In replication, as long as the primary controller is running, the secondary controller is on standby and not being used. 
+
+In partitioning the coordination between the controllers has to be managed to make sure they have the same and consistent view of the network. 
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.8"> 
+	 <response> Reactive Routing: A lot of requests will be made to the controller (and control network), because of every unknown destination will result in a controller request. 
+
+Proactive Routing: Flow tables in switches/routers may be very big, while the size is limited this can result in problems. 
+	 </response>
+     
+     <response_feedback>The response is not related to the question. The two modes are replication and partitioning.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.9"> 
+	 <response> 
+There is Proactive and Reactive Routing.
+Disadvantage of the proactive routing is that it occupies space in the flow table even when there is no traffic over that proactive defined route.  This is bad because there is only a limited size for the table.
+Disadvantage of the reactive routing is that there is an delay at the first package because the rout needs to be established. Problem with connection-less protocol can send at full speed instantly without warning.</response>
+     
+     <response_feedback>The response is not related to the question. The two modes are replication and partitioning.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.10"> 
+	 <response>The two modes of control plane distribution are Replication and Partitioning.
+With Replication you limit you ability to increase scalability and with Partitioning you need to solve the problem of coordination and consistency.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.11"> 
+	 <response>Empty submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.12"> 
+	 <response>The 2 modes of control plane distribution are Partitioning and Replication. One disadvantage for Partitioning is the SDN Controller needs knowledge about their neighborhood for the coordination.  A disadvantage of the Replication mode is that the secondary SDN controller is only in use if the primary fails.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.13"> 
+	 <response>The two modes of control plane distribution are called replication and partitioning. 
+
+When partitions occur, network architectures with separate control and forwarding planes can suffer more severe compromise of functionality than traditional architectures. The consequences of the loss of communication between a forwarding device and its controller include becoming unable to receive instructions for newly arriving flows and being unaware of updates in the routing rules for instance, due to changes in access control policies.
+
+Replication has the downside of requiring more resources.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.14"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.15"> 
+	 <response>The two modes of control plane distribution are replication and partitioning. The downside of replication is that the full network load has to be handled by the primary controller (normally) and can not be balanced between different controllers. The downside of partitioning is that there is a single point of failure if one of the controllers goes down.
+	 </response>
+     
+     <response_feedback>In the partitioning drawback, if one controller goes down, only the part of the network for which it is responsible is majorly affected. Apart from that, the response is correct.</response_feedback>
+     <score>0.875</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.16"> 
+	 <response> Replication: Double the cost of building and maintaining a single controller.
+Partitioning: The different parts of the controller must coordinate with each other like in peer to peer networks which could reduce speed or consistency.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.17"> 
+	 <response>Replication needs more hardware than needed most of the time. Only if the primary hardware fails, the secondary is needed. 
+
+Partitioning needs coordination between the partitions. This increases the complexity and results in overhead. 
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.18"> 
+	 <response>One mode is replication and the other one is partitioning.
+A downside for replication is, that the second (replicated) controller has to be available the whole time and therefore kind of wastes resources as long as it is on standby. Also in very large networks the usage of bandwidth to keep the second server up to date could be higher.
+A downside for partitioning is, that a failure in one of the parts leads to problems in the corresponding part of the network because routing updates are no longer computed and distributed by that failed controller.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.19"> 
+	 <response>- Replication : 
+In the implemented OpenFlow standard, which are located in the interface of a single switch, there are no aspects of the control plance distribution defined.
+
+- Partitioning: 
+The same issues of P2P networks may occur, so the knlowledge of the neighbourhood are necessary or coordination and consistency need to be maintained. 
+	 </response>
+     
+     <response_feedback>: OpenFlow is just an instantiation of SDN, as there are many existing and under-development southbound APIs. Additionally, OpenFlow offers replication functionality. Therefore, the stated replication drawback is incorrect. Partitioning has similar issues as peer-to-peer networks, that is correct. However, coordination and consistency are always needed in partitioning.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.20"> 
+	 <response>1. replication
+downside: scalability problem → missing load distribution
+
+[Personal note: There are several methods of replication (all equal, single master/slave, multi master/slave, ...), each with its own downsides, so I concentrated on master/slave as the slide 27 did, then the bottleneck with respect to control network load seems to me the more important concern with this setup than consistency coordination.]
+
+2. partitioning
+downside: no redundancy / availability problem → single point of failure
+
+[Personal note: Coordination of consistency is - in my opinion - a valid downside for both modes, but as the slide 28 suggests that there is no controller backup, availability seems to me the more important concern with this setup than consistency coordination.]
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. Note that the Single point of failure is not true because only that part of the network will be affected which was controlled by the failed partitioned controller.</response_feedback>
+     <score>0.875</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.21"> 
+	 <response>Replication: All communication goes to one primary controller and in case of a crash there exists a secondary redundant controller as a backup controller. 
+Drawback: wasting of (unused) resources as the secondary controller is on standby for most of the time
+
+Partitioning: Different controllers control different parts of the network. 
+Drawback: coordination between the controllers i.a. to maintain consistency, is needed
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.22"> 
+	 <response>- Distributed routing 
+The network needs time to converge to the optimum due to its distributed way, so there is
+a lower resource utilization.
+
+- Centralized routing
+If the centralized entity fails, the whole system and network fails.
+
+	 </response>
+     
+     <response_feedback>The response is not related to the question. The two modes are replication and partitioning.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.23"> 
+	 <response>- Replication: waste of resources ‘only’ for fault tolerance
+- Partitioning: requires knowledge about neighbors, coordination and consistency</response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="SDN_11.3.24"> 
+	 <response>2 modes of control plane distribution:
+1. Replication
+- drawback: All communication goes to the primary controller until the primary controller is no longer available so all work must be done by the primary controller until failure
+2. Partitioning
+- drawback: The controllers must implement a protocol for coordination which leads to additional overhead
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.25"> 
+	 <response>Replication --&gt; Larger networks are harder to manage, because there is only one active (primary) controller.
+Partitioning --&gt; Drawback: different controllers have to be coordinated to generate a consistent view of the network. 
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.26"> 
+	 <response>The first mode is called replication, in which multiple control plane hosts are available but only one acts, while the others stand by and only come into action if the primary acting host fails. This has the downside that it is inefficient, as the secondary hosts do nothing at all unless the primary fails.
+The second mode is called partitioning, in which the data plane is divided into distributions, which are controlled by their unique control plane host separately. It has the downside that it raises challenges of implementation, as each host needs to coordinate with other hosts on the network and need to have knowledge about the neighbourhood in some way.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.27"> 
+	 <response>Two modes are: 1. replication:In this we have problem of scaling 2.partitioning: it Raises issues of coordination and consistency</response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>.
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="SDN_11.3.28"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.29"> 
+	 <response>The first mode is called replication. A downside here is the redundancy caused by the copied control logic of the slave controller nodes resulting in more memory needed.
+The second mode is called partitioning. The control logic is split up into several parts which need to be coordinated, adding more complexity to the control plane.
+	 </response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.30"> 
+	 <response> The two modes of control plane distribution are Replication and Partitioning.
+A downside of Partitioning that its raising issues similar to P2P networks.
+
+	 </response>
+     
+     <response_feedback>No downside of the replication mode is mentioned. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.31"> 
+	 <response>1. Replication
+In this mode, SDN controllers are parallel with each other. If one controller is penetrated by eavesdropper, the whole information of the network structrue can be leaked, because a single controller knows how the network is constructed, which router links to whom and information like this.
+
+2. Partitioning
+In this mode, each SDN controller links to some but not all of the routers. Therefore if one controller is down, the routers that it links to will be unreachable.
+	 </response>     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.32"> 
+	 <response>Replication with a hot standby may have consistency issues due to synchronization between both API nodes/clusters.
+
+Partitioning doesn't has consistency issues, but suffers availability problems, since not every node/cluster has all data available. This leads to higher latency for API calls.
+
+	 </response>
+     
+     <response_feedback>Partitioning mode also needs to take care of consistency, namely that the data remains consistent with the neighbouring controllers. Apart from that, the response is correct.</response_feedback>
+     <score>0.875</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.33"> 
+	 <response>Mode 1 - Replication: One primary controller handles all the control logic for the switches, while backup-switches are on standby. 
+Downside: High load on controller, and if it fails, the backup has to get all the information.
+
+Mode 2 - Partition: The control of switches is separated to N controllers, each controlling separate sets of switches. 
+Downside: A lot of coordination between switches, if one fails, the whole part of the network fails.
+	 </response>
+     
+     <response_feedback>There is coordination between different controllers, not switches, in the partition mode. Additionally, if a controller responsible for a part of the network fails, only that part of the network is paralyzed. Apart from that, the response is correct.</response_feedback>
+     <score>0.875</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.34"> 
+	 <response> No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.35"> 
+	 <response>
+Two modes of control plane distribution: 
+
+- Replication: latency issue, since only one primary (master) controller is active at a time, latency for control plane processing might be overloaded due to high workload. 
+
+- Partitioning: typical problems in coordination and consistency in normal distributed systems and even in peer-to-peer systems.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.36"> 
+	 <response>Replication - requires maintenance of additional resources, in case they are required (redundancy). 
+Partitioning - work is required to maintain coordination between the partitioned control panes.  
+	 </response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.37"> 
+	 <response>The two modes of control plane distribution are replication and partitioning.
+The downside to replication is that it does not support large scale deployments as the control traffic congests the network nearby the primary node.
+The downside of partitioning is that all controllers have to coordinate between each other to generate consistent flow tables. 
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.38"> 
+	 <response>The two modes are replication mode and partitioning mode.
+
+Downside of replication mode:
+Consistency issues when switching from primary to secondary controller if the last synchronization between them was too long ago.
+
+Downside of partitioning mode:
+Coordination between controllers and assigning controllers to data plane devices causes extra overhead.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.39"> 
+	 <response> Two modes of control plane distribution:
+
+[1] Distributed Routing. 
+Downside: It requires time to converge to optimum route with lower resource utilization.
+
+[2] Logically Centralized Routing. 
+Downside: Added extra redundancy through controllers - challenges with load distribution between controller instances
+
+	 </response>
+     
+     <response_feedback>The response is not related to the question. The two modes are replication and partitioning.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.40"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.41"> 
+	 <response>1.	Replication: 
+This mode is using two different control plane instances, a primary one (= „master“) and a secondary one (= „slave“) which is on standby. In case of the Master‘s failure and only in that case, the Slave will take over. 
+So one of the main downsides is the resource-wasting of the secondary control plane instance because it is mostly running on standby.
+
+2.	Partitioning:
+In this mode the control plane is split in two parts. Both of them are working together and coordinating their actions. So in case of failure of one of these two control plane instances, there will be problems.
+That’s why one of the downsides of this network is the low robustness.
+	 </response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.42"> 
+	 <response>One control plane distribution mode is the replication where only one server at a time is active and has to handle all data. Another control plane distribution mode is partitioning where the whole system is decentralized thus it is difficult to administer.
+	 </response>
+     
+     <response_feedback>The response does not clarify the difficulties when administering a partitioned system. Similarly, the drawback of only one server simultaneously in replication does not state how it is a disadvantage itself. Apart from that, the response is correct.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.43"> 
+	 <response>Replication
+Partitioning
+
+Downside of Replication : a downtime may happen during the turn over (when the master fails and the slave takes over)
+
+Downside of Partitioning: it can lead to inconsistency if the coordination is mixed up
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>	
+	<studentAnswer id="SDN_11.3.44"> 
+	 <response>Physically distributed controller: Has the downside that no standard way of distribution is defined.
+
+Logical centralization: Makes the implementation of the controller hard.
+	 </response>
+     
+     <response_feedback>The response is not related to the question. The two modes are replication and partitioning.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.45"> 
+	 <response>•	Replication (Downside: you need to have more connections)
+•	Partitioning (Downside: not completely redundant)
+
+	 </response>
+     
+     <response_feedback>In the partitioning downside, the actual drawback is availability because there is no redundancy. Apart from that, the response is correct.</response_feedback>
+     <score>0.875</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.46"> 
+	 <response> No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.47"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.48"> 
+	 <response>Replication
+	 Partitioning
+	 </response>
+     
+     <response_feedback>Only the modes' names are mentioned with no downsides.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.49"> 
+	 <response> There are two different modes of control plane distribution: 
+- In replication, you have two exact identical systems running the control plane (master and slave), in which only one of the systems is active all the time. This means a higher amount of work for the operating system as well as decreased efficiency due to the redundancy of the systems. 
+- In partitioning, you have several systems running the control plane at the same time by splitting up the work for different parts of the network between the cooperating systems. A major downside of this system is, that the systems have to spend work on coordination and keeping up the consistency of their states. 
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. Note that there can be any number of replicated slaves based on the requirement. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.50"> 
+	 <response>Control plane distribution can be achieved through replication and through partitioning.
+A downside of replicated model is that all controllers, master and slaves need to store the same information, so that when the master fails, a slave is ready take in.
+Partitioning requires for the controllers to coordinate between each other, so that there's consistency in the network.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.51"> 
+	 <response>Replication - master and slave have to be synchronized all time, hight data traffic
+Partitioning - no backup if one controller dies
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.52"> 
+	 <response> Replication
+Bad scalability because each connection has to be doubled for each replication without providing better control over a large network.
+
+Partitioning
+Servers need to coordinate with each other which leads to similar problems like in P2P. 
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.53"> 
+	 <response> No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.54"> 
+	 <response>Control Plane Distribution: Replication
+
+The primary controller controls the entire network. If it fails, the second controller that was on standby the whole time, jumps in and takes over the job of the primary controller. The disadvantage of this distribution is that you’re wasting resources most of the time, when the primary controller is working.
+
+Control Plane Distribution: Partitioning
+
+You have different controllers that divide the network into subnetworks. The controllers communicate with each other through coordination. A disadvantage is that in case of a controller failure you might not be able to address certain end systems.
+
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.55"> 
+	 <response>We can choose between the mode of Replication and the mode of Partitioning. Replication has the downside of requiring more resources than other strategies. Partitioning on the other hand has additional overhead of coordination and consistency.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.56"> 
+	 <response>No submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.57"> 
+	 <response>- Replication (waste of resources ‘only’ for fault tolerance)
+- Partitioning (requires knowledge about neighbors, coordination and consistency)
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.58"> 
+	 <response>The control plane can be distibuted or centralized. 
+Distributed needs multiple steps to converge to a perfect solution.
+Centralized needs to share the path with the router.
+	 </response>
+     
+     <response_feedback>The response is not related to the question. The two modes are replication and partitioning.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.59"> 
+	 <response>Replication: no real aspects of control plane distribution are defiend due to OpenFlow protocol's nature
+Partitioning: has similar issues to P2P networks
+	 </response>
+     
+     <response_feedback>OpenFlow is just an instantiation of SDN, as there are many existing and under development southbound APIs. Additionally, OpenFlow offers replication functionality. Therefore, the stated replication drawback is incorrect. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.60"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.61"> 
+	 <response>Replication:
+-wasted resources, because the secondary controller is only standby and works if the primary gets down
+
+Partitioning:
+-needs protocols to communicate/coordinate with the other parts
+-if one parts get down , how will the network part will be controlled? 
+
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.62"> 
+	 <response>1. Replication: one control plane is responsable for the whole network -&gt; complex for big networks
+2. Partioning: multiple control planes are responsble fo the whole network -&gt; communication between them is needed -&gt; conistency is not given if the communication fails
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.63"> 
+	 <response>The two modes are replication with the downside redundancy and partitioning with the downside of coordination between the different parts.
+	 </response>
+     
+     <response_feedback>In replication, redundant nodes exist, but the response does not clarify how this can be a downside. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.64"> 
+	 <response>The two modes of control plane distribution are replication and partitioning. The downside of using replication is the redundancy of controllers (more resources needed) and the increased computational effort one controller has to handle on its own for the entire network. The downside of using partitioning is that an additional protocol and a kind of coordination is required to achieve a consistent view as each part of the control plane has a different view of the data plane.
+	 </response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.65"> 
+	 <response>Replication: Wastes control logic computation power, because one controller is only used for backup. Partitioning: Needs some kind of coordination to agree on what is a valid data set.
+	 </response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.66"> 
+	 <response>No submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.67"> 
+	 <response>There is Replication and Partitioning.
+
+Replication: Replicate the Control Plane on a second machine, which is only
+active if the first one fails. The downside is that there are costs for the
+additional hardware and running the second machine on standby, without using
+them most of the time.
+
+Partitioning: Split the Control Plane on two machines and communicate
+between them for coordination. The downside is the overhead from the
+communication between the two machines to coordinate and maintain
+consistency.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. Note that these modes can have any number of the replicated or partitioned controllers.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.68"> 
+	 <response>- Replication
+- Partitioning
+
+one downside of Replicating:
+Poor performance
+one downside of partitioning:
+Raises issues similar to P2P networks In large-scale deployment
+	 </response>
+     
+     <response_feedback>The downside of replication is incomplete because it does not explain how replication reduces the overall performance. There can be many reasons for poor performance such as the continuous update of redundant controllers with no immediate advantage. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.69"> 
+	 <response>
+1. Replication (One Master and one slave on standby)
+Drawback: You need to install at least double the hardware than actually required, because Master AND Slave must be capable of managing the network on their own
+
+2. Partitioning
+Drawback: Coordination and Consistency overhead between the controllers.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.70"> 
+	 <response>Two modes of control plane distribution are Replication and Partitioning. Replication needs a slave controller, which has to have all connections to all routers like the primary plane and most of time it is useless and it creates cost on the machine.
+One downside of Partitioning is that a good coordination and consistency between both parts of of control planes is needed.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.71"> 
+	 <response>Repliaction: Ressource heavy
+Paritioning: Common P2P Problems
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.72"> 
+	 <response> Empty submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.73"> 
+	 <response>Replication:
+- Downside: The replicas always have to be synchronized even though the slave is not active, so that it can intervene if necessary
+
+Partitioning:
+- Downside: The coordination overhead is larger and it is harder to establish a high availability because there is no backup.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.74"> 
+	 <response> No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.75"> 
+	 <response>Replication: every replica is on standby until the master shuts down/has some sort of problem - every replica on standby is unused hardware.
+
+Partitioning: additional overhead, because the controllers have to communicate with each other.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.76"> 
+	 <response>The two modes of Control Plane Distribution presented are called replication and partition. With replication, the disadvantage is that a computing unit is in standby and its computing power is not used. The disadvantage of partitioning is that the control plane distributions have to coordinate with other protocols in order to remain consistent and function.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.77"> 
+	 <response>Partitioning:
+One has to deal with coordination between the parts
+
+Replication:
+problem: keep synchronization and consistency and who of the parts are the master and who are the slaves (especially with regard to OpenFlow standards which allows connections from switch to multiple
+controllers)
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.78"> 
+	 <response>Replication: Allows for global view onto the system.
+
+Partitioning:No standard way of distribution defined.</response>
+     
+     <response_feedback>The stated downside of replication mode is a benefit, not a downside. The question expects the general drawback related to partitioning, like peer to peer network problems. Apart from that, the response is correct.   </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.79"> 
+	 <response>The controlers can be distributed with  Replication or Partitioning.
+
+The replication again needs a reliable master, the partitioning has the problem that it needs to know its neighbors.
+	 </response>
+     
+     <response_feedback>Replication provides reliability, so it is not a downside of it. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.80"> 
+	 <response>Replication and Partitioning. 
+Downside of Partitioning is, that it Raises Issues similar to P2P Networks, in that it needs an own protocol for communication just between the controllers.
+The Downside oder Replication is, that you essentially need to have multiple sets of the same Hardware, which doesnt increase the computing power, but is just for the case that the master system fails. 
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	  <studentAnswer id="SDN_11.3.81"> 
+	 <response> 1. Replication: there are multiple copies of the routing tables and we have to keep them consistent and that might become a problem.
+
+2. Partitioning: it supports large-scale deployment however it raises issues similar to P2P networks such as the need for knowledge about neighborhood, coordination, and consistency assurance.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.82"> 
+	 <response>The two modes are (along with one downside each):
+
+Replication:  
+The secondary SDN controller is only used once the primary one fails, before that it's idling and not being used at all. This introduces redundancy, which reduces the maximum possible network performance. It also adds cost to the network.
+
+Partitioning:  
+There are networking issues similar to a peer-to-peer network (routing, reliability). If one of the SDN controllers should fail, part of the network won't be managed/controlled anymore and will most likely stop working, so the reliability is relatively low.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.83"> 
+	 <response>Control Plane Distribution: Replication - Maintaining consistency and state across the replicated nodes is complex and involves high overhead.
+Control Plane Distribution: Partitioning -  Issues similar to P2P networks since there is no centralized controller. Partitioned nodes need knowledge about their neighbours to coordinate.
+
+	 </response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+		<studentAnswer id="SDN_11.3.84"> 
+	 <response>No Submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.85"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.86"> 
+	 <response> No submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.87"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.88"> 
+	 <response> Replication : In case of this mode, if the master fails then the control can be taken over by a secondary.
+The downside is over-provisioning as we need to make sure the secondary is always available and that can be connected to when the master fails by replicating the master controls.
+
+Partitioning : In this mode the load is divided by two separate controllers.
+The problem is the synchronization and coordination and the control need to have the knowledge about the neighbour devices.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.89"> 
+	 <response>The two modes are Replication and Partitioning. 
+The disadvantage of Replication are the operating costs. You will have to operate two complex controller (Master and Slave) where only one at a time (primary) controls the network, the other one (secondary) being on standby waiting for the first to fail. 
+With Partitioning the downside is, that if one Controller breaks part of the network goes down with it. Only the part connected and controlled by the other Controller is able to run.  
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.90"> 
+	 <response> Two modes of control plane distribution: Replication and Partitioning
+downside: 
+Replication: As the size and dynamics of the network increase, its scalability is limited.
+Partitioning: forwarding delay between the controllers and the network devices in large-scale networks.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.91"> 
+	 <response>Replication and Partitioning
+
+Downside:
+Replication may create state inconsistences and generate additional delay in case the primary controller fails. At the same time, the size and dynamics of the network will influence the scalability.
+In Partitioning, there will be some issues that also in P2P networks raises. Furthermore, partitioning will be difficult to coordinate and consistent and forwarding delay between the controllers may happen.
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.92"> 
+	 <response>Replication:
+Downside: Consistency
+
+Partitioning:
+Downside: Need of Coordination
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.93"> 
+	 <response>The downside of replication mode is the higher traffic to the current master, which also increases the network load in the adjacent nodes.
+In contrast, in partitioning mode the load is split between the control plane nodes, but they have to coordinate each other to operate consistently.
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.94"> 
+	 <response>Replication: Higher load on primary while the secondaries are on standby
+
+Partitioning: They have to agree on a common routing rules. This means that could be harder to implement consistency and coordination between the controllers
+</response>
+     
+     <response_feedback>The response is correct as it identifies the modes and the drawback of each correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.95"> 
+	 <response>Replication
+    The slave host is in stand-by, so its capacity is wasted
+
+Partitioning
+A constant communication between the two parts / controllers is needed (and therefore further protocols are required)
+
+	 </response>
+     
+     <response_feedback>The response correctly identifies the two modes and their drawbacks. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="SDN_11.3.96"> 
+	 <response> Replication and partitioning are the two modes of control plane distribution. 
+One downside for replication is that in failure, it could cause computation overhead in the slave. 
+One downside for partitioning is that it has similar issues like in a peer to peer network, e.g., each node has to do its own backup.
+	 </response>
+     
+     <response_feedback>The downside of the replication mode is incorrect. The disadvantage is that slaves are idle when not needed, and that causes wastage of computation power. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	</studentAnswers>	  
+</question>

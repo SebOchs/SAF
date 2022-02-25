@@ -1,0 +1,1564 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="7">
+  <questionText>Frage 7: Welche Käufe muss ich tätigen, wer bezahlt diese Käufe?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="7.a1">Es muss eine beliebige Menge Kraftstoff getankt (0.25 P) und ein beliebiger Artikel im Shop gekauft werden (0.25 P). Für beide Posten steht in Summe ein Budget von 16,50€ (0.25 P) zur Verfügung. Das Budget ist in der Belohnung inbegriffen. Es darf über dieses Budget hinaus eingekauft oder getankt werden, über das Budget hinausgehende Kosten muss der Jobber jedoch selbst tragen (0.25 P). </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Ich muß tanken und ein Produkt meiner Wahl kaufen und diese in der Tankstelle bezahlen bzw in Vorleistung treten.  Aber Maximal 16.50</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bis zu 16,50€ werden vom Auftraggeber für den Kraftstoff bezahlt sowie der Einkauf im Shop</response>
+      <response_feedback>Korrekt! Allerdings erstatten wir dir deine Ausgaben nur. Zahlen musst vor Ort erstmal selbst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich kann kaufen was ich will. den Einkauf zahle ich. ca. 16 Euro werden mir dann erstattet.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Wichtig ist, dass du sowohl ein Artikel aus dem Shop UND Kraftstoff gekauf wird. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und etwas aus dem Shop (16,50). Ich zahle bzw ist in der Vergütung für den Job enthalten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Tanken und einen Artikel im Shop kaufen. Die Kosten übernimmt Appjobber bis 16,50€.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einen Artikel meiner Wahl im Shop und Tanken.Gesamtkosten bis 16.50 Euro werden von Appjobber übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und Shopprodukte kaufen (welche es sind, ist egal) 16,50 darf der Gesamtbetrag nicht übersteigen. Die 16,50 bekomme ich erstattet. Bei einem geringeren Betrag reduziert sich die Erstattung.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Kauf im Shop. Die Kosten bis 16,50 € werden übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken sowie Einkauf im Shop bis 16,50€ wird erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin und mindestens ein Artikel aus der Tankstelle. Die Käufe werde von appJobber übernommen bis zu einem Betrag von 16,50€</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und einen Artikel im Shop kaufen. Mir werden von euch bis zu 16,50€ zurück erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll tanken und was im Shop kaufen. Alles was über den Betrag von 16,50€ liegt wird nicht vergütet. Ich gehen in Vorklasse</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen. Wenn meine Ausgaben geringer als 16,50€ sind, wird die Erstattung entsprechend reduziert.</response>
+      <response_feedback>Konkret soll für die 16,50€ getankt und etwas aus dem Shop erworben werden. Deine Ausgaben erhältst du nach Akzeptanz des Jobs wieder zurück. (Bis zu 16,50€ natürlich)</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tankfüllung und ein Produkt meiner Wahl aus dem Job, nicht mehr als 16,50€ zusammen</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und/oder im tankshop</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Was ich kaufe ist mir überlassen, Jedoch mindestens einen Shop Artikel und Kraftstoff, Kosten über 16,50 € werden nicht vom Auftraggeber ersetzt, Bei geringen Kosten sinkt auch die Job-Belohnung,</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und shopartikel Ich selber zahle kann aber einen Betrag bis 16.50 € erstattet bekommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Treibstoff sowie mindestens einen Artikel im Shop. Käufe bis 16.50 Euro werden rückvergütet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Treibstoff und einen Artikel aus dem Shop. Ich bezahle dies selbst und bekomme eine Erstattung.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis zu diesem Betrag bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Artikel meiner Wahl, max. 16,50€</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss keine Käufe tätigen</response>
+      <response_feedback>Doch, ein Einkauf ist auch Teil des Checks. Bis zu 16,50€ bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und im Shop einkaufen. Ich bezahle dieses und bekomme das wenn der Job akzeptiert wurde mit meiner Belohnung erstattet.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Treibstoff und 1 Artikel, max. 16,50€</response>
+      <response_feedback>Deine Ausgaben bekommst du, nach Akzeptanz des Jobs, natürlich bis zu 16,50€ erstattet.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und kleiner Shopeinkauf. Erstattet werden bis zu 16,50 Euro</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und etwas im Shop kaufen, ich bezahle dies im voraus und bekomme es in der App erstattet, wenn ich den Beleg vorlege/ fotografiere</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff und einen Artikel aus dem Shop kaufen</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und etwas im Shop kaufen egal was</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Käufe bestimme ich selbst. Es wird mir ein Betrag mit Tanken und Einkauf bis 16,50€ erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ihr erstattet mir die Summe bis zu 16,50€ für den getankten Kraftstoff und meinen Einkauf im Shop.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und ein Objekt im Bistro kaufen, der Einkauf sollte 16,50€ nicht übersteigen, ansonsten bekommt man es nicht erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einmal tanken und eine Sache im Shop kaufen. Ein Betrag bis 16,50 Euro wird vom Auftraggeber erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und etwas aus dem Shop kaufen. Die Kosten werden bis zu der Summe von 16,50€ übernommen von appJobber.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und etwas aus dem Shop bis 16,50€. Ich lege es aus und bekomme es mit einer Belohnung erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Eine Tankung und ein Einkauf im Shop müssen getätigt werden. Zusammen darf dies den Betrag von 16.50 Euro nicht überschreiten. Diese Auslage von max. 16.50 Euro ist in der Belohnung enthalten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich kann jedes Produkt wählen und bezahlen. bis zu 16,50 wird es erstattet von appjobber.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich würde mir zubehör kaufen oder kaffee ich</response>
+      <response_feedback>Was du kaufst ist ganz dir überlassen. Bis zu 16,50€ bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>16.50 aufteilen auf Tanken und Einkauf. Darüber wird nicht erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einmal tanken und irgendetwas meiner Wahl im Shop kaufen. Bis maximal 16,50€ werden erstattet. Bleibe ich darunter wird die Erstattung entsprechend gekürzt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Keine Beschränkung, bis 16.50€</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Artikel aus Shop und Sprit. Bis 16,50 wird bezahlt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Tanken und einen Einkauf. Machen. Bezahlt wird durch die App. ich zahle zuerst mit meinem Geld</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Weiss ich nicht. Habe mich damit noch nicht beschaeftigt</response>
+      <response_feedback>Wichtig ist, dass bei deinem Besuch sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Shopwaren bis Max. 16,50€, die von AppJobber übernommen werden, alles was drüber ist wird nicht übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sprit und eine Kleingkeit im Wert von max. 16.50€. Man bekommt das Geld erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein anderer Artikel, über 16,50€ Summe nicht erstattungsfähig</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>der Kunde bezahlt die Käufe</response>
+      <response_feedback>Korrekt. Du legst deine Einkäufe vor und nach erfolgreichem Abschluss erhältst du deine Ausgaben  bis zu einem Volumen von16,50€ zurück. Bitte bedenke, dass sowohl Kraftstoff als auch etwas aus dem Shop gekauft werden muss.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss taken und einen Artikel meiner Wahl im Tankstellenshop kaufen. Anschließend bekomme ich diese Betrag von Appjobber bis zu einem Betrag von insgesamt 16,50 erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Tanken und einen beliebigen Artikel im Shop kaufen. Bis zu 16,50€ wird mir der Endbetrag erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff tanken sowie mind. 1 Artikel aus dem Shop.. bis zu einem Betrag von 16,50€ wird das Geld erstattet, muss aber vorerst bezahlt werden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und im Shop etwas kaufen.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Einkauf im Shop, bis Gesamtsumme 16,50€ bezahlt AppJobber</response>
+      <response_feedback>Zahlen musst du selbst, wir erstatten dir deine Kosten nach erfolgreichem Abschluss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich tanke, kaufe eine Kleinigkeit und bezahle beides. (spätere Erstattung bis 16,50€)</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Artikel aus dem Shop - ich bezahle selbst</response>
+      <response_feedback>Du legst es quasi nur vor. Bis zu 16,50€ bekommst du von uns, nach Akzeptanz des Jobs, erstattet.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und etwas im Shop kaufen. Tankkosten inkl. Einkauf im Shop, werden bis 16,50€ übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Shopeinkauf, Erstattung bis 16,50€</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Shop Einkauf. bis 16,50 wird der Preis übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und etwas im Shop kaufen. Die Einteilung ist egal, wird aber bis max.16,50 € übernommen. - Ich bezahle auf jeden Fall erst einmal.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss etwas mein Fahrzeug betanken. Im Honorar ist die Bezahlung bereits enthalten</response>
+      <response_feedback>Es müssen sowohl Kraftstoff als auch etwas aus dem Shop gekauft werden. Du hast ein Volumen von bis zu 16,50€. Alles bis dahin, bekommst du nach erfolgreichem Abschluss des Jobs von uns erstattet.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Käufe bestehen aus zwei Teilen, einem Tankvorgang und einer Kleinigkeit. Der Gesamtpreis von bis zu 16,50€ wird übernommen. Alles drunter wird dementsprechend vergütet, alles drüber wird mit 16,50€ vergütet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mind. 5€ Benzin + Artikel aus Shop. Erstattung bis zu 16,50€ im Nachgang. Erstmal bezahle ich selbst</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und 1 Artikel nach Wahl im Shop. Man zahlt zuerst selbst bekommt aber bis 16,50€ den wert erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken UND  ein zusätzliches Produkt. Ich bezahle sie und bekomme bis 16.50 Euro erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich tanke und kaufe etwas im Shop. Solange der Preis nicht mehr als 16,50€ beträgt übernehmt der Auftraggeber den Betrag. Bei mehr Geld übernehme ich diesen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll sowohl im Shop als auch Kraftstoff konsumieren/ kaufen. Die Käufe werden bis zu der im Job beschriebenen Obergrenze bei der Belohnung mit erstattet, also vom Auftraggeber/ AppBetriber bezahlt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Kauf muss 2 Dinge enthalten, zum einen die Tankfüllung und zum anderen etwas aus dem Shell Shop. Die Kosten werden bis maximal 16,50 € übernommen. Wie die Aufteilung geschieht bestimmt der Appjobber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bis zu höchstens 16,50 € werden für das tanken und eine Kleinigkeit aus dem Shop erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und etwas im Shop kaufen bis zu 16,50. ich bezahle und bekomme die Kosen dann erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin und Shop Artikel meiner Wahl. Ich trete in Vorkasse, erhalte max 16,50€ erstattet von Euch</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und etwas kleines, ich bezahle dieses vorerst</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich wähle eine produkt meiner wahl und bezahle es selbst</response>
+      <response_feedback>Bitte vergiss nicht, auch noch Kraftstoff zu tanken (ja, das ist wirklich schon passiert). Dein Volumen für Kraftstoff und Shopeinkauf beträgt 16,50€. Alles bis zu diesem Betrag bekommst du zum Abschluss des Jobs von uns erstattet.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Shop Artikel nach Wahl. Bis 16,50€ gesamt wert, werden übernommen.</response>
+      <response_feedback>Die Kosten werden nicht übernommen, sondern  nach erfolgreichem Jobabschluss erstattet.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und 1 Produkt. Insgesamt werden 16,50 Euro erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und im Shop einkaufen. Ich gehe dabei in Vorkasse und bekomme den Betrag erstattet.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin bzw. Diesel muss getankt und bezahlt werden, sowie ein weiteres Produkt aus dem Shop. Ein maximal Betrag von der Firma 16,50 Euro wird erstatten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und noch ein Artikel meiner Wahl</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und ein weiterer gegenstand, bezahlt wird durch mich</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Vor Ort musst du die Ausgaben leider selbst zahlen. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ausgaben im Rahmen dieses Jobs werden bis zu 16,50 € übernommen. Wie ich diese Summe auf die Positionen Kraftstoff und Shopeinkauf aufteile, bleibt mir überlassen. Kosten, die in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen. Wenn die Ausgaben geringer als 16,50€ sind, wird die Erstattung entsprechend reduziert.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich glaube die Einkäufe bezahle ich selber</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>aus dem Shop. Ich zahle es selbst, ist in der Erstattung von max. 16,50 enthalten</response>
+      <response_feedback>Es muss natürlich auch Kraftstoff gekauft werden.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und etwas aus dem Shop. Bezahlt wird dieser bis 16,50 € vom Auftraggeber</response>
+      <response_feedback>Nicht ganz. Du musst an der Tankstelle schon selbst bezahlen. Deine Kosten bekommst du bis zu 16,50€ zurückerstattet nach erfolgreichem Abschluss des Jobs.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Tanken und ein Shopartikel kaufen. Ich bezahle erst und bekomme es dann erstattet</response>
+      <response_feedback>Richtig. Deine Kosten bekommst du bis zu 16,50€ zurückerstattet nach erfolgreichem Abschluss des Jobs.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Gehe in den Tankstellen-Shop. Bezahle den getankten Kraftstoff UND mind. einen Artikel aus dem Shop.  Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken + mind. 1 Artikel aus dem Shop. Max 16,50 € werden von  appJobber übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff  und ein Produkt meiner Wahl erwerben. In der Tankstelle übernehme ich als Vorleistung die Kosten. Im weiterer Folge werden mir die Kosten von max. 16,50€ erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich selber bis 16,50</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Kauf im Shop. Ich bezahle und Bekomme dies später erstattet</response>
+      <response_feedback>Du bekommst leider nicht alles unbegrenzt von uns erstattet. Die Grenze ist 16,50€, alles was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin und einen Kauf im Shop. Es werden 16,50 vergütet. Tankt man weniger wird nur anteilig vergütet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und mindestens einen Artikel im Shop kaufen. Bis zu einem Gesamtwert von 16,50€ wird mir der Kaufpreis mit der Jobbezahlung zusammen erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sprit &amp; Ware aus den Job bis 16.50 Euro. Das ist in der Vergütung bereits vorhanden</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>In der Regel bezahle ich diese selbst.</response>
+      <response_feedback>Du legst es quasi nur vor. Bis zu 16,50€ bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und eine Kleinigkeit aus dem Shop. Nicht mehr als 16,00€ alles darüber trage ich selber.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich muss tanken und einen Artikel aus den Shop wählen. Ich zähle selber diese käufe</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und einen Kauf meiner Wahl tätigen. Der Auftraggeber erstattet mir dafür die Kosten von insg. maximal 16,50€</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Kraftstoff wird bis 16,50 € bezahlt und der Einkauf im Shop</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und beliebiger Einkauf in Shop, Zahlung durch mich, Kosten bis zu 16.50 werden erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff und einen Shopartikel erwerben.  Ich gehe in Vorleistung und bekomme das Geld durch den Auftraggeber erstattet</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Kauf besteht aus einer Tankfüllung und einem Kauf nach Wahl. Die gesamten Kosten werden übernommen, wenn sie unter 16,50€ sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Shop Einkauf</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Vor Ort musst du die Ausgaben leider selbst zahlen. Alles bis zu 16,50€ bekommst du von uns erstattet. In dem Betrag sollten deine Einkäufe abgedeckt sein.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>mind. einen Artikel aus dem Shop.Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen.</response>
+      <response_feedback>Vergiss nicht auch noch Kraftstoff zu tanken.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tank und Shopkosten, insgesamt werden 16,50€ erstattet (von der Belohnung)</response>
+      <response_feedback>Du bekommst deine Ausgaben BIS zu 16,50€ erstattet. Solltest du diese Marke unterschreiten wird die Gesamtbelohnung entsprechend gekürzt.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Einkauf im Shop. Bezahle ich selbst</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken + shop Einkauf, ich zahle selbst</response>
+      <response_feedback>Bis zu einem Betrag von16,50€ bekommst du deine Ausgaben von uns erstattet. Nur alles was darüber hinaus geht, musst du leider selbst zahlen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mir werden in Summe bis zu 16,50 Euro für den getankten Kraftstoff sowie deinen Einkauf im Shop erstattet. Wie ich diese 16,50 Euro auf die Positionen Kraftstoff und Shopeinkauf aufteile, kann ich selbst entscheiden. Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>App Jobber erstatten in Summe bis zu 16,50 Euro für den getankten Kraftstoff sowie meinen Einkauf im Shop. Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen. Wenn meine Ausgaben geringer als 16,50€ sind, wird die Erstattung entsprechend reduziert.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auto tanken und mind. 1 Artikel aus dem Shop. ich gehe in Vorkasse und bekomme diese erstattet</response>
+      <response_feedback>Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>mindestens einen Artikel aus dem Shop</response>
+      <response_feedback>Und Kraftstoff! Du hast ein Volumen von 16,50€ pro Job und Tankstelle .An der Tankstelle musst du die Ausgaben selbst zahlen und alles bis zu 16,50€ bekommst du von uns erstattet.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin und min. einen Artikel aus dem Shop werden bis 16,50 Euro übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff tanken und eine Kleinigkeit aus dem Shop muss gekauft werden, max. Höhe der Erstattung 16,50 €.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sprit und Tankstelleneinkauf. Bis zu 16,50. Ich zahle und bekomme den Betrag erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die stehen in der Auftragsbeschreibung und ich muss es nur vorlegen und bekomme es wieder erstattet.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen. Darin enthalten sind eine beliebige Menge Kraftstoff und ein Gegenstand aus dem Shop.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und eine andere Sache. bis zu 16.50 wird erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Testkauf bis zu 16.50€...AppJobber erstattet die Kaufsumme.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss einmal tanken und etwas aus dem Shop kaufen. Ich bezahle und kriege dann bis zu 16,50€ wieder zurück.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Belohnung besteht aus zwei Teilen:  Ihr erstattet mit in Summe bis zu 16,50 Euro für den getankten Kraftstoff sowie meinen Einkauf im Shop. Wie genau du diese 16,50 Euro auf die Positionen Kraftstoff und Shopeinkauf aufteilst, kann ich selbst entscheiden. Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen. Wenn meine Ausgaben geringer als 16,50€ sind, wird die Erstattung entsprechend reduziert.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Shopartikel meiner Wahl. Die Auslagen werden bis zu einer Höhe von 16,50 € von Appjobber erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff sowie ein Artikel aus dem Shop. Einkaufswert bis 16.50 € übernimmt Appjobber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Artikel kaufen, ich zahle selbst.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Shopkäufe plus Tanken, bis zu einem bestimmten Wert werden die Kosten übernommen.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Auftraggeber zahlt die käufe</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>sprit und etwas im shop, bis 16,50 wird erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und Artikel im shop kaufen. ich muss bezahlen. max. 16,50 euro wird irgendwann erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und beliebiger Kauf in einer Gesamthöhe von 16,50€ werden übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Artikel aus dem Shop, ich bezahle den, bis zu einem Gesamtbetrag von 16,50 € (Tanken und Einkaufen) ist dieses in der Vergütung inkludiert.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einmal tanken und ein Artikel freier Wahl im Shop soll gekauft werden. Die Kosten werden bis 16,50€ übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und einen Artikel aus dem Shop.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Vor Ort musst du die Ausgaben leider selbst zahlen. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Tanken und Einkaufen im Shop. Alle Kosten über 16,50 EURO muss ich selbst tragen. Die max. 16,50 Euro werden von App Jobber übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und etwas im Shop einkaufen. Bis 16,50 legt Appjobber aus, alles darüber hinaus muss ich selber bezahlen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff tanken und einen Einkauf in dem Shop tätigen. Der Gesamtbetrag auf den Rahmen von 16,50 € nicht übersteigen</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss. Was darüber hinaus geht, musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Produkt aus dem Shop. Bis zu einer Höhe von 16,50 € werden die Kosten dafür von AppJobber übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kauf von Kraftstoff plus ein Artikel aus dem Shop in Höhe von mind. 1,50 € Aufwendungen in Höhe von bis zu 16,50 werden übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Kauf werden mir bis zu einem Betrag von 16,50 Euro zurück erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zahl den Betrag für tanken und aus Sortiment was 16,50 übersteigt . Was darunter liegt bekomm ich in Vergütung durch den Job</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es muss das Tanken und mindestens ein Artikel aus dem Shop von mir bezahlt werden. Sollte der Betrag 16.5€ nicht überschreiten, so wird der Preis mir erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken, sowie einen Einkauf im Shop tätigen. Dabei wird ein Betrag bis 16,50€ von der App gezahlt egal welches Verhältnis zwischen Kraftstoff und Shopeinkauf vorliegt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die käufe,die in der Aufgaben steht ,aber die Kosten der käufe muss nicht als 16,70€ sein</response>
+      <response_feedback>Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Vergiss nicht, dass sowohl Kraftstoff als auch etwas aus dem Shop gekauft werden muss.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dankeschön und einen Artikel meiner Wahl im Shop maximal werden mir die Tank und Einkaufssumme in Höhe von 16,50 € erstattet gegebenfalls zuzüglich ein Honorar.</response>
+      <response_feedback>Ein Honorar erhältst du in jedem Falle, die Höhe ist nur nur abhängig von der Lage der Tankstelle. Wir gehen einfach mal davon aus, dass das „Dankeschön“ in der Antwort „Kraftstoff“ heißen sollte ;-)</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss die käufen tätigen und bekomme es mit der Bezahlung wieder zurück oftmals</response>
+      <response_feedback>Du legst es quasi nur vor. Bis zu 16,50€ bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und mindestens einen Artikel im Shop kaufen. Ich zahle diese Rechnung zunächst, bekomme sie aber bis max. 16,50€ erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff tanken und ein beliebiges Produkt aus dem Shop kaufen. Erstattet wird bis zu 16,50€. Alles darüber hinaus nicht</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und Artikel im Shop kaufen. Welche das sind bleibt mir überlassen. Jedoch darf der Gesamtbetrag die Summe von 16,50€ nicht übersteigen. Erstattet wird der Betrag von AppJobber.</response>
+      <response_feedback>Fast richtig. Der ausgegebene Betrag darf 16,50€ durchaus überschreiten, es wird dir nur bis dahin erstattet. Alles was darüber hinaus geht, wird nicht erstattet.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zahle die Käufe.</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff und einen oder mehrere Artikel aus dem Shop kaufen. Ausgaben von bis zu 16,50 Euro werden vom Auftraggeber bzw. von AppJobber erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Kleinigkeit, zusammen 16,50 Euro plus Bonus werden erstattet. Ich zahle erstmal alles selber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Gezahlt wird 16.50 vom Auftraggeber, bezahlt werden Kraftstoffe und ein Artikel aus dem Shop</response>
+      <response_feedback>Richtig. Allerdings erstatten wir dir lediglich deine Ausgaben, zahlen musst du an der Tankstelle schon selbst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff tanken und mind. einen Artikel im Shop dazukaufen. Die Summe wird bis max. 16,50 EUR erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einkaufen im Store der Tankstelle. 16,50 Euro bekomme ich von appJobber erstattet. Wenn es mehr kostet, zahle ich das selbst</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Aus dem Shop ich lege das Geld aus und bekomme maximal 16,50 erstattet</response>
+      <response_feedback>Bitte bedenke, dass sowohl Kraftstoff als auch eine Kleinigkeit aus dem Shop gekauft werden muss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Einkauf im Shop, in Summe werden max. 16,50 erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und Shop-Artikel müssen gekauft werden. Kosten bis 16,50€ werden erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Artikel aus dem Tankstellen Shop bis 16,50. Bezahlt werden sie von Appjobber</response>
+      <response_feedback>Wir erstatten dir lediglich deine Ausgaben, zahlen musst du an der Tankstelle schon selbst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und 1 Artikel im Shop für bis zu 16.5€, der Einkauf wird vom Auftraggeber erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einmal tanken und etwas aus dem Shop kaufen. Ich bezahle die einkaufe und bekomme unter 16,50€ das Geld erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und Shop Artikel. Ich bezahle die Käufe und bekomme eine Erstattung bis zu 16,50€ von AppJobber.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Für die Aufgabe muss ich Benzin tanken, und ein Einkauf im Shop tätigen. Der Gesamtbetrag wird nur bis zu einer Höhe von 16,50 € erstattet, fällt der Rechnungsbetrag niedriger aus wird auch nur dieser erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und einen Artikel meiner Wahl im Shop kaufen. Der Gesamtwert dafür beträgt bis zu 16,50 Euro und ist in der Vergütung inbegriffen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bis gesamt 16,50 wird bezahlt wie ich das zwischen tanken und Shopkauf aufteile ist meine Sache aber beides muss erledigt werden</response>
+      <response_feedback>Bis zu 16,50€ bekommst du von uns erstattet. Alles darüber musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kauf im Shop und Kraftstoff bis 16,50€ werden erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und ein kleiner Einkauf, bis zur Summe von 16,50€ wird der Einkauf übernommen. Überschreitet man diesen Betrag, dann wird es nicht erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Den getankten Kraftstoff und min. einen Artikel aus dem Shop.  Kosten bis 16,50€ werden übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin plus einen Artikel nach Wahl. Beides zusammen max 16,50</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss die Missionen erfüllen oder ein Sandwich kaufen, damit die App mich bezahlt.</response>
+      <response_feedback>Was du neben dem Kraftstoff kaufst ist ganz dir überlassen. Bis zu 16,50€ bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Cola und Energy aber eigentlich nur nach Schlüssel fragen</response>
+      <response_feedback>Kaufe was immer du möchtest. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und ein shopartikel wird bis 16,50 übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Kraftstoff tanken bzw. erwerben und ein Produkt aus dem Tankstellenshop erwerben. Bis 16,50 € übernimmt appjobber die Kosten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Siehe Jobbeschreibung</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und eine Kleinigkeit im Shop kaufe. Wie ich mir das aufteile ist egal. Jedoch werden von euch insgesamt nur 16,50€ übernommen, alles was drüber ist trage ich und wenn es niedriger ist, bekomme ich auch nur den Anteil, welchen ich bezahlt habe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Beliebiger Einkauf im Shop, ich zahle, bekomme eine feste Belohnung für den Job</response>
+      <response_feedback>Neben dem Produkt aus dem Shop sollte auch Kraftstoff getankt werden. Der Betrag bis zu welchem du deine Ausgaben von uns erstattet bekommst ist 16,50€. Alles was darüber hinaus geht, musst du leider selbst tragen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und Einkäufe tätigen der Gesamtbetrag soll 16,50 nicht übersteigen</response>
+      <response_feedback>Die Kosten dürfen 16,50€ sehr wohl überschreiten, wir erstatten dir deine Kosten allerdings nur bis zu diesem Betrag.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff tanken und Kleinigkeit im Shop kaufen (Brötchen etc. )</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Darin sollten Sprit und Shopeinkauf enthalten sein, denn alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und 1 Artikel meinet Wahl aus dem Shop</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Vor Ort musst du die Ausgaben leider selbst zahlen. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn die Käufe für den Laden sind muss der Laden aufkommen</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und einen Artikel aus dem Shop kaufen. Bis zu einem Wert von 16,50€ wird mir der Preis erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einen Spritkauf und Snackkauf bis 16,50 wird übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und etwas der eigenen Wahl kaufen. bis zu 16,50€ werden erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und im Shop etwas kaufen für mindestens 16.50€. Zunächst wird selbst beszahlt</response>
+      <response_feedback>16,50€ ist nicht der Mindestbetrag. Bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Egal welche, bis 16,50€ werden erstattet</response>
+      <response_feedback>Achte darauf, dass sowohl Kraftstoff als auch etwas aus dem Shop gekauft wird.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss Tanken und noch etwas im Shop einkaufen. Der Preis darf dabei nicht höher als 16,50€ sein. Die Kosten von unter 16,50€ werden von AppJobber übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und mindestens einen Artikel im Shop kaufen. Ich bekomme den Betrag bis 16,50€ erstattet, sollte es mehr sein muss man es selbst zahlen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Kleineinkauf im Shop im Wert bis 16,50€ wird übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss EIN Produkt kaufen und Treibstoff, ihr zahlt das bis 16,50€</response>
+      <response_feedback>Wir ERSTATTEN es dir. Zahlen musst du vor Ort selbst. Deine Ausgaben bekommst du nach Abschluss des Jobs  bis zu 16,50€ wieder.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und etwas aus dem Shop kaufen. Mir werden bis zu 16,50€ erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und einen weiteren Artikel aus dem Shop. Alle Kosten bis 16,50€ werden übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und was kaufen appJobber bezahlt mir 16,50 vom Betrag</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ne mittlere Menge Sprit und kleines innen.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen. Darin enthalten sein, sollten eine beliebige Menge Kraftstoff und ein Gegenstand aus dem Shop.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Kauf besteht aus 2 Teilen (tanken und Kauf im Shop). maximale Erstattung beträgt 16,50 Euro. Die Erstattung erfolgt mit dem Honorar im Job (appjobber) erstattet mir so gesehen die Käufe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und 1 Artikel aus dem Shop. Ich bezahle die Artikel</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und mindestens ein Teil aus dem Shop bis 16,50Euro wird von Appjobber bezahlt</response>
+      <response_feedback>Wir ERSTATTEN dir deine Ausgaben. Zahlen musst du vor Ort selbst. </response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und ein sach Gegenstand kaufen. Der wert von 16.50 euro wird mir erstattet</response>
+      <response_feedback>Korrekt. Alles was über die 16,50€ hinausgeht, musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und etwas aus dem Shop kaufen, bis zu16,50 € werden vom Auftraggeber übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und im Shop einkaufen, in Summe bis zu 16,50€ werden von AppJobber übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Einkauf im Shop. Ich gehe in Vorleistung</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis  dorthin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff tanken und im Shop mind. 1 Sachen kaufen. In Summe wird ein Betrag von bis zu 16,50€ übernommen von appJobber.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Kauf im Shop nach Wahl</response>
+      <response_feedback>Korrekt. Bitte achte nur darauf, dass deine Ausgaben nur bis zu 16,50€ erstattet werden. Alles was darüber hinaus geht, musst du leider selbst zahlen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Artikel im Shop kaufen . Bis 16,50€ werden  diese übernommen ( bzw. sind in der Vergütung enthalten)</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und einen Artikel meiner Wahl aus dem Shop kaufen. Kosten in höhe von 16,50 werden erstattet, alles darüber muss ich selbst zahlen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einen beliebeigen Kraftstoff tanken und bezahlen und einen beliebigen  kaufbaren Gegenstand (wird von mir getätigt). Vorerst bezahle ich den Einkauf, bekomme aber bis zu 16,50€ erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Einkaufen im Shop</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis  dorthin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und etwas aus dem Shop.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du, bei erfolgreichem Abschluss, von uns erstattet. Alles was darüber hinaus geht, musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff &amp; ein Einkauf im Shop. Werden bis max. 16,50€ vom Auftraggeber übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einerseits muss getankt werden und andererseits muss ein Artikel aus dem Shell-Shop erworben werden. Die Kosten werden erstmal selbst getragen, später wird höchstens ein Betrag von 16,50€ erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin und etwas im Tankstellenladen, ich bezahle, bekomme 16,50 Euro wieder erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mindestens 2l Tanken und etwas Einkaufen im Shop. beides zusammen im wert von 16,50€. Ich kann auch mehr ausgeben was mir allerdings nicht zurückerstattet wird.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken plus 1 Artikel für 16,50€ selbst kaufen. Diese Kosten werden dann nach Annahme des Jobs erstattet (20€)</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken sowie einen kauf im Laden insgesamt muss es mehr als 16,50 kosten</response>
+      <response_feedback>16,50€ ist der Höchstbetrag für das was wir erstatteten. Alles was darüber hinausgeht, musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Einkauf im Shop bis 16,50 Euro ! Das bezahl ich dann quasi vom Verdienst</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du, bei Akzeptanz des Jobs, von uns  erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanke und irgendetwas im Shop kaufen. Kosten werden bis 16,50€ erstattet von AppJobber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und geringen Warenwert einkaufen. Gesamtwert bis 16,50€ wird von appJobber übernommen, alles darüber zahlt der Benutzer, bei geringerer Summe entsprechend weniger. + gesonderte Entlohnung zusätzlich</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen beliebigen Artikel im Rahmen des Budgets kaufen. Ich zahle selbst</response>
+      <response_feedback>Bis zu einem Betrag von16,50€ bekommst du deine Ausgaben von uns erstattet, alles was darüber hinaus geht, musst du leider selbst zahlen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und mindestens einen Gegenstand im Shop kaufen. Ich kaufe diese mit meinem
+Geld, wenn der Job akzeptiert wird, wird mir eine Höhe von maximal 16,50€ erstattet, bei Übersteigen der Summe wird der Differenzbetrag selbst getragen, wenn weniger als 16,50€ ausgegeben wurden wird der Betrag dementsprechend angepasst.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Benzin und Produkt aus dem Shop. Ich bezahle und bekomme max. 16,50€ durch appjobber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff(tanken) und einen Artikel aus dem Shop</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Darin sollten Sprit und Shopeinkauf enthalten sein, denn alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Artikel aus dem Shop. Bis zu einer Höhe von 16,50€ wird dies von ihnen übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und zusätzlich etwas im Shop kaufen. Ich bekomme maximal einem Betrag von 16,50 € zurück erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einkaufen im Shop, Ich muss bezahlen</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff tanken unf mindestens ein Teil im Shop kaufen. Bis zum Gesamtwert von 16,50 bekomme ich das Geld zurück. Wird es teurer bezahle ich den Rest selbst</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und mind. einen Artikel aus dem Shop. Kosten werden bis max. €16,50 vom Auftraggeber erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss etwas im Shop einkaufen und etwas tanken! Bis 16,50</response>
+      <response_feedback>Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Alles was darüber hinaus geht, musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>es muss der Kraftstoff und ein Artikel ausm Shop bezahlt werden ich werde die Käufe bezahlen</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Artikel meiner Wahl im Shop und tanken. Bis 16,50€ alles zusammen bekomme ich erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>getankten Kraftstoff UND mind. einen Artikel aus dem Shop.  Betrag bis16,50€</response>
+      <response_feedback>Bis zu 16,50€ bekommst du von uns erstattet. Alles darüber musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken + Einkauf meiner Wahl. Maximal 16.50 Euro werden übernommen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken + mind. ein Produkt aus dem Shop. Ich bezahle selbst und bekomme es wieder.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und etwas aus dem Shop kaufen. Das bezahle ich, kriege es aber in Höhe von 16,50 € erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Shopeinkauf. Ich bezahle bekomme rueckerstattung bis 16.50</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Mindestens 1 Sache aus dem Shop , Beträge bis 16,50 werden erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Eine Tankfüllung und einen oder mehrere Artikel aus dem Shop bis zu 16,50€. Ich bezahle die Rechnung und bekomme die Kosten bis zu 16,50€ wieder erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Irgendetwas kaufen, ich Bezahle selber.</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mindestens Tanken und einen Shop Artikel kaufen. Auslagen werden bis zu 16,50 Euro erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich muss tanken und etwas aus dem Shop kaufen. der Auftraggeber erstattet einen Betrag von 16,50€</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>benzin und was im job. bis 16,50 rest wird nicht erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und im Shop, bis 16,50€ Ich bezahle</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich muss einmal tanken und einen Artikel aus dem Shop kaufen und bis zu einem Betrag von 16,50 € bekomme ich es zurück erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>außer dem Tanken ein Einkauf meiner Wahl. darf aber nicht 16.50€ übersteigen.</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss. Alles was den Betrag unterschreitet, wird am Ende von der Belohnung abgezogen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich muss tanken und einen Artikel im Shop kaufen. bezahlen muss ich selbst. der Betrag, bis maximal 16,50 € wird mir erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kosten, welche in Summe den Betrag von 16,50€ übersteigen, werden nicht übernommen. Wenn meine Ausgaben geringer als 16,50€ sind, wird die Erstattung entsprechend reduziert. Ich muss selbst entscheiden wie ich diese Summe zwischen Tankvorgang und Einkauf im Shop aufteile</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll mir dort was kaufen und tanken dies wird bis zu einem Betrag von 16,50 € bezahlt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken und anschließend etwas im Shop kaufen.  Der Auftraggeber bezahlt dies im Anschluss.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Vor Ort musst du die Ausgaben leider selbst zahlen. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein Einkauf im Shop, wird bis zu einer Höhe von 16,50 vom Auftraggeber erstattet.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tankung und Shopartikel, die Käufe werden bis 16,50€ von Auftragsgeber erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bis 16,50€ wird der Einkauf übernommen. Der Einkauf muss aus Tanken und min. einem Artikel (freie Wahl) aus dem Shop bestehen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und einen Artikel aus dem Shop. Appjobber bezahlt den Einkauf</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. An der Tankstelle musst du die Ausgaben schon selbst zahlen. Alles bis zu 16,50€ bekommst du von uns, nach Abschluss des Jobs, erstattet.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es muss etwas im Shop gekauft werden. Ich trage hierbei die Kosten</response>
+      <response_feedback>Bitte vergiss nicht, auch noch Kraftstoff zu tanken (ja, das ist wirklich schon passiert). Dein Volumen für Kraftstoff und Shopeinkauf beträgt 16,50€. Alles bis zu diesem Betrag bekommst du zum Abschluss des Jobs von uns erstattet.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und mindestens ein Teil aus dem shop. AppJobber ersetzt/bezahlt diese einkäufe bis 16,50€</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und etwas im Shop kaufen. Erst zahle ich und gekommen es von app Jobber wieder.</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Vor Ort musst du die Ausgaben leider selbst zahlen. Alles bis zu 16,50€ bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und Einkauf im Shop müssen erledigt werden. Bis 16,50€ für Tanken und Einkauf im Shop werden vom Auftraggeber übernommen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und Einkauf im Shop für maximal 16,50, was der Auftraggeber erstattet, Kassenbon wird fotografiert</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und ein oder mehrere Shop Einkäufe bis 16,50 Euro</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff und einen Shopeinkauf. Ich bekomme 16,50€ erstattet, aber nicht mehr.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>außer dem tanken einen Einkauf meiner Wahl. max.16,50€.</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss. Alles was den Betrag unterschreitet, wird am Ende von der Belohnung abgezogen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich muss tanken gehen und einen Einkauf tätigen. Bis zu dem Preis von 16,50€ übernimmt die Kosten der Auftraggeber.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich bezahle immer alles und kaufe Zeitung</response>
+      <response_feedback>Was du kaufst muss nicht unbedingt Zeitung sein, kaufe was immer du möchtest. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kraftstoff sowie ein Artikel meiner Wahl aus dem Shop.</response>
+      <response_feedback>Korrekt. Deine Ausgaben bekommst du bis zu 16,50€ von uns erstattet.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken, shopartikel. beides bis 16.50€ wird erstattet. Darüber nicht</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tanken und 1 kauf im Shop</response>
+      <response_feedback>Du hast ein Volumen von 16,50€ pro Job und Tankstelle. Alles bis dahin bekommst du von uns erstattet und was darüber hinaus geht musst du leider selbst tragen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken + ein Artikel, ich zahle sie und sie werden bis zu 16,50 zurück erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>insgesamt 16,50 € wie ich das Auftanken und Shop-Artikel auf Teile bleibt mir überlassen bekomme es dann inklusive der Vergütung zurück</response>
+      <response_feedback>16,50€ ist keineswegs der Höchstbetrag. Nur bis zu diesem Betrag bekommst du deine Ausgaben zurückerstattet nach erfolgreichem Jobabschluss. Alles was den Betrag unterschreitet, wird am Ende von der Belohnung abgezogen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>mindestens 2 Liter Kraftstoff tanken und mindestens ein Artikel im Shop erwerben. Ich zahle diese Käufe, erhalte es aber wieder.</response>
+      <response_feedback>Bis zu einem Betrag von 16,50€ bekommst du deine Ausgaben von uns erstattet, alles was darüber hinaus geht, musst du leider selbst zahlen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>tanken und ein Artikel aus dem Shop, ich bezahle alles selbst und bekomme bis zu 16,50€ erstattet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Liebesmittel und ich bezahle</response>
+      <response_feedback>Wichtig ist, dass sowohl Kraftstoff als auch ein Shopartikel gekauft wird. Bis zu 16,50€ deiner Ausgaben bekommst du von uns, nach Akzeptanz des Jobs, erstattet. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

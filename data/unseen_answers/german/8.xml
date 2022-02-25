@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="8">
+  <questionText>Frage 8: Worauf sollst du in Bezug auf das Gesamterscheinungsbild des Shops achten?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="8.a1">Das Gesamterscheinungsbild besteht aus der Sauberkeit (0.5 P) des Shops und der Ausstattung mit Waren (0.5 P). Bei der Sauberkeit des Shops ist z.B. auf die Sauberkeit der Fußböden oder der Brötchenauslage zu achten. Der bautechnische Zustand des Shops soll hier nicht berücksichtigt werden! Bei der Ausstattung mit Waren soll darauf geachtet werden, ob die Regale vollständig mit Produkten bestückt sind und ob der Kunde eine Wertigkeit oder einen Nutzen in den Produkten sieht.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Das alles gut zu erkennen ist</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Vermittelte dir der Außenbereich mit den dortigen Einrichtungen (z.B. Luftprüfer, Staubsauger) insgesamt den Eindruck, dass alles gepflegt und sicher war? (5 = "Stimme voll und ganz zu", 1 = “Stimme überhaupt nicht zu”), Waren bei deinem Stationsbesuch Handschuhe oder Papierhandtücher (an der Zapfsäule) oder Handdesinfektionsmittel (am Shopeingang) verfügbar, sodass du deine Hände sauber halten konntest? Bist du mit der Warenpräsentation des Shops innen und außen zufrieden? (z.B.Sauberkeit, Ordnung, Preisauszeichnung an allen Produkten, keine Lücken in den Regalen) (5 = Stimme voll und ganz zu, 1 = “Stimme überhaupt nicht zu”) Würdest du diese Shell Tankstelle weiterempfehlen? (10 = “Äußerst wahrscheinlich” und 1 = “Sehr unwahrscheinlich”)? Wie warst du mit der Dauer deines Besuchs und der Benutzerfreundlichkeit der Tankstelle zufrieden? (5 = “Sehr zufrieden” und 1 = “Sehr unzufrieden”)?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung zulässig? Wurdest du von allen Mitarbeitern, die dich im Shop bedienten, begrüßt und verabschiedet? Es zählen auch non-verbale Gesten, wie z.B. winken oder nicken. Haben sich die Mitarbeiter im Shop, die dich bedienten, um eine persönlichere Begrüßung oder Verabschiedung bemüht (z.B. Blickkontakt, Lächeln)? Wie zufrieden warst du mit der Freundlichkeit und Gastfreundschaft der Mitarbeiter des Shops, die dich bedienten? (5 = sehr zufrieden bis 1 = sehr unzufrieden) Wie zufrieden warst du mit der Bedienung durch die Mitarbeiter? (5 = “Sehr zufrieden” und 1 = “Sehr unzufrieden”)? Wurdest du nach einer Shell ClubSmart Karte oder der Shell App gefragt? Wurde dir von einem Mitarbeiter ein zusätzliches Angebot unterbreitet? Wurdest du schnell bedient oder hat man sich zumindest bei dir dafür entschuldigt, dass du an der Kasse warten musstest? Wurdest du an der Station mündlich oder visuell auf die Möglichkeit hingewiesen, ein Kunden-Feedback zu übermitteln? Dies kann z.B. durch ein Schild, einen Aufkleber oder auf dem Kassenbon erfolgen</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob die Regale gut gefüllt sind und das warenangebot gut sortiert ist. Dann ob der Shop sauber ist und die Gänge nicht zugestellt sind. Werde ich schnell bedient oder sind die wartezeiten zu lang?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Gepflegter Außenbereich mit den dortigen Einrichtungen, Vorhandensein von Handschuhen, Papierhandtüchern oder Desinfektionsmittel sowie Warenpräsentation</response>
+      <response_feedback>Bei der Frage geht es eher um die Gegebenheiten im Shop. Sind die Regale alle aufgefüllt und die Waren ausgepreist? Ist der Shop aufgeräumt und sauber?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll auf die Warenpräsentation achten, im Hinblick auf Sauberkeit, Ordnung, Preisauszeichnung aller Produkte und Lücken in den Waren Regalen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ALLES! &amp; 42 ........</response>
+      <response_feedback>Das ist schon eine Menge. Das kannst du natürlich gerne machen, aber solange Sauberkeit, Ordnung und die Verfügbarkeit von Desinfektionsmittel dabei sind, sind wir zufrieden ;-)</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das Verhalten der Mitarbeiter, deren Arbeitskleidung und der Zustand des Sanitärbereiches</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>auseneindruck, aufgeräumtheit, vorhanden von desinfektionsmittel, handschuhe, papier handtücher usw, warenpräsentation</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll im Außenbereich darauf achten, ob alles gepflegt aussieht und sicher ist. Außerdem soll ich darauf achten, ob Handschuhe, Papierhandtücher und ein Desinfektionsmittelspender vorhanden sind und die Warenpräsentation (zum Beispiel Ordnung, Sauberkeit und Preisauszeichnung) im Shop bewerten. Zusätzlich soll ich darauf achten, ob es Hinweise darauf gibt, dass ich ein Kundenfeedback geben kann und ob alle Mitarbeiter die richtige Kleidung tragen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das Erscheinungsbild soll Sauber, geplegt  und ordentlich sein. Man soll einen guten Überblick über das Warenangebot haben. Das an allen Produkten Preise angebracht sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Waren Präsentation innerhalb und außerhalb des Shops (Sauberkeit, Ordnung, Preisauszeichnungen vorhanden, keine lücken in den Regalen, Handdesinfektion am Eingang vorhanden und nutzbar)</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die richtige Kleidung der Mitarbeiter und die Ordnung im Shop</response>
+      <response_feedback>Neben der Sauberkeit des Shops ist auch wichtig, dass die Waren alle aufgefüllt und korrekt ausgepreist sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung getragen, freeundlichkeit, schnelligkeit</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Warenpräsentation, innen und außen. Ist alles sauber, ordentlich und gepflegt. Sind alle Informationen sichtbar.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Shop selbst, Sanitäranlagen, Freundlichkeit</response>
+      <response_feedback>Konkret geht es hier darum, dass Shopinnere zu überprüfen. Sind alle Regale aufgefüllt? Ist alles ordentlich und sauber?</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob dieser gepflegt und sauber isr</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich bewerte Sauberkeit, Ordnung, Preisauszeichnung an allen Produkten. Außerdem prüfe ich, dass keine Lücken in den Regalen vorhanden sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>- Überblick über die Sauberkeit und Zustand der Sanitäranlagen / Toiletten.
+- Funktionsfähigkeit aller Anlagen 
+- Sauberkeit der Sanitäreinrichtungen
+- ausreichend Verbrauchsmaterial
+- Arbeitskleidung und gut sichtbares Namensschild der Mitarbeiter
+-Begrüßung der Mitarbeiter
+- Zufriedenheit über Freundlichkeit und Gastfreundschaft der Mitarbeiter des Shops
+- Zufriedenheit über Bedienung durch die Mitarbeiter
+- Hinweis auf Möglichkeit des Kunden-Feedbacks
+- gepflegter Außenbereich?
+- Ausreichend Handschuhe oder Papierhandtücher oder Handdesinfektionsmittel verfügbar?
+- Warenpräsentation des Shops innen und außen?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob der Verkäufer freundlich ist (Gestik/minik), ob er die Arbeitskleidung trägt, Namensschild etc</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Er wirkt gepflegt/sauber/ordentlich, weist keine Bestückungslücken auf, es sind alle Artikel ausgepreist und Möglichkeiten zur Desinfektion/Hygiene vor dem/beim Betreten vorgehalten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Möglichkeit, ein Kunden-Feedback zu hinterlassen, und auf die Warenpräsentation des Shops, Sauberkeit, Ordnung, Preisauszeichnung an allen Produkten und Lücken in den Regalen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>allgemeine Sauberkeit, Bestückung mit Waren, Verfügbarkeit Verbrauchsmaterial, Desinfektionsmaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das es sauber und ordentlich ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Sauberkeit und die Freundlichkeit der Mitarbeiter</response>
+      <response_feedback>Die Sauberkeit ist sehr wichtig. Achte daneben bitte auch auf die Warenpräsentation und generelle Ordnung im Shop.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Siehe Jobbeschreibung</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind alle Preisschilder angebracjt? Gibt es Lücken im Regal? Ist die Fläche Sauber und die Produkte in Ordnung? Ist das Personal freundlich?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Normaler Kunde aussehen und verhalten</response>
+      <response_feedback>Hier geht um das Innere des Shops. Ist alles sauber und in Ordnung? Sind die Waren alle lückenlos und ausgepreist?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sauberkeit des Shops. Wie gefüllt sind die Regale. Welche Produkte sind vorhanden. Wie ordentlich ist es dort. Wie strukturiert ist es dort.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Warenpräsentation, ordnung, Arbeitskleidung</response>
+      <response_feedback>Neben der Ordnung im Shop ist wichtig, dass alles sauber ist.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wird Kundenfeedback angeboten, Sortimentauswahl, Sauberkeit</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sauberkeit, Ordnung, verfügbarkeit der Produkte, Vielfalt der Produkte</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das allgemeine Gesamterscheinungsbild sowie zusätzlich ob z.b. Papiertücher und Handschuhe an den Zapfsäulen vorhanden sind.</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ob man gut behandelt wird und ob es ordentlich ist</response>
+      <response_feedback>Hier geht es darum wie es um das Innere des Shops bestellt ist. Achte auf Sauberkeit und Ordnung des Shops, auch darauf ob die Waren aufgefüllt und ordentlich ausgepreist sind. Ist ein Mitarbeiter anwesend um die Kunden zügig abzuwickeln?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ordnung und vollständigkeit des Shops und der Tankstelle im allgemeinen. Also auch der Außenbereich. Corona bedingt auch Desinfektionsmöglichkeiten mitbewerten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf ausreichend Möglichkeiten zur Handreinigung/ Desinfektion an der Zapfsäule und im Eingangsbereich, darauf, daß bzw. ob alle Auslagen Preise haben, es keine Lücken im Regal gibt und es ordentlich und sauber präsentiert ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Vermittelte dir der Außenbereich mit den dortigen Einrichtungen (z.B. Luftprüfer, Staubsauger) insgesamt den Eindruck, dass alles gepflegt und sicher war? (5 = "Stimme voll und ganz zu", 1 = “Stimme überhaupt nicht zu”)</response>
+      <response_feedback>Wenn du die Antworten schon kopierst, lies sie doch bitte auch. Hier geht es um das Shopinnere. Sind die Waren alle ordentlich, ist das Interieur sauber und aufgeräumt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Aufgeräumt, übersichtlich sauber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Übersicht, Warenverfügbarkeit, Sauberkeit</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

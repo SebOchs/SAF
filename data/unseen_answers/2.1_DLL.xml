@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="2.1" module="DLL">
+   <questionText>Name the 3 service classes the Data Link Layer offers and explain the differences between the classes.</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="DLL_2.1_a1">1.unconfirmed connectionless - no ACK, loss of data possible, no flow control, no connect or disconnect.
+2.confirmed connectionless - with ACK, no loss of data (timeout and retransmit instead→ duplicates and sequence errors possible), no flow control, no connect or disconnect.
+3.connection-oriented - no data loss, duplication or sequencing errors. Instead a 3 phased communication with connect and disconnect, and flow control
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="DLL_2.1.9"> 
+	 <response> L1 Service
+Serves the function of the Transmittion of the Bit stream
+Limited Data rate
+Loss, insertion, changing of Bits Possible
+
+L2 Service 
+Reliable data transfer
+May between more than 2 devives
+Connection by one physical cannel
+
+L3 Funkctions
+Data ist transmitted in Frames
+Includes Error detection and correction and Flow Control
+	 </response>
+     <response_feedback>The response answers no parts of the question correctly. The correct class names are unconfirmed connection-less, confirmed connection-less and connection oriented.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.15"> 
+	 <response> The three service classes are:
+- Connectionless unconfirmed service which doesn't include connection and disconnection phase and does not provide any measures against loss of data or for flow control
+- Connectionless confirmed service which also does not include connection setup and disconnection but ensures each frame is transmitted using acknowledgements and possible retransmission
+- Connection-oriented service which includes a connection and disconnection phase and provides error control as well as flow control.
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.24"> 
+	 <response> We learned about the following L2 service classes:
+
+1) Unconfirmed connectionless Service
+- supports the transmission of isolated, independent frames
+- does not support connect or disconnect -&gt; i.e. the sender will simply start sending the frames without caring whether the receiver is ready or not
+- does not support flow control
+- does not support ACK and thus loss of data units can happen: no error correction here.
+
+2) Confirmed connectionless Service
+- does not support connect or disconnect -&gt; i.e. the sender will simply start sending the frames without caring whether the receiver is ready or not
+- does not support flow control
+- does support ACK: no loss of frames since every frame is acknowledged by receiver
+- supports timeout and retransmit: If the sender does not receive an ACK within a specific time period, the sender will retransmit the data
+=&gt; this may cause duplicates and sequence errors
+
+3) Connection-oriented Service
+- consists of 3 phases: connect, data transfer, disconnect
+- the sender will only start sending data when the receiver is ready to receive it (phase 2)
+- no loss of data (supports acknowledgements)
+- no duplicates of data and no sequencing errors
+- supports flow control
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.37"> 
+	 <response> Unconfirmed connection-less services, confirmed connection-less services and connection-oriented services.
+Unconfirmed connection-less services require no confirmation after a frame is send while confirmed connection-less services wait for acknowledgements on every frame, unacknowledged frames are resend automatically.
+Connection-oriented services set up a long living end-to-end connection and guarantee a certain QoS. Connection-less services have to find a route for each frame. These routes don't have to be the same for each frame.
+In connection-less services frames might arrive at receiver out-of-order which means he has to buffer and order them. Unconfirmed connection-less are unreliable while the other two are generally considered reliable.
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.43"> 
+	 <response> 1. Unconfirmed Connectionless Service: sending data units without knowing if it arrives or not, means no acknowledgement of the receipt
+Features: 
+- No flow control
+- No connect or disconnect
+- Loss of data possible
+
+2. Confirmed Connectionless Service: sending data units, with the receipt of data units is acknowledged. That way no data will be lost.
+Features: 
+- No flow control
+- No connect or disconnect
+- No loss of data, but duplicates and sequence errors may happen due to retransmit (when the acknowledgement is received beyond the timeout)
+
+3. Connection-oriented Service: Initialized by the connection between sender and receiver, then sending the data. Once finished, disconnection is done.
+Features:
+- Has flow control
+- Has connect and disconnect
+- No loss, no duplication, no sequence errors
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	
+	<studentAnswer id="DLL_2.1.45"> 
+	 <response> Unconfirmed Connectionless Service: You send data without a steady connection and without any feedback if the data arrived and if it arrived correctly.
+
+Confirmed Connectionless Service: You do not use a steady connection between sender and receiver, but you get a feedback whenever data is received.
+
+Connection-Oriented Service: You use a steady connection between sender and receiver. Each transmission process consists of 3 phases, at first you establish a connection then you send the data and at the end you disconnect.
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.52"> 
+	 <response> Unconfirmed Connection-less Service
+- No measurements in L2 to prevent lost of data
+- No flow control or connect/disconnect confirmations are sent
+- Corrections can still be done on higher levels.
+- Good when L1 transmission errors are very rare because of very little overhead in the transmittions like LAN.
+
+Confirmed Connection-less Service
+- The loss of data is prevented on L2 by sending an  acknowledgment for each frame
+- Timeouts are used to resend probably lost data
+- No flow control or connect/disconnect confirmations are sent
+- Duplication and sequence errors can occur
+- Used in error-prone connection like mobile communication
+
+Connection Oriented Service
+- Introduces flow control
+- transmissions, connect and disconnect are confirmed
+- On top of the loss of data this prevents duplication and sequence errors.
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.55"> 
+	 <response> L2 Service Class “Unconfirmed Connectionless Service”: Transmission of isolated, independent units (frames). The data may be lost.
+L2 Service Class “Confirmed Connectionless Service”: Each single frame is acknowledged so there is no loss. Timeout and retransmit if the sender does not receive an acknowledgement within a certain time frame. Duplicates and sequence errors may happen due to “retransmit”.
+L2 Service Class “Connection-Oriented Service”: Three-phased communication: 1. Connection 2. Data Transfer 3. Disconnection. Hence no loss, no duplication, no sequencing error.
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.59"> 
+	 <response> 1. Unconfirmed connectionless service: transmission of isolated, idependent units without acknowledgement, possible loss of data / no flow control
+2. Confirmed connectionless service: transmission with acknowledgement with no loss, has timeouts and retransmission / no flow control
+3. Connection-oriented service:  connection over error free channel with a flow control
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.62"> 
+	 <response> Confirmed connectionless, unconfirmed connectionless, connection-oriented
+
+The unconfirmed connectionless service just sends data without caring if the receiver is ready or received the data. Loss of data  is possible
+The confirmed connectionless service cares  about the receiver if it received the data by waiting for acks. Data cannot be lost and data can be duplicated.
+These to connectionless services  to not offer flow control in contrast to the next one:
+The connection-oriented service first enables a connection with a handshake, then transfers data and at the end disconnects. Here no data  can be lost and no duplicates occurrs
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.78"> 
+	 <response> Unconfirmed Connectionless Service: no flow control
+Confirmed Connectionless Service: no flow control, duplication and sequencing error may happen
+Connection-Oriented Service: flow control, no loss, no duplication, no sequencing error
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.91"> 
+	 <response>
+	 </response>
+     <response_feedback>The response is an empty submission. </response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.95"> 
+	 <response> Unconfirmed connectionless: Transmission of isolated, independent data units. 
+Confirmed connectionless: Receipt of data units needs to be acknowledged by receiver. 
+Connection oriented: Transmission of data units is performed in free, pre-defined channels.
+
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly. But there is no common theme between them, the first two services' difference is about acknowledgements and the third service's difference is about how a connection is established.</response_feedback>
+     <score> 0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.1.96"> 
+	 <response> Unconfirmed Connectionless Service
+confirmed Connectionless Service
+connection-oriented service
+
+The connection-oriented service has phases of connection and disconnection; connectionless services don't. Connection-oriented services establish a connection and verify whether a message is received or not and send again if an error happens, so no losses, duplications, or sequencing errors can occur while connectionless services do not provide such a guarantee. Other general difference is that connection-oriented services are flow-based, connectionless are rather message-based.
+
+Both confirmed, and unconfirmed connection-less services have no flow control nor connect or disconnect.
+The difference between confirmed and unconfirmed connection-less services is in the transmission of data, in unconfirmed services, loss of data units may occur. In confirmed services, however, there are receipts of acknowledged data units. Hence, every single frame is acknowledged, with no loss, and if the sender does not receive an acknowledgment within a specific time frame, a timeout and retransmit of data occur.
+	 </response>
+     <response_feedback>The response answers the services' names and differences correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

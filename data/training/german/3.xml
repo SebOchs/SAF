@@ -1,0 +1,1493 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="3">
+  <questionText>Frage 3: Worauf sollst du im Kundengespräch mit dem Mitarbeiter achten?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="3.a1">In der Interaktion mit dem Mitarbeiter soll sowohl auf menschliche, als auch auf verkäuferische Aspekte geachtet werden. Menschliche Komponenten beinhalten z.B. die Begrüßung (0.25 P), Verabschiedung (0.25 P), Höflichkeit oder Fokus auf den Kunden. Verkäuferische Aspekte sind z.B. die Nachfrage nach Upselling (Zusatzangebot) (0.25 P) oder einer Kundenkarte (0.25 P).</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Auf die Kundenansprache sowie die Arbeitskleidung</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte darauf wie die Kundenansprache geschieht, die Ausdrucksweise, Blickkontakt, das generelle Erscheinungsbild und ob die Arbeitskleidung mit der aus der uns zur Verfügung gestellten Information übereinstimmt</response>
+      <response_feedback>Alles korrekt. Hier gilt es zu prüfen ob gewisse Punkte in dem Kundegespräch erfüllt wurden. Bist du beispielsweise sowohl begrüßt und verabschiedet worden. Wurdest du nach deiner Shell-Karte gefragt oder wurde dir ein zusätzliches Angebot unterbreitet? </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Kundensprache</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wurdest du von allen Mitarbeitern, die dich im Shop bedienten, begrüßt und verabschiedet? Es zählen auch non-verbale Gesten, wie z.B. winken oder nicken. Haben sich die Mitarbeiter im Shop, die dich bedienten, um eine persönlichere Begrüßung oder Verabschiedung bemüht (z.B. Blickkontakt, Lächeln)? Wie zufrieden warst du mit der Freundlichkeit und Gastfreundschaft der Mitarbeiter des Shops, die dich bedienten? (5 = sehr zufrieden bis 1 = sehr unzufrieden) Wie zufrieden warst du mit der Bedienung durch die Mitarbeiter? (5 = “Sehr zufrieden” und 1 = “Sehr unzufrieden”)? Wurdest du nach einer Shell ClubSmart Karte oder der Shell App gefragt? Wurde dir von einem Mitarbeiter ein zusätzliches Angebot unterbreitet? Wurdest du schnell bedient oder hat man sich zumindest bei dir dafür entschuldigt, dass du an der Kasse warten musstest?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er mich nach der clubsmart Karte fragt</response>
+      <response_feedback>Es gibt noch einige Punkte  auf die während des Gesprächs geachtet werden sollte. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>auf die Freundlichkeit, die Frage nach der Clubsmart Karte und ein Zusatzangebot</response>
+      <response_feedback>Achte noch darauf, ob du sowohl begrüßt und auch verabschiedet wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ob nach der Club Card gefragt wird und natürlich stets freundlich sein</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest dir auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Höflichkeit und Respekt.</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Namensschild, Begrüßung, Freundlichkeit, Frage nach shell clubsmart, Hinweis auf Möglichkeit für Kundenfeedback</response>
+      <response_feedback>Bitte achte noch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob sie Arbeitskleidung und ein Namensschild tragen und ob er nach der Shell ClubSmart Karte oder der Shell App fragt</response>
+      <response_feedback>Alles richtig. Bitte achte nur noch darauf ob du begrüßt und verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte darauf, ob mich der Mitarbeiter begrüßt und verabschiedet, ob er die vorgeschriebene Arbeitskleidung trägt und ob er nach der Shell Karte und einem Zusatz fragt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>freundlich und höflich sein</response>
+      <response_feedback>Hier geht es darum zu checken ob du im Laufe des Gesprächs zum Beispiel  begrüßt und verabschiedet wurdest. Wurde dir beispielsweise auch ein Zusatzangebot gemacht und wurdest du nach deiner Shell Clubsmart-Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob der Mitarbeiter freundlich ist und Blickkontakt hält.</response>
+      <response_feedback>Hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurdest du nach deiner Shell Clubsmart Karte gefragt und wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Blickkontakt , Freundlichkeit , Aufmerksamkeit , Hilfsbereitschaft  des Mitarbeiters.Ob nach der Clubsmart Karte gefragtwurde. Ob mir beim Kauf ein zusätzliches Angebot unterbreitet wurde.Korrekte Arbeitskleidung und Namensschild.</response>
+      <response_feedback>Achte bitte auch noch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dass man Freundlich und Höflich Redet.</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf ihre Kleidung und auf Sätze Formulierungen welche sie sagen .</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung, Begrüssung, Fragen nach Shell-Clubsmart-Karte, Verabschiedung.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich sollte darauf achten, ob ich von allen anwesenden Mitarbeitern freundlich gegrüßt und verabschiedet werde, ob der Mitarbeiter die richtige Berufsmode und ein Namensschild trägt, ob er/sie mir ein ZusatzAngebot macht und nach meiner Clubsmartkarte fragt und ob ich auf die Kundenfeedbackmöglichkeit hingewiesen werde.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob ich gegrüßt und verabschiedet wurde. Freundlichkeit von beiden Seiten.</response>
+      <response_feedback>Bitte achte noch darauf, ob dir ein zusätzliches Angebot gemacht wurde und ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte auf die Berufskleidung</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung. Begrüßung, Verabschiedung, up und cross selling.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tragen die Mitarbeiter Ihre Arbeitskleidung, sind diese nett und freundlich, begrüßen Sie mich und fragen Sie beim Bezahlvorgang nach der Shellapp oder Club Karte</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Augenkontakt, Freundlichkeit, Verabschiedung</response>
+      <response_feedback>Bitte achte noch auf einige weitere Punkte während des Gesprächs. Wurdest du beispielsweise sowohl begrüßt als auch verabschiedet? Wurdest du beispielsweise nach der der Shell Clubsmart Karte gefragt und wurde dir ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung Kundenansprache Blickkontakt Namensschild Begrüßung Verabschiedung Zusätzliche Angebote</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>inkognito und dann auf Toilette</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Immer anonym bleiben und nett und respektvoll</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Smartkartfrage. Winken, zwicken.</response>
+      <response_feedback>Achte bitte auch noch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest und ob dir noch ein zusätzliches Angebot unterbreitet wurde.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu achten ist über die Art der Ansprache und Verabschiedung. Erfolgte diese ggf. mit persönlichen Worten. Wurde ich freundlich bedient und wurden mir weitere Angebote unterbreitet.</response>
+      <response_feedback>Im Laufe des Kundengesprächs solltest du auch nach deiner Shell Clubsmart Karte gefragt werden.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wurde ich begrüßt und verabschiedet. Wurde Arbeitskleidung und Namenschild getragen. Wurde ich nach Kundenkarte oder App gefragt.</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er mich begrüßt und verabschiedet (verbal/ non-verbal), ob er freundlich ist, ob er mich nach meiner Shell Karte fragt, ob er die erlaubte Arbeitskleidung trägt. Ich bleibe immer freundlich.</response>
+      <response_feedback>Bitte achte noch darauf, ob dir ein Zusatzangebot gemacht wurde.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte darauf, dass der Mitarbeiter nach der Club Card fragt.</response>
+      <response_feedback>Das ist in der Tat sehr wichtig. Bitte achte auch darauf, ob dir eine Zusatzangebot gemacht wird und ob du im Gespräch sowohl begrüßt als auch verabschiedet wirst. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Freundlichkeit, Frage nach Shell Club Smart Karte, Berufskleidung, Verabschiedung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Deutlich sprechen sodass keine Missverständnisse entstehen. Mit einem Höflichem Ton.</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Welche Kleidung er trägt und wie er mit mir als Kunde umgeht.</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wie der Mitarbeiter auftritt und wie er gekleidet ist</response>
+      <response_feedback>Hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurdest du nach deiner Shell Clubsmart Karte gefragt und wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob ich nacht der ClubSmart Kundenkarte gefragt werde</response>
+      <response_feedback>Das ist in der Tat sehr wichtig. Bitte achte auch darauf, ob dir eine Zusatzangebot gemacht wird und ob du im Gespräch sowohl begrüßt als auch verabschiedet wirst. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>auf die Freundlichkeit, die Bekleidung, das Lächeln, die Begrüssung/Abschied, ob die Frage nach Club-App oder Club-Karte vom MA gestellt wurde. Ob der MA um Entschuldigung bittet, wenn die Wartezeit an der Kasse lang ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Verabschiedung, Gastfreundschaft</response>
+      <response_feedback>Bitte achte darauf, ob dir im Laufe des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, äußeres Erscheinungsbild, Namensschild. Ob ich nach der Club Karte gefragt werde.</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde und ob du beispielsweise sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob ich begrüßt werde, auch Nonverbal, auf die Berufskleidung, ob ich nach der Clubsmartkarte gefragt werde, ob ich verabschiedet werde. Und ob mir Zusatzangebote unterbreitet werden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung und Namensschild des Mitarbeiters, Höflichkeit des Mitarbeiters, Frage nach Kundenkarte</response>
+      <response_feedback>Achte auch noch darauf ob du begrüßt und verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob der Mitarbeiter von sich aus auf Shell Club Smart und andere Angebote aufmerksam macht Arbeitskleidung an und Ansprache an Kunden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verhalte dich stets freundlich und halte dich unbedingt an die Anweisungen des Personals</response>
+      <response_feedback>Die beiden Punkte greifen ohnehin immer. Hier geht es darum zu checken ob du im Laufe des Gesprächs beispielsweise begrüßt und verabschiedet wurdest. Wurde dir beispielsweise auch ein Zusatzangebot gemacht und wurdest du nach deiner Shell Clubsmart-Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>auf die Freundlichkeit, persönliche Begrüßung, ob er mich nach der Club smartkarte frägt, ob er mir weitere Angebote macht und ob er die richtige Kleidung trägt.</response>
+      <response_feedback>Achte neben der Begrüßung bitte auch darauf, ob du verabschiedet wurdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>auf die Freundlichkeit, Aufmerksamkeit und Hilfsbereitschaft des Mitarbeiters, Begrüßung und Verabschiedung und ob die richtige Arbeitskleidung getragen wird</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wird oder ob du nach deiner Shell Clubsmarkt Karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob sie Arbeitskleidung tragen, ob gegrüßt wird, ob man schnell bedient wird, ob man auf die Shell ARD aufmerksam gemacht wird.</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Thema Arbeitskleidung,  Kundenansprache Bek leidung der Mitarbeiter, Freundlichkeit, Begrüßung, Entschuldigung bei Fehlverhalten</response>
+      <response_feedback>Wichtig ist sowohl Begrüßung als auch Verabschiedung. Wurdest du nach deiner Shell Clubsmart Karte gefragt und wurde dir ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wertde ich begrüsst (Freundlich) oder durch gesten. - werde ich nach der Shell Carte gefragt. Karte nur benutzen, wenn ich gefragt wurde. Auf Art des Gespräches achten.</response>
+      <response_feedback>Achte neben der Begrüßung auch darauf, ob du verabschiedet wurdest. Wurde dir im Laufe des Gesprächs ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Verabschiedung. Freundlichkeit. Arbeitskleidung. Namensschild. Frage nach der Clubsmart Karte oder Apo. Wurde ein Zusatzangebot gemacht.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Freundlichkeit/Personalisierung der Ansprache/Begrüßung/Verabschiedung inkl. Mimik/Gestik, seine Arbeitskleidung inkl. Namensschild, die Frage nach der Kundenkarte, die evtl. Bitte um Entschuldigung wegen einer längeren Wartezeit, die Unterbreitung eines zusätzl. Angebotes sowie der Möglichkeit des Kundenfeedbacks.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich ordentlich begrüßt und verabschiedet werde und ob die Mitarbeiter ein Namensschild und typische Arbeitskleidung von Shell tragen. Ausserdem soll ich darauf achten, ob die Mitarbeiter freundlich sind und wie die Bedienung insgesamt ist.</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du beispielsweise sowohl nach einer Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ist er ruhig und gelassen, aufmerksam und Hort zu. stottert er oder verredet we sich oft. ist er freundlich und höflich</response>
+      <response_feedback>Hier geht es primär darauf zu achten ob einige bestimmte Elemente im Gespräch erwähnt werden. Wirst du beispielsweise sowohl begrüßt als auch verabschiedet? Wurdest du im Laufe des Gesprächs nach deiner Shell-Clubsmart Karte gefragt  und wurde dir ein Zusatzangebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf des Verhalten z. B. Freundlichkeit oder ob er beispielsweise Zusatzangebote unterbreitet.</response>
+      <response_feedback>Achte auch ob alle Mitarbeiter der Tankstelle dich sowohl begrüßt als auch verabschiedet haben.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitsjleidung, Fragen nach Shell Clubkart oder App, Freundlichkeit, Begrüßung, Zusätzliches Angebot</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich inkognito bleibe</response>
+      <response_feedback>Inkognito bleiben solltest du möglichst für deinen gesamten Aufenthalt an der Tankstelle. Hier solltest du darauf achten ob einige gesuchten Elemente in dem Check vorkommen. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein Zusatzangebot gemacht und wurdest du nach einer Shellclubsmart-Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte auf eine freundliche Begrüßung, aktives Nachfragen und eine Verabschiedung.</response>
+      <response_feedback>Korrekt. Im Laufe des Gesprächs solltest du nach deiner Shell Clubsmart Karte gefragt werden und dir sollte ein zusätzliches Angebot unterbreitet werden</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Kundenansprache, Freundlichkeit, Frage nach ClubSmartcard, zusätzliche Angebote, Arbeitskleidung, Verabschiedung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bietet man mir irgendetwas an oder fragt nach der Shell Karte und der Gleichen.</response>
+      <response_feedback>Bitte achte noch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Über Vertraulichkeit</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob diese freundlich sind und konzentriert, hilfsbereit und ihre Arbeitskleidung tragen. Auch auf die Fähigkeit den Kauf zu handeln und ob Zusatz Produkte sowie sie Shell Club Smart Karte angeboten werden, soll geachtet werden.</response>
+      <response_feedback>Bei dem Kundengespräch solltest du primär darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fragen in ein Gespräch einbauen, nicht plump direkt fragen</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob alle Mitarbeiter die mich bedient haben eine entsprechende Shell-Arbeitskleidung tragen, freundlich sind und versuchen einen persönlicher zu Begrüßen und zu Verabschieden.</response>
+      <response_feedback>Richtig. Während des Gesprächs sollte dir auch ein Zusatzangebot gemacht werden und du solltest nach deiner Shell Clubsmart Karte gefragt werden.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bekleidung, Namensschilder, Höflichkeit, Aufmerksamkeit,</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Begrüßung, Verabschiedung, Dienstbekleidung korrekt, ob nach Kundenkarte gefragt wird.</response>
+      <response_feedback>Achte auch darauf, ob dir im Laufe des Gesprächs ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Shell Arbeitskleidung und Namensschild, Begrüßung und Verabschiedung, ist der Mitarbeiter abgelenkt? Art und Weise des Gesprächs sowie Hilfsbereitschaft</response>
+      <response_feedback>Wichtig ist, dass du im Laufe des Gesprächs nach deiner Shell Clubsmart Karte und nach einem möglichem Zusatzangebot gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Lächeln, Worte und Blickkontakt, wie auch Begrüßung und Freundlichkeit</response>
+      <response_feedback>Hier gilt es primär darauf zu achten ob du begrüßt und verabschiedet wirst. Hat das Personal dich nach deiner Club-Karte gefragt oder wurde dir beispielsweise ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Freundlichkeit ( Begrüßung und Verabschiedung) und ob mir die Kunden Karte oder andere Angebote gemacht werden. Darauf ob die Mitarbeiter richtig gekleidet sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich immer nett und höflich bleibe.</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung/Verabschiedung und Arbeitsklamotten</response>
+      <response_feedback>Neben der Begrüßung und Verabschiedung ist sehr wichtig, dass du darauf achtest, ob dir ein Zusatzangebot gemacht wird und ob du nach der Shell Clubsmart karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich achte auf die Kleidung und wonach er mich fragt. würde ich begrüsst und verabschiedet, würde Blickkontakt gehalten</response>
+      <response_feedback>Konkret sollte darauf geachtet werden, ob die ein zusätzliches Angebot gemacht wird und ob du nach deiner Shell Clubsmart Karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Welche Arbeitskleidung er trägt, wie er mich begrüßt, verabschiedet, ob nach der ClubSmart-Karte gefragt wird, ob ich ein zusätzliches Angebot haben möchte und ob er sich entschuldigt, falls ich warten musste. Gegebenfalls werde ich auf die Möglichkeit von Kundenfeedback hingewiesen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ist er freundlich und begrüßt mich. Erwähnt er die ClubSmart Karte oder Shell App, was trägt er, bietet er mir zusätzliche Produkte an.</response>
+      <response_feedback>Bitte achte darauf, ob du neben der Begrüßung auch verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Höflichkeit, Ob nach den Sachen wie Shell Card  gefragt wird</response>
+      <response_feedback>Achte während des Gesprächs auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest und ob du nach deiner Shell-Club-karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Trägt er angemessene Arbeitskleidung? Wurde ich begrüßt/verabschiedet? Ist der Mitarbeiter freundlich? Weißt er mich auf Angebote hin? Informiert er mich über die Möglichkeit ein Feedback dazulassen? Wurde ich nach einer Shell Clubkarte oder der Shell-App gefragt?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>kleidung und frage nach shell karte</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>selbst immer freundlich auftreten,</response>
+      <response_feedback>Richtig. Hier gilt es nur einige Prüfelemente abzuchecken. Wurdest du sowohl begrüßt und verabschiedet? Wurde dir ein Zusatzangebot unterbreitet und wurdest du nach der Shell-karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>war der Mitarbeiter freundlich zu mir und hat er mir weitere Angebote unterbreitet oder mich nach Clubkarten gefragt</response>
+      <response_feedback>Bitte achte darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung und die Art und Weise des Mitarbeiters</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wurdest du nach einer Shell ClubSmart Karte oder der Shell App gefragt? Wurde dir von einem Mitarbeiter ein zusätzliches Angebot unterbreitet? Wurdest du schnell bedient oder hat man sich zumindest bei dir dafür entschuldigt, dass du an der Kasse warten musstest? Wurdest du an der Station mündlich oder visuell auf die Möglichkeit hingewiesen, ein Kunden-Feedback zu übermitteln? Dies kann z.B. durch ein Schild, einen Aufkleber oder auf dem Kassenbon erfolgen. Haben sich die Mitarbeiter im Shop, die dich bedienten, um eine persönlichere Begrüßung oder Verabschiedung bemüht (z.B. Blickkontakt, Lächeln)? Haben alle Mitarbeiter, die dich bedienten, Shell Arbeitskleidung und ein gut sichtbares Namensschild getragen? Welche Arbeitskleidung zulässig ist, kannst du auf dem Beispielbild erkennen. Wurdest du von allen Mitarbeitern, die dich im Shop bedienten, begrüßt und verabschiedet? Es zählen auch non-verbale Gesten, wie z.B. winken oder nicken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn er mich nach der ClubKarte fragt, kann ich sie vorzeigen, aber nicht aus eigener Initiative. Achten ob die Mitarbeiter Shell-Arbeitskleidung und ein gutsichtbares Namensschild tragen. Auf Verbale und Non-verbale Kommunikation achten (Freundlichkeit)</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage nach der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>trägt er die Uniform korrekt, werde ich von ihm/ihr nach der Clubcard gefragt</response>
+      <response_feedback>Achte bitte auch noch drauf, ob du während des Gesprächs sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich nicht erkannt werde</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Namensschild, Freundlichkeit, Beratung, Shell Club Cart, Begrüßung, Aufmerksamkeit, alles wie in der Info und Hilfe Aufgabenstellung beschrieben.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Arbeitskleidung, Aufmerksamkeit</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob alle Mitarbeiter mit denen ich Kontakt hatte mich begrüßt haben + verabschiedet. Ebenfalls allgemeine Freundlichkeit</response>
+      <response_feedback>Achte während des Gesprächs auch darauf, ob die ein Zusatzangebot gemacht wird und ob du nach deiner Shell-Club-karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit und Höflichkeit der Mitarbeiter, Begrüßung und Verabschiedung. Kleidung der Mitarbeiter, Clubkarte. zusätzliche Angebote</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung und Verabschiedung, Freundlichkeit, korrekte Arbeitskleidung und Namensschild. Freundlichkeit des Mitarbeiters</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde und ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Freundlichkeit, Smart Club Shell Card</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Nachfrage nach der Club Smart Card, freundliches Auftreten, Namensschild, Berufskleidung, Zusatz Angebot, sowie die Verabschiedung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er die richtige Kleidung trägt mit Namensschild</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, äußerliches Erscheinungsbild, Kleidung</response>
+      <response_feedback>Primär geht es hier darum, ob gewisse Elemente abgefragt wurden. Wurdest du sowohl begrüßt als auch verabschiedet? Wurdest du nach einer Shellclubsmart-Karte gefragt? Wurde dir ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er mich nach der shell club smart card fragt oder mir sonstige Angebote macht.</response>
+      <response_feedback>Bitte achte noch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zu achten habe ich bei dem Kunden Gespräch mit dem Mitarbeiter darauf dass ich mich nicht als testkäufer aute und dass ich ihm den Service nicht vorgreife</response>
+      <response_feedback>Das ist schon mal gut. Hier geht es allerdings eher darum auf konkrete Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Optik (Kleidung) und Freundlichkeit Aufmerksamkeit etc</response>
+      <response_feedback>Hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Arbeitskleidung, Begrüßung und Verabschiedung.</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du beispielsweise sowohl nach einer Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Gastfreundschaft, Bedienung, Freundlichkeit, Höflichkeit, korrekte Berufsbekleidung, Werbung und Service, (ggf. personalisierte) Begrüßung/Verabschiedung,</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wird oder ob du nach deiner Shell Clubsmarkt Karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Namensschild, Freundlichkeit, Begrüßung und Verabschiedung, schnelle Bedienung</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde und ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>das man höflich ist und auf die Kunden eingeht</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte darauf, ob ich auf die Shell clubsmart Karte oder die App angesprochen werde. Ich achte auf die Begrüßung. Verabschiedung und Freundlichkeit des Mitarbeiters. Außerdem achte ich auf die Wartezeit und ob man sich entschuldigt, sollte ich lange warten. Ich achte auch darauf, ob mir ein zusätzliches Angebot gemacht wurde und ob ich auf die Möglichkeit hingewiesen werde als Kunde Feedback zu geben.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verhalte dich stets freundlich und halte dich unbedingt an die Anweisungen des Personals ich muss den Test inkognito durchführen</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>freundlichkeit, Mitarbeiterkleidung, Frage nach Shellkarte, Blickkontakt, Lächeln</response>
+      <response_feedback>Bitte achte darauf, ob dir im Laufe des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Achte auf Höflichkeit und wie kompetent Dinge erledigt werden</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte auf die Freundlichkeit des Mitarbeiters. Des Weiteren achte ich darauf, dass mir Zusatzleistungen unterbreitet werden und ich nach der Club Karte gefragt werde.</response>
+      <response_feedback>Bitte achte auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>auf die Freundlichkeit sowie Richtigkeit des Rückgeldes</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Höflichkeit Keine Schimpfwörter</response>
+      <response_feedback>Die beiden Punkte setzen wir einfach mal voraus wenn du mit anderen Menschen umgehst. Hier geht es eher darum ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest dir auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden und ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlich bleiben und immer an die Anweisungen des Personals halten.</response>
+      <response_feedback>Richtig, hier geht es nur eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Verhalten während des Gesprächs, Verabschiedung. Nachfrage nach Shell ClubSmart Karte oder der Shell App. Unterbreitung eines zusätzlichen Angebots. Hinweis auf Möglichkeit Kundenfeedback zu geben.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Höflichkeit, Maske tragen</response>
+      <response_feedback>Dies ist auch sehr wichtig! Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll auf die Freundlichkeit/ Verhalten (unter anderem Begrüßung/ Verabschiedung) des Mitarbeiters achten. Unter anderem auch auf die Arbeitskleidung/ gut sichtbares Namensschild und ob nach der Shell Kundenkarte gefragt wird.</response>
+      <response_feedback>Alles Richtig. Achte nur noch darauf, ob dir ein Zusatzangebot gemacht wird.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlich sein und an die Anweisungen des Personals halten.</response>
+      <response_feedback>Richtig. Es gilt während des Kundengesprächs darauf zu achten, ob einige bestimme Punkte abgefragt werden. Wurdest du beispielsweise sowohl begrüßt als auch verabschiedet? Wurdest du nach deiner Shell Clubsmart Karte gefragt oder wurde dir ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Stets nett und freundlich, Maske tragen, Inkognito, Abstand einhalten</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Freundlichkeit und das ich nicht erkannt werde.</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dienstkleidung, Namensschild und der Umgangston mit mir als Kunde. Ach auf persönliche Begrüßung\Verabschiedung des Mitarbeiters verbal oder nonverbal via Kopfnicken oder Winken achten.</response>
+      <response_feedback>Bitte achte darauf, ob dir im Laufe des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Höflich und freundlich bleiben</response>
+      <response_feedback>Das setzen wir einfach mal voraus im Umgang deinen Mitmenschen. Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er freundlich ist, mich begrüßt und verabschiedet. Arbeitsklamotten mit Logo und Name trägt. Ob er nach der Shell Kundenkarte fragt oder weitere Angebote macht. Ob er sich entschuldigt, wenn ich warten musste.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Begrüßung, Verabschiedung, Fokussierung, extra Angebote, Club smart Karte</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Freundlichkeit und den Service sowie die Berufskleidung welche getragen wird. Außerdem auch, nach was ich gefragt werde bzw. ob Angebote gemacht werden.</response>
+      <response_feedback>Bitte achte auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung/Verabschiedung, Frage nach der Clubsmartkarte, Anbietern von Zusatzangebot und Kundenfeedback</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Als normaler Kunde bleiben</response>
+      <response_feedback>Es ging bei der Frage eher um Punkte auf geachtet werden sollte. Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich nicht zu erkennen, verhalte mich freundlich und befolge die Anweisungen des Personals. Außerdem respektiere ich die geltenden Hygienevorschriften</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf korrekte Kleidung der Mitarbeiter, ein gut sichtbares Namensschild, die Anrede, den Hinweis auf die Nutzung der Shell-ClubSmart Karte, das Auftreten, die Freundlichkeit, die Begrüßung und Verabschiedung und auf zusätzliche Angebotsunterbreitung.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Freundlichkeit des Mitarbeiters und ob er nach der Shell Club Smart Karte fragt.</response>
+      <response_feedback>Bitte achte noch auf einige weitere Punkte während des Gesprächs. Wurdest du beispielsweise sowohl begrüßt als auch verabschiedet? Wurde dir ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob alle Mitarbeiter die mich bedienen, die entsprechende Arbeitskleidung mit Namensschild tragen. Es sollte auch darauf geachtet werden, ob die mich bedienenden Mitarbeiter begrüßen und verabschieden. Die Begrüßung/Verabschiedung kann z.B. durch winken, nicken, Blickkontakt oder Lächeln erfolgen.</response>
+      <response_feedback>Bitte auch noch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Man solte freundlich und gefegt sein dann keufts von aleine</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wie die gekleidet sind und ob sie ihr Namenschild tragen. Wie die auftreten.</response>
+      <response_feedback>Hier geht es darum zu checken ob du im Laufe des Gesprächs beispielsweise begrüßt und verabschiedet wurdest. Wurde dir beispielsweise auch ein Zusatzangebot gemacht und wurdest du nach deiner Shell Clubsmart-Karte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er die Shell Kleidung trägt, ob eine Begrüßung und eine Verabschiedung stattfindet, ob nach einer Vorteilskarte gefragt wird</response>
+      <response_feedback>Wichtig ist ebenfalls, ob dir ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wie der Mitarbeiter mit mir umgeht.</response>
+      <response_feedback>Richtig. Konkret geht es darum ob du begrüßt und verabschiedet wirst. Wurde dir ein Zusatzangebot unterbreitet und wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Blick Kontakt. Begrüßung und Verabschiedung.  wurde ich nach der clubsmart Karte gefragt. Hatte der MA Berufskleidung an</response>
+      <response_feedback>Richtig. Bitte achte auch noch darauf, ob dir ein Zusatzangebot gemacht wurde.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob Arbeitskleidung getragen wird, Freundlichkeit und grundsätzlich die Arbeitshaltung.</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Stationsmode, Effizienz, Angebot bzw. Hinterfragung zu Shell card, wurde zusätzlich ein Angebot gemacht</response>
+      <response_feedback>Bitte achte auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das Namensschild die Gesten die Freundlichkeit die Frage zur Shell Club Smart Karte die Gastfreundlichkeit.</response>
+      <response_feedback>Achte bitte auch darauf ob du sowohl begrüßt als auch verabschiedet wirst und ob dir ein zusätzliches Angebot gemacht wurde.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob Sie Shell Arbeitskleidung tragen und ob Sie nach meiner Shell App oder Club Karte fragen</response>
+      <response_feedback>Richtig. Es ist allerdings auch wichtig, ob du begrüßt und verabschiedet wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Shopbekleidung, Namensschild, Wartezeitmanagment und Begrüssung. Abfrage Bonusprogramm und Zusatzverkauf.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob die Mitarbeiter einen grüßen (winken und nicken gehört dazu), freundlich sind, Arbeitskleidung tragen, ein sichtbares Namensschild haben, man schnell bedient wird oder wenn man warten musste der Mitarbeiter sich entschuldigt, bemüht der Mitarbeiter sich um eine personalisierte Grüßung mit Blickkontakt oder einem Lächelm, wird nach der Shell Karte oder App gefragt, wird ein Angebot gemacht und ob der Mitarbeiter sich auch verabschiedet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Begrüßung und Verabschiedung. Arbeitskleidung</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du beispielsweise sowohl nach einer Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte darauf, ob alle Mitarbeiter, die mich bedienten, Shell Arbeitskleidung und ein gut sichtbares Namensschild getragen haben. Ich achte darauf, ob ich von allen Mitarbeitern, die mich im Shop bedienten, begrüßt und verabschiedet wurde. Ich achte darauf, ob sich die Mitarbeiter im Shop, die mich bedienten, um eine persönlichere Begrüßung oder Verabschiedung bemüht haben.</response>
+      <response_feedback>Alles korrekt. Achte bitte noch darauf, ob du im Laufe des Gesprächs nach deiner Shell Clubsmart Karte gefragt wurdest und ob dir ein zusätzliches Angebot gemacht wurde.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßt er mich, freundlich eventuell lächelt er, fragt er mich nach der Shell Smart Club Card und bietet er mir sonst noch etwas an</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, ob du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es soll festgestellt werden, ob die Mitarbeiter Arbeitskleidung mit einem erkennbaren Namensschild tragen. Außerdem gilt es die nonverbale Kommunikation im Umgang mit den Mitarbeitern zu prüfen.</response>
+      <response_feedback>Korrekt. Wichtig ist allerdings auch, ob du sowohl begrüßt als auch verabschiedet wurdest. Bitte achte noch darauf, ob dir ein Zusatzangebot gemacht wurde und ob du nach deiner Shell ClubSmart Karte gefragt wurdest.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung, Ansprache, Höflichkeit, schnelle Bedienung, Shell Karte, Zusatzverkauf,</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, ob du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob sie gegrüßt und verabschiedet haben, ob sie Arbeitskleidung tragen, ob sie mich nach der ClubSmart Karte fragen, ob sie mir ein Angebot unterbreiten, ob sie freundlich waren, ob sie mich gut bedient haben.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dass ich nicht enttarnt werde und nicht auffällig bin.</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit (Augenkontakt etc) und Dienstkleidung des Mitarbeiters, evtl weitere Angebote von dessen Seite aus</response>
+      <response_feedback>Achte bitte darauf ob du sowohl begrüßt als auch verabschiedet wirst und ob du nach deiner Shell Clubsmart Karte gefragt wirst.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf eine Begrüßung und Verabschiedung und die grundsätzliche Freundlichkeit des Mitarbeiters</response>
+      <response_feedback>Korrekt. Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde und ob du nach deiner Shell Clubsmart Karte gefragt wurdest. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Clubsmartkarte, Begrüßung/Verabschiedung -auch Gesten</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich soll auf die Arbeitsbekleidung, Shell SmartClub Karte, Begrüßung und Freundlichkeit von den Mitarbeitern und zusätzliches Angebot achten.</response>
+      <response_feedback>Exakt, wobei die Verabschiedung hier genauso wichtig ist wie die Begrüßung</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Begrüßung/ Verabschiedung, Höflichkeit sowie Hinweis auf Clubsmart Programm.</response>
+      <response_feedback>Richtig. Bitte achte auch noch darauf, ob dir ein Zusatzangebot gemacht wurde.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Haben alle Mitarbeiter, die mich bedienten, Shell Arbeitskleidung und ein gut sichtbares Namensschild getragen? Wurde ich von allen Mitarbeitern, die mich im Shop bedienten, begrüßt und verabschiedet? Wurde ich nach einer Shell ClubSmart Karte oder der Shell App gefragt? Wurde mir von einem Mitarbeiter ein zusätzliches Angebot unterbreitet? Wurde ich schnell bedient oder hat man sich zumindest bei mir dafür entschuldigt, dass ich an der Kasse warten musste? Wurde ich an der Station mündlich oder visuell auf die Möglichkeit hingewiesen, ein Kunden-Feedback zu übermitteln?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Namensschild des Mitarbeiters, persönliche Begrüßung und Verabschiedungen (ggf. auch Gesten oder Blicke) Freundlichkeit, Wartezeit bis zur Bedienung, Arbeitsbekleidung von Shell</response>
+      <response_feedback>Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wird und ob du nach deiner Shell ClubSmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob nach der ClubSmart Karte gefragt wird</response>
+      <response_feedback>Achte bitte auch darauf ob du sowohl begrüßt als auch verabschiedet wirst und ob dir ein zusätzliches Angebot gemacht wurde</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Arbeitskleidung, Hinweise im Gespräch auf Kundenfeedback</response>
+      <response_feedback>Hier geht es darum zu checken ob du im Laufe des Gesprächs beispielsweise begrüßt und verabschiedet wurdest. Wurde dir beispielsweise auch ein Zusatzangebot gemacht und wurdest du nach deiner Shell Clubsmart-Karte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung, Namensschild, Begrüßung, das fragen nach der Club Karte</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Im Laufe des Gesprächs sollte dir auch ein zusätzliches Angebot gemacht werden.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Soll inkognito stattfinden</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kundenansprache, Kleidung, Namensschild, Freundlichkeit</response>
+      <response_feedback>Es ist wichtig, dass du sowohl begrüßt als auch verabschiedet wurdest. Wurdest du beispielsweise auch nach deiner Kundenkarte gefragt? Wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Höffentlichkeit, Nettigkeit</response>
+      <response_feedback>Hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurdest du nach deiner Shell Clubsmart Karte gefragt und wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fragt mich der Mitarbeiter unaufgefordert nach einer Shell Karte (clubsmart ?‍♂️). Falls ich eine besitze, darf ich diese im keinem Fall vorzeigen, falls Der Mitarbeiter nicht fragt.</response>
+      <response_feedback>Korrekt. Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde. Wurdest du bespielsweise auch sowohl begrüßt als auch verabschiedet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung und Namensschild
+Kundenansprache, Bedienung und Verabschiedung
+Shell Karten, Serviceangebote</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wie sich die Mitarbeiter mir gegenüber verhalten, ob sie mich begrüßen, nach der ClubSmart Karte fragen, wie freundlich oder unfreundlich sind und wie sie mich verabschieden. Außerdem soll ich auf die Arbeitskleidung inkl. Namensschild achten und ob mir ein zusätzliches Angebot unterbreitet, ob ich schnell bedient wurde oder sich bei mir dafür entschuldigt, dass ich länger warten musste.</response>
+      <response_feedback>Alles Richtig. Achte nur noch darauf, ob dir ein Zusatzangebot gemacht wird.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlich sein. Und drauf achten wie er mit mir spricht.</response>
+      <response_feedback>Genau. Achte auch darauf ob du begrüßt und verabschiedet wurdest. Wurde dir beispielsweise ein Zusatzangebot gemacht und wurdest du nach deiner Shell-Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ob ich nach der shell clubsmart Karte gefragt werde</response>
+      <response_feedback>Es gibt noch einige Punkte  auf die während des Gesprächs geachtet werden sollte. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Stets freundlich und unerkannt bleiben. Nicht selbstständig die Kundenkarte hingeben. Auf die Kleidung achten.</response>
+      <response_feedback>Hier gilt es auch drauf zu achten ob du begrüßt und verabschiedet wirst. Hat das Personal dich nach deiner Club-Karte gefragt oder wurde dir beispielsweise ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich stets freundlich und korrekt bin und darauf achte, inkognito zu bleiben.</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>z.B. das Thema Arbeitskleidung, Kundenansprache etc.</response>
+      <response_feedback>Richtig, neben der Ansprache ist nur eine Verabschiedung ebenso wichtig. Achte bitte ebenfalls auch darauf, ob du ein Zusatzangebot erhältst und ob du beispielsweise nach einer Shell Clubsmart-Karte gefragt wirst.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob sie die richtige Kleidung anhaben und ein Namensschild tragen! Zudem sollten sie freundlich sein!</response>
+      <response_feedback>Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlch und klar fragen.</response>
+      <response_feedback>Hier geht es darum zu checken ob du im Laufe des Gesprächs beispielsweise begrüßt und verabschiedet wurdest. Wurde dir beispielsweise auch ein Zusatzangebot gemacht und wurdest du nach deiner Shell Clubsmart-Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlich Verhalten und Anweisungen des Mitarbeiters befolgen</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung sowie die Begrüßung durch den Mitarbeiter, Anfrage der Club Shell Karte oder App, Servicebereitschaft</response>
+      <response_feedback>Bitte achte neben der Begrüßung auch noch darauf, ob du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Trägt der Mitarbeiter die richtige Kleidung wie auf den Bildern, ist er freundlich, bietet er mir Zusatzleistungen an?</response>
+      <response_feedback>Achte bitte auch darauf, ob du begrüßt auch verabschiedet wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich verhalte mich wie ein normaler Kunde und bin freundlich</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich ehrlich und nett und respektvoll mit den mitarbeitern spreche und ihre wünsche berücksichtige</response>
+      <response_feedback>Richtig, hier geht es nur eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>werde ich vom Personal begrüßt und verabschiedet? Werde ich freundlich behandelt? Werden mir zusätzliche Angebote unterbreitet und nach der Rabattkarte gefragt?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Arbeitskleidung, persönliche Absprache, Angebote</response>
+      <response_feedback>Bitte achte neben der Ansprache auch darauf, ob du verabschiedet wirst. Im Laufe des Gesprächs solltest du nach deiner Shell Clubsmart Karte gefragt werden.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Job soll inkognito durchgeführt werden, ich solltest möglichst nicht erkannt werden</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Begrüßung, Arbeitskleidung, Namensschild und ob mir was angeboten wird/nach meiner club smart karte gefragt wird. Werde ich schnell bedient und entschuldigt sich der mitarbeiter für eventuelle wartezeit?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ob alle Mitarbeiter die Shell Arbeitskleidung und ein Namensschild tragen. ob ich begrüßt und verabschiedet wurde</response>
+      <response_feedback>Achte bitte noch darauf, ob dir im Laufe des Kundengesprächs beispielsweise ein zusätzliches Angebot gemacht wurde oder ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßt mich der Mitarbeiter, Trägt er Berufsmode, Macht er ein Zusatzangebot,Fragt er nach einer Punktekarte</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung / Namensschild Auftreten Aufmerksamkeit Motivation und äußeres Erscheinungsbild allgemein</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf freundlichen und hilfsbereit  ob er schnell genervt ist</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Aussehen, Freundlichkeit, Hilfsbereitschaft</response>
+      <response_feedback>Richtig. Hier gilt es auch drauf zu achten ob du beispielsweise begrüßt und verabschiedet wurdest. Wurde dir ein zusätzliches Angebot unterbreitet und wurdest du nach deiner Shell Club Smart Karte gefragt?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob er mich nach der Shell Karte fragt</response>
+      <response_feedback>Es gibt noch einige Punkte  auf die während des Gesprächs geachtet werden sollte. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Mimik, Gestik, Freunlichkeitsmerkmale, Verabschiedung, Warnehmung des Kunden</response>
+      <response_feedback>Korrekt. Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wurde und ob du nach deiner Shell Clubsmart Karte gefragt wurdest. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kundengespräch / Begrüßung und Verabschiedung, Bekleidung, andere Angebote durch Verkäufer</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Trägt er Shell Arbeitskleidung und ein gut sichtbares Namensschild? Werde ich begrüßt und verabschiedet? Wenn ich nach der Shell Club Smart Karte gefragt werde, kann ich die benutzen. Falls nicht, nicht aus eigener Initiative vorzeigen.</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit (verbal und non-verbal). Wurde man begrüßt und verabschiedet. Wurde nach der ClubSmart Karte gefragt und wurde man auf weitere Angebote/Aktionen hingewiesen. Wurde sich für etwaige Unannehmlichkeiten (längere Wartezeit o.ä.) entschuldigt. Wurde die vorgeschriebene Arbeitskleidung getragen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit und Blickkontakt</response>
+      <response_feedback>Auch unter anderem. Hier geht es aber eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Freundlichkeit, tragen der Arbeitskleidung</response>
+      <response_feedback>Es ist auch wichtig, dass du neben der Begrüßung auch verabschiedet wirst. Achte bitte auch darauf ob dir ein Zusatzangebot gemacht wurde oder ob du nach der Shell ClubSmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit und ob er die richtige Kleidung trägt</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, ordentliches Auftreten mit korrekter Arbeitskleidung, Begrüßung Verabschiedung Wartezeit an der Kasse</response>
+      <response_feedback>Bitte achte auch darauf, ob dir während des Gesprächs ein zusätzliches Angebot gemacht wird oder ob du nach deiner Shell Clubsmarkt Karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Namensschild, Begrüßung, Verabschiedung, Freundlichkeit, Frage nach Club Smart Karte, Frage nach zusätzlichem Angebot, Schnelligkeit Bedienung, Hinweis auf Möglichkeit Kunden Feedback</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung, Ansprache, blickkontakt, Zusatzprodukt, Gruß und Abschied,</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf der Hygiene und wie die Mitarbeiter aussehen.</response>
+      <response_feedback>Hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurdest du nach deiner Shell Clubsmart Karte gefragt und wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dass ich nicht als Jobber erkannt werde.</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Freundlichkeit, verabschiedung</response>
+      <response_feedback>Bitte achte noch darauf, ob dir ein Zusatzangebot gemacht wurde und ob du nach der Shell Clubsmart Karte gefragt wurdest</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob mich alle Mitarbeiter begrüßen, wie nett diese Mitarbeiter mir gegenüber sind. Ob ich nach meiner Shell Clubsmart Karte gefragt werde und mir Angebote durchgegeben wurden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung und Kundensprache</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Berufsbekleidung und die Freundlichkeit mit Begrüßung und Verabschiedung.</response>
+      <response_feedback>Bitte achte noch darauf, ob dir ein zusätzliches Angebot gemacht wurde und ob du nach deiner Shell Clubsmart Karte gefragt wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich nicht erkannt werde. Höflichkeit etc.</response>
+      <response_feedback>Richtig. Es geht aber eher darum auf welche Punkte du während des Gesprächs achten sollst. Wurdest du begrüßt und verabschiedet? Wird dir ein Zusatzangebot gemacht? Wurdest du nach eine Clubsmartkarte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Werde ich begrüßt und verabschiedet, werde ich nach der Shell Club Smart Karte gefragt. Werde ich gefragt, ob ich einen weiteren Artikel kaufen möchte.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, outfit, netter Umgang, kundenansprach</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wird und ob du nach deiner Shell Clubsmart Karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Namensschild, Freundlichkeit, zusätzliche Angebote, Hilfsbereitschaft, Verhalten (am Handy?), Schnelligkeit, Fähigkeit meinen Kauf durchzuführen, begrüßung, verabschiedung.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Shopkleidung, persönliche Begrüßung, Fragen nach Club Smart Card</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wurde.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Gestik und Mimik (ob er winkt, lächelt, etc) und ob er sich für längere Wartezeit entschuldigt, mir zusatzangebote unterbreitet, die clubsmartkarte anspricht..</response>
+      <response_feedback>Bitte achte auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>frage nach adac oder clubsmartkarte zusatzangebot</response>
+      <response_feedback>Bitte achte während des Gesprächs auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Man sollte sich respektvoll verhalten.</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ist der Mitarbeiter freundlich?</response>
+      <response_feedback>Das ist natürlich auch sehr wichtig. Hier geht es aber eher um Formalitäten: Wurdest du begrüßt und verabschiedet? Wurdest du nach der Shellclub-Karte gefragt und wurde dir ein Zusatzangebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Unauffällig bleiben und freundlich sein</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Verabschiedung, Blickkontakt, lächeln, zusatzangebot, frage nach Shell Clubsmart Karte oder Shell App</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wurde ich persönlich begrüßt / verabschiedet ? Augenkontakt? Freundlich? Nach ShellClub card gefragt ? Ich bin dabei selber stets freundlich und trage meine ffp2 Maske</response>
+      <response_feedback>Neben der ShellClubsmart-Karte sollte dir auch noch ein zusaätzliches Angebot gemacht werden im Laufe des Gesprächs.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sprache, Berufskleidung und Namensschild</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wurde ich persönlich mit blick Kontakt begrüßt und verabschiedet. Trägt der MA die vorgeschriebe Arbeitskleidung. Wurde mir ein zusätzliches Angebot angeboten</response>
+      <response_feedback>Achte auch noch darauf, ob du neben dem Zusatzangebot auch nach deiner Shell-Clubsmart-Karte gefragt wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Begrüßung und Verabschiedung,  Zusatzangebot</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Kundenansprache</response>
+      <response_feedback>Auch. Hier geht es darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit, Bekleidung der Mitarbeiter,</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich verhalte mich stets freundlich und beachte die Anweisungen des Personals.</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Freundlichkeit, Arbeitskleidung</response>
+      <response_feedback>Achte neben der Begrüßung auch darauf, ob du verabschiedet wurdest. Wurdest du nach deiner Shell Clubsmart Karte gefragt oder wurde dir ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich verhalte mich stets freundlich.</response>
+      <response_feedback>Das setzen wir einfach mal voraus im Umgang mit deinen Mitmenschen, aber hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Kundenansprache, auf einen Hinweis zur Shell Clubsmart/Shell App und die getragene Arbeitskleidung. Außerdem soll ich auf die Begrüßung und Verabschiedung achten. Des Weiteren soll ich auf einen Hinweis zur Abgabe eines Feedbacks achten und die allgemeine Bedienung, sprich Wartezeit, Freundlichkeit, zusätzliches Angebot etc.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Haben alle Mitarbeiter Shell Arbeitskleidung und Namensschilder getragen. Haben mich alle Mitarbeitern die mich im Shop bedienten, begrüßt und verabschiedet? Wurde ich nach Shell clubsmart Karte oder Shell App gefragt. Freundlichkeit,Schnelligkeit und Kundenservice der Mitarbeiter.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>freundlich sein und nicht auffallen</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir beispielsweise neben der Nachfrage der Shell Clubsmart Karte auch ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Normal verhalten, unerkannt bleiben</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>korrekte Arbeitskleidung, sichtbares Namensschild, Begrüßung und Verabschiedung(von allen Mitarbeitern und bei den bedienenden persönlicher), Freundlichkeit, Unterbreitung zusätzliches Angebot, Frage nach Club Smart Karte oder Shell App, Hinweis auf Möglichkeit für Kundenfeedback</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Meine Aufgaben in diesem Bereich: Haben alle Mitarbeiter, die dich bedienten, Shell Arbeitskleidung und ein gut sichtbares Namensschild getragen? Welche Arbeitskleidung zulässig ist, kannst du auf dem Beispielbild erkennen. Wurdest du von allen Mitarbeitern, die dich im Shop bedienten, begrüßt und verabschiedet? Es zählen auch non-verbale Gesten, wie z.B. winken oder nicken. Haben sich die Mitarbeiter im Shop, die dich bedienten, um eine persönlichere Begrüßung oder Verabschiedung bemüht (z.B. Blickkontakt, Lächeln)? Wie zufrieden warst du mit der Freundlichkeit und Gastfreundschaft der Mitarbeiter des Shops, die dich bedienten? (5 = sehr zufrieden bis 1 = sehr unzufrieden) Wie zufrieden warst du mit der Bedienung durch die Mitarbeiter? (5 = “Sehr zufrieden” und 1 = “Sehr unzufrieden”)? Wurdest du nach einer Shell ClubSmart Karte oder der Shell App gefragt? Wurde dir von einem Mitarbeiter ein zusätzliches Angebot unterbreitet? Wurdest du schnell bedient oder hat man sich zumindestbei dir dafür entschuldigt, dass du an der Kasse warten musstest? Wurdest du an der Station mündlich oder visuell auf die Möglichkeit hingewiesen, ein Kunden-Feedback zu übermitteln? Dies kann z.B. durch ein Schild, einen Aufkleber oder auf dem Kassenbon erfolgen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Immer freundlich sein</response>
+      <response_feedback>Bei dem Kundengespräch solltest du darauf achten, ob du begrüßt und verabschiedet wirst. Im Laufe des Gesprächs solltest du auch gefragt werden ob du eine Shell Clubsmartkarte hast und dir sollte auch noch ein zusätzliches Angebot (z.B. „Komm noch was dazu?“) unterbreitet werden.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wurde ich freundlich begrüßt? Wurde sich Zeit für mich genommen? Wurde ich nach meiner shellcard gefragt? Hat der Mitarbeiter shell Kleidung an? Hat der Mitarbeiter ein Namensschild? War der Mitarbeiter immer freundlich?  Hat er mich verabschiedet?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>persönliche Begrüßung? freundlich? nach Kundenkarte gefragt? Zusatz Angebot? richtige Arbeitsbekleidung? Nicht von sich aus zu erkennen geben; lediglich wenn explizit gefragt werde</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung, Namensschild, Freundlichkeit, Begrüßung, Versbschiedung</response>
+      <response_feedback>Bitte achte neben der Begrüßung und Verabschiedung auf darauf, ob dir ein Zusatzangebot gemacht wird und ob du nach der Shell Clubsmart Karte gefragt wirst.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung, Kundenansprache, nonverbale Gestik, Freundlichkeit, ob ich nach der Clubkarte befragt werde, ob sich bei Warteschlange entschuldigt wird</response>
+      <response_feedback>Bitte achte darauf, ob dir im Laufe des Gesprächs ein zusätzliches Angebot gemacht wurde oder ob du beispielsweise sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>freundlich sein, mich nicht zu erkennen geben und nicht aktiv nach der karte fragen/sie geben, auf gesten, kleidung und deren aussagen achten</response>
+      <response_feedback>Alles richtig. Explizit geht es darum darauf zu achten ob du begrüßt und verabschiedet wirst. Achte auch noch darauf ob dir ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Begrüßung und die Höflichkeit der Verkäufer</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wurde oder ob du nach deiner Shell Clubsmarkt Karte gefragt wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>War der Mitarbeiter freundlich? Hat er mich gegrüßt? Hat er mir zusätzliche Leistungen angeboten? Hat er mich auf eventuelle Treueaktionen hingewiesen etc.</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Er sollte mich möglichst persönlich begrüßen/verabschieden, nach der Shell Club Karte (oder App) fragen, offizielle Arbeitskleidung tragen und mir weitere Produkte empfehlen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Möglichst unerkannt und immer freundlich bleiben</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf Freundlichkeit,Arbeitskleidung und ob mir Angebote unterbreitet oder Fragen gestellt werden</response>
+      <response_feedback>Bitte achte während des Gesprächs auch darauf, ob du sowohl begrüßt als auch verabschiedet wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zunächst soll ich darauf achten, ob ich von den Mitarbeitern begrüßt und verabschiedet wurde und ob sie sich um einen möglichst persönlichen Kontakt bemüht haben. Außerdem soll ich darauf achten, wie freundlich und gastfreundlich die Mitarbeiter zu mir waren. Zusätzlich muss ich darauf achten, ob ich nach der Shell ClubSmart Karte oder der Shell App gefragt wurde und ob mir ein zusätzliches Angebot gemacht wurde. Für den Fall, dass ich länger warten muss, soll ich auch darauf achten, ob man sich für die Wartezeit bei mir entschuldigt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Begrüßung, Zusatzangebote, ob nach der Shell Karte gefragt wurde, Verabschiedung. Hält er Blickkontakt, ist er freundlich.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit. Arbeitskleidung. Persönliche Begrüßung. Schnelle Bedienung.</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst. Bitte achte noch darauf, ob dir im Laufe des Gesprächs auch noch ein zusätzliches Angebot gemacht wird und ob du nach deiner Shell Clubsmart Karte gefragt wirst.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Auf die Bekleidung, Blick, die Worte und spezielle Zusatzangebote.</response>
+      <response_feedback>Achte bitte auch darauf ob du sowohl begrüßt als auch verabschiedet wirst und ob du nach deiner Club Smartkarte gefragt wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begrüßung, Verabschiedung, Freundlichkeit, Frage nach der Clubsmartkarte</response>
+      <response_feedback>Achte bitte auch darauf, ob dir im Laufe des Gesprächs auch ein zusätzliches Angebot gemacht wird.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit! Ob er mich nach einer Kundenkarte frägt</response>
+      <response_feedback>Freundlichkeit ist natürlich wichtig, aber hier geht es eher darum, auf bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das ich inkognito bleibe</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ob er mich von sich aus nach der Club smart card fragt</response>
+      <response_feedback>Dieser Punkt ist in der Tat sehr wichtig. Ebenfalls solltest du drauf achten, ob die ein Zusatzangebot gemacht wird und ob du sowohl begrüßt als auch verabschiedet wirst.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob der Mitarbeiter freundlich ist, er die Kunden begrüßt, Namensschild und entsprechende Arbeitskleidung trägt,  Zusatzangebot macht bzw nach Clubsmartkarte fragt</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, dass du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Arbeitskleidung Kundenansprache</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise sowohl begrüßt als auch verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>stets freundlich sein und Anweisungen befolgen.</response>
+      <response_feedback>Hier geht es eher darum auf konkrete, bestimmte Punkte während des Gesprächs zu achten. Wurdest du beispielsweise begrüßt und verabschiedet? Wurde dir ein zusätzliches Angebot gemacht oder wurdest du nach deiner Shell Clubsmart Karte gefragt?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kleidung, Fragen, Verhalten</response>
+      <response_feedback>Hier gilt es primär darauf zu achten ob du begrüßt und verabschiedet wirst. Hat das Personal dich nach deiner Club-Karte gefragt oder wurde dir beispielsweise ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlichkeit des Mitarbeiters Begrüßung, Arbeitskleidung und Namensschild. Zusatzangebot sowie das fragen nach der ClubSmartkarte.</response>
+      <response_feedback>Neben der Begrüßung ist auch sehr wichtig, ob du verabschiedet wirst.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ob ich nach der Shell Club Smart Karte gefragt werde. Ob ich gegrüßt werden. Freundlichkeit. Haben alle Mitarbeiter ein Namensschild?</response>
+      <response_feedback>Achte neben der Begrüßung auch darauf, ob du verabschiedet wurdest. Wurde dir im Laufe des Gesprächs ein zusätzliches Angebot unterbreitet?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Haben alle Mitarbeiter, die mich bedienten, Shell Arbeitskleidung und ein gut sichtbares Namensschild getragen? Wurde ich von allen Mitarbeitern, die mich im Shop bedienten, begrüßt und verabschiedet? Wurde ich nach einer Shell ClubSmart Karte oder der Shell App gefragt? Wurde mir von einem Mitarbeiter ein zusätzliches Angebot unterbreitet? Wurde ich schnell bedient oder hat man sich zumindest bei mir dafür entschuldigt, dass ich an der Kasse warten musste? Wurde ich an der Station mündlich oder visuell auf die Möglichkeit hingewiesen, ein Kunden-Feedback zu übermitteln?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

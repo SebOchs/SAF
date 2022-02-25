@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="12.3" module="PE">
+   <questionText>To model the packet arrivals as a poisson process, we assumed that the arrivals for each time interval Δt are independent. Does this assumption hold for real INTERNET traffic? Explain your answer in 2-5 sentences.
+</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="PE_12.3_a1">
+		No. Real internet traffic often comes in bursts. Therefore, arrivals are not independent because the probability of an arrival happening at a node is influenced by previous arrivals at the node. For example, on-demand video streams selectively load the next video segments when needed. This means the actual network utilization depends on the current playback state on the client-side. The packet arrivals are not independent, as it is likely that there is a low utilization directly after the next segments have been loaded.
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="PE_12.3.7"> 
+	 <response>This assumption does not hold for the real internet traffic.
+Data packets are often sent in bursts or packet trains, especially in applications such as streaming. Therefore, over a higher time scale the probability of multiple arrivals of data packets one after another is high and no longer independent from one another. On the flip side, the chance that no arrival happens in an interval deltaT is higher, if there has not been an arrival in the previous interval. 
+In streaming for instance, multiple data packets are sent in bursts and buffered at the receiver to reliably guarantee a steady video stream.
+	 </response>
+     
+     <response_feedback>The response is correct as it correctly associates the probability of a packet arrival happening at a node with previous arrivals at the node.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.19"> 
+	 <response>No, it does not hold the assumption realistically. The poisson process implies that for every interval delta t there is a propability wich states if a packet was received or not. But for example, if we are watching a video stream, then we are watching it consecutively and hence, we have multiple delta t´s where packets are arriving. 
+	 </response>
+     
+     <response_feedback> The response points out that packets are received continuously while streaming, but in reality, they are received in bursts. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.26"> 
+	 <response>No, let’s suppose we have a server that hosts VOIP(voice over IP) services. If the server had a high amount of arrivals* (of packets) in the previous interval, it is more likely to have a similar amount of arrivals in the upcoming interval as the calls in the previous interval are still ongoing(unless the call has ended). Same goes for the other way around. If the previous interval did not have a lot of traffic coming through it is more likely that the upcoming interval also does not have a lot of traffic incoming(unless a lot of calls starts on the interval change). Thus each interval has some sort of dependency to the previous one(s).
+
+* incoming packets of ongoing calls
+
+	 </response>
+     
+     <response_feedback>The response is correct as it correctly associates the probability of a packet arrival happening at a node with previous arrivals at the node.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.35"> 
+	 <response>
+The Poisson process which is used to model the packet arrivals does not hold very realistically for the real Internet traffic. If the packet arrivals are considered over a longer period of time (through day and night, or through the before and after the Black Friday period, …), there will definitely be some intervals with many consecutive ON (1 – during the day or during the Black Friday promotion) or many consecutive OFF (0 – during the night time or before and after the promotion). The other scenario could be possible is when the packet arrivals of the video stream is considered, with the help of the streaming buffer, the packet will arrive continually for a period of time (when the stream player prefetches the data and store them in its own buffer). After that, when the amount of buffered data is enough, the stream player stops prefetching data then the packet arrivals are continually OFF until the player continues the prefetching process again. So, the real Internet traffic heavily depends on the times of day and the applications.
+	 </response>
+     
+     <response_feedback>One can use a function instead of a constant to model the arrival rate to reflect such large-scale behavioral patterns like having more traffic in the evening. The arrivals would not depend on previous arrivals then, only on the time of the day, which is known. Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.38"> 
+	 <response>No, it does not hold for real internet traffic. The amount of traffic normally varies throughout the day. Internet traffic is also often bursty, so when a packet got sent, more packets with a very short interarrival time will follow for the duration of the burst. When the burst is over, e.g. because a video data buffer is full, the interarrival time can be much higher than during the burst.
+	 </response>
+     
+     <response_feedback>The response is correct as it correctly associates the probability of a packet arrival happening at a node with previous arrivals at the node.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.45"> 
+	 <response>No, this assumption does not hold for real internet traffic. If somebody for example streams videos on the internet, the probability that after the first packet another packet will arrive is much higher than the probability for the first packet. If you increase the interval Δt there is the possibility the assumption become true again, but it’s not a realistic case.
+	 </response>
+     
+     <response_feedback>The response is correct as it correctly associates the probability of a packet arrival happening at a node with previous arrivals at the node.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.48"> 
+	 <response>It couldn’t be in the real internet. In the real internet if a packet is lost or has error, it needs to be retransmitted. Obviously it could affect the following arrivals. It means the time intervals could not be independent.
+	 </response>
+     
+     <response_feedback>“No” is the correct answer. While the example is correct, it limits the dependency of packet arrival to only retransmission.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.60"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.62"> 
+	 <response>No submission.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.68"> 
+	 <response>Yes. Because Internet traffic can be also modeled as a sequence of arrivals of discrete entities, such as packets, cells, etc. Mathematically, this leads to the usage of two equivalent representations: counting processes and interarrival time processes.
+
+	 </response>
+     
+     <response_feedback>The correct answer is "No". In real internet, the arrival of the packet at a node is affected by previous arrivals.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.75"> 
+	 <response>The assumption doesn't fit real internet traffic perfectly, because in real traffic, there often is a continuous flow of data, when transmitting a file. If a file is for example split into 3 packets and transmitted over a network, then these 3 packets will arrive relatively close to each other in comparison to the packets of another transfer. So within a transmission, delta t is usually a lot lower than between different transmissions, which means the delta t's are not really independent.
+	 </response>
+     
+     <response_feedback>The response is correct as it correctly associates the probability of a packet arrival happening at a node with previous arrivals at the node.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.85"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.92"> 
+	 <response>No, this assumption does not hold in the real internet traffic. In the real internet traffic packets arrive in bursts and over longer time periods there are phases with more or with less traffic. So the probability for the arrival of a packet is higher in Δt if packets arrived in the previous intervals.
+	 </response>
+     
+     <response_feedback>The response is correct as it correctly associates the probability of a packet arrival happening at a node with previous arrivals at the node.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.3.95"> 
+	 <response>No, it doesn’t hold. On the real internet, there’s all kind of traffic. In a TCP-connection for example, the packets strongly depend on one another in various ways. The sequence in which the packets need to arrive is critical. There are acknowledgements, which are only sent if a packet arrives at the destination. And if some packets don’t arrive, they will be retransmit.
+	 </response>
+     
+     <response_feedback>As mentioned in the response, the correct answer is "No". Real internet traffic is bursty, which is the main reason for the assumption being false. The above example attributes the burstiness to the sequencing, retransmission, and acknowledgement, which may contribute but are not the main cause of the assumption's violation.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

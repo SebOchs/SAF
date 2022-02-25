@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="6">
+  <questionText>Frage 6: Zu welcher Tageszeit darf ich den Check durchführen?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="6.a1">Es gibt für den Check keine zeitliche Einschränkung (0.5 P), zu welcher Uhrzeit oder an welchem Wochentag der Check durchgeführt werden kann. Die einzige Nebenbedingung ist, dass der Shop geöffnet sein muss (0.5 P), da die Bewertung der Warenpräsentation ein Teil des Jobs ist.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Zu jeder Tageszeit, aber während der Öffnungszeiten des Shops</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>24 Stunden am Tag, jeweils zu den Öffnungszeiten der Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>24 Std darf ich ihn ausfuehren</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zu den Öffnungszeiten der Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu den Öffnungszeiten</response>
+      <response_feedback>Korrekt! Wichtig ist nur, dass der Shop geöffnet und zugänglich ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>während der Öffnungszeiten des Shops</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Job kann jeden Tag erledigt werden, muss aber während der Öffnungszeiten des Shops erfolgen. Tageslicht spielt keine Rolle.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Tageszeit spielt keine Rolle, so lange der Shop geöffnet ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Immer wenn der Tankstellenshop geöffnet hat, Tageslicht spielt keine Rolle</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich darf den Check zu jeder Tageszeit durchführen und muss dabei nur auf die Öffnungszeiten des Shops achten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu Öffnungszeiten der Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zu den regulären Öffnungszeiten</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet seit und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu den Öffnungszeiten und es muss so hell sein,dass alle Fotos erkennbar sind</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu jeder Tageszeit solange der Shop geöffnet hat</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>während Öffnungszeiten Tankstelle, Tageszeit ist somit egal</response>
+      <response_feedback>Korrekt! Wichtig ist nur, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu jeder Tageszeit.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu jeder Öffnungszeit</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet seit und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>während den öffnungszeiten der Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>morgen mittags abends</response>
+      <response_feedback>Die Tageszeit spielt keine Rolle. Achte nur darauf, dass der Shop der Tankstelle auch zugänglich ist. Ergebnisse die über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Tageszeit spielt keine rolle</response>
+      <response_feedback>Korrekt! Wichtig ist nur, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Während den Öffnungszeiten der Tankstelle.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet seit und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tageszeit spielt keine Rolle</response>
+      <response_feedback>Richtig, wichtig ist nur dass der Shop geöffnet ist.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Grundlegend ist der Job ganztägig machbar. Natürlich aber von den Öffnungszeiten begrenzt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tageslicht spielt keine Rolle.  Während der Öffnungszeiten.</response>
+      <response_feedback>Korrekt! Wichtig ist nur, dass der Shop geöffnet und zugänglich ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu der im Test angegebenen</response>
+      <response_feedback>Die Uhrzeit spielt keine Rolle. Wichtig ist nur, dass der Shop geöffnet und zugänglich ist. Ergebnisse welche über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Von 8 Uhr bis 20 Uhr</response>
+      <response_feedback>Die Tageszeit spielt keine Rolle. Achte nur darauf, dass der Shop der Tankstelle auch zugänglich ist. Ergebnisse die über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Den ganzen Tag über. Tageslicht ist nicht unbedingt erforderlich</response>
+      <response_feedback>Genau, wichtig ist nur dass der Shop zugänglich ist.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Während der Öffnungszeiten</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>während der Öffnungszeiten</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Jederzeit, wann immer du willst.</response>
+      <response_feedback>Die Tageszeit spielt keine Rolle. Achte nur darauf, dass der Shop der Tankstelle auch zugänglich ist. Ergebnisse die über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Immer, auch in der Dunkelheit</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet seit und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tageslicht nicht notwendig aber während der ShopÖffnungszeiten</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu den Öffnungszeiten</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet seit und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu jeder Tageszeit während der Öffnungszeiten der Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>während der Öffnungszeiten des Shops</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Während der Öffnungszeiten, Tageslicht ist egal.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Check ist an keine direkte Tageszeit gebunden, muss jedoch innerhalb der normalen Öffnungszeiten stattfinden.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>So lange, wie der Shop begehbar ist. Das Tageslicht spielt bei diesem Check keine Rolle</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Immer während den Öffnungszeiten</response>
+      <response_feedback>Richtig, wichtig ist nur dass der Shop geöffnet  und zugänglich ist.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>12:30-13:30 eben halt</response>
+      <response_feedback>Die Tageszeit spielt keine Rolle. Achte nur darauf, dass der Shop der Tankstelle auch zugänglich ist. Ergebnisse die über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich kann den check zu jeder Tageszeit durchführen</response>
+      <response_feedback>Korrekt! Wichtig ist nur, dass der Shop geöffnet und zugänglich ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zwischen 9 bis 18 Uhr</response>
+      <response_feedback>Die Uhrzeit spielt keine Rolle. Wichtig ist nur, dass der Shop geöffnet und zugänglich ist. Ergebnisse welche über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Jederzeit, hauptsache während der Öffnungzeiten.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Öffnungszeiten Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Jeden Tag während der Öffnungszeiten der jeweiligen Tankstelle</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Am besten wenn es noch hell ist</response>
+      <response_feedback>Tageslicht spielt keine Rolle. Wichtig ist nur, dass der Shop zugänglich ist.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>jeden Tag jedoch zur Öffnungszeit des Shops</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Während der Öffnungszeiten der Tankstelle.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu den Öffnungszeiten</response>
+      <response_feedback>Bitte achte nur darauf, dass der Shop zugänglich ist. Das ist wichtig, Ergebnisse von Tankstellen von einem Nachtschalter aus können wir leider nicht verwenden.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zwischen 8 und 17 Uhr!</response>
+      <response_feedback>Die Uhrzeit spielt keine Rolle. Wichtig ist nur, dass der Shop geöffnet und zugänglich ist. Ergebnisse welche über den Nachtschalter abgewickelt wurden, zählen leider nicht.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Der Job kann zu jeder Tageszeit ausgeführt werden. Hauptsache der Shop ist auf</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zu jeder Tageszeit.</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

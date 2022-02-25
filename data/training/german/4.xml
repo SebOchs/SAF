@@ -1,0 +1,1569 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="4">
+  <questionText>Frage 4: Ich muss die Sanitäranlagen besuchen, jedoch sind die Toiletten gesperrt. Wie gehe ich vor?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="4.a1">Es muss ein Foto der Sanitäranlagen von außen (0.5 P) angefertigt werden. Daraus muss hervorgehen, ob an der Tür ein Hinweisschild auf die geschlossenen Toiletten hängt. In der Frage nach Begehbarkeit und Funktionsfähigkeit muss dieser Zustand beantwortet (0.5 P) werden.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Ich fotografiere die Tür von außen. .</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von Außen an und vermerke, dass die Toilette defekt ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tür der Sanitäranlage Fotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von außen machen und bei der entsprechenden Aufgabe einen vermerk machen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache trotzdem Bilder der verschlossenen Tür, mit oder ohne Hinweis</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toiletten von außen fotografieren und dies in Job vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettentür fotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toilettentür von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage den Mitarbeiter nach den Schlüssel ohne auf mich aufmerksam zu machen</response>
+      <response_feedback>Es kann durchaus passieren, dass die Sanitäranlagen, auch auf Nachfrage hin, geschlossen sind. Fertige dann ein Bild von außen an und mache einen entsprechenden Vermerk in der App.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige eine Foto der Toilettemtpr von außen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von der Außenseite der Toiletten an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache genügend Bilder um dies deutlich zu machen, und vermerke dies auch in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder von der Tür der Sanitäranlagen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von außen an und gebe an das diese gesperrt sind</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder von außen und vermerke dies in der Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette von außen fotograffieren und entsprechend vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Lichtbilder der Toiletten von außen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen anfertigen und in der Aufgabe vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich spreche den Verkäufer in der Tankstelle diesbezüglich an und lasse mir helfen</response>
+      <response_feedback>Das musst du gar nicht. Sollten die hauseigenen Toiletten nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich werde mich um einen Schlüssel kümmern damit ich reinkomme</response>
+      <response_feedback>Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von Außen anfertigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder der Toilettentür an.</response>
+      <response_feedback>Bitte mache noch einen entsprechenden Vermerk in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich fotografiere die verschlossene Toilette von außen und vermerke bei meinen Antworten, dass die Toiletten gesperrt waren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sanitäranlagen von außen fotografieren und die Tatsache, dass diese geschlossen waren bei der Aufgabe vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette von aussen fotografieren und einen vermerkt hinterlassen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gehe einfacher nach meine Hause</response>
+      <response_feedback>Sollten die hauseigenen Toiletten nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich frage ob sie mal geöffnet werden könnten</response>
+      <response_feedback>Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Türe von außen fotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage freundlich nach dem Schlüssel für die Anlagen. Falls mir dieser nicht ausgehändigt wird frage ich freundlich nach dem Grund und dokumentiere die Antwort in den Ergebnissen.</response>
+      <response_feedback>Das musst du gar nicht. Sollten diese nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die geschlossene Toilette.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von der verschlossenen Tür machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bleibe nett und freundlich, frage ob ich trotzdem die Anlagen aufsuchen darf. Werde ich enttarnt, zeige ich das Informationsschreiben vor.</response>
+      <response_feedback>Das musst du gar nicht. Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Bilder vom Außenbereich der Toiletten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos der Toiletten von außen anfertigen und  dies in der entsprechenden Aufgabe notieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage nochmal nach den Toilettenschlussel ansonsten ist das so</response>
+      <response_feedback>Sollten die Sanitäranlagen auch auf Nachfrage nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Toiletten von außen fotografieren und dann das in der Beschreibung vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toilette von außen und erkläre den Grund</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Von außen fotografieren und vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage ob ich die Sanitäreneinrichtungen nutzen darf.</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dann mache ich nur Fotos.</response>
+      <response_feedback>Bitte mache noch einen entsprechenden Vermerk in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toiletten Türe von außen und Vermerke dies in der Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toilettentüre.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos der geschlossen Sanitärräumen aufnehmen und in der Aufgabe vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Man fotografiert den Aussenbereich und trägt ein, dass die Toiletten gesperrt waren.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die geschlossene Toilettentür</response>
+      <response_feedback>Bitte vergiss nicht, die passende Antwort noch in der App anzugeben. Es kann mehrere Gründe geben wieso die Toiletten nicht zugänglich sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich vermerke das im Auftrag und mache ein Foto vom Eingang der Sanitäranlagen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frag beim Personal nach, ich muss ganz dringend rein</response>
+      <response_feedback>Sollten die Sanitäranlagen auch auf Nachfrage nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere den gesperrten Bereich.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ein Bild von außen anfertigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toilette von außen und vermerke dies in der entsprechenden Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toiletten von außen und vermerke dies im Fragebogen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder an und vermerke entsprechend, dass die Toiletten nicht nutzbar waren.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Von außen Türe fotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich dokumentierte die geschlossene Türe mit einem Foto und bemerke dies beim Beantworten der Fragen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von aussen und Vermerk im Jobtext</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die verschlossene Tür von Aussen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage den Mitarbeiter nach dem Schlüssel</response>
+      <response_feedback>Sollten die Sanitäranlagen auch auf Nachfrage nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich mache Fotos von der Sperrung falls möglich und vermerke es in der Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich schieße ein Foto von dem Außenbereich und vermerke es anschließend im Bericht.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Außenbilder der Sanitäranlagen an und vermerke es im Check.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bilder von außen anfertigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Außenaufnahme anfertigen und Vermerk eintragen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen machen und eine entsprechende Info vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>außen Fotos, vermerken in Fragen/Aufgaben</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Photos von den Außentüren der Toilette.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage die Mitarbeiter, ob es möglich ist, die Sanitäranlagen zu nutzen Sollte das nicht möglich sein, mache ich ein Foto von  den Türen des Sanitärbereichs</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von außen machen und entsprechende Anmerkung in der Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich mache Fotos von aussen und gebe dies in der App an</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Sanitäranlagen aktuell geschlossen sind, fertige ich Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Foto von der verschlossenen Tür, so dass erkennbar ist, dass diese nicht zugänglich war.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von außen und Vermerk das gesperrt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Von außen fotografieren und kommentieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich kann den Test nicht durchführen, die Anlagen müssen besucht werden.</response>
+      <response_feedback>Sollten die hauseigenen Toiletten nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage den Mitarbeiter höflich ob ich trotzdem kurz hin kann.</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich notire das die sanitär Anlage gesperrt sind und würde trotzdem  nich  al fragen ob ich foto machen dürfte</response>
+      <response_feedback>Das musst du gar nicht. Sollten die hauseigenen Toiletten nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige ich Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich dokumentierte die geschlossene Anlage von außen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige ich Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>foto von aussen mit vermerk</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von außen und in der App vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage nach einem Sclüssel oder Frage warum gesperrt. Dokumentiere mit Bildern die Sperrung - gut wäre Bilder von Texten</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich dokumentiere dies per Foto.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Übersichtsfoto als Nachweis der gesperrten Anlagen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich mache ein foto von außen und vermerke es</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich mache Fotos von außen und vermerke entsprechend dass die Toiletten geschlossen sind</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich vermerke dies im Job und fertige Bilder der geschlossenen Toilettenanlage, ggf. des "Gesperrt"-Schildes an</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von Außen als Dokumentation</response>
+      <response_feedback>Genau. Bitte mache auch noch einen entsprechenden Vermerk in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos von außen und vermerke es</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto vom gesperrten WC Bereich</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toiletten von außen und vermerke das in dem Job.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fragen ob ich den Toilettenschluessel bekomme, denn ich muesste mal auf die Toilette</response>
+      <response_feedback>Das musst du gar nicht. Sollten die hauseigenen Toiletten nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos der Toilette von außen + Vermerk in der App.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich Frage nach dem Schlüssel. Sollten sie Sanitäranlagen defekt sein, fertige ich davon ein Bild an und vermerke dies.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Bilder von außen und vermerke es in der Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto von den Sanitäranlagen von draußen und vermerke die Unzugänglichkeit in der App.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache eine Foto vom Außenbereich der Toilette.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bilder von außen anfertigen und dies vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toilette von außen und vermerke es</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige ich Fotos von der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Sanitäranlagen von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gehe zum Personal und Frage nach dem Toiletten Schlüssel</response>
+      <response_feedback>Sollten die Sanitäranlagen dennoch nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos vom Außenbereich der Sanitär Anlagen und notiere es entsprechend</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bilder der Toilettentür von außen machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen machen</response>
+      <response_feedback>Bitte mache noch einen entsprechenden Vermerk in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen machen und vermerken, dass die Toilette gesperrt war</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere den Bereich von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von der Toilette vom außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige eine Übersicht der Sanitären Bereiche von außen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder an, um das zu dokumentieren und vermerke, dass die Toilette gesperrt sind</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos von außen und vermerke es in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich frage beim Personal freundlich nach. wenn geschlossen, z.b. wegen Corona mache ich übersichtsbilder soweit möglich und unauffällig von außen der Tür.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich vermerke das im Antwortbogen gegf. mit Grund der Sperrung.</response>
+      <response_feedback>Bitte fertige auch noch Bilder der Anlagen von außen an, wenn diese nicht zugänglich sein sollten.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich besuche die behinderten Toilette,weil sie immer offen sind</response>
+      <response_feedback>Das musst du gar nicht. Sollten die Sanitäranlagen nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nicht vorgehen. Nen Schritt zurück und ein Foto machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Türe, und notiere ob ein Schild darauf hinweist oder nicht.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Von außen Fotos machen und einen vermerk schreiben</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kurz dokumentieren anhand von Fotos</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sollten die Toiletten nicht begehbar sein, fertige ich Bilder der Toilettentür von außen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto von außen und vermerke,dass die sanitär Anlage geschlossen ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von außen an und vermerke es in meinem Bericht</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen anfertigen und es in der App vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos von außen der geschlossenen Toilette und Vermerke es in der Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder von außen und vermerken, das diese geschlossen sind</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von aussen machen und es vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen machen und in der App festhalten.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>bei gesperrten sanitären Anlagen Belege ich es anhand von Fotos</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage freundlich beim Personal nach den etwaigen Schlüssel zur WC-Anlage</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage nach einem anderen Ort</response>
+      <response_feedback>Das musst du gar nicht. Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen machen und vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe es an in meinem Fragebogen und mach am besten ein Bild wenn es dort ein Schild oder Ähnliches gibt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto von der Toilettentür von außen und vermerk es hier.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bild von der geschlossen Toilettentüre</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dann mach ich ein Foto von der verschlossen Location . Damit ich auch da war</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen anfertigen uns notieren das es geschlossen ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich dokumentierte dies entsprechend und mache ggf. ein Bild von dem Schild mit den gesperrten Sanitäranlagen. Ich erfrage die Gründe, wenn nicht direkt ersichtlich.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>dokumentieren mit Bildern</response>
+      <response_feedback>Bitte vergiss nicht in der App die entsprechende Angabe zu machen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>im Auftrag vermerken</response>
+      <response_feedback>Bitte fertige zusätzlich noch ein Bild von außen an.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>In der Aufgabe vermerken und Fotos von außen anfertigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos der toilettentür und vom Gesperrtschild.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toiletten gesperrt sind, soll ich dies vermerken und nur Außenbilder fertigen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schlüssel beim Mitarbeiter holen</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage den Mitarbeiter nach dem Schlüssel. Sofern die Sanitätanlagen nicht betreten werden können, mache ich Bilder von außen und notiere, dass die Toilette nicht zugänglich waren.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von den verschlossenen Anlagen an. Sofern vorhanden, mit dem entsprechenden Hinweisschild.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige ich Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nach dem Schlüssel Fragen.</response>
+      <response_feedback>Sollten die hauseigenen Toiletten auch auf Nachfrage hin nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder von der tür der Toilette von außen an u. gebe zusätzlich an dass das Begehen nicht möglich war.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sollten die Toiletten nicht begehbar sein, fertige ich Bilder der Toilettentür von außen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Beweisfotos</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Bild von der Toilettentür von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mache ein aussenfoto</response>
+      <response_feedback>Bitte machen noch einen entsprechenden Vermerk in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich suche einen mitarbeiter auf und frage, ob die touletten geschlossen sind oder defekt. Und ich erfrage ob ws in der nähe eine andere toilette gibt</response>
+      <response_feedback>Das musst du gar nicht. Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Von außen fotografieren und eintragen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Anlagen von außen und vermerke es in der Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos von außen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder der Toilettentür von außen an mit dem Vermerk, dass die Toilette gesperrt war.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bild von außen, und vermerken das die Sanitäranlagen geschlossen sind</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dies in den Fragebogen vermerken mit gegebenenfalls Grund der Sperrung.</response>
+      <response_feedback>Bitte fertige auch noch Bilder der Anlagen von außen an, wenn diese nicht zugänglich sein sollten.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von Außen machen und vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Bild von außen und vermerke das diese gesperrt ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen und die Sperrung in der Aufgabe vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen anfertigen und das in der Aufgabe vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettentür von außen fotografieren und dies entsprechend in der  Aufgabe mitteilen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich mache Außenaufnahmen der geschlossenen Toiletten</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bilder der Toilettentür von außen anfertigen als Beweis</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich fertige Fotos von außen an und vermerke dies in der Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Man kann die Sanitäranlagen in diesem Fall auch von außen fotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage natürlich an der Kasse nach dem Schlüssel.</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage einen Mitarbeiter nach dem Schlüssel</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fragen die Mitarbeiter und bieten das du aufs Personal Toilette</response>
+      <response_feedback>Sollten die Sanitäranlagen nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sollten die Toiletten nicht begehbar sein, fertige ich Bilder der Toilettentür von außen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bilder der Tür von außen machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich Frage ob ich diese benutzen kann und wenn nicht, werde ich fragen warum diese gesperrt sind und wann man diese wieder nutzen könnte</response>
+      <response_feedback>Das musst du gar nicht. Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Sanitäranlagen geschlossen sind gebe ich das Annika fotografiere die geschlossenen Räume.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Bild von der Tür machen, auf der steht dass der Sanitärbereich/die Toilette nicht betreten werden kann. Dies so in der App angeben</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto von außen von den Toiletten und Vermerke es im Fragebogen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich fertige Fotos der Toilette von außen an und Vermerke, dass die Toilette geschlossen ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos der Sanitäranlagen von außen und schreibe dies in der entsprechenden Aufgabe auf.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige ein Bild der Toilettentür von außen an</response>
+      <response_feedback>Vergiss nicht, auch noch einen entsprechenden Vermerk zu machen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto machen und in der App vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage nach, ob die Toilette geöffnet ist. Wenn mir bestätigt wird, dass die Toilette gesperrt ist, fotografiere ich die Tür von außen und vermerke es in der App.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage das Personal.  Wenn es dennoch nicht möglich ist, vermerke ich das und mache soweit möglich Fotos von außen und  von Gesperrt Schildern o.ä.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Bild von der geschlossenen Toilette machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder vom Toilettenzugang an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos vom verschlossenen Eingang.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Bilder von der Außentür an</response>
+      <response_feedback>Bitte gebe noch den passenden Grund in der App an wieso die Tankstelle nicht zugänglich sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>foto von außen machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos machen und im Auftrag vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich schreibe in meinen Bericht, dass die Sanitäranlagen nicht begehbar waren</response>
+      <response_feedback>Bitte fertige auch noch Bilder der Anlagen von außen an, wenn diese nicht zugänglich sein sollten.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es in der Aufgabe vermerken und Fotos von außen machen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von der verschlossenen Toilette machen und kurze Erklärung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich spreche das Personal an, warum die Toiletten gesperrt sind. Diese Information gebe ich weiter.</response>
+      <response_feedback>Sollten die Sanitäranlagen auch auf Nachfrage nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gehe in die tanke und frage nach dem Schlüssel da ich auf Klo müsste</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen anfertigen und im Job vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos der Toiletten von außen und vermerke dies in der App</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von der versperrten tür</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos von der Außentür an und vermerke die Sperrung in der App</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich rufe das Personal auf.</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage das Personal nach dem Schlüssel/Zutritt.</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mach eine Notiz davon im Fragebogen.  Wenn ein entsprechender Hinweis an der Tür angebracht ist, ein Foto davon anfertigen  Ansonsten den Fakt im Fragebogen festhalten</response>
+      <response_feedback>Bitte fertige immer Bilder der Anlagen von außen an, wenn diese nicht zugänglich sein sollten.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto der Toilettentür von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Bilder von außen und schreibe dass die Toilette gesperrt ist/war.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos von außen und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Toiletten von außen abfotografieren und in der Aufgabe vermerken.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Bild von außen und ein Vermerk in der App das die Toilette gesperrt ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere den Außenbereich (Tür) und vermerke den Umstand im Bericht.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage nach den Schlüssel</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Beweisfoto anfertigen und eine Bemerkung warum sie gesperrt war eintragen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Bild der Toilettentür von außen und gebe das in der App an</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nach Einkauf, frage ich ob es eine Toilette gibt.</response>
+      <response_feedback>Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich fotografiere die Toiletten von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von der gesperrten Toilette machen und dies im Job vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nach einer Anfrage im Shop bzgl. des Besuchs der Sanitäranlagen, sollen die Sanitäranlagen notfalls von außen fotografiert werden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Name des Mitarbeiter möglichst angeben, Bild der Sperrung wenn möglich, Angabe bei den Aufgaben</response>
+      <response_feedback>Korrekt. Nur der Name des Mitarbeiters tut nichts zur Sache.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Frage beim Personal nach der Stations eigenen Toilette.</response>
+      <response_feedback>Sollten die Sanitäranlagen dennoch nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bild toilettentür von aussen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Entsprechenden Vermerk hinterlassen Foto von außen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos der Toiletten von außen an und vermerke es auf dem Fragebogen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von gesperrter Toilette und  Kommentar</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache eine Aufnahme von der Toilette, auf der zu erkennen ist, dass sie geschlossen ist – Schild Außerdem vermerke ich, dass die Toilette geschlossen ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto der Sanitäranlagen von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto von außerhalb der Toilette, der Toilettentür ein Foto und mache ein Vermerk, das Kundentoillette defekt ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Bild der Toilettentüre</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos der Toiletten von außen erstellen und dies in der Aufgabe vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos der Sanitäreinrichtung von Außen und mache einen vermerk in der Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich trage das in der App ein ob es möglich war</response>
+      <response_feedback>Richtig. Bitte fertige noch ein Bild der Tür von außen an.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>draußen fotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Falls die Toiletten gesperrt sind mache ich ein Foto von außen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettentür von aussen anfertigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Sanitäranlage aktuell geschlossen ist, fertige ich Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toiletten von außen und das Umfeld fotografieren</response>
+      <response_feedback>Das Umfeld muss nicht fotografiert werden. Die Toilettentür oder ein Schild mit Informationen dass die Toiletten unzugänglich sind, reicht aus. Bitte vermerke es nur noch zusaätzlich in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fertige Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache ein Foto von der Absperrung und gebe dies bei Anmerkungen mit ein</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Toilette von außen und vermerke dies im Spot.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die Sanitäranlagen aktuell geschlossen, fertige Fotos der Toiletten von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Personal fragen oder ein andern Ort suchen.</response>
+      <response_feedback>Das musst du gar nicht. Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich fotografiere die Tür von außen!</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fotos von außen als Beweis anfertigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toilette für Kunden Gespött ist, fertige ich Aufnahmen der Tür an und vermerke es unter dem entsprechenden Punkt in der Aufgabe .</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tür von außen fotografieren</response>
+      <response_feedback>Bitte mache noch eine entsprechende Angabe in der App.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Beweisfotos machen. Beziehungsweise Toilettenanlage fotografieren falls nicht zugänglich. Vermerken dass die Toilette nicht zugänglich war.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ja und besichtigen wie sauber es ist</response>
+      <response_feedback>Sollten die hauseigenen Toiletten nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Außenbereich bzw. die Toilettentür abfotografieren</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toiletten gesperrt sind, fertige. Ich Fotos der von außen an und vermerke dies in der entsprechenden Aufgabe.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich Frage im Shop nach dem Schlüssel</response>
+      <response_feedback>Sollten die Sanitäranlagen auch auf Nachfrage nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>vermerken das Toilette nicht verfügbar</response>
+      <response_feedback>Bitte mache auch ein Bild der Anlagen von außen. Es ist wichtig, dass wir nachvollziehen können wie genau die Tankstelle ihre geschlossenen Anlagen kommunizieren.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos vom aussenbereich und vermerke dieses.</response>
+      <response_feedback>Bitte keine Bilder des Außenbereichs anfertigen. Es sollten Bilder der Sanitäranlagen von außen gemacht werden.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fragen ob ich sie benutzen kann oder ob sie ganz zu sind! Sonst ein Foto davon machen!</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich Frage den Mitarbeiter ob ich aufs Klo kann. und ob es Alternative gibt wenn nicht.</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto von außen und vermerken</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schreibe es mit in den Aufgaben rein. Kann es dann nicht bewerten.</response>
+      <response_feedback>Bitte fertige noch ein Bild der Tür von außen an. Es ist wichtig, dass wir sehen können ob und wie die Tankstelle das kommuniziert.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache eine Aussenaufnahme der Sanitären Anlagen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>warten, oder später wieder kommen</response>
+      <response_feedback>Es geht um die hauseigenen Toiletten. Sollten diese nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fertige ein Foto von außen an</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Notiere das und fertige Fotos von Aussen an.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage an der Kasse ob ich die Toilette benutzen kann</response>
+      <response_feedback>Sollten die Sanitäranlagen auch auf Nachfrage nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich frage den Mitarbeiter nach dem Schlüssel</response>
+      <response_feedback>Sollten die Sanitäranlagen trotzdem nicht zugänglich sein, fertige bitte entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Am Ende des checks teile Ich mit, dass die Toiletten nicht Besuchbar gewesen sind</response>
+      <response_feedback>Sollten die hauseigenen Toiletten auch auf Nachfrage hin nicht zugänglich sein, ist das völlig in Ordnung. Fertige einfach entsprechende Bilder von außen an und beantworte die Frage mit der passenden Begründung.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Foto Toilettentür von außen, Vermerk</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

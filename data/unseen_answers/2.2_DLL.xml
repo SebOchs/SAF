@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="2.2" module="DLL">
+   <questionText>What is the difference between asynchronous and synchronous transmission mode in the Data Link Layer.</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="DLL_2.2_a1">Asynchronous transmission: Every character a self-contained unit surrounded by a start bit and a stop bit, which is an easy and cheap pattern, but causes low transmission rates.
+
+Synchronous transmission: Several characters pooled to a continuous stream of data (frames), Frames defined by SYN or flag, higher complexity, but higher transmission rates. Requires synchronization between sender and receiver. 
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="DLL_2.2.7"> 
+	 <response> In asynchronous transmission every character is sent individually and is bounded by a start and stop bit. This method is very simple but only works at low transmission rates. 
+In synchronous transmission several characters form a frame. The start and end of a frame is defined by SYN or Flag. There are multiple possibilities for bounding frames, such as control characters or length count fields. Each of these bring problems with them that have to be solved. For instance, in character Oriented Protocols user data may contain control characters which can cause a too early end of the frame. One Solution for that is characterstuffing, where each control character is preceded by Data Link Escape(a specific bitstream that means: "the following data is a control character").   
+
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.8"> 
+	 <response>The diffrence is that in an asynchronous transmission, each character is bound into a start and stop bit, while in a synchronous transmission several characters are encapsulated into bigger frames, that are described with flags or SYNs. The transmission rate of synchronous transmissions is higher.
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.11"> 
+	 <response> In the asynchronous transmission mode each character is bounded by a start bit and a stop bit. In the synchronous transmission several characters are pooled to frames, that are defined by SYN or flag. 
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.13"> 
+	 <response> Asynchronous transmission: Each character is bounded by a start and stop bit and is sent individually. This operating mode is simple but inefficient because each symbol has an additional header. 
+
+Synchronous transmission: The main idea is to combine many characters in a set of messages and only append header information to this set. In order to detect the beginning, the message itself and the end of such a frame there are different modes (e.g. character-, count-,bit-oriented). 
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.24"> 
+	 <response>Asynchronous transmission (byte-oriented/ block-oriented):
+Data is sent in form of byte or character. The data (byte/character) is then bounded by a start bit and a stop bit. This is considered to be the simpler and less expensive way but it only supports low transmission rates.
+
+Synchronous transmission (character-oriented/ count-oriented/ bit-oriented):
+Data is sent in form of frames. Therefore, several characters are bundled to frames. The Frames are defined by SYN or flag. This is considered to be the more complex approach. However, it supports higher transmission rates.
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.25"> 
+	 <response> Asynchronous: Each byte is sent individually, bounded by a start and a stop bit. Transmission of each of those bytes can take place at any time.
+Synchronous: Single bytes are pooled together in order to build a frame. Each frame is defined by a flag.
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.28"> 
+	 <response>In asynchronous transmission each character is bounded by a start and a stop bit. This is simple and inexpensive but has a low transmission. 
+Synchronous transmission, sveral characters are put together to frames. This is more complex but has a higher transmission rate. 
+	 </response>
+     <response_feedback>The response is correct as it correctly explains the differences between synchronous and asynchronous mode.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.29"> 
+	 <response>Asynchronous mode:
+Each character is bounded by a start bit and a stop bit.
+
+Synchronous mode:
+Several characters are pooled to one frame which is defined by a SYN or a flag.
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.33"> 
+	 <response>Synchronous transmission:
+- Data transmission in frames with headers and trailers which imply the start and end of a frame
+- A frame can consist of many data bytes
+- Protocols: Bit-oriented, character-oriented, count-oriented
+- Is more complicated to implement and more data has to be transmitted
+- If certain data in a frame is corrupted, the whole frame has to be transmitted eventually
+- But: very high transmission speeds
+- Only reasonable for a lot of data, when the headers and trailers are small compared to the data.
+
+Asynchronous transmission: 
+- transmits data byte-wise with a stop-bit and a start-bit
+- Is easier to implement but for a lot of data very slow
+- Reasonable for less data due to low transmission speeds
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.34"> 
+	 <response> Synchronous Data transmission means that many characters/symbols are transferred within a frame while asynchronous transmission transfers the data byte wise /character wise each, so the data is not collected into a frame. Asynchronous is definitely simpler but the permanent needed start, stop and time gap in between a stop and the next start is slowing down the speed especially in fast transmission.
+	 </response>
+     <response_feedback>The response correctly explains the differences between synchronous and asynchronous transmission mode.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.37"> 
+	 <response> In the asynchronous or byte-oriented mode a byte is always send in a small frame which only contains the byte as well as a stop and start bit. This simplifies sender and receiver logic. In the synchronous mode multiple characters are send together in a frame. Frames are started and stopped by more complex data. This results in better efficiency as very little extra data is send with every frame (compared to the 2 bit overhead for every 8 bits in asynchronous mode)
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.51"> 
+	 <response>asynchronous: Each character bounded by start and stop bit, low transmission rates
+synchronous: characters pooled in frames/messages defined by syn or flags, a higher transmission rate
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.62"> 
+	 <response> Synchronous: characters are packed into frames. Begin/end of a frame is indicated by a Flag or SYN
+Asynchronous: Each character is packed seperatly. The begin/end of a character is  indicated  by a start/stop bit
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.2.93"> 
+	 <response> In asynchronous transmission mode just one Byte delimited by a start bit and stop bit is sent, therefore this little overhead limits the transmission rate. In synchronous transmission mode the frame and therefore data size may vary because it is bounded by SYN or flag. This allows higher transmission rates.
+	 </response>
+     <response_feedback>The response answers the differences correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

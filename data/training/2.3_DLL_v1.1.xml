@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="2.3" module="DLL">
+   <questionText>What requirement has to be met so that you can use the piggybacking extension to the sliding window protocol?</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="DLL_2.3_a1">
+	 Piggybacking only makes sense if there is a full-duplex or semi-duplex connection between sender and receiver i.e.  two-way communication or Frames must contain additional field for acknowledgement.
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="DLL_2.3.1"> 
+	 <response>To use the piggybacking extension to the sliding window protocol, we have to be in a duplex mode.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.2"> 
+	 <response>Piggybacking can be only used with duplex operation. The receiver of the data to be acknowledged has to send data in the opposite direction in order that the acknowledgement can be "piggybacked" with the transmitted data.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.4"> 
+	 <response>Piggybacking does only make sense if the receiver has also data at hand, beyond protocol overhead, to be sent back to the receiver in time with the potential ACK message. Otherwise piggybacking makes no sense. In this case a simple ACK can be sent, without piggybacking. This scenario is only useful in bidirectional channel with data traffic in both directions.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.5"> 
+	 <response>Frames may contain an implicit ACKs.
+Duplex Operation. 
+It has to have an initial SeqNo. of 0
+	 </response>
+     <response_feedback>Apart from the correct answer of duplex operation, the response also contains other requirements. The first point is true, but it refers to what happens in piggybacking in general. The last point is incorrect as it is specific to the example given in the slides.
+</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.6"> 
+	 <response> A duplex operating mode for data transfer is required
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.7"> 
+	 <response> The requirements for using the piggybacking extension of the sliding window protocol are a full duplex network, data that needs to be sent from the sender to the receiver and vice versa, and a dedicated timeout timer on both sides.
+
+The full duplex network is needed so that data and acknowledgements can be transferred in both directions. Data on both sides that is ready to be transferred is needed in order to allow acknowledgments to be piggybacked (otherwise acknowledgements would at some point be sent without being piggybacked). A dedicated timeout timer on both sides is needed to optimize the process. As a result, the receiver and sender know at which point to send their acknowledgment separately to minimize the excess amount of waiting time for a data packet.
+
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. Also optimizing the process of piggybacking by using a timeout timer is correct.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.8"> 
+	 <response>Both parties have to agree on the protocol before and therefore consider the additional ack-field in a data transmission frame.Both parties have to have a buffer and must be able to reflect on its status. 
+In the data frames are the fields buffer size, ACK and SEQ sent - in both directions.
+	 </response>
+     <response_feedback>The response is correct as a separate field for acknowledgment in the data frame is a must.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.9"> 
+	 <response>If you send data in both direcions, you can add the acknowledgment ,for earlier packages, on the next data package.
+	 </response>
+     <response_feedback>The response identifies the underlying requirement duplex connection correctly.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.10"> 
+	 <response>In order to be able to use the piggybacking extension you need to make sure that you can send data both ways at the same time via duplex.
+	 </response>
+     <response_feedback> The response answers the underlying requirement correctly. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.11"> 
+	 <response> The frames may contain implicit ACKs.
+	 </response>
+     <response_feedback>The response does not answer the requirement correctly. Implicit ACKs is the description of piggybacking rather than a requirement.
+</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.13"> 
+	 <response> Both parties must be able to send data and acknowledge information 
+	 </response>
+     <response_feedback>The response answers the underlying requirement, i.e. duplex connection, correctly.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.14"> 
+	 <response>we require atleast a (semi)duplex data transfer
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.15"> 
+	 <response> To be able to take advantage of the piggybacking extension in the sliding window protocol, a full duplex communication channel with both parties actively sending messages is required. Otherwise, the implicit ACKs cannot be added to outgoing data frames.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.16"> 
+	 <response>Data frames contain an additional ACK field which contains the sequence number.
+	 </response>
+     <response_feedback>The response is correct as an additional field is required in the frame for acknowledgment. Moreover, a duplex channel is required.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.17"> 
+	 <response>Both parties might send data simultaneously with implicit ACKs, therefore a full-duplex channel is needed. 
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.18"> 
+	 <response>It is a duplex operation so communication has to be possible in both directions. Also the initial sequence number is 0 and the next sequence number and the next acknowledge sequence number to be expected is given.
+	 </response>
+     <response_feedback>The response answers the underlying requirement. However, the initial sequence need not be 0. Apart from the duplex connection and initial sequence number, the other points are valid but refer to the sliding window protocol in general. </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.20"> 
+<response>There has to be a duplex communication because the time period by which the response is to be delayed (to wait for a frame to piggyback the acknowledgement onto) must not exceed the timeout period of the sender whose frame is to be acknowledged. Otherwise, a retransmission would occur. So the receiver may not wait too long. If no frame appears right in time, piggybacking is not possible.</response>
+     <response_feedback>
+ The response correctly identifies a duplex connection as a requirement. However, the reasoning behind it is not correct as a dedicated timer can also be used on the receiver side. When no data is there at the receiver side for piggybacking, a timeout occurs and an acknowledgment is sent separately.
+		</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.21"> 
+	 <response>Piggybacking only makes sense if there is a full-duplex or semi-duplex connection between sender and receiver. Therefore, the ACK for a data frame from a sender is sent in one frame with the next data frame issued by the receiver. Thus, the requirement for piggybacking is a duplex connection (and the need of sending an ACK).
+	 </response>
+     <response_feedback>The response identifies the underlying requirement duplex connection correctly.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.22"> 
+	 <response> For piggybacking the data and ackknowledgements are tied together and send to sender and receiver and vice versa.
+Therefore you need to address which part of data and acknowledgement you send by expressing Frame(x,y), f.e. Frame (1,0) or Frame (1,2) .
+In brackets there is the data number and the acknowledgement number.
+Otherwise there wouldn't be an assigment which data and ackknowledgement is send or send back between sender and receiver,
+when data and ack are tied together. 
+	 </response>
+     <response_feedback>The response is partially correct as it states data and acknowledgment are sent in both directions and, therefore, implies a duplex channel. However, a new acknowledgment field is included in the frame to differentiate between data and acknowledgment. Frame(x,y) is just a way to express it to students for better understanding.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.23"> 
+	 <response>Sliding window protocol send more than one frame at a time therefore using the bandwith of the communication channel. Piggybacking means whenever a receiver wants to send data, he will always send his data with ACK. Using this mechanism the bandwith of the channel can be used more efficiently. Piggybacking only works if a the connection is duplex and the receiver buffer is big enough to receive data paket and ACK in one package.</response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="DLL_2.3.24"> 
+	 <response>Data and Acknowledgements are send in both directions (sender to receiver and receiver to sender). The data and acknowledgements are bundled into one package.
+	 </response>
+     <response_feedback>The response is correct as it implicitly answers the requirement of duplex communication.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.26"> 
+	 <response> The receiver must have data to send back to the sender so he can attach the ACK information to that data. If he has no data to send, the service can be jammed. To prevent this, a receiver timeout can be added so that after the timeout has expired and no data was sent, an ACK packet is sent independently
+	 </response>
+     <response_feedback>The response does not answer the underlying requirement for piggybacking. The response states a possible situation in piggybacking and how to overcome it.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.27"> 
+	 <response>requirement for piggybacking are:
+1.Frames may contain implicit ACKs(acknowledgements)
+2.it should be duplex operation
+3.the initial Sequence No.should be 0.
+4.the next Sequence No. what is estimated is given.
+5.the next ACK-Sequence No. that is expected is also given.  </response>
+     <response_feedback>Apart from the correct answer of duplex operation, the response also contains additional requirements. Point 1 is true but it refers to what happens in piggybackig and is not a requirement. Points 3, 4, and 5 are incorrect as they are only relevant to a specific example in the lecture.
+</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="DLL_2.3.29"> 
+	 <response>Piggybacking only makes sense in a two-way communication with both participants sending data packets to each other. Therefore, the communication medium has to provide duplex operation.
+If the sender expects an answer which contains data the answer itself can be seen as an implicit acknowledgement.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. However, by implicit acknowledgment, one implies a data frame received as a response from the receiver contains an acknowledgment of previously sent packet/packets.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.30"> 
+	 <response>Piggybacking only works if the sender and  receiver are both able to send and  receive. It’s a duplex operation. 
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.31"> 
+	 <response>The requirements are listed below
+1. An interlocal agreement between agencies must be signed and filed with the county auditor or posted online;
+2. The original contracting agency has complied with all requirements and posts the solicitation online; and
+3. The vendor agrees to the arrangement through the initial solicitation.
+	 </response>
+     <response_feedback>The response answers no parts of the question correctly and it is not related to the topic.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.32"> 
+	 <response>Both sides must send data to use piggybacking to be able to attach ACKs to data frames otherwise the sender will assume a frame loss.
+	 </response>
+     <response_feedback>The response is incorrect as there will not always be data to send, in such cases a dedicated timer timeout is used to signal the absence of sufficient data and trigger the sending of separate acknowledgment.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.33"> 
+	 <response>It requires duplex operation and the use of confirmed connectionless service.
+In this extension the receiver uses the acknowledgement of a frame to send data back to the sender in the ACK-frame. The sender then acknowledges this data and sends with this acknowledgement his data in one frame. So each transmission consists of only one frame and this includes the ACK for a certain frame and new data.
+This decreases the traffic significantly.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. The "use of confirmed connectionless service" is not the only way to implement it, so it is an incorrect requirement.
+ </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.34"> 
+	 <response> As piggyback means that instead of a simple ack there is also data being send back from the receiver to the sender ( so now both are receiver as well as sender) the channel in between has to be able to cope with duplex operations/transfers.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.35"> 
+	 <response> The requirement is that the communication channel has to operate in full duplex mode so that the receiver could send both acknowledgement and data at the same go.
+	 </response>
+     <response_feedback>
+The response answers the underlying requirement correctly.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.36"> 
+	 <response> Something needs to be sent in one direction, to be able to send some data back with the ACK. It is basically using the default operation of sending the ACK to also send some additional data back to the sender, instead of sending a new frame. 
+	 </response>
+     <response_feedback>The response is incorrect because it implies that the presence of data on both sides is necessary for acknowledgments to be sendable. However, one can also send pure acknowledgments when no data is available for a specific time.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.38"> 
+	 <response>A receiver of a data frame has to send data frames the ACKs are piggybacked onto at a rate that is high enough so that the sender doesn't have to wait for too long for the ACKs to arrive. Otherwise a timeout might occur and the sender sends the frame again.
+	 </response>
+     <response_feedback>The response states duplex communication indirectly but a dedicated timer timeout can also be on the receiver side to send acknowledgment separately when sufficient data is not present.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.39"> 
+	 <response> There should be duplex communication in between Sender and Receiver such that Acknowledgement meant for sender gets appended to data frame from Receiver (which now acts as Sender) which is being sent to Sender (which now acts as Receiver) and this process also works vice versa.
+
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.
+ </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.40"> 
+	 <response> With a window size of 1, the sequence must always be Correct.
+If the window size is greater than 1, there are no requirements, but the size is limited by the window size.
+	 </response>
+     <response_feedback>The response does not answer the underlying requirement for piggybacking. The above points are true for the sliding window protocol in general and are not specific to piggybacking.</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.41"> 
+	 <response>In the Piggybacking Extension, outgoing acknowledgements are hooked onto the next outgoing packet. For this to work, you first need a duplex operation mode. In the normal sliding window concept, every incoming data unit is acknowledged as soon as the receiver gets it. For Piggybacking, the acknowledgement needs to be temporarily delayed, until the previous incoming data is processed and the Network Layer passes the next packet to be sent back. The delayed acknowledgement is now attached to the outgoing packet.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+		<studentAnswer id="DLL_2.3.43"> 
+	 <response> Duplex operation must be supported. That means sending data from both sides should be possible. And each side is able to receive data also.
+
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	
+	<studentAnswer id="DLL_2.3.44"> 
+	 <response> Piggybacking needs a duplex connection.It is often used in a sliding window protocol for better use of the available channel bandwidth.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.45"> 
+	 <response>The acknowledgment added to the next frame has to refer to the received frame so that it can be assigned to the related data. Otherwise you cannot identify which frame is confirmed by your acknowledgment.
+	 </response>
+     <response_feedback>The response does not identify the duplex connection as the requirement. Acknowledgments, whether sent independently or piggybacked, specify which frame is acknowledged, so it is not a  specific requirement for piggybacking.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.46"> 
+	 <response>Piggybacking means the ACKs are not sent separately but are inside the header of the next package that the party who is acknowledging the last package wants to send.
+So piggybacking only makes sense when both partners are sending and receiving data, i.e. we have a duplex transfer operating mode.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.47"> 
+	 <response>We require an additional field for the acknowledgement in the data frame.
+	 </response>
+     <response_feedback>The response identifies an additional field in the data frame for acknowledgment which is correct. Another requirement is a duplex connection.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.48"> 
+	 <response>-ACKs or NAKs and data are not sent separately. ACK or NAK is attached to the next data frame and then sent with data together to the other side.
+
+-The data link layer of one station must get a new packet from the upper layer by the end of the timeout interval. Then the ACK or NAK is piggybacked on the data frame and sent together. Otherwise, the data link layer sends only ACK or NAK frame.
+	 </response>
+     <response_feedback>The response answers no parts of the question correctly. The response contains only the description of what happens in piggybacking.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.49"> 
+	 <response> Piggybacking requires a duplex communication, where both participants want to send and receive data frames, so that they both have the chance to bind their acknowledgement to the next outgoing data frame. To do so, all participants must have a certain  kind of buffer, as well as protocol about the timeout scheme and the maximum waiting time before sending out a single ACK-Frame if there is no outgoing data frame to attach the Ack to. 
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. The other point adds to the main requirement from the implementation and optimization point of view.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.50"> 
+	 <response> In order to use piggybacking extension, it's necessary that the used different frame formats:
+- the information frame with a field for the acknowledgement sequence number
+- a acknowlegment frame, that has the ack sequence number
+This extension also demands more memory, because it's necessary to keep track of the exchanged sequence numbers (both data sent and ack sequence numbers).
+	 </response>
+     <response_feedback>The response identifies a separate acknowledgment field in the frame correctly as one of the requirements.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.51"> 
+	 <response>sending must be possible in both directions in order to send data and acks (Two-way-communication) and the frames must be able to contain acks.
+	 </response>
+     <response_feedback>The response states both the requirements correctly. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.52"> 
+	 <response>Piggybacking in sliding window allows to send the acknowledgment of a received frame together with data.
+- Sender and receiver needs two sequence counter. One for its own frames and one for the acknowledgment of the received frames.
+- Benefits the most from a duplex connection
+- when a frame is send, the SeqNo of the frame and the SeqNo of the last received frame (for acknowledgment) are send together.
+- The SeqNo is initialized with 0 and is increased before a new frame is sent.
+	 </response>
+     <response_feedback>The response is correct as it identifies duplex connection as one of the requirements, but the sequence number need not be initialized with 0.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.54"> 
+	 <response>There must also be frames directed towards A (sender) in the transmission, so that B (receiver) sends frames back to A in a reasonable amount of time. In addition to that the amount of frames size of both parties must be similarly big, because the acknowledgement is added to frames directed at A. As a result there must be a certain balance of frames in both directions.
+	 </response>
+     <response_feedback>The response correctly implies duplex operation. However, a balanced approach is difficult to achieve in real scenarios, so there are ways to overcome it, like a dedicated timer signaling a timeout in the absence of data to be sent.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.55"> 
+	 <response>We need a duplex operation. This means that Sender and Receiver both sends and receives frames. Then ACK and data can be merged into one frame and sent together.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.56"> 
+	 <response>the data link layer of one station must get a new packet from the upper layer by the end of the timeout interval
+	 </response>
+     <response_feedback>The response is incorrect because even if it fails to get a packet from the upper layer, it can send the acknowledgment independently without piggybacking.</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.57"> 
+	 <response> Requirement: The interval of two adjacent frames, which are sent by sender, is short.
+So that we can use piggybacking to response these two frames with one acknowledgement. 
+The communication has to be duplex (so the protocol must not be "Utopia").
+And the receiving buffer from the Sender must be ,so that it is able to store the ACK plus the additional data!
+	 </response>
+     <response_feedback>The response contains a duplex connection as one of the requirements, but having to send two frames within short intervals is incorrect. Also, the same data and acknowledgments are tied together in piggybacking. Therefore, the total buffer space requirement should ideally remain almost the same as when they are sent separately.
+ </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.58"> 
+	 <response>Need to know the initial sequence number, aswell as the next sequence number and acknowledgement.
+	 </response>
+     <response_feedback>The response is incorrect as the above points are not specific to piggybacking but hold for the sliding window protocol in general.</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.59"> 
+	 <response>the initial sequence number is 0 and the next sequence number and the next ACK-sequence number to be expected is given
+	 </response>
+     <response_feedback> The response does not identify the underlying requirement of duplex operation. The stated points are not always true and depend on the implementation.</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.60"> 
+	 <response>The requirement that has to be met that you can use the piggybacking extension to the sliding window protocol is, that we need the ACK field in the frame header that costs only a few bits. A seperate frame would need more costs: ACK, header and a checksum.
+
+	 </response>
+     <response_feedback>The response is correct, a duplex connection is also required.
+</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.62"> 
+	 <response> Duplex operation
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.64"> 
+	 <response> Duplex data transfer (both sides should be able to send and receive data)
+
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.65"> 
+	 <response> Piggybacking is characterized by a duplex operation where both sides of the transmission can send data as well as ACK packets. Therefore, instead of sending separate packets, the ACK packets can be tied to a frame. On the way back it has to be addressed which packet you are addressing with the ACK.
+So it is required to have a duplex operation and a specifier who indicates which/how many frames get acknowledged with the ACK
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.66"> 
+	 <response>The initial SeqNo needs to be known + the next SeqNo and the next ACK-SeqNO needs to be known.
+Otherwise, Piggybacking is not possible.
+	 </response>
+     <response_feedback>The response is incorrect as the main requirement for piggybacking is a two-way/duplex channel. The points stated in the response are an implementation detail of the sliding window protocol. </response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.67"> 
+	 <response> The communication needs to be duplex.
+Additionally, there should be a time period, within this time period, data link layer should wait for the next packet, and attach the acknowledgement to the outgoing data frame and then send the frame.
+When time expires and there is no packet to be sent, link layer sends a separate acknowledgement frame.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.68"> 
+	 <response>1.First, it must be duplex operation.
+2.The data frame and the confirmation frame use the same format.
+	 </response>
+     <response_feedback>Both points are correct as the acknowledgment field is contained within the outgoing data frame.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.69"> 
+	 <response> You need to have duplex operation. Furthermore, this requires two sequence numbers, one for each transmission direction since you have a sliding window on both sides for sending AND for receiving.
+	 </response>
+     <response_feedback>
+The response answers the underlying requirement correctly.
+ </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.70"> 
+	 <response> A requirement is that we have an duplex connection and a COS or CCS.
+The data from two side is roughly equal. The window size should be smaller than a half of seq. number. 
+	 </response>
+     <response_feedback>It is correct that a duplex connection is a must. However, when the two sides' data is imbalanced, a dedicated timer timeout is used to send acknowledgments independently. The other points are related to the sliding window protocol in general.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.71"> 
+	 <response> Piggybacking requires a two way data communication between two parties (A and B). This requirement exists, because instead of both parties immediately sending acknowledgement-frames to each other when
+they recieve a data-packet, they include the acknowledgement in the next data-packets header. This means that, when A sends a data-packet to B, B has to answer at some time with data to fulfill the
+requirement for an acknowledgement.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.72"> 
+	 <response> No response
+	 </response>
+     <response_feedback>The response is an empty submission. </response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.73"> 
+	 <response> The sender buffer has to be large enough to keep all sent frames until the other party sends a frame and implicitly acknowledges the receipt of these previous frames. Besides, the physical channel has to allow duplex communication. 
+	 </response>
+     <response_feedback>The response answers the piggybacking extension requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.76"> 
+	 <response> The transfer of information must be possible in both directions. An efficient approach is to use a full-duplex circuit. Furthermore, an additional field for acknowledgements must be added to the data frame.
+
+	 </response>
+     <response_feedback>The response correctly identifies both the requirements for piggybacking.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.78"> 
+	 <response> 1. The receiver is supposed to wait shorter than the sender’s timeout period, otherwise, the frame will be resent by the sender.
+2. A new frame should arrives quickly enough, so that the ACK could be piggybacked onto it, otherwise, only the current frame would be acknowledged.
+	 </response>
+     <response_feedback>Both stated points are correct independently and imply a duplex connection too.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.79"> 
+	 <response> If you use piggbacking on the sliding window protocol, 
+The receiver waits for a given time period to attach the Sequence number
+and the next ACK-Sequence number to the next Frame.
+
+In order to do that, additional time delay has to be considered and the 
+sender has to be informed about the fact, that there are probably no 
+standalone ACK frames transmitted. Also, the sender has to attach the 
+Ack to the data himself.
+
+	 </response>
+     <response_feedback>The response does not identify the underlying requirement for piggybacking. The above points are related to the implementation of piggybacking. </response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.80"> 
+	 <response> The participant, who sends the ACK, has to have Data, which he wants to send. If there is no Data to "biggyback" the ACK on, the participant will wait infinitly for data to send with the ACK and therefore the piggyback extension would not work. 
+	 </response>
+     <response_feedback> The response is incorrect because a dedicated timer can be used on the receiver side to overcome the above problem of no data on the receiver side. After the timeout, an acknowledgment is sent independently. </response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	  <studentAnswer id="DLL_2.3.81"> 
+	 <response>It has to be a duplex operation, that data and ACKs are sent in both directions between sender and receiver, and frames may contain implicit ACKs.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.83"> 
+	 <response>The communication system must operate in full-duplex mode for using piggybacking in the sliding window protocol.
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.84"> 
+	 <response>Frames may contain implicit ACKs
+	 </response>
+     <response_feedback>The response does not identify the underlying requirement of duplex operation. Implicit acknowledgment is a result of piggybacking rather than a prerequisite.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.85"> 
+	 <response>On receiver side, the receiver will attach ACK with packet and send them both at the same time to save bandwidth. But If it has nothing to send, so ACK also can not be delivered back to sender.
+
+So the requirement here is that the receiver must have something to send back. If it has nothing to send, it must have a count down timer. If timer reaches 0, even it has no data to send, the ACK must be sent.
+	 </response>
+     <response_feedback>The response answers the requirement partially because even if both sides have data, the network channel needs to be duplex.</response_feedback>
+     <score> 0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.86"> 
+	 <response>1.An interlocal agreement between agencies must be signed and filed with the county auditor or posted online.
+2.The original contracting agency has complied with all requirements and posts the solicitation online.
+3.The vendor agrees to the arrangement through the initial solicitation.
+	 </response>
+     <response_feedback>The response does not answer the underlying requirement for piggybacking as it is out of topic and context.
+</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.87"> 
+	 <response>A relieable in-order delivery of packets (like data link layer 2 in OSI)
+
+At least an acknowledged connectionless service or an Acknowledged connection-oriented service (for feedback if the packets / frames are received).
+	 </response>
+     <response_feedback>The response is not directly related to the piggybacking but to sliding window protocol in general.   </response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.88"> 
+	 <response>There are certain requirements that needs to be met as:
+
+Ack is sent by the receiver if the frame is identified as being Correct and transmitted Correctly to the network layer.
+Also the stored frames at receiver are the unacknowledged frames not sent to sender and max number is the receivers window size.
+And the stored frames at the sender are not yet acknowledged by receiver.
+
+Expected Order if the window size is 1 then the sequence should always be Correct, or if window size is n then size is limited by window size.
+
+Frames might contain implicit ACKs for duplex operation.
+
+	 </response>
+     <response_feedback> Apart from the correct answer of duplex operation, the response also contains points related to the sliding window mechanism in general and not specifically to piggybacking.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.89"> 
+	 <response>-It has to be a Full-Duplex operation
+-Frames must contain implicit acknowledgments
+
+	 </response>
+     <response_feedback>
+The response answers the underlying requirement correctly. Both points are correct.
+</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.90"> 
+	 <response>In this situation can piggybacking be used:
+ 1）The communication between sender and receiver is duplex communication.
+ 2)  The acknowledgements are contained in data frames. This means the acknowledgements don’t be sent alone.  
+
+	 </response>
+     <response_feedback>The response is correct. In absence of data on the receiver side, acknowledgments can be sent separately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.91"> 
+	 <response>
+	Before using Piggybacking extension, there should be duplex operation. Furthermore, a new packet should arrive quickly then the acknowledgement is piggybacked onto it; otherwise, if no new packet has arrived by the end of this time period, the data link layer just sends a separate acknowledgment frame. 
+
+Also, the sliding windows protocol will utilize the bandwidth of the communication channel with piggybacking, frames may contain implicit acknowledges. For example, the intuitive SeqNo. is 0, then the next SeqNo. and the next ACK-SeqNo to be expected is given.
+
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.92"> 
+	 <response>A duplex operation mode is required, so that both communication partners can send data frames with piggybacked acknowledgments.
+(Efficient if window size greater than 1 only.)
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.93"> 
+	 <response> Both parties have to advertise their window sizes to each other to avoid the received data to be thrown away (so the receiving buffer was full). Therefore, they need to introduce a new field to the frames which holds this value. Alternatively, they agree upon first communication to some static window size and afterwards send their data (and hope the free buffer sizes of both remain the same). In both cases it would be recommandable not to send huge data chunks upon first communication, because both parties don't know the window sizes of the other one yet. With each frame they send a sequence number (even if no data is sent, so the receiver is able to acknowledge it), the ACK-number (even if no new data has been received, so the receiver can use this as base for their sequence number), and lastly the window size.
+	 </response>
+     <response_feedback>The response is incorrect. All the stated points are correct but are related to the window sliding mechanism in general and how the initial setup occurs.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.94"> 
+	 <response>Every transmission must contain an ACK.</response>
+     <response_feedback>The response does not answer the underlying requirement for piggybacking. A duplex connection is needed, so that data and acknowledgments can be sent both ways.</response_feedback>
+     <score> 0</score> 
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.95"> 
+	 <response> At least a semi-duplex communication channel is required
+	 </response>
+     <response_feedback>The response answers the underlying requirement correctly.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="DLL_2.3.96"> 
+	 <response> - The requirement for the piggybacking extension includes the acknowledgment "ACK".
+- It contains the Sequence-number ACK(Seq.No) and confirms the frame(Seq.No). 
+- Here, the acknowledgment ACK can be given by the frames implicitly.
+	 </response>
+     <response_feedback>The response answers the requirement incorrectly. The response states what happens in piggybacking/flow control in general, but a duplex channel is required for it to work.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	</studentAnswers></question>

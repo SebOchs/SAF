@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="8.2" module="MM">
+   <questionText>WHAT is the purpose of Reverse Path Forwarding and Reverse Path Broadcast? HOW do they work?</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="MM_8.2_a1">
+Purpose: Both implement a more efficient kind (in terms of duplicate packets) of broadcasting than flooding / to minimize the number of duplicate packets in the network when broadcasting.
+
+Reverse Path Forwarding:  Each node has a routing table stemming from unicast routing algorithms. When receiving a packet of sender S from neighbor N at node X, check the routing table and only forward the packet to all adjacent nodes (except for N) when you would send packets to S over N → the assumption is that the packet used the BEST route until now.
+Reverse Path Broadcast: Nodes monitor unicast traffic to learn which paths in the network they are a part of, that is node X knows that is on the best path between two nodes A and B if it receives unicast packets coming from A and going to B or visa versa. In other words, each node knows which spanning trees it is part of in the network. Reverse Path Broadcasting works identical to Reverse Path Forwarding with the exception that it only forwards packets on edges that are part of a spanning tree (again excluding the incoming line to N).
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="MM_8.2.2"> 
+	 <response>Reverse Path Forwarding and Reverse Path Broadcast serve as algorithms for broadcast routing, that is, the routing of messages that should be send to every node of a network. With Reverse Path Forwarding, a node receiving a broadcast packet does forward it to every other adjacent node if it comes from the node the unicast routing would usually use as the next hop to the node which initialized the broadcast. With Reverse Path Broadcast, this behaviour is further refined: Again, a broadcast packet is only forwarded by a node B if it comes from the node the unicast routing would usually use as the next hop to the node A which initialized the broadcast, but this time, not to all other adjacent nodes, but only those which would usually receive unicast-packets from A over the current node B.
+	 </response>
+     <response_feedback>The response is partially correct as RPF and RPB’s purpose is to reduce the number of duplicates and unnecessary packets in flooding/broadcasting by inspecting the optimal unicast paths. The remaining answer is correct.</response_feedback>
+     <score>0.8</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.9"> 
+	 <response> 
+Reverse Path Forwarding is a variation of the spanning tree.
+
+Each Sender has its won Spanning Tree. So if a node revives something from one of its links it checks the source adress( example :A) and compares with its own table, if it would send something to A: Wold I use the same link for that ?
+
+If that is the case the node knows that this is the optimal link for this direction.
+
+→Assumtion Package used the best rout until now→Resend to all edges beside the incoming one.
+If that is not the case →Assumtion this is not the optimal route →Discard the package because it is likely a unnecessary duplicate. 
+Reverse Path Broadcasting is similar. But instead of sending it everywhere, after coming from the optimal rout, you send it only to the link that you would use to get to this destination.
+Assumtion for both systems is that everything is working correct and everyone knows the directions the need to send</response>
+     <response_feedback>The response does not state the purpose for both. The assumption behind them is that the packet used the BEST route
+until now for sending unicast packets to the broadcast source. The remaining explanation for RPF and RPB is correct.</response_feedback>
+     <score>0.8</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.24"> 
+	 <response>We learned about Reverse Path Forwarding and Reverse Path Broadcast regarding broadcast routing. 1. Reverse Path Forwarding / Reverse Path Flooding: The purpose of this algorithm is to efficiently distribute broadcast messages. Therefore, each sender maintains its own spanning tree. The spanning tree gives us information about how much does it cost to reach a node in a tree to deliver a unicast message. There can be different paths to reach this node from sender to recipient - the cheapest path is considered to be the best one. When a broadcast sender S sends a broadcast message to all nodes in the network (see slide 9) every node  in the network checks: Is the broadcast message received via the best route the node itself would use to send a unicast message to S? - If it is true: then the node resends the broadcast messages via all edges in the network except the edge over which the broadcast message was received - Otherwise the node will ignore the broadcast message (duplicate) 2. Reverse Path Broadcast The purpose of this algorithm is to efficiently distribute broadcast messages. It basically works as Reverse Path Forwarding with one difference: When a broadcast sender S sends a broadcast message to all nodes in the network, every node selects specific edges which are used to resent the message. A node will resent the message via a specific edge if this node is typcially on the path to this node regarding the sending of unicast messages and if it is the best route until now.
+	 </response>
+     <response_feedback>The response correctly explains the RPF and RPB algorithms and their purpose.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.26"> 
+	 <response>Reverse Path Forwarding (RPF) and  Reverse Path Broadcasting (RPB) are techniques used for Multi- and Broadcast communication. Their purpose is to reduce network load in comparison to more rudimentary approaches for broadcast routing like flooding, by utilizing the information each IS can gain from looking at unicast routing paths and therefore only forward packets which are on the best route so far.   In Reverse Path Forwarding, each sender maintains its own spanning tree derived from information gathered during normal unicast operation. If a unicast packet from A to C passes a router B frequently, B knows that it is on the shortest path from A to C and reverse. If, on the other hand, a router D never sees any unicast packets from A to C, or reverse, it knows, that it is not on a shortest path. This information is then used when a flooding packet from A or C (sender) arrives at either C or D (IS). Only if the IS is on the shortest path, it forwards the packet.   Reverse Path Broadcasting is an improvement of Reverse Path Forwarding. Not only does it evaluate the shortest path according to the IS entry port, where it received the multicast packets like RPF does, but also influences how the packets are then forwarded to the outgoing edges. In contrast to RPF, which just sends the packet over all edges except the incoming one if the packet has arrived at the IS entry port over which the packets for this station are usually sent, i.e. the best route, RPB attempts to send the packet only over suitable edges. Namely those edges, from which it usually receives unicast packets in the reverse direction, because that indicates the best possible route.
+	 </response>
+     <response_feedback>The response correctly answers the purpose and the explanation for both broadcast types.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.30"> 
+	 <response> The purpose is to ensure a loop-free forwarding of multicast packets. Reverse Path Forwarding: When the packet arrived at the IS entry port, over which the packets for this station are usally also sent, we resend the packet over all edges except the incoming edge. If thats not the case we discard the packe, because its probably a duplicate. Reverse Path Broadcast: When the packet arrived at the IS entry port, over which the packets for this station are usally also sent, we check if the packet used the best route until now. If its the best route we select the edge at which the packets arrived and from which they are then rerouted to the station. If its not the best route on the contrary to RPF we don't send the packet over all edges. When the packet didn't arrive at the IS entry we discard the packet, because its probably a duplicate.
+
+	 </response>
+     <response_feedback>The response correctly answers the purpose and the explanation for both broadcast types except that the purpose is not limited to only mutlicast but also used in broadcast.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.38"> 
+	 <response>Reverse Path Forwarding and Reverse Path Broadcast help to reduce unwanted duplication of broadcast packets. Reverse Path Forwarding works by checking the incoming edge of a broadcast packet: if it is not the edge that this IS would use for sending a packet to the broadcast source, the packet is discarded (because packets using any non-optimal path are considered duplicate). Otherwise it is sent over all edges except the incoming one. Reverse Path Broadcast works similar to RPF, but a packet is not forwarded to an adjacent node if the current IS is not part of the optimal unicast path from the adjacent node to the broadcast source.
+	 </response>
+     <response_feedback>The response correctly answers the purpose and the explanation for both broadcast types.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.39"> 
+	 <response>According to Wikipedia: "Reverse-path forwarding (RPF) is a technique used in modern routers for the purposes of ensuring loop-free forwarding of multicast packets in multicast routing and to help prevent IP address spoofing in unicast routing" → meaning forwarding packets along all the paths except the one from which it came. Reverse Path Broadcast improves upon this method with observation and recording the unicast routes between different nodes while determining which routes will not work from the routes which have worked.
+
+	 </response>
+     <response_feedback>The response answers the purpose of RPF only which should ideally also include broadcast. The explanation of RPF is and lacks a description of when packets are forwarded and when discarded. The RPB explanation is partially correct but does not start which outgoing link is selected and how.</response_feedback>
+     <score>0.3</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.54"> 
+	 <response>Each sender has its own Spanning Tree But IS do not need to know the Spanning Trees Each router has information which path it would use for (unicast)-packets because of the unicast routing algorithms
+
+	 </response>
+     <response_feedback>The response is incomplete as it does not mention where the provided incomplete information is used in, RPF or RPB. The purpose of using them is also not mentioned.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.67"> 
+	 <response> Both algorithms try to detect duplicate packets in broadcasts and only forward packets that are likely new and need to be forwarded. Other packets are likely duplicates and are discarded.  In Reverse Path Forwarding, each router saves which path a packet takes from a sender S in a unicast communication, considering it to be the shortest path from S. From there on, broadcast packets from S that are not coming over that path are considered to be duplicates and are discarded. Broadcast packets from S coming over that path are accepted and broadcasted to all edges except to the incoming one. One disadvantage of RPF is that the packet is resent over all edges (except the incoming one), but not forwarded only over suitable edges.  In Reverse Path Broadcast, a node also remembers the path taken from a sender S in a unicast communication. Additionally, a node also learns that if it never received a unicast packet from S to another node B, then it is likely not on the shortest path from S to B. To reduce the unnecessary packet duplication in RPF, the packet is not forwarded on all edges (except the incoming edge), but only on the edges which are in the reversed direction to source S.
+	 </response>
+     <response_feedback>The response is correct with one exception. In RPB, unicast paths can be learned from both ways, S to node or node to S.</response_feedback>
+     <score>0.8</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.69"> 
+	 <response> The Purpose of these broadcast routing algorithm is to reduce the amount of duplicates going to the network while sending a broadcast packet. Reverse Path Forwarding: A broadcast packet will be forwarded on all edges (except the incoming edge), only if the packet was received on the edge which would be used for a unicast packet (fastest/best route). This is to eliminate packets which are coming over a longer path. Reverse Path Broadcast: A broadcast packet will be forwarded only on those edges which are part of the best routes for a reversed unicast to the sender. Also it holds true that a packet is only forwarded if the packet was received on the edge which would be used for a unicast packet (fastest/best route).
+	 </response>
+     <response_feedback>The response correctly explains RPF and RPB and their purpose.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.74"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.81"> 
+	 <response> The PURPOSE of Reverse Path Forwarding and Reverse path Broadcast is ensuring loop-free forwarding of multicast packets in multicast routing.  In REVERSE PATH FORWARDING, each IS has its own spanning tree instead of a global unified spanning tree and does not need to know other spanning trees. Each IS has information which path it would use for (unicast)-packets. Now if a packet arrives at the IS entry port over which the packets for this station/source are usually also sent, this means: the packet used the BEST route until now and thus resend over all edges (not including the incoming one). If Not, this means the packet did NOT use this route (it is NOT the best route) and thus discard the packet as it is most likely a duplicate. THE PROBLEM WITH REVERSE PATH FORWARDING is that the packet is sent through all edges except for the sender. This is solved by REVERSE PATH BROADCAST. Here, each node learns from the unicast packets. Only If the IS is located on the unicast between the broadcast sender S and a neighbor node B, then it will forward the packet.
+	 </response>
+     <response_feedback>The response is partially correct as in RPF, the sender alone needs to be aware of the spanning tree, and an intermediate system only needs to be aware of which path it would use for (unicast)-packets (known through the unicast routing algorithms). The explanation of RPB is correct. The purpose of Reverse Path Forwarding and Reverse path Broadcast is not limited to multicasting but also broadcasting. </response_feedback>
+     <score>0.8</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.86"> 
+	 <response>No submission.</response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="MM_8.2.89"> 
+	 <response>* * Reverse path forwarding (RPF) and broadcast is a technique that’s ensures loop-free forwarding of multicast packets * Reverse path broadcasting (RPB) is an improved version of the RPF * RPF: * Upon receipt of a multicast packet, a router saves the source address of the packet and the port the packet arrives on * If the shortest path from the router back to the source is through the port the packet arrived on, the router forwards the packet to all ports except the one the packet arrived on * If not, the router discards the packet * * RPB: * Algorithm like RPF, just with improved selection of the outgoing links * All IS inspect unicast packets and learn about the unicast paths - whether they are located on a certain unicast path or not * If the node y receives a packet from station x to z and is not on the unicast path between x and z it does not resend the data to z instead it sends it over different nodes on which y is located on the unicast path * This addition to the RPF relieves some connections
+
+	 </response>
+     <response_feedback>The response correctly answers the purpose and the explanation for both broadcast types. RPF avoids loops not only in multicast but also in broadcast.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="6.2" module="IPP">
+   <questionText>What are extension headers in IPv6 and where are they located in a packet? What is
+the main advantage of extension headers compared to IPv4?</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="IPP_6.2_a1">
+Extension headers are used to extend the fixed IPv6 header with additional, optional network layer information. If present, they are located between the fixed header/main header and payload/upper-layer header/ transport-layer header.
+
+Main advantage: One of the following advantages are considered fully correct:
+1. It allows the appending of new options without changing the header.
+2. IPv6 packets with optional headers are typically processed faster/simpler by intermediate devices as most of the options are ignored (except “Hop-by-Hop Extension”) while they are processed by all routers in IPv4 unless ordered otherwise.
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="IPP_6.2.2"> 
+	 <response>Extension Headers allow to extend the new, simplified and fixed-size IPv6-header with additional options. These headers are located between the standard header and the payload (upper-level headers and user data). This approach allows to add several additional options without reserving space in the standard header for such optional data,allowing the standard header to be smaller.
+	 </response>
+     <response_feedback>The response answers the description and location of extension headers correctly. In IPv4, there is also no reservation of space for unused options. The main IPv6 header is most often larger than the IPv4 header in practice. Some benefits result from the main header having a fixed instead of a smaller size. </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.3"> 
+	 <response> The extension headers are placed between fixed header and payload. The main advantage is that they are optional. This means that the use of space is more efficient because there won't be any redundant information placed there in order to keep the expected length.
+	 </response>
+     <response_feedback>The response answers only the location of extension headers correctly. The definition is missing and the advantage is incorrect when compared to IPv4 as the option field in IPv4 is also optional. Thus, there is no efficiency benefit.</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.6"> 
+	 <response>Extension headers can contain additonal information about the packet and are not processed before reaching the destination address, except the Hop-by-Hop Options header.
+
+They are located between the IPv6 header and the upper-layer header in a packet.
+
+The main advantage of IPv6 extension headers in contrast to IPv4 headers is that they are optional, so packets can be smaller, but extensible if needed.
+	 </response>
+     <response_feedback>The response answers the description and location of extension headers correctly. The stated main advantage is incorrect as the option field in the IPv4 header already is optional, so there is no added advantage over IPv4.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.15"> 
+	 <response>Extension headers in IPv6 are optional fields that cab specify additional options in an IP package. They are located between the actual IPv6 header abd the package payload. Compared to IPv4, they have the advantage of being more flexible as they are optional and can be used to add additional options to a package without being limited by the limited header size.
+	 </response>
+     <response_feedback>The response correctly answers all three parts of the question.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.37"> 
+	 <response>Extension headers are additional headers for a packet that are not defined by the IPv6 standard. 
+	 They are located within the data portion of the IPv6 packet. You can find them by following the offsets provided in the next header field of the IPv6 packet.
+	 The main advantage is, that the IPv6 header needs way less fields, and is better extendable in the future. If you want to modify the header with additional information, you can just add another header with your info and link it using the next header field.
+	 </response>
+     <response_feedback>The description of extension headers is incorrect as most are actually defined in the IPv6 standard. Additionally, extension headers are located between the main and next-layer header instead of in the data portion. IPv6 only saves one field by using extension headers because it doesn't need the option and IHL field but gains the next header field. The other advantage is correct.</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.44"> 
+	 <response> Extension headers are optional headers placed between the fixed header and the payload. 
+They allow appending new options without changing the fixed header. 
+Also, they help to overcome size limitations. 
+	 </response>
+     <response_feedback>The response answers the description, location of extension headers, and advantage correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.46"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response answers no parts of the question correctly </response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.51"> 
+	 <response>They are placed between the fixed header and the payload and are used to add additional non-necessary information to the IP package. The main advantage is, that they are allowing to append new options and the fixed header stays the same.
+	 </response>
+     <response_feedback>The response answers the description, location of extension headers, and advantage correctly. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.56"> 
+	 <response> 1.IPv6 extension headers contain supplementary information used by network devices (such as routers, switches, and endpoint hosts) to decide how to direct or process an IPv6 packet.
+2.They are located between fixed header and payload.
+3. IPv6 extension headers can be of arbitrary length.And the number of options that a packet carries are not limited.
+	 </response>
+     <response_feedback>The response answers the description, location of extension headers, and advantage correctly. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.67"> 
+	 <response> Some of the missing IPv4 fields are occasionally still needed, so IPv6 introduces the concept of
+extension headers. These headers can be supplied to provide extra information.
+
+Extension headers are placed between fixed header and payload.
+
+Main advantages: Extension headers are optional, so there is no space occupied if no extension headers are added. Also, they help to overcome size limitation and allow to append new options without changing the fixed header.
+	 </response>
+     <response_feedback>The response answers the description and location of extension headers correctly. As even the option field in the IPv4 header is optional, there is no added advantage over the IPv4 option field in terms of unnecessarily reserved space.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.70"> 
+	 <response> Extension headers in IPv6 are a way of enlarge the header in order to put additional information. They are placed between the fixed header and the payload. The main advantage of extension layer compared to IPv4 is that they are optional while in IPv4 the options field is required. Therefore in IPv6 you can add bigger variable length optional information without changing the fixed header. So if you want to change IPv6 you are able to put in information in these extensions. 
+
+	 </response>
+     <response_feedback>The advantage given in the response is partially correct because the option field in IPv4 is optional as well. It had a variable length of 0-40 bytes.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.72"> 
+	 <response> In IPv6 are extention headers between fixed Header and payload.
+Extenstion headers can link the next following Header till UpperLayer.
+	 </response>
+     <response_feedback>The response is partially correct because it lacks the definition and advantage parts. Extension headers are used to extend the fixed IPv6 header with additional network layer information and it allows the appending of new options without changing the main header.</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.2.83"> 
+	 <response>Extension headers are optional headers that can be placed between the main header and the data.  Each header has a reference to the start of the next header.  The main advantage is that it is more efficient from a space perspective, because it is no longer necessary to allot space in the fixed header for optional header information.  Instead, if there are no additional headers, the next header reference can just be empty.  Additionally, extension headers makes it easy to extend the header without having to modify the fixed size header.
+	 </response>
+     <response_feedback>The location of extension headers stated in the response is incorrect. Extension headers are located between the main and the transport-layer header instead of the data. Also, the advantage of more space is not correct because the option field in IPv4 is also optional and often 0 bits long in practice.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+		<studentAnswer id="IPP_6.2.93"> 
+	 <response> Extension headers are the way to put additional information in the packet and are placed between fixed header and payload. The main advantage compared to IPv4 is that they are optional and extensible, so they don't consume additional space and can be modified easily later on (should the specification change).
+	 </response>
+     <response_feedback>The response answers the description and location of extension headers correctly. As even the option field in the IPv4 header is optional, there is no added advantage over the IPv4 option field in terms of space consumption. </response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

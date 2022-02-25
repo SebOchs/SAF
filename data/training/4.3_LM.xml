@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="2.1" module="LM">
+   <questionText>Please explain the problem with "Distributed Queue Dual Buses" that was discussed in the lecture in 1-3 sentences.</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="LM_4.3_a1">
+	  Depending on your position in the bus station have a disadvantage/advantage when reserving transmission rights.
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="LM_4.3.1"> 
+	 <response>The main problem with "Distributed Queue Dual Buses" is the fairness between the different stations on the buses. 
+
+Depending on the distance between a station and the frame Generator or the Slave Frame Generator, the station could be advantaged or disadvantaged regarding the distribution of the data. 
+
+	 </response>
+     <response_feedback>The response correctly states the problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.2"> 
+	 <response>There was a fairness-problem discussed: If the station which want to send requests lies at the end of the bus in whose direction it want to send data, it has to consider the reservations of all other stations coming from the other bus, making it wait longer for a send than the other stations.
+	 </response>
+     <response_feedback>The response is correct as it correctly explains the fairness problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.3"> 
+	 <response>The main problem with the DQDB is that it lacks fairness because every station does not receive the same information. This means that the fairness was the biggest issue.
+	 </response>
+     <response_feedback>The response is partially correct because there is lack of fairness based on location rather than lack of information as stated above.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.4"> 
+	 <response>A node A close to the frame generator can pick up a “free” token and transmit data with a higher probability than a node B far away from the frame generator if the network is highly loaded. Therefore, Node A has a preference when trying to send a packet compared with node B which is a fairness problem. Research to improve the DQDB protocol includes bandwidth balancing schemes to increase the fairness of bandwidth allocation. 
+	 </response>
+     <response_feedback>The response correctly states the fairness issue in DQDB and provides an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.5"> 
+	 <response>Networks that use DQDB in metropolitan areas suffer a fairness problem due to network control information. Propagation delays become much longer than the transmission time of a data segment. To tackle this problem, a rate control procedure is used that only requires a minor modification to DQDB network structure. 
+	 </response>
+     <response_feedback>The response answer is partially correct because it identifies the fairness problem due to network control information and propagation delays. But the lack of fairness is based on station locations.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.6"> 
+	 <response>Stations connected to the bus which are nearer to the frame generator can reserve a slot before other stations. This may lead to fairness issues between stations.
+	 </response>
+     <response_feedback>The response answer is correct as it states the correct problem in Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.7"> 
+	 <response>The problem of DQDB is that nodes closest to the frameslot generator always have priority to send reservation-requests in one direction. The node closest to the station could theoretically fill the reservation slots in one direction over and over again. Especially nodes in the middle of the network who have equal distances to the framegenerators have an unfair disadvantage to send data in either direction.  
+
+	 </response>
+     <response_feedback>The response correctly explains the problem of transmission rights fairness in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.8"> 
+	 <response>The problem consists of the arrangement of the sending notes / stations. The stations reserve on one bus, that they want to send something and can then send if their reserved timeslot occurs. When the station at the end of the bus want to reserve something, then it might be possible, that there are no more free places to reserve, therefore it has to wait for the next cycle what is unfair in contrast to the other stations. 
+	 </response>
+     <response_feedback>The response correctly identifies and explains the fairness issue in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.9"> 
+	 <response>The problem with this system was the fairness. Some nodes had better chanes to reserve bandwith for themselves than other nodes.
+	 </response>
+     <response_feedback>The response is partially correct as it states the issue in DQDB but lacks an explanation of why some nodes have better chances of reservation rights. The possibility to reserve bandwidth depends on the distance between a station and the Frame Generator or the Slave Frame Generator.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.11"> 
+	 <response> No response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.12"> 
+	 <response> By reserving on one bus and sending on the other one, nodes have to wait for an answer for their reservation-request. The time spent waiting is dependent on the location of the node, so the networks lacks fairness for all nodes.
+	 </response>
+     <response_feedback>The response is correct as it correctly explains the fairness problem with DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.13"> 
+	 <response>DQDB offers fair access for asynchronous transfer to all stations in large parts. However, in high load cases or with a few stations located far apart, access becomes increasingly unfair. Compared to central stations, peripheral stations of the bus system receive a larger fraction of the available slots. 
+	 </response>
+     <response_feedback>The response correctly states and explains the problem in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.14"> 
+	 <response>the main problem is the "fairness" - the nodes in the beginning of the bus can reserve way more data than in the end, to send it to the other bus. this is only based of their position, which is unfair to the other nodes
+	 </response>
+     <response_feedback>The response correctly identifies the fairness issue in DQDB which depends on the station location in bus.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.15"> 
+	 <response> The Distributed Queue Dual Bus (DQDB) architecture uses two unidirectional buses for sending and receiving data. The main challenge here ist to guarentee fairness between all participating nodes as different nodes may have advantages (if at the beginning of the bus) or disadvantages (if at the end of the bus) in write access depending on their position in the bus.
+	 </response>
+     <response_feedback>The response correctly states and explains the fairness problem of reserving transmission right in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.16"> 
+	 <response>Before sending data from Node A to Node B, A has to reserve a frame in the bus where A comes after B. Outer nodes are restricted to sending only in one direction, while nodes in the middle may make reservations in both directions and thus have a higher chance to get a reservation.
+	 </response>
+     <response_feedback>The response is partially correct as the nodes located close to the generator have a higher chance of getting a reservation rather than the "middle" node. So unidirectional or bidirectional alone does not decide fairness.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.17"> 
+	 <response>In networks with high load, Distributed Queue Dual Busses (DQDBs) do not ensure fairness between the units in the network. 
+The nodes with better positions – closer to the frame generators – can trump the requests of other nodes. 
+	 </response>
+     <response_feedback>The response identifies the problem in DQDB including an appropriate explanation.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.18"> 
+	 <response>The problem is the fairness, because it can depend on the location of the station if you have an advantage or disadvantage in getting access to the bus and send data. This is, because to send data a station has to make a reservation on one bus and after the reservation arrives on the other bus, the station can send its data on that other bus (so reservation on one and sending on the other). Therefore the location of a station has influence on the fairness because for example if the station is at the beginning it could be more likely to get a reservation to send some data than it is when the station is at the end of the bus.
+	 </response>
+     <response_feedback>The response answer is correct because it identifies the correct problem in DQDB including an appropriate explanation.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.19"> 
+	 <response>The main problem is that the reservation part of a bus is biased to the location of the nodes. That means that a node closer will get the resevation first than a node which is a bit further. 
+The goal is to provide fairness, in other words, to find a solution where everyone has the same likelihood to get the data. 
+	 </response>
+     <response_feedback>The response correctly states the problem in DQDB and gives an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.20">
+	<response>
+	
+The more a node is located upstream (close to the head), the higher is its probability to get a free slot for sending or reserving:
+Nodes can only use unoccupied slots for transmission (generated at the head of bus), so the closer they are to the respective bus end, the more disadvantageous it is for nodes willing to transmit, since the nodes located upstream probably already have slots occupied.
+To compensate for this disadvantage (and advantage of the nodes at the beginning of the bus), a reservation for the own node can be sent on the other bus (than the one used for transmission), which also gives stations willing to make a reservation at the beginning of that very bus an advantage over those located downstream.</response>
+     <response_feedback>The response correctly answers the question.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.22"> 
+	 <response>In the DQDB Network Architecture, there are two buses connected with nodes interacting by nodes with the 2 buses.
+On each bus side there is a frame generator, preparing the transmission with frames, generating frames. 
+If the request to send (and reservation) is too near on the frame generator of bus A or bus B,
+than it is less likely that all nodes gets data, if other nodes demand it, so there is fairness problem depending on the distance
+from the frame generators.
+	 </response>
+     <response_feedback>The response states the correct problem in DQDB and gives a proper explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.24"> 
+	 <response>Distributed Queue Dual Buses = 2 buses (transfer data in opposing directions), every node connected to both buses
+
+Distributed Queue Dual Buses is an architecture whereby every node is connected to 2 buses (write and read access). These buses are responsible for data transmission in opposing directions. The problem is because of transmission of data:
+
+Both buses are connected to a frame generator which generate a fixed size frame every 125 milliseconds. Depending on the position of the nodes in the bus they can reserve the bus for sending data with a higher probability. E.g. for a node in the middle we have a probability of 50% to successfully reserve a bus. As a consequence, fairness is a problem due to the bus topology: Depending on the position of the node the node may be more or less successful in reserving a bus for data transmission.
+	 </response>
+     <response_feedback>The response correctly explains the fairness problem of reserving transmission rights in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.25"> 
+	 <response>The key idea of this protocol is to use one bus for reservation purposes and the other bus for sending frames. The problem is that depending on where a particular node is located, it is not equally likely to succeed in reserving something. The fairness in this system is not equally distributed. </response> 
+     <response_feedback>The response correctly identifies the fairness issue present in DQDB that depends on the location of the station.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.27"> 
+	 <response>There are mainly two problems with Distributed Queue Dual Buses:
+1.There is fairness problem which is due to propagation delays.
+2.Throughput Deterioration problem with DQDB Networks.</response>
+     <response_feedback>The response answer is partially correct as it identifies the fairness problem in terms of propagation delays and throughput deterioration. However,the fairness problem is based on station location instead.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="LM_4.3.28"> 
+	 <response>The issue is called fairness. It depends on the position of the station how easy it has access to the data. Not each station has the same oportonity. 
+	 </response>
+     <response_feedback>The response correctly answers the problem present in DQDB and also provides an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.29"> 
+	 <response>The location within the network topology plays a significant role when it comes to likeliness for the possibility to send data. This leads to the problem of unfairness since nodes that are closer to the frame generator are more likely to send data if they want to. Reason for this is that the frames are transmitted on first come first served.
+	 </response>
+     <response_feedback>The response correctly answers the problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.30"> 
+	 <response>The problem with Distributed Queue Dual Buses is fairness. The location of the station has an impact on the access to the data, which means that the stations don’t have equal access. Depending on the location a station could have an advantage or disadvantage in terms of the access, which isn’t fair to the other stations.
+	 </response>
+     <response_feedback>The response is correct as it identifies the fairness problem in DQDB based on station locations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.32"> 
+	 <response>A node at the end of a bus has the least priority to send something. In a DQDB a node is part of two busses and so has two different priorities to send. To archieve a fair transmission for all nodes one has to find an algorihm which allows any node to schedule a write with the same priority.
+	 </response>
+     <response_feedback>The response is correct as it gives an appropriate reason for the fairness problem in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.33"> 
+	 <response>The problem with DQDB lies within the fairness of data reception and transmission.
+Stations (or nodes) can reserve frames for data transmission on one bus and then send it on the other bus. Stations, that lie closer to the frame generator may reserve more frames than in the middle.
+	 </response>
+     <response_feedback>The response correctly states and explains the problem in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.34"> 
+	 <response>As one bus is used for reservation while the other one is used for transfer it is difficult for the frames in the end to still reserve data. Therefore it is necessary to take care of fairness in terms of ensuring the frames the same access to the data.
+
+	 </response>
+     <response_feedback>The response correctly states the fairness problem in DQDB by comparing the reservation of transmission rights for stations located at end on the bus.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.35"> 
+	 <response> The mentioned problem with Distributed Queue Dual Bus is fairness. Each node when it wants to send something, it has to make “reservation” on one side of a bus and then when allocated at the other side of other bus, it is able to send something. For this reason, some nodes which is located near either one or two ends of the two buses might have too much advantage and disadvantage when it comes to transmission reservation (near and far ends). Only nodes which are in between may have average fairness to reach both ends of the two bus. 
+	 </response>
+     <response_feedback>The response correctly identifies the fairness issue in DQDB and also provides an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.36"> 
+	 <response>There is a fairness problem with DQDBs, where all nodes are allowed to transmit at a certain rate, but when a node is given an offered rate less than the allowed limit, that node transmits at the lower rate while others continue at the maximum allowed rate. This is called rate controlled fairness. 
+
+	 </response>
+     <response_feedback>The response is incorrect because it identifies the problem of "fairness" in the wrong context. "Rate controlled fairness" is a way to overcome the problem of fairness, when stations at different positions are forced to have the same rate irrespective of their position in the bus, not a problem itself.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.37"> 
+	 <response> The big problem with DQDB is fairness. Nodes at different places in the topology can reserve space on the bus easier than others. The nodes at the end of a bus can overwrite requests of previous nodes to reserve the bus with their own requests.
+	 </response>
+     <response_feedback>The response correctly explains the fairness issue in DQDB and also explains why some stations have advantages/disadvantages based on their location.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.38"> 
+	 <response>There are fairness issues that depend on the location of a node in the queue: a node that comes earlier in the queue has better chances of successfully placing a send request than a node that comes later.
+	 </response>
+     <response_feedback>The response correctly states the fairness issue in DQDB and also provides an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.39"> 
+	 <response>DQDB has problem of fairness with respect to all Nodes getting equal chance with reservation of data bus for transmission. Depending on the position of node in the data bus, some nodes will get better chances at reservation than others. The actual design of the concept makes it difficult to implement fairness properly.
+
+	 </response>
+     <response_feedback>The response correctly identifies the problem present in DQDB and also provides an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.40"> 
+	 <response> No response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.41"> 
+	 <response>FThe location of the stations makes a difference in terms of fairness of the reservation-order. For example: if the last station of one bus wants to use the bus for sending, the timelength for its reservation signal is longer than the one for the first station. So if every station wants to reserve the bus at the same time, the first stations will get earlier access than the last stations.
+	 </response>
+     <response_feedback>The response correctly explains the fairness problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.42"> 
+	 <response>The problem is fairness in the DQDB Network Architecture. Because nodes at the beginning of the bus can reserve and send more data than at the end of the bus. So each node which is not in the middle and therefore has an advantage on the one bus has a disadvantage on the other bus and vice versa.
+	 </response>
+     <response_feedback>The response correctly identifies and explains the fairness issue in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.44"> 
+	 <response> To build a Metropolitan Area Network (MAN), which can combine asynchronous data traffic(IEEE 802.x MAC) and isochrounous traffic (ATM-B-ISDN), the DQDB (IEEE 802.6) was designed.
+Therefore, two unidirectional buses are used. One bus is in the opposite direction of the other. A node is connected to both buses, on one bus data can be requested, on the other one data is sent.
+The main problem with this architecture is, that a node can request more data than others depending on its position in the network.  So fairness is the issue with DQDB. 
+To sum up:
+"For a light-to-medium load, DQDB is somewhat unfair.", Fairness issues of the DQDB protocol, 
+	 </response>
+     <response_feedback>The response states the correct problem in DQDB architecture, including the proper explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.46"> 
+	 <response>The problem is that depending on the location on the bus, different nodes might reserve more than others. So there is a problem with fairness.
+	 </response>
+     <response_feedback>The response correctly states the problem and appropriate reason for the fairness problem in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.47"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.48"> 
+	 <response>How much data can be reserved in a node depends on the location of the node. It means the one which is close to the frame generator can get more data than which in the middle. Obviously it's unfair for each node.
+	 </response>
+     <response_feedback>The response correctly explains the fairness problem of reserving transmission rights in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.49"> 
+	 <response> The main issue with the Distributed Queue Dual Busses-system is the fairness of getting access to the network. Depending on its position relative to the BUS and the frame generators, one node may have higher chances to reserve bandwidth for transmission than other nodes - while middle nodes have a 50/50 chance, the nodes at the side have higher or smaller chances, depending on the bus direction. This was a big disadvantage for this system when it first came public, especially because there were other, more capable and fairer systems established at the same time, for example FDDI or ATM.
+	 </response>
+     <response_feedback>The response correctly identifies the issue in DQDB architecture and provides an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.50"> 
+	 <response> In Distributed Queue Dual Buses, stations (nodes) are connected to two unidirectional buses. When a station wants to send, needs to do a reservation in one bus. Just when that reservation reaches the other bus, the station can send the data. The problem in this architecture is how can we guarantee fairness between stations? In this architecture nodes are organized in a parallel way, so not all nodes are at the same distance. If the closer nodes send a reservation, that reservation will reach the send bus earlier than reservations from more distant nodes. If closer nodes do a lot of reservations, more distant nodes might not have the opportunity to send anything.
+	 </response>
+     <response_feedback>The response correctly identifies the fairness issue in DQDB and also gives a proper reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.51"> 
+	 <response>The problem concerns fairness. Because each node reserves on one of the busses and sends on the other one, it highly depends on which position the node is located, because that influences how much/often it can reserve sth.
+
+	 </response>
+     <response_feedback>The response correctly states the drawback in DQDB architecture and also gives an appropriate reason for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.52"> 
+	 <response>In “Distributed Queue Dual Buses" frames are send by frame generators over two buses and the connected station can write in these frames if they have permission. The buses are unidirectional which makes the probability to reserve a frame on a bus dependent on the position in the queue. Extra measurements have to be put in place in order to preserve fairness.  
+	 </response>
+     <response_feedback>The response correctly identifies the issue in DQDB and provides an appropriate reason for it. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.53"> 
+	 <response>No response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.56"> 
+	 <response>the amount of data which can be reserved in a node depends on the location of node. Some node can reserve more data.  So it's unfair for each mode
+	 </response>
+     <response_feedback>The response correctly identifies and explains the fairness issue in DQDB which is based on the station location.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.58"> 
+	 <response>Distributed Queue Dual Buses have a fairness problem, meaning that dependent on the position of the node it will be advantaged or disadvantaged for certain comunications, as each bus only works in one direction and frames have to be requested. 
+	 </response>
+     <response_feedback>The response correctly states the problem in DQDB and gives an appropriate reason for it. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.59"> 
+	 <response>Distributed queue dual buses have a fairness problem.
+Depending on the location, an user can reserve more data on the bus, but is also very difficult to reserve the data on the other bus, if the node is at the "edge" (left or right side). If the user is in the middle, the user has the same probability of reserving data on both buses.
+	 </response>
+     <response_feedback>The response states the correct problem in DQDB which is due to station location.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.60"> 
+	 <response>The problem with "Distributed Queue Dual Buses" is the fairness problem. The Question that comes up here is how it can be fair, that everybody gets the same access to the data, or respectively depending on the location does it makes a difference in terms of fairness.
+	 </response>
+     <response_feedback>The response correctly answers the question.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.61"> 
+	 <response>The problem here is the question of fairness. 
+How is it fair that everybody gets the same access to data! 
+For example does it depends on the location of the station in the dual bus system, one station can reserve more than the other station, so mathematic shows that if a station is in the end it s difficult to reserve something, for the station in middle is half-half, and being a station on the side it can be an advantage or disadvantage.
+	 </response>
+     <response_feedback>The response correctly explains the fairness problem in DQDB architecture which is due to station location.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.62"> 
+	 <response>The problem with DQDB is to decide how to constribute the acces to the buses fair.  The buses are unidirectional so if one node want to reserve the bus and it is nearer to the frame generater it has better chance to get the reservation. 
+	 </response>
+     <response_feedback>The response correctly identifies the problem in DQDB and gives an appropriate explanation as well.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.63"> 
+	 <response>The access control is unfair because the station request access works with FIFO so the stations near the frame generator have better chances to transmit.
+	 </response>
+     <response_feedback>The response answers the question correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.64"> 
+	 <response> The problem with the “Distributed Queue Dual Buses” is that it does not ensure fairness. The location of the node has an influence on its likelihood of gaining access to the data or acquiring the right to send, which results in an inequality between the nodes.
+
+At the beginning of a bus all frames generated by the frame generator are empty. So the first node can reserve however many frames it wants. At the end of the bus it can happen that all frames are already reserved so the last nodes may not be able to send anything.
+	 </response>
+     <response_feedback>The response is correct as it correctly explains the fairness problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.65"> 
+	 <response>In the DQDB Network Architecture every node is connected to 2 unidirectional buses that are used for data transfer. The problem with this approach is, that there is no fairness between the nodes. Depending on the location of the node on the busses a node can have advantages over other nodes regarding the likelihood to have access to the data.
+
+	 </response>
+     <response_feedback>The response correctly explains the problem in Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.67"> 
+	 <response>The problem with Distributed Queue Dual Buses is fairness. The probability of getting access to the data is not equal for every node. Some nodes can reserve more than other nodes because of their position.
+	 </response>
+     <response_feedback>The response correctly states and explains the fairness problem in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.68"> 
+	 <response>Depending of the location of the Node which wants to send data to other station how could be the Slot distribution fair for the node in the middle.  The mainly issue here is the fairness of reservation.
+	 </response>
+     <response_feedback>The response correctly states the reservation rights fairness problem in DQDB by comparing node locations in the bus.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.69"> 
+	 <response> The problem is the fairness. Due to the reservation scheme and the fixed order of the stations, the stations at the end of the bus are disadvantaged to reserve any part of the generated frame.
+	 </response>
+     <response_feedback>The response correctly identifies the problem present in DQDB and provides an appropriate explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.70"> 
+	 <response> The problem with DQDB is that there is a difference in fairness depending on the location, as not everyone has the same access to data. 
+
+
+	 </response>
+     <response_feedback>The response correctly identifies the fairness issue in DQDB which is due to the location of station.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.71"> 
+	 <response> The problem of DQDB is fairness due to implemented so called bandwidth balanding mechanism. It means, the network bandwith is fairly distributed among the stations and every stations is able to send the same amount data at the same time. This balancing mechanism results in portions of available badwidth which is unused.
+	 </response>
+     <response_feedback>The response is partially correct as it states the fairness problem in DQDB but in the wrong context. The stations have a fairness issue for reserving transmission rights that depends on the distance between a station and the frame Generator or the Slave Frame Generator. The bandwidth balancing mechanism is a way to overcome this problem.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.72"> 
+	 <response>The problem with DQDB is Fairness.
+The Question is how everybody can get the same likely to get access to data.
+	 </response>
+     <response_feedback>The response correctly identifies the problem in DQDB but it lacks an explanation for it. The fairness of reserving transmission rights depends on the distance between a station and the Frame Generator or the Slave Frame Generator.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.73"> 
+	 <response> Fairness is a problem: Access to the data is not equal for every station.
+The different participants have different conditions when accessing the medium depending on their position. Therefore, it is hard to establish a fair situation, in which they can send and receive a similar amount of data. 
+	 </response>
+     <response_feedback>The response is correct as it explains the problem with Distributed Queue Dual Buses correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.74"> 
+	 <response>DQDB's are not fair. Nodes in the middle are more likely to achieve access to data then outer nodes. So Fairness is the problem with DQDB's.
+	 </response>
+     <response_feedback>The response is partially correct. Stations located near the Frame Generator have a higher probability of reserving transmission rights than the middle stations. Stations located in the middle may have a 50% chance of transmission rights reservation. The advantage/disadvantage depends on the distance between a station and the frame Generator or the Slave Frame Generator.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.75"> 
+	 <response> The system's problem is fairness. Depending on the location on the buses, one station may be able to reserve more frames than others.
+	 </response>
+     <response_feedback>The response correctly states the fairness problem in DQDB including an explanation.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.76"> 
+	 <response> The main problem with Distributed Queue Dual Buses Architectures is that the available bandwidth is not shared fair between the sending stations. The stations near the start of the bus can send more data than station further at the end, as they can reserve frames before the other stations get the chance to.
+	 </response>
+     <response_feedback>The response correctly identifies the problem in DQDB and gives an appropriate explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.77"> 
+	 <response>The problem with DQDB Network is the lack of fairness. Depending on the order and distance between the station and the frame generator the request for reserving and sending is faster/more likely to be allowed. 
+	 </response>
+     <response_feedback>The response correctly answers the issue with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.78"> 
+	 <response> There're two buses and many nodes in this system and a node can receive and send information from a bus  to the other one. But depend on its location, a node has different possibility to get access to the data, the node at the very beginning is always the easiest to get access to the data, so it's some kind of unfair.
+	 </response>
+     <response_feedback>The response correctly explains the fairness issue in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.79"> 
+	 <response> You have to combine it with all frames in a network. Each system is connected to two busses, and the generated frames between those busses need to be reserved upon sending/receiving. The "fairness" of assigning acces in the FIFO queue is a problem here.
+
+	 </response>
+     <response_feedback>The response correctly answers the question.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.80"> 
+	 <response> The main problem with DQDB is fairness. While stations in the middle might have a chance of 50% to send data, stations at the beginning or at the end can have advantages/disadvantages depending on the situation.
+	 </response>
+     <response_feedback>The response correctly identifies the fairness problem in DQDB which is due to the station location.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	  <studentAnswer id="LM_4.3.81"> 
+	 <response>The problem with DQDB is the lack of fairness, which is to make all the users have the same likelihood to access the data. And since the data are transmitted through the network in a queue, the likelihood to access the data depends on the location of the user. That means that the user at the beginning is the most likely to reserve data, and the user at the end is the least likely to reserve the data.
+	 </response>
+     <response_feedback>The response correctly states the problem in Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.82"> 
+	 <response>Depending on the stations location in the network, they might be able to more easily reserve bandwidth on the BUS for sending data. Stations which are farther back will have less opportunities for reserving a BUS than stations at the front.
+This can be fixed by introducing some formulas describing how often each station can reserve a BUS.
+	 </response>
+     <response_feedback>The response is correct as it correctly states the issue with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.83"> 
+	 <response>The main problem with Distributed Queue Dual Buses is the problem of fairness when a node wants to access the channel which in-turn leads to unfair bandwidth distribution. This is mainly due to the physical location of nodes on the bus which spans multiple kilometres in length.
+	 </response>
+     <response_feedback>The response answer is correct as it explains the appropriate problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.84"> 
+	 <response>Fairness is the problem，the data reserve is not depending on the location, some have more frames than others
+	 </response>
+     <response_feedback>The response identifies the fairness problem in DQDB. However, it states that it is not dependent on the location and that is incorrect. The fairness problem of reserving transmission rights depends on the distance between a station and the frame Generator or the Slave Frame Generator.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.85"> 
+	 <response>The Node has to reserve on one Bus before sending out the data onto the other Bus. 
+
+But the fairness is the problem. The station locates at the end of the bus has disadvantage that it 's much more difficult to reserve a slot, compared to the nodes in the middle or at the begin of the bus. 
+
+	 </response>
+     <response_feedback>The response correctly states the fairness problem of transmission rights and gives an explanation behind it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.86"> 
+	 <response>It is about the Problem, how can it be fair that  everybody gets the same possibility to Access to the data.
+	 </response>
+     <response_feedback>The response is partially correct as it states the fairness problem in DQDB, but it lacks the reason behind it. The reservation of transmission rights depends on the distance between a station and the frame Generator or the Slave Frame Generator.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.87"> 
+	 <response>It works with high-power in order to work very performant with a high amount of data.
+Problem is that it is not that good, when there is less data.
+	 </response>
+     <response_feedback>The response is incorrect. There is a fairness issue with the distribution of transmission rights between stations that depends on the distance between a station and the Frame Generator or the Slave Frame Generator.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.88"> 
+	 <response>The main idea behind DQDB was to combine all kinds of frames format to support one network. The issue with this is fairness that each node does not have the same chance to access the data. As the node at the middle of the bus have a equal chance but at other sides it is not fair.
+	 </response>
+     <response_feedback>The response correctly states the fairness issue in DQDB and also includes an explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.89"> 
+	 <response>DQDB has a fairness issue depending on the location of the station in the network.
+The position of the station in the network makes a difference when the data is received (propagation delay effect) from one bus and therefore when the station can place a reservation on the other bus. 
+For the last station in the network to receive the data it might be difficult to still place a reservation due to the other reservations already been placed. 
+
+	 </response>
+     <response_feedback>The response correctly identifies the drawback of DQDB and gives an appropriate explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.92"> 
+	 <response>The problem with Distributed Queue Dual Buses (DQDB) architectures is fairness. It is not equally likely for the nodes to get access to the data, it depends on the nodes location in the network.
+	 </response>
+     <response_feedback>The response answers the question correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.93"> 
+	 <response>DQDBs have a fairness issue: If one node wants to send something it has to reserve it on the bus. But the nodes which are more upstream are more likely to reserve a free spot, because they have fewer nodes located before them. Similarly, a node more downstream may be starved by the reservations from upstream nodes.
+	 </response>
+     <response_feedback>The response is correct as it correctly explains the fairness problem of reserving rights in DQDB.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.94"> 
+	 <response>There can be problems with fairness depending on the position of a station. Depending on a stations position, their reservation can be delayed by a station closer to the frame generator.</response>
+     <response_feedback>The response correctly answers the problem with Distributed Queue Dual Buses.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.3.95"> 
+	 <response>DQDB describes a MAN structure, where every node (mostly LANs) is connected with two unidirectional buses, which have a frame generator at the end. A node can reserve on one bus and then send one the other one. The problem is the reservation is depending on the location of the node and therefore you sometimes have an advantage and sometimes a disadvantage and so it is not fair.
+
+	 </response>
+     <response_feedback>The response correctly identifies the fairness issue in DQDB and provides an appropriate explanation for it.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

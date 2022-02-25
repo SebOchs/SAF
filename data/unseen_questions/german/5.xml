@@ -1,0 +1,1817 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="5">
+  <questionText>Frage 5: Welche Aspekte sorgen dafür, dass du einen Sanitärbereich als nicht sauber bewertest?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="5.a1">Ein Sanitärbereich ist genau dann nicht sauber, wenn hygienische Mängel vorliegen, auf deren Beseitigung die Station durch regelmäßige Kontrolle der Toiletten klaren Einfluss hat. Dies kann das Fehlen von Verbrauchsmaterial (0.25 P), ein überfüllter Mülleimer, ein verdreckter Boden/verdreckte Wand (0.25 P) oder eine Verschmutzung an den Toiletten/Waschbecken (je 0.25 P) sein, die nicht „frisch“ aussieht. Explizit akzeptabel sind unangenehme Gerüche oder leichter Schmutz auf dem Boden, wie z.B. Laubblätter. Es muss berücksichtigt werden, dass Toiletten nicht nach jedem Besuch auf Sauberkeit kontrolliert werden können.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Nicht sauber, oder nicht ausreichend Verbrauchsmaterial bestückt</response>
+      <response_feedback>Richtig. Explizit solltest du darauf achten, ob Waschbecken und Toilette sauber sind. Bitte bedenke, dass die Tankstelle nicht unbedingt nach jedem Besuch feststellen kann ob die Sanitäranlagen verlassen wurden wie du sie potenziel gerne vorfinden würdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sichtbarer schmutz auf Boden, klobrille, Waschbecken, Toilettenpapier auf dem Boden, mülleimer überfüllt</response>
+      <response_feedback>Exakt. Achte auch noch darauf ob ausreichend Verbrauchsmaterialien wie Seife, Papiertücher und Desinfektionsmittel bereit stehen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Sauberkeit des Bodens, des Waschbeckens und Toilettenschüsseln, und ob genügend Seife und Tücher verfügbar sind und ob die Toiletten generell gepflegt aussieht. Außerdem soll ich überprüfen, ob Toilettenspülung, Wasserhahn, Handtrockner funktionsfähig sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Unhygienisch., keine papier Tücher kein Klopapier</response>
+      <response_feedback>Bei den Toiletten ist es wichtig zu berücksichtigen, dass das Personal die Toiletten nicht nach jedem Besucher begutachten kann. Es sollen daher nur Mängel berücksichtigt werden, auf die die Station einen direkten Einfluss hat wie  zb. Generelle Sauberkeit der Waschebecken, Toiletten, Wände und des Bodens. Sind ausreichend Verbrauchsmaterialien vorhanden?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn es übel riecht und offensichtlich Urin zu erkennen ist.</response>
+      <response_feedback>Neben genereller Sauberkeit von Toilette und Waschbecken, sollte natürlich noch drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn er verschmutzt ist, Abfall nicht entsorgt wurde.</response>
+      <response_feedback>Richtig. Neben der generellen Sauberkeit solltest du auch drauf achten, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der Boden mit Papier oder Ähnlichem und mit Dreck oder Urin vorzufinden ist. Oder das Waschbecken oder die Toiletten verdreckt sind.</response>
+      <response_feedback>Neben der generellen Sauberkeit sollte noch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn eine oder mehrere Anlagen im Sanitärbereich nicht funktionsfähig sind oder nicht ausreichend Verbrauchsmaterial vorhanden ist.</response>
+      <response_feedback>Neben der generellen Funktionalität sollte natürlich auch noch auf Sauberkeit geachtet werden. Insbesondere gilt dies für Waschbecken und Toilette, aber natürlich auch für den Boden und die Wände.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Geräte oder Einrichtungen nicht funktionsfähig, nicht ausreichendes Material, starker Geruch, Verunreinigungen</response>
+      <response_feedback>Geruch ist leider kein Kriterium. Dies ist etwas, worauf die Tankstellenbetreiber nicht unbedingt Einfluss haben.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette ist verschmutzt oder kaputt, Toilettenpapier/Seife fehlt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gehe immer sehr fair vor. Sollten aber die Böden oder Sanitäreinrichtungen verschmutzt sein oder Toilettenpapier auf dem Boden liegen dann gibt dies Abzüge in der Bewertung. Allerdings nehme ich diesbezüglich auch Rücksicht. Gerade wenn ein Reinigungsplan vorliegt und z.B. aller 1-2 Stunden gereinigt wurde dann kann man dem Betreiber kein Vorwurf machen wenn kurz nach der Reinigung ein Kunde alles verschmutzt hat.
+Weiter achte ich auf Beleuchtung sowie die Bestückung von Materialien</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>bei allgemeinen dreckigen zustand und wenn Verbrauchsmaterialien fehlen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>offensichtliche Verschmutzung</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn das Urinal unrein ist und Dreck auf dem Boden rumliegt.</response>
+      <response_feedback>Neben der generellen Sauberkeit der Anlagen sollte auch darauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Braune Ablagerungen in der Toilette - Deckelrand hat gelbe Ablagerungen - Gestank - keine Seife vorhanden</response>
+      <response_feedback>Gestank ist leider etwas, auf das die Tankstellen nicht unbedingt Einfluss haben. Deswegen ist es kein Kriterium. Achte auch darauf ob genügen Papiertücher vorhanden sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wände, Waschbecken Spiegel Türgriffe oder Toilette verschmutzt</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Papier liegt überall herum, Toilette in einem verschmutzten Zustand, Waschbecken nicht sauber,</response>
+      <response_feedback>Achte neben der Sauberkeit auch darauf, dass ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Anlagen (Wasserhahn, Toilettenspülung, Handtrockner) sind nicht funktionsfähig. Die Toiletten sind nicht sauber und sind nicht im guten Zustand.</response>
+      <response_feedback>Neben der generellen Sauberkeit der Anlagen sollte auch darauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier o.ä. Was herum liegt, schmutziger Boden, Toilette, Waschbecken oder verschmierte Wände.</response>
+      <response_feedback>Bitte bedenke, dass die Tankstelle ggf nicht die Kapazitäten hat, nach jedem Besucher ein makelloses Erscheinungsbild sicherzustellen. Achte bitte darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Reste in der Toilette, Papierreste auf dem Boden oder im Waschbecken, schmutz auf Boden</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Toiletten müssen immer sauber sein</response>
+      <response_feedback>Neben genereller Sauberkeit von Toilette und Waschbecken, sollte natürlich noch drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn er stinkt oder Sachen auf dem Boden liegen.</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. Neben genereller Sauberkeit von Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckiger Boden und Waschbecken, Toiletten nicht gespült, kein Verbrauchsmaterial</response>
+      <response_feedback>Bitte habe Verständnis dafür, dass die Tankstelle eventuell nicht die Kapazitäten haben, nach jedem Kunden die Anlagen zu reinigen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Böden, Armaturen, sanitäre Einrichtungen. Nicht durchgeführte Reinigungsaufgaben</response>
+      <response_feedback>Alles korrekt. Achte nur auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich achte auf generelle Sauberkeit sowie auf die Ausrüstung mit Verbrauchsmaterial. Toilette inkludiert WC, Waschbecken sowie der gesamten Räumlichkeit in welcher sich das WC befindet</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreck auf dem Boden, Fäkalien am Urinal, Zu wenig Toilettenpapier oder Handtuchpapier</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn sie nicht begehbar oder nicht sauber oder nicht funktionsfähig sind. es muss auch Papier vorhanden sein.</response>
+      <response_feedback>Neben der generellen Funktionalität sollte natürlich auch noch auf Sauberkeit geachtet werden. Insbesondere gilt dies für Waschbecken und Toilette, aber natürlich auch für den Boden und die Wände. Bitte auch auf andere Verbrauchstmaterialien wie zB Seife</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fehlende Papier-bzw.Handtücher. Allgemein verdreckter Boden,Wände oder verunreinigte Toiletten</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zustand Handtücher, Seife, und der Toilette selbst</response>
+      <response_feedback>Achte neben der Sauberkeit der Toilette auch auf die des Waschbeckens.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bei nicht funktionierender Toilettenspülung, Wasserhahn, Handtrockner. ( ebenfalls sollte Infomaterial ausliegen)</response>
+      <response_feedback>Neben der Funktionalität sollte natürlich auch auf allegemeine Hygiene geachtet werden</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung Fußboden, Verschmutzung Toilette, Papierkorb voll, Spiegel schmutzig</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn das extrem aussieht wie z.b orin auf den boden</response>
+      <response_feedback>Neben genereller Sauberkeit von Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>dreckige Toilette, Waschbecken, Spiegel,Fußboden.  benutztes Papier, volle Mülleimer, nicht gespült, extremer Gestank</response>
+      <response_feedback>Neben genereller Sauberkeit von Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette mit ausreichend Verbrauchsmaterial bestückt, Wasserhahn Handtrockner falls vorhanden, Toilette funktionsfähig. Kein Müll</response>
+      <response_feedback>Neben der Ausstattung und Funktionalität ist natürlich auch wichtig, dass sowohl die Toilette als auch das Waschbecken sauber sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ordnung, Sauberkeit/Hygiene und Funktionstüchtig</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Klos beschmutzt sind, es unangenehm riecht oder z. B kein Papier da ist.</response>
+      <response_feedback>Neben genereller Sauberkeit und Funktionalität von Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette verschmutzt, Spülung und/oder Wasserhahn funktioniert nicht, keine Tücher oder Seife vorhanden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn er verschmutzt ist</response>
+      <response_feedback>Achte bitte neben der Sauberkeit der Sanitäranlagen auch darauf ob alles funktioniert und ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Papier auf der Erde, Toilettenbecken unsauber, keine Desinfektionsmittel vorhanden und keine papierhandtücher im spender.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette nicht begehbar, teilweise nicht funktionstüchtige Geräte  oder nicht gereinigt</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und der Funktionalität der Anlagen auch noch darauf, ob ausreichend Verbrauchsmaterialien in den Toiletten bereit stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz, Dreck, kloschüssel, urinale, Waschbecken siffig, Dreck Unrat Urin auf Boden, verbrauchtes dreckiges endlosstoffhanduch</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und der Funktionalität der Anlagen auch noch darauf, ob ausreichend Verbrauchsmaterialien in den Toiletten bereit stehen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verdreckt, Papiertücher liegen rum, Toiletten nicht geputzt</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutziger Boden, daran sieht man am Besten wann zuletzt geputzt wurde. Auch am Spiegel usw. Nicht an den Spuren in der Kloschüssel...</response>
+      <response_feedback>Generelle Sauberkeit ist natürlich sehr wichtig. Bitte achte aber daneben auch auf Funktionalität und auf ausreichend vorhandene Verbrauchsmaterialien.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutzige Toiletten, Waschbecken, etc., nicht genügend Verbrauchsmaterial (Klopapier, Handtücher) vorhanden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Toilette / Waschbecken sind schmutzig.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier auf dem Boden, dreckiger Boden, dreckige Toilettenschüssel und deeckiger Deckel und Sitz, Waschbecken verschmutz</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toilette schmutzig ist, kein Toilettenpapier vorhanden, Mülleimer nicht geleert oder der Wasserhahn z.B. defekt wäre.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutziger Boden. Unregelmäßige Reinigung der Toilette .Benutzte Papiertucher</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nicht gewischt oder Fikalien sichtbar oder Verbrauchsmaterialien nicht vorhanden</response>
+      <response_feedback>Neben der Sauberkeit und den Verbrauchsmaterialien sollte auch darauf geachtet werden ob alles funktioniert.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es stinkt nach Urin oder Muff oder es sind Flecken/verfärbungen zu sehen oder Toilettenpapier fliegt ungeordnen herum oder Toilette ist verstopft und läuft über zb. Komische Frage...</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. Neben genereller Sauberkeit von Toilette und Waschbecken, sollte natürlich auch noch drauf geachtet werden, dass alles funktioniert und ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckiges WC / Waschmöglichkeit /</response>
+      <response_feedback>Neben der Sauberkeit und Funktionalität der Anlagen sollte auch darauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>volle Abfalleimer dreckige Wände Böden toiletten waschbecken</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verdreckte Flächen und Schmutz</response>
+      <response_feedback>Achte bitte neben der Sauberkeit der Sanitäranlagen auch darauf ob alles funktioniert und ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung des Raum, der Sanitärobjekte. Verbrauchsmaterial leer.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ein Sanitärbereich muss zuerst die notwendigen Produkte wie Toilettenpapier und Wasser haben. Der Boden muss also sauber sein.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Falls er verdreckt ist oder nicht alles vorhanden ist. Zb Seife und Papier</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>verschmutzer Boden dreckige Toilette Urinal.  Papier und oder Müll auf dem Boden</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>fehlendes Verbrauchsmaterial, wie Toilettenpapier, etc., unsaubere Toiletten, Wasserhähne, Spülung oder Wasserhahn funktioniert nicht</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kein Toilettenpapier, Wasserhahn funktioniert nicht, dreckiger Boden, ungeputzte Toilette, überfüllter Mülleimer</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckiger Boden, Toilette, Waschbecken, Spiegel</response>
+      <response_feedback>Achte bitte neben der Sauberkeit der Sanitäranlagen auch darauf ob alles funktioniert und ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Hygiene, technisches Funktion, ausreichend Material aufgefüllt, optisches Erscheinungsbild</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Volle Mülleimer, dreckiger Boden, schmutzige Toiletten, schmutzige Spiegel</response>
+      <response_feedback>Neben der Funktionalität und Sauberkeit sollte natürlich auch auf darauf geachtet werden ob ausreichend Verbrauchsmaterialien vorhanden sind</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn kein Papier oder Desinfektionsmittel bereit steht und alles ungereinigt ist.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Falls nicht genügend Verbrauchsmaterial verfügbar ist oder der Sanitärbereich nicht gereinigt wurde.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sind die sauber und Handtücher und Toilettenpapier vorhanden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Anlagen (z.B. Toilettenspülung, Wasserhahn, Handtrockner) dürfen nicht funktionsunfähig sein und mit leeren Verbrauchsmaterialien.  ich verschaffen mir einen Überblick ob der Boden und die Anlage  auch mal gesäubert worden sind. Wenn das unsauber auf mich wirkt, vermerke ich das und mache Beweisfotos.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Papier rum lieg oder Urinflecken sich auf den Boden befinden.</response>
+      <response_feedback>Bitte bedenke, dass die Tankstelle eventuell nicht die Kapazitäten hat, nach jedem Besucher ein makelloses Erscheinungsbild sicherzustellen. Achte bitte darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung, Hamdtücher außerhalb Paperkirb</response>
+      <response_feedback>Bitte bedenke, dass die Tankstelle eventuell nicht die Kapazitäten hat, nach jedem Besucher ein makelloses Erscheinungsbild sicherzustellen. Achte bitte darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nicht gereinigte Toilette, überfüllte Mülleimer</response>
+      <response_feedback>Achte neben der Sauberkeit und Funktionalität der Anlagen auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fehlende Materialien oder kaputtes Inventar</response>
+      <response_feedback>Neben der Funktionalität sollte natürlich auch auf allegemeine Hygiene geachtet werden</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>verschmutzte WC, Waschbecken oder Böden. Fehlende Verbrauchsmaterial oder nicht funktionierende Anlagen. Mache Fotos davon</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz, kein Material z.B. Klopapier, Seife, Defekte Geräte z. B. Spülung oder Handtrockner</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn es unhygienisch ist.Keinen sauberen Bereich.Wird nie gereinigt.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz an WC oder Boden, Handtücher/ Seife leer,  Papierkorb voll, größere Schäden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>schmutziger Boden, Toilette dreckig, Waschbecken verschmutzt,  Verbrauchsmaterial liegt herum. Wände verdreckt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Voller Mülleimer, schmutziges Klo, dreckiger Fußboden, Fäkalien, nicht sauberes Waschbecken; kein Papier</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreck, verunreinigter Toilettensitz</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn dort lange nicht gereinigt wurde und z.B die Toilette verstopft, das Wasser den Flur überschwemmt oder schon die Seife und das Papier ausgegangen sind.
+Wenn die Toilettenspülung, der Wasserhahn und der Handtrockner nicht funktionieren, berichte ich davon.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toiletten nicht begehbar sind und keine Verbrauchsmaterialien vorhanden sind.</response>
+      <response_feedback>Die Sanitäranlagen sollten natürlich auch eine gewisse Sauberkeit aufweisen, wenn sie den zugänglich sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn es dreckig ist und auf der Schüssel pisse ist</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Klopapier auf dem Boden. dreckige Toilette. Waschbecken oder Spiegel verdreckt.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionalität der Anlagen sollte auch darauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>verdreckt und nicht gereinigt</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es ist dreckig, es fehlt Verbrauchsmaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Müll auf den Boden, Klo oder Urinal nicht gereinigt, Staub oder viele Haare = länger nicht geputzt, Mülleimer überfüllt, Toilettenpapier oder Handtücher nicht verfügbar, Geruch.</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. Neben genereller Sauberkeit von Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich würde es als nicht sauber empfinden wenn der Boden zum Beispiel sehr nass ist. Die Toilette verstopft oder die Brille beschmiert ist. Es muss so sein, dass ich mein Kind zum Beispiel raufsetzen würde.</response>
+      <response_feedback>Das ist eine gute Metapher und vermutlich meist zutreffend. Ein nasser Boden um beispielsweise das Waschbecken sollte allerdings kein Abzug sein, sofern das Wasser nicht auf dem Boden steht. Achte auch noch darauf, ob auf der Toilette ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Pissflecken, papierfetzen, ejakulat, leere Papierrollen schmierereien ect</response>
+      <response_feedback>So explizit musst du gar nicht feststellen um was für Verunreinigungen es sich dort handelt. Sind die Anlagen alle sauber, funktionsfähig und sind ausreichend Verbrauchsmaterialien vorhanden?</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen an Toiletten und Waschbecken, Starke Verschmutzungen am Fußboden, Kein Toilettenpapier, Keine ausreichenden Tücher zum abtrocknen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>verdreckte Toilettenspülung, Wasserhahn, Handtrockner unzureichend Verbrauchsmaterial bestückt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Spuren vor vorherigen Toilettenbesuchern, dreckiger Boden, schmutziges Waschbecken, dreckige Wände</response>
+      <response_feedback>Bitte bedenke, dass die Tankstelle eventuell nicht die Kapazitäten hat, nach jedem Besucher ein makelloses Erscheinungsbild sicherzustellen. Achte bitte auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Müll, Fäkalien auf dem Boden, Schmutzige Toilette, Waschbecken</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn das Urinal dreckig ist oder Müll auf dek Boden liegt</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn ich das nicht mage</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier auf dem Boden, unhygienische Toiletten und wenn etwas kaputt ist</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toiletten beschmutzt sind, wenn nicht genug Verbrauchsmaterial vorhanden ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sauberkeit, Begehbarkeit, Funktionsfähigkeit und genügend Verbrauchermaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette, Boden, Wände, Waschbecken, Armaturen, Spiegel o.ä. sind übermäßig verunreinigt; es liegt Toiletten-/Händetrockenpapier/Müll herum; ich bleibe beim Dokumentieren am Boden "kleben"; ich nehme ermäßigern Uringeruch wahr; Abfallbehälter quillen deutlich über; Verbrauchsmaterialien fehlen etc.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Klopapier liegt rum Toiletten Hygiene nicht gut</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz der sichtbar an Pissoir Waschbecken und Toilette sind, volle Müll Eimer bzw. Müll in den Ecken und der Spiegel sollte sauber sein und die Möglichkeit zum Desinfektion zu greifen vor Benutzung</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckig oder nicht geputzt</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mülleimer quillen über, Boden ist schmutzig, Toilette selber ist unsauber</response>
+      <response_feedback>Neben der Funktionalität und Sauberkeit sollte natürlich auch auf darauf geachtet werden ob ausreichend Verbrauchsmaterialien vorhanden sind</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toiletten Deckel dreckig. Kein klopapier. Urin auf den Boden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Materialien nicht vorhanden, dreckig, die amaturen nicht funktionsfähig</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Begehbarkeit nicht gewährleistet, nicht genügend Verbrauchsmaterial vorhanden ist oder Hygienevorrichtungen ( Tiolettenspülung, Wasserhahn etc.)nicht funktionieren oder Verschmutzungen vorhanden sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz und Ablagerungen.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ist die Toilette Sauber, Begehbar, Funktional und ausreichend Verbrauchsmaterial. Wenn das nicht der Fall ist, ist die Frage nicht erfüllt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Waren die Sanitäreinrichtungen begehbar und alle Anlagen (z.B. Toilettenspülung, Wasserhahn, Handtrockner) funktionsfähig? Waren die Sanitäreinrichtungen, die du begutachtet hast, sauber und mit ausreichend Verbrauchsmaterial bestückt?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zum Beispiel keine Seife, keine Tücher, Batzen und Pfützen auf der Brille. Alle Anlagen funktionieren?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Toilettenbrille und/ oder Becken sind unsauber. Der Fußboden ist schmutzig. Falls das Waschbecken und der Spiegel schmutzig sind, halte ich das fest</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fehlendes Wasser, Seife, Toilettenpaier oder Handtücher. Allgemeine Verschmutzung des Toilettenraumes.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sichtbarer Schmutz. Unaufgeräumt (z.B. Papier auf dem Boden). Keine Verbrauchsmittel vorhanden. Funktion elektrischer Geräte.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Staub klebrige Boden bremsspur en urin spuren verfärbter Boden Wände porzellan</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn es nicht sauber ist, kein Material vorhanden ist oder etwas nicht funktioniert</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutzige oder multifunktionale  Toilletten oder ein Mangel an Papiertüchern oder Desinfektionsmitteln  führen zu der Bewertung, dass der Sanitärbereich nicht sauber ist.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toiletten nicht geputzt, Schmutz auf dem Boden. Wasserspülung funktioniert nicht, kein Toilettenpapier vorhanden, keine Möglichkeit zum Händewaschen</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und der Funktionalität der Anlagen auch noch darauf, ob ausreichend Verbrauchsmaterialien in den Toiletten bereit stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Boden verdreckt/ klebt. Toilette mit Hinterlassenschaften verunreinigt. Es richt nach Fäkalien. Waschbecken dreckig.</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und der Funktionalität der Anlagen auch noch darauf, ob ausreichend Verbrauchsmaterialien in den Toiletten bereit stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier liegt auf dem Boden,Nicht gespült</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>herumliegender Müll/Papier. Verdrecktes inventar in Sanitärbereich , z.B. WC, Waschbecken, Boden.</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und der Funktionalität der Anlagen auch noch darauf, ob ausreichend Verbrauchsmaterialien in den Toiletten bereit stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Toilettenbrillen, viel Papier auf dem Boden, keine Seife, überquellender Mülleimer, strenger Geruch</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Toilette und Fußboden</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. </response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verunreinigung gerade im Kloset und Waschbecken Bereich</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Müll auf dem Boden liegt, die Toilette und das Waschbecken verschmutzt sind</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toilette dreckig ist und das waschbecken ebenfalls</response>
+      <response_feedback>Achte neben der generellen Sauberkeit der Sanitäranlagen auch darauf, ob ausreichend Verbrauchsmaterialien verfügbar sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Keinen Müll auf dem Boden. Toilette sauber und nicht verdreckt durch Urin oder sonstiges. Es sind alle Verbrauchs Materialien vorhanden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Etwa Urinstrahlen an und auf der Klobrille oder Boden, sowie Streifen von Stuhlgang. Papier auf Boden und dreckiges Waschbecken oder Fehlen von Papier.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Hygieneartikel fehlen, Sauberkeit nicht ok</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreck auf den Boden Flecken überall komischer Duft</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Dinge wie Spülung Wasserhahn nicht funktionieren oder auch das allgemeine Erscheinungsbild dreckig aussieht</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckiger Boden, Dreckige kloschüssel, Versiffte Waschbecken, Schmierige Spiegel</response>
+      <response_feedback>Bitte achte neben der Sauberkeit und der Funktionalität der Anlagen auch noch darauf, ob ausreichend Verbrauchsmaterialien in den Toiletten bereit stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz. Papier liegt rum</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz, überfüllter Mülleimer, Verschmutzter Boden, offensichtlich ungereinigte Flächen etc.Funktionsfähigkeit Wasserhahn, Handetrockner, Toillettenpapier vorhanden , Begehbarkeit.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>in Augenscheinnahme sauber und mit ausreichend Verbrauchsmaterialien bestückt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>klein Klopapier, dreckige Klobrille, Staub, klebriger Boden</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzt, Sachen gehen nicht, sind nicht aufgefüllt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung der Sanitäranlagen, Mülleimer zu voll.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Waschbecken Toilettenschüssel Fussboxer und Spiegel sollten sauber sein. Mülleimer vorhanden und alle Einrichtungen funktionsfähig sein. Es sollte auch Seife und Klopapier da sein.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der Mülleimer überläuft und Müll auf dem Boden liegt und die Toilette sauber ist.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Mülleimer voll, Material nicht vorhanden, Schmutz</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn ich nich so verlasse wie er war.</response>
+      <response_feedback>Das ist ein Grundeinstellung die eigentlich immer greifen sollte. Hier geht es aber konkret um Ausstattung und Sauberkeit. Ist alles sauber und funktionsfähig? Sind ausreichend Verbrauchsmaterialien vorhanden?</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begehrbarkeit, Sauberkeit, Funktionalität und Bestückung des WCs mit Verbrauchsmaterial etc</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn nicht genügend Seife/ Handtücher/ Klopapier vorhanden sind, die Klospülung oder andere Dinge defekt sind und die Kloschüssel verdreckt ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Gegenstände auf dem Boden liegen oder nicht ausreichen Papier vorhanden ist. Die Toiletten nicht gereinigt sind oder es unangenehm riecht bewerte ich den Sanitärbereich als nicht sauber</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Keine Funktionstüchtigkeit der Anlagen, Fehlen von Tüchern, Seife und Ähnlichem.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Alles ungereinigt und fehlende Utensilien</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die ethische aspekte</response>
+      <response_feedback>Hier ging es eher um Sauberkeit und Funktionalität der Toilette und Waschbecken. Es sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>unaufegräumt, dreckig, ungepflegt</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es liegen Tücher auf dem Boden, der Boden ist dreckig, die Toilette ist nicht sauber</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Klo schmutzig, kein Papier vorrätig</response>
+      <response_feedback>Achte auch darauf ob alle Anlagen, einschließlich der Toilette, einwandfrei sauber sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Einen Sanitärbereich als nicht sauber werde ich sofern Müll herum liegt in der Toilette, oder auch das Waschbecken beschmiert ist. Die meine ich aber nur sichtbar mit Dreck beschmiert, nicht irgendwelche leichten Kalkflecken.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutze Becken, verschmutzte Böden, herum liegende Toilettenpapier Reste</response>
+      <response_feedback>Neben der Sauberkeit und Funktionstüchtigkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Sanitäreinrichtungen, die ich begutachtet habe, waren nicht sauber und mit ausreichend Verbrauchsmaterial bestückt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Toilette, Waschbecken, Böden, Wände oder Türen verdreckt sind.</response>
+      <response_feedback>Achte neben der Sauberkeit und Funktionalität der Anlagen auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Sanitäreinrichtungen, die ich begutachtet habe, waren nicht sauber und mit ausreichend Verbrauchsmaterial bestückt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn Dreck bzw Müll auf dem Boden herum liegt das Waschbecken verdreckt ist die Toilette verdreckt ist. wenn z.b. Urin auf dem Boden ist.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Eindeutige Verschmutzungen an Toilette, Spülkasten, Waschbecken, Wasserhahn, Boden. Spinnweben, Staubablagerungen.. .. Zudem achte ich auf das Vorhandensein von Toilettenpapier und Handtuchpapier.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Anlagen, keine Reinigung, beschmutzte Wände</response>
+      <response_feedback>Achte neben der Sauberkeit und Funktionalität der Anlagen auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Sanitäre Anlagen, Flecken auf/in der Toilette.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sichtbarer Schmutz auf dem Toilettensitz. Klebriger Boden. loses Papier am Boden ect.</response>
+      <response_feedback>Neben der Sauberkeit und Funktionalität der Anlagen sollte auch darauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutze Toilette, dreckige Boden, Papier nicht im Korb usw.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ausreichend Verbrauchsmaterial, allgemeine Verschmutzung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier am Boden. Toilettenschüssel verdreckt.Mülleimer voll</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verdrecktes WC, Waschbecken, Armaturen. Müll auf Boden, unsauberer Boden oder unsaubere Fliesen an der Wand, überfüllter Handtucheimer.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Papier auf dem Boden liegt, Urin auf der Toilettenbrille ist und Kotreste in der Toilette sichtbar sind.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. </response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kein toilettenpapier oder handtücher, verschmutzung des bodens, der toilette oder des waschbereichs</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Flecken, dreckiges WC und Waschbecken, herumliegender Müll, schlechter Geruch</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. Bitte berücksichtige in der Bewertung nicht den Geruch, da haben die Tankstellen teilweise leider keinen Einfluss drauf.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>verschmutze WC Schüssel,  schmutziger Fußboden kein ausreichendes Verbrauchsmaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen welche bei einer regelmäßigen Reinigung nicht sichtbar sein sollten</response>
+      <response_feedback>Richtig. Achte neben der Sauberkeit und Funktionalität der Anlagen auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toiletten und Waschbecken sind nicht sauber.toilettenpapier u. Handtücher liegen verstreut auf Boden oder in den Toiletten.spender leer.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toiletten und Waschbecken sind verdreckt. Handtücher und Toilettenartikel sind überall in den Toiletten verstreut.spender sind leer.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn er verschmutzt ist und nicht schön gereinigt, wenn die Toiletten nicht sauber sind, wenn das Waschbecken nicht sauber ist, wenn Papier herumliegt.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Offensichtliche längerfristige Verschmutzungen z. B. Auf dem Fussboden.  Die Utensilien sollte vollständig sein.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Funktionsfähigkeit nicht gewährleistet, Sauberkeit nicht zufriedenstellend (Staub, Schimmel, Flecken, etc.), Verbrauchsmaterialien (Handtücher, Papier, etc.) nicht ausreichend vorhanden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der Boden oder die Sanitäranlagen verschmutzt sind, z. B Klo, Waschbecken oder Seifenspender.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Toilette oder Waschbecken</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Sachen nicht funktionsfähig sind, die Toiletten nicht sauber sind oder nicht genügend Verbrauchsmaterial vorhanden ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen. Nicht ausreichende Reinigungsmittel/ Tücher vorhanden. Überfüllte Mülleimer, leere Seifenspender, Papierspender leer, Mülleimer voll.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Kundentoilette muß begehbar und alle Anlagen sollten voll funktionsfähig, mit Verbrauchsmaterial gut bestückt und  vor allem sehr sauber sein.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Müll und dreckig in der Toilette Bzw Sanitäranlagen</response>
+      <response_feedback>Achte neben der Sauberkeit und Funktionalität der Anlagen auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Starke Verschmutzungen und eventuell starke Gerüche. Fehlende Papiertücher, Handtücher, Seife.</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Anlage ist nicht sauber.</response>
+      <response_feedback>Sauberkeit bezieht sich hier nicht nur auf die Toilette, sonder auch auf das Waschbecken und die Wände. Bitte achte daneben auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreck, Müll, stinkt</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. Bitte achte  auch darauf,  ob alles funktioniert.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Klo oder Geräte nicht funktionsfähig sowie denn Müll herumliegt</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>der sanitärbereich wäre für mich als nicht sauber einzustufen wenn eingetrocknete schmutzflecken vorhanden wären oder trotz täglichen reinigungsprotokoll eine starke Verschmutzung der sanitären Anlagen vorlegen</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fehlendes Verbrauchsmaterial ( Seife, Papiertücher), nicht gereinigt, Anlagen nicht voll funktionsfähig</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreck an zum Beispiel Wasserhahn, Klo oder anderen Stellen.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutz, keine Hygiene/Verbrauchsgegenstände, generelles, unsauberes Erscheinungsbild</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn halt Verschmutzungen erkennbar sind.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toilette nicht sauber wirkt und Verbrauchsmaterial wie z.B Klopapier und seife fehlt ist die Toilette für mich nicht sauber. Ausserdem sollten Waschbecken, Spülung und Licht funktionieren.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>1.) wenn Urinteste zu sehen sind, die in die Toilettenschüssel sollten.  2.) Papierreste am Boden 3.) überfüllterer Abfalleimer 4.) Vorhandensein von Seife Papier etc.  5.) sollte v. Innen abschließbar sein 6.) Desinfektionsmöglichkeit ggf. im Haupteingang  7.) Funktion Licht 8.) Sauberkeit Schlüssel u. Schlüsselanhänger</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Grober schmutz, volle Mülleimer</response>
+      <response_feedback>Achte neben der Sauberkeit und Funktionalität der Anlagen auch darauf, ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen der Toiletten, Türen, Boden und Waschbecken</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutze Toiletten, Boden und Waschbecken. Fehlendes Verbrauchsmaterial. Defekte Amaturen bzw. Spülung.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Spuren in der Toilette, tageszeit entsprechend zu voller Papierkorb. Schmutz am Boden ioder in den Ecken. Flecken am Waschbecken oder Spiegel. Kontrolliere Reinigungsplan, wann zu letzt gereinigt wurde.und ob weitere reinigungen geplant sind,</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kein Papier, keine Seife, Spinnweben und verschmutzter Fußboden.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fußboden versifft, Mülleimer übervoll</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Papier/Fußspuren auf dem Boden, Flecken /Graffitti auf Toilettenbrille/Boden/Wänden.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dass der Boden nicht gewischt ist. Waschbecken unsauber. Papierkorb überfüllt. Toilettenschüssel verdreckt.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es ist dreckig bzw. nicht geputzt und das Verbrauchsmaterial wie z.B. Papierhandtücher sind nicht aufgefüllt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der sanitärbereich schnutzig und unaufgeräumt ist</response>
+      <response_feedback>Wichtig ist, dass der Shop geöffnet ist. Die Tankstelle kann auch nachts nur via Nachtschalter geöffnet sein und diese Ergebnisse zählen leider nicht.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toilette nicht gereinigt wurde und wenn Dinge wie Toilettenpapier, Seife und ggf. Desinfektion fehlen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Anlagen nicht oder teilweise nicht funktionsfähig (z.B. Toilettenspülung) Dreckige Toilette, fehlende oder sehr gering bestückte Hygieneartikel, wie Seife, Handtücher, etc.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn ich verschmitzte Flächen vorfinde, die auf den Fotos klar erkennbar sind.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es liegt Müll herum und es richt unangenehm</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. Geruch ist leider kein Kriterium, da die Tankstellen auf diesen gegebenfalls keinen  Einfluss haben.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette verschmutzt, d. h. Toilettenpapier liegt herum, Toilette dreckig, Dreck auf dem Boden, sehr schlechte Luft, kein Papier, keine Seife etc.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Papier auf dem Boden, überfüllte Mülleimer, verschmutzte Toilette oder Waschbecken</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung der Toilette/pissoir, Verschmutzung des Waschbeckens, generell ungepflegte Einrichtung. Vermerk für fehlende Seife, Klopapier etc - Funktionstüchtigkeit von Wasserhahn, Spülung etc</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreck auf dem Boden - Dreckige Toilette/Kloschüssel/Pissoir/Waschbecken - überfüllte Abfalleimer - dreckiger Spiegel - stinkender Geruch - Etc.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. Geruch ist leider kein Kriterium, da die Tankstellen auf diesen gegebenfalls keinen  Einfluss haben.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Müll auf dem Boden, verunreinigte Toilette oder Waschbecken</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. Geruch ist leider kein Kriterium, da die Tankstellen auf diesen gegebenfalls keinen  Einfluss haben.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn das WC an sich verschmutzt ist, der Boden oder auch die Waschamaturem dreckig sind. Letztlich auch wenn der Mülleimer voll ist oder auch Müll daneben liegt.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sauberkeit, funktionierender Zustand der Sanitäreinrichtungen, Verbrauchsgüter ausreichend verfügbar?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>nicht alle Anlagen waren funktionstüchtig. Es ist schmutzig, es liegt etwas auf dem Boden</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckige Toliette, defekte Sanitäreinrichtung. Fehlendes / überall rumliegendes Papier.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>deutliche stärker Verschmutzung die nicht von einem zufällig direkt vorherigen Benutzer stammen würde</response>
+      <response_feedback>Achte neben der Sauberkeit der Analgen auch bitte darauf ob alles einwandfrei funktioniert und ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Überfüllte Mülleimer, Dreck auf dem Boden, fehlende Seife oder Papierhandtücher, nicht funktionierender Wasserhahn oder Toilettenspülung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn man sich selbst ekelt die Toilette zu nutzen.</response>
+      <response_feedback>Das ist vermutlich eine gute Begründung aber leider nicht objektiv genug. Achte darauf, ob sowohl Toilette, Waschbecken und Wände sauber und funktionstüchtig sind. Sind ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden?</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn die Toiletten und das Waschbecken etc. vermüllt, dreckig, stinkend oder unhygenisch waren. Ich muss außerdem auf die Funktionalität der Toilettenspühlung und des Wasserhahns achten, aber auch ob genügend Verbrauchsmaterial vorhanden ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzter Boden, z. B. Toilettenpapier liegt auf dem Boden, Toilette oder Waschbecken ist schmutzig.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Waschbecken, Toilette oder Sanitärräume verschmutzt sind</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ob die Toiletten dreckig sind.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn er dreckig ist</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begehbarkeit und Funktionalität der Sanitäreinrichtungen und Anlagen (z.B. Toilettenspülung, Wasserhahn, Handtrockner). Sauberkeit der Sanitäreinrichtungen und ausreichende Verbrauchsmaterial.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutzig oder beschädigt</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Manche Sachen sind nicht benutzbar, keine Verbrauchsmaterial vorhanden</response>
+      <response_feedback>Neben der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob alles ausreichend sauber ist.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich mache Fotos vom , Sanitärbereich. Bspw. Ein stark verschmutzter Fußboden. Feste Rückstände im WC, beschmutzer WC-Sitz, überfüllter Mülleimer, leere Verbrauchsmaterialien, Defekte Anlagen würden für eine Bewertung als “nicht sauber” sorgen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verbrauchsmaterial nicht vorhanden, volle Mülleimer.</response>
+      <response_feedback>Bitte neben der Verfügbarkeit von Verbrauchsmaterialien auch darauf, ob Anlagen entsprechend sauber und funktionsfähig sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>nicht desinfiziert und unsauber</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Waschbecken oder Toilette schmutzig. kein Papier da. Boden nicht sauber</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>es fehlt Material. z.b. Klobürste. Waschbecken und Toilette sind verschmutzt. Boden ist klebrig</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>volle Mülleimer, herumliegender Müll</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>dreckiger Gesamteindruck oder kein Verbrauchsmaterial vorhanden oder defekte</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Sie nicht gereinigt sind und Handtücher, Klopapier etc. fehlt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier auf dem Boden, kein Mülleimer, verschmierte Toiletten (auch Wände, Böden, Spiegel, Türklinke), typischer Urinduft</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. Bitte berücksichtige in der Bewertung nicht den Geruch, da haben die Tankstellen teilweise leider keinen Einfluss drauf.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen, nicht alle Bereiche begehbar, nicht ausreichend Verbrauchsmaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Tücher am Boden nasse Stellen unsaubere Toilette.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich werde die Sanitäranlage als nicht sauber bewerten, wenn diese dreckig ist.</response>
+      <response_feedback>Achte neben der Sauberkeit der Anlagen auch darauf, ob diese alle Funktionstüchtig sind und ob ausreichend Verbrauchsmaterialien vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Müll auf dem Boden dreckige Toilette</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Eine Dreckige Toilette oder ein dreckiges Waschbecken sowie Papier auf dem Boden.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen sollte auch darauf geachtet werden, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Dreck auf dem Boden liegt und der Sanitärbereich unhygienisch wirkt.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der Sanitärbereich nicht ordentlich gereinigt wurde.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Insgesamt schlechter Zustand innerhalb und ausserhalb</response>
+      <response_feedback>Wichtig ist, dass die Ausstattung und Sauberkeit der Anlagen gecheckt wird  und natürlich ist es ebenso wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Reinigungszustand (liegt Müll auf dem Boden...) , allgemeiner Zustand des Sanitärbereichs (Gegenstände nicht intakt...)</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn Müll auf dem Boden liegt und es nicht geputzt ist.es sind Papiertücher vorhanden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ausreichend Verbrauchsmaterial muss verfügbar sein, Hygiene sollten beachtet worden sein</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sauberkeit Boden Waschbecken . Ob schon Papier vorhanden ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckig auf Boden oder in Toilette.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>nicht funktionsfähige Armaturen, verschmutzte Kontaktflächen, fehlendes Verbrauchsmaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Die Toilette ist nicht geputz, Klopapier nicht vorhanden, fäkaliengeruch, fäkalien neben der Toilette</response>
+      <response_feedback>Geruch ist leider kein Kriterium, da die Tankstellen da gegebenenfalls keinen Einfluss drauf haben. </response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Boden ist nicht verdreckt! Seife, Trockentücher und Klopapier vorhanden! Waschbecken sind sauber! Angenehmer geruch</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>fehlendes Klopapier, unsauber, Defekte, fehlendes Handtuch Papier bzw. Rolle</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>dreckiges Waschbecken sowie Toilette oder Boden bzw. der Allgemeinzustand</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verunreinigungen auf Sanitäranlagen und Böden; Defekte Spülungen, Handtrockner und Wasserhähne; Fehlende Verbrauchsmaterialien</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ekelhaft und sehr schmutzig</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kein Toilettenpapier, verdeckter Boden, unsaubere Toilette</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>allgemeine Sauberkeit, Ordnung, Müll auf dem Boden, voller Mülleimer, unhygienische Toilette...</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn es verschmutzt ist, nicht ausreichend Verbrauchsmaterial vorhanden ist und Spülung und Wasserhahn und Handtuchtrockner nicht funktional sind.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn nicht alles geputzt ist und Müll auf dem Boden liegt oder die Spülung beispielsweise nicht funktioniert und es stinkt.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind. Bitte bedenke, dass Geruch nicht unbedingt ein Kriterium ist, da die Tankstellen da ggf keinen bis wenig Einfluss haben.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Flecken auf den Oberflächen, ungereinigte Toilette</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Sie objektiv nicht sauber sind! Zu prüfen sind Das Vorhandensein der üblichen Artikel, welche in eine Sanitäre anlage gehören.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Papier auf dem Boden. Spuren im Klo und Pissoir.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn keine verbrauchsgüter da sind und einige Geräte defekt sind und nicht begehbar sind</response>
+      <response_feedback>Bitte achte auch darauf, ob die Anlage alle angemessen sauber und „in Schuss“ sind.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung an der Klobrille, nicht vorhandenes Handtuchpapier oder Händetrockner, Urinreste am Boden, Fäkaliengeruch in den Toiletten, Fäkalienreste in der Toilette</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der Boden ferdreckt ist die Tolettw voller Code ist und Bestellschein nach orin Stinkt</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>offensichtliche Verschmutzung herumliegende Verbrauchsmaterialien usw.</response>
+      <response_feedback>Achte bitte auch darauf, ob die Materialien nicht nur rumliegen sondern auch noch ausreichend vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es steht leider nicht dabei, aber dür mich sollte genug Wasser, Seife und Papierhandtücher da sein. Außerdem sollte es immer sauber sein.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn ich die Toilette betrete und der Boden mit Urin beklebt ist. Die Toilette verstopft und nicht gereingt ist. Die Wände voll mit Kritzeleien und Aufklebern sind.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Dreckiger Boden, Staub und so weiter.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn Müll rum liegt und/oder die Einrichtung nicht funktioniert.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Schmutziger Boden, dreckige Toiletten und Sanitär anlagen. Auserdem achte ich noch auf ausreichend verbrauchsmaterial und das die Mülleimer nicht überlaufen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen an Wänden und Boden (nicht gewischt, Müll außerhalb der vorgesehenen Behältnisse). Verschmutzte Toiletten und Waschbecken.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenspülung defekt, Wasserhahn kaputt, Handtrockner leer</response>
+      <response_feedback>Achte bitte auch darauf, ob die Sanitäranlagen auch entsprechend sauber sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Begehbar? Funktionstüchtigkeit aller Einrichtungen? Verbrauchsmaterialien ausreichend vorhanden? Sauberkeit? Hygiene?</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Voller Mülleimer, Papierhandtücher auf dem Boden, dreckige Toilette dreckiges Waschbecken, defekter spülkasten defekter Wasserhahn</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>am Boden herumliegendes Papier, verunreinigte Toilette oder Waschbecken, verdreckter Boden oder Wände</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>fehlendes Klopapier, dreckiger Raum, fehlende Handtücher</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Abfall / Papierhandtücher auf dem Boden oder Flecken am Spiegel bzw. an den Wänden. Dazu ein unangenehmer Geruch und eine länger nicht gereinigte Toilette.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen. Geruch ist leider allerdings kein Kriterium, da die die Tankstellen gegebenfalls nicht die Kapazitäten haben, nach jedem Besucher zu lüften.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn ich Schmutz in der Toilette ( (Waschbecken, Toilettenschüssel, Fußboden, Handtücher)) entdecke, ist sie nicht sauber.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn der Sanitärbereich erheblich beschmutzt ist der Boden unsauber einfach wenn lange nicht gereinigt wurde und man sich nicht wohl fühlt</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Nicht gesäubert, verdreckt, keine Toiletten und Handpapier vorhanden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sichtbare Verunreinigungen und bemerkbare Gerüche, zusätzlich ist Verbrauchsmaterial und Funktionalität der Technik zu berücksichtigen</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>per sichtprüfung, hier gibt es keine Kompromisse</response>
+      <response_feedback>Neben genereller Sauberkeit und Funktionalität der Toilette und des Waschbeckens, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzung der Toilette, Müll auf dem Fußboden</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilettenpapier oder Papierhandtuch  auf dem Boden. Dreck im Waschbecken. Exkremente oder Vomitus in der Toilette oder auf dem Boden.</response>
+      <response_feedback>Neben der Ausstattung und Sauberkeit der Anlagen ist natürlich auch wichtig, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Alle Anlagen müssen funktionsfähig sein und genügend Material muss da sein. Außerdem sollte die Toilette sauber sein, sowie das Waschebecken. Es sollte kein Müll herumliegen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verunreinigungen im Sanitärbereich, vor allem Fäkalien, aber auch nicht verwendbare Einrichtung oder fehlendes Material</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Kein Verbrauchsmaterial, defekte nicht funktionsfähige Spülung, Wasserhahn. Nicht sauber und ordentlich.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sanitäreinrichtungen dreckig und mit zu wenig Verbrauchsmaterial bestückt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Toilette verunreinigt, kein Toilettenpapier oder Handtücher nach nachfrage vorhanden. Dreck auf dem Boden</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Bespritzter Spiegel, Papierreste oder anderes auf dem Boden, schmutziger Boden, verschmutztes Wasch- oder Toilettenbecken</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn noch "Reste" vom Vorgänger vorhanden sind und wenn man das Gefühl hat nix anfassen zu können.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn Toilettenpapier oder Handtuchpapier fehlt und generell der Boden / WC dreckig ist</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es fehlen Verbrauchsmaterialien und Desinfektionsmittel. Es ist allgemein unsauber. Die Wasserhähne und Trockner gehen nicht.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sauberer Gesamteindruck, alle Utensilien aufgefüllt</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>WC unsauber, Papier liegt Rum, Boden verschmutzt, nicht genügend Verbrauchsmaterial</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ungepflegtes aussehen, überall Staub oder Dreck. Müll.</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Staub, Fäkalien, nicht saubere Toiletten und Waschbecken/Handetrockner etc., dreckiger Boden.  Dann auch fehlendes Klopapier und Papierhandtücher, ob alles funktioniertund  allgemeiner Eindruck Z. B. nicht haftende angeklebte Infos, es sei denn dafür gibt es einen extra Punkt in der App.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Klopapier liegt unten, nicht gespühlt oder Klobrille dreckig</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Das die Toiletten nicht geputzt sind. Die Waschbecken unsauber sind. Der Fussboden nicht gewischt ist.</response>
+      <response_feedback>Natürlich sollte neben genereller Sauberkeit und Funktionalität der Toilette und Waschbecken, sollte drauf geachtet werden, dass ausreichend Verbrauchsmaterialien wie Seife und Papiertücher zur Verfügung stehen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verbrauchsmaterialien nicht vollständig vorhanden. Wasserhähne und Spülung funktionieren nicht. Zeug / Müll liegt rum. Mülleimer voll.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzte Toiletten oder Waschbecken durch zum Beispiel herumliegende Papierhandtücher</response>
+      <response_feedback>Neben der Sauberkeit und der Funktionalität der Anlagen ist auch wichtig, dass du prüfst, ob ausreichend Verbrauchsmaterialien wie Seife und Papiertücher vorhanden sind.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Verschmutzungen am Boden oder der Schüssel, unsauberes Waschbecken, keine Seife, genereller Eindruck</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>wenn es verschmutzt ist, Tücher, Toilettenpapier fehlen, Instandhaltung der Anlage mangelhaft ist, wie Toilettenspülung</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Fehlende Verbrauchsmaterialien und Schmutz</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,837 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="6.1" module="IPP">
+   <questionText>What are the objectives of IPv6? Please state at least 4 objectives.
+</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="IPP_6.1_a1">To support billions of end-systems.
+To reduce routing tables.
+To simplify protocol processing with Simplified header.
+To increase security.
+To support real time data traffic (quality of service).
+Flow label, traffic class.
+To provide multicasting.
+To support mobility (roaming).
+To be open for change (future): extension headers for additional change incorporation.
+To coexistence with existing protocols.
+
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="IPP_6.1.1"> 
+	 <response>Here are 5 objectives of the IPv6: 
+
+-To support billions of End systems (2^128), much more than IPv4 (2^32).
+-To simplify the protocol. For example, the header of the IPv6 is much simpler than the header of IPv4. 
+-To coexist with the older protocol. For example, thanks to tunneling, IPv6 can coexist with IPv4. 
+-To add more security in the network. 
+-To be open for eventual future evolutions (for example with the extension headers).  
+
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.2"> 
+	 <response> - More addresses to support a higher number of end systems
+- To simplify protocol processing by using a simplified header
+- To work with existing protocols
+- To enable real-time traffic
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are fully correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.3"> 
+	 <response> 1. To support billions of end systems by its new length that is 4 times bigger than the older version.
+2.  Simplify protocol processing. ( The header is now simplified meaning that i don't need so much time invested in a very long protocol).
+3. To be open for change in the future (this version has some extension headers as a backup if there is any change to me made).
+4. Coexist with with existing protocols (there are transitions that are easily done through tunneling )
+	 </response>
+     <response_feedback>The response correctly states four objectives of IPv6 with explanations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.4"> 
+	 <response> 1.	Extension of the address room with IPv6 to support  2^128 end-systems vs. 2^32 in IPv4 as availability of IPv4 addresses is already limited and the use is only possible due to the complicated concept of NAT in local address spaces
+2.	Simplified header to reduce load to compute routing and simplify protocol processing
+3.	Provide support for multicasting with multicast addresses and multicast scopes using the Neighbor Discovery Protocol (NDP)
+4.	Includes security features like IPSec in the IPv6 standard
+5.	Support of Quality of Service by using flow labels and traffic classes (e.g. real-time traffic)
+6.	Support of mobile IP including roaming (w/o triangular routing as used in IPv4). It is also possible to move entire subnets to a different connection point without the need for renumbering.
+7.	Extension headers to be able to adapt to future needs/improvements of the protocol
+
+	 </response>
+     <response_feedback>All objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.5"> 
+	 <response> To support billions of end-systems; to reduce routing tables; to simplify protocol processing; and to increase security. 
+	 </response>
+     <response_feedback>The response is correct as it mentions four correct objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.6"> 
+	 <response> - Faster processing at routers by removing the checksum and potentially smaller header
+- Greater address space of 128 bit in contrast to 32 bit addresses of IPv4
+- Better Quality of Service due to flow labels and traffic classes
+- Future extension possible due to extension headers
+	 </response>
+     <response_feedback>The response is correct as all four IPv6 objectives in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.8"> 
+	 <response>Support billions of end-systems 
+
+simplify routing tables and protocol processing 
+
+support real time traffic (quality of service)
+
+to be open for change 
+	 </response>
+     <response_feedback>The response answers four objectives of IPv6 correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.9"> 
+	 <response>One objective is to get more available adresses than in IPv4. Many Devices now and in the future will be smart connected devices and all of them need IP adresses.
+An other objective is to simplify headers and have some kind of security integrated .
+One objective is the support of real time data traffic better and in general for future proofing.
+	 </response>
+     <response_feedback>The response is correct as it states objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.10"> 
+	 <response>Some of the objectives are: support billion of end-systems, reduce routing tables, simplify protocol processing, increase security, support real ti,e data traffic, provide multicasting, support mobility, be open for change, coexistence with existing protocols
+
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.11"> 
+	 <response>There are supporting billions of end-systems, reducing routing tables, simplifying protocol processing, increasing security.
+	 </response>
+     <response_feedback>The response is correct as it states four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.12"> 
+	 <response>more addresses
+refactor of header, enables future modifications
+IPv4 allow broadcast and unicast, IPv6 supports anycast (e.g. nearest node)
+no checksum
+no fragmenting
+increase security
+simplify protocol processing
+ </response>
+     <response_feedback>The response correctly answers the four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.14"> 
+	 <response> some of the objectives are providing multicasting, 
+increase security,
+reduce routing tables 
+or support mobility like roaming 
+	 </response>
+     <response_feedback>The response is correct as it answers all four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.16"> 
+	 <response> - More Addresses
+- reduce routing tables
+- increase security
+- simplify header
+	 </response>
+     <response_feedback>All four IPv6 objectives in the response are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.17"> 
+	 <response>- Support billions of end-systems by providing longer addresses 
+- Simplify protocol processing by simplifying the header 
+- Improve security by integrating security means 
+- Remain open for future changes with extension headers 
+	 </response>
+     <response_feedback>All objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.18"> 
+	 <response>On objective is to support billions of end-systems.
+Another one is to increase security.
+Also an objective is to reduce routing tables.
+And one is to simplify protocol processing.
+There are more like to support real time data traffic, to provide multicasting, to be open for change etc.
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.19"> 
+	 <response>More adresses support a bigger number of end-systems.
+
+More future-proof by adding of extension headers.
+
+Better security.
+
+Simplify protocol processing.
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.20"> 
+	 <response>1. support more end-systems: The addressing space is much larger due to longer addresses (128 bit instead of 32 bit from IPv4), so way more devices can be addressed.
+
+2. increase security: IPv6 inherently supports IPSec, enabling authenticated headers and/or encapsulated security payload.
+
+3. simplify protocol processing: The structure of the header has been simplified, this simplifies the processing, e.g. there is no header checksum which has to be recalculated at every router as with IPv4.
+
+4. extensibility (either to be open for future changes or to coexist with existing protocols): The IPv6 standard provides so-called extension headers, because the IPv6 packet header is fixed (compared to IPv4) to implement new options, e.g. fragmentation, encrypted security payload, authentication.
+	 </response>
+     <response_feedback>All four objectives of IPv6 are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.21"> 
+	 <response> Some objectives of IPv6 are:
+1. due to longer addresses, billions of end-systems can be supported; this is necessary as the amount of devices e.g. through IoT rises
+2. simplify protocol processing - increasing of processing performance - due to simplified packet header (e.g. delete of checksum field) and introducing of extension headers for optional information.
+3. by integrating security means (IPSec should be implemented), the security shall be improved
+4. real-time data traffic shall be supported by predefined flow labels and traffic classes
+	 </response>
+     <response_feedback>All four objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.22"> 
+	 <response> -To support billions of end-systems
+-To reduce routing tables
+-To simplify protocol processing
+-To increase security
+-To support real time data traffic (quatility of service)
+-To provide multicasting
+-To support mobility  (roaming)
+-To be open for change (in the future)
+-To coexistence with already existing protocols
+	 </response>
+     <response_feedback>All IPv6 objectives stated in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.23"> 
+	 <response> To support billions of end systems To increase security To support real time data traffic To support mobility To reduce routing tables</response>
+	 <response_feedback>All the points mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="IPP_6.1.24"> 
+	 <response> 1. larger address space 
+- IPv4 only allows to specify IP addresses of 32 bit (4 bytes) in the following format:
+a.b.c.d whereby a,b,c,d in [0-255]
+which results in 4.294.967.296 possible different addresses according to wikipedia which is not sufficient anymore
+- IPv6 allows to specify IP addresses of 128 Bit length  (16 bytes) and does not solely include numbers. As a consequence,
+IPv6 allows to support billion of end-systems due to larger address space (according to wikipedia 2^128 different ip addresses possible)
+
+2. increase of security
+- the protocol IPSec (Internet Protocol Security) allows to achieve the security goals confidentiality, authenticity and integrity on the network level. For instance, this can prevent the manipulation of the IP source address or the content of the IP datagram (integrity protection).
+- IPSec is supported by IPv6 by default
+
+3. simplify protocol processing
+- due to a simplified IP header in IPv6 the protocol processing becomes less complex for routers. In general one can say that the header of an IPv6 packet has less fields to process, e.g. the header checksum is removed (can be handled on layer 2 or layer 4). This results in a speed up processing time at routers.
+
+4. increase routing efficiency
+- IPv6 requires less hops
+- IPv6 does not evaluate the checksum on IP level
+
+
+	 </response>
+     <response_feedback>The response correctly answers the four objectives of Ipv6 with explanations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.25"> 
+	 <response> more/larger addresses; multicasting; mobility; better security; simplification of the protocol
+
+	 </response>
+     <response_feedback>The response correctly answers objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.26"> 
+	 <response> 
+	 Four objectives of IPv6 are:
+Longer addresses to be able support more end-systems
+To be more adaptable than IPv4 in the future by providing extension headers
+Make the header simpler to allow for faster processing in routers
+Increase the security by including IPSec as a mandatory feature
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.27"> 
+	 <response>Objectives of ipv6 are: 1.To support billions of end-systems-it has Longer addresses 2.To reduce routing tables 3.To simplify protocol processing by Simplified header 4.To increase security (integrated) 5.To support real time data traffic (quality of service) by Flow label, traffic class,etc</response>
+     <response_feedback>All five IPv6 objectives in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="IPP_6.1.29"> 
+	 <response>Longer addresses (16 bytes) should be supported in order to increase the address space such that more destinations can be specified than via IPv4 addresses.
+
+Security means should be integrated into the protocol to increase security when using it (Implementation of IPsec within the IPv6 standard which enables encryption and verification of the authenticity of IP packets).
+
+The protocol processing should be simplified by simplifying the header data.
+
+Real time data traffic with tracked quality of service should be supported by introducing flow labels and traffic classes.
+	 </response>
+     <response_feedback>The response correctly answers all four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.30"> 
+	 <response>Objectives of IPv6 are:
+•	to support billions of end-systems
+•	to reduce routing tables
+•	to increase security
+•	to simplify protocol processing
+	 </response>
+     <response_feedback>All four IPv6 objectives in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.31"> 
+	 <response> 1. Support billions of hosts, even with inefficient address space allocation.
+2. Reduce size of routing tables.
+3. Simplify the protocol with simplified header, in order to allow routers to process packets faster.
+4. Increase security like authentication and privacy than current internet protocol.
+5. Support real-time data traffic.
+	 </response>
+     <response_feedback>All five IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.33"> 
+	 <response>1. More adresses (64-bit adress-field)
+2. Anycasting (Send messages to specific hosts, for example the closest device)
+3. Extensibility (Extension headers)
+4. Increase in quality of service (Flow label e.g. for labelling packets if the message was fragmented)
+5. To be open for further developments (Optional space)
+6. Faster processing time in routers (No checksum to be processed)
+	 </response>
+     <response_feedback>All the objectives of IPv6 stated in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.34"> 
+	 <response> IPv6 serves a number of goals. Which are (from the lecture):
+1) the support of more end users (end systems) by providing larger dress space.
+2) The increase of security by integration
+3) The reduction of routing tables
+4) more simple protocol processing by using a simplified header
+	 </response>
+     <response_feedback>All four IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.35"> 
+	 <response> IPv4 has only 4 bytes or 32 bits to represent all of the addresses on the Internet. With that we would have 4 294 967 296 uniquely addressed devices on the Internet. However, suppose that everyone on the planet Earth has one PC, then the number of addresses would not be enough to address all of the devices, let alone such smart devices, IoT applications... -&gt; Need larger address space to get more devices addressed on the Internet. 
+
+To simplify protocol processing, IPv6 utilises simplified header to be able to reduce protocol overhead. 
+
+Insert extended headers to support future features and changes. 
+
+Support real time data traffic to improve quality of service.
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.36"> 
+	 <response>IPv6 has the following objectives:
+- to increase the number of possible address on the internet. With the advent of IoT, etc, many more devices need internet addresses, which the IPv4 protocol simply cannot support. 
+- to provide multicasting (by being able to add multiple destination addresses)
+- to improve security
+- to reduce routing tables
+- to be flexible and open to change (by adding new extension headers, for eg.)
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.37"> 
+	 <response> Support billions of end systems due to a longer addressing scheme.
+Reduce routing tables and simplify protocol processing due to simpler header structures.
+Support real time data traffic due to traffic classes and flow labels
+Provide multicasting and support mobile end systems
+	 </response>
+     <response_feedback>The response states four correct objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.39"> 
+	 <response> IPv6 offers improvements over short comings of IPv4. Following are 4 objectives:
+1. Support for individual address for billions of end systems
+2. Has integrated Security features
+3. Support for real time data traffic (quality of service) - Flow Label and Traffic Class
+4. Support mobility (Roaming)
+	 </response>
+     <response_feedback>The objectives of IPv6 mentioned in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.40"> 
+	 <response>No response 
+
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.41"> 
+	 <response>To support billions of addresses, since it has much longer addresses than IPv4
+To be open to change, it does so by the support of extension headers.
+To provide better multicasting features than IPv4
+To increase security.
+	 </response>
+     <response_feedback>The response answers all four objectives of IPv6 correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.42"> 
+	 <response> The objectiv are same basic requirements set for IPv6:
+- To support billions of end systems
+- To reduce routing tables
+- To simplify protocol processing
+- To increase security
+	 </response>
+     <response_feedback>The response answers four objectives of IPv6 correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.43"> 
+	 <response> 1. To support billions of end-systems
+2. To reduce routing tables
+3. To simplify protocol processing
+4. To increase security
+5. To support real time data traffic (quality of service)
+6. To provide multicasting
+7. To support mobility (roaming)
+8. To be open for a change
+9. To coexist with the existing protocol
+	 </response>
+     <response_feedback>All objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.44"> 
+	 <response>1. To support billions of end-systems by the use of longer addresses.
+2. To simplify protocol processing by the use of a simplified header.
+3. To be open for future change by the use of extension headers.
+4. To coexist aside of existing protocols.
+
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.46"> 
+	 <response>No response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.47"> 
+	 <response>No response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.48"> 
+	 <response>-to support more end-systems than IPv4
+-to reduce routing tables and simplify protocol processing
+-to increase security
+-to support real time data traffic
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.49"> 
+	 <response> 
+The first main objective for the introduction of IPv6 was the support of more addresses in the network. While IPv4 with 4 byte addresses only allowed roughly about 4 billion participants, IPv6 enables up to 2^128 addresses, what should be enough for the next centuries. This enlargement of the address room became important with the introduction of mobile computing, smart home and internet of things. 
+The second objective was to simplify the process of forwarding and building routing tables by simplifying the header of IPv6-addresses, which are now easier and faster to decode for routers. 
+Furthermore, the way IPv6 addresses are handled in a network allowed a higher level of security in comparison to IPv4.
+IPv6 allows better guarantees for Quality of Service, especially for real time traffic. This is also due to changes of the header of such an IP-packet. 
+Another important lesson learnd from the development history of IPv4 and therefore a main objective for IPv6 was to make it adaptive to future developments: So the IPv6 protocol allows introduction of extension headers for future functionalities.
+	 </response>
+     <response_feedback>All four objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.50"> 
+	 <response> IPv6 aims to:
+- support billions of end systems, through longer adresses;
+- reduce routing tables;
+- simplify protocol processing, since headers have less fields;
+- provide multicasting;
+- be open for change in future, through extension headers.
+
+
+	 </response>
+     <response_feedback>All the objectives of IPv6 mentioned in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.51"> 
+	 <response>In order to include more devices into the internet, the addresses of IPv4 are not long enough so IPv6 provides longer addresses.
+The headers are simplified: the protocol is new there was the freedom to look at the complicated thing from the old IPv4 header an optimize them.
+Providing multicasting: more than one destination addresses can be added to the header
+Better security: The implemented IPsec, allows the encryption of ip packages.
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.52"> 
+	 <response>- Support way more end-systems where each one has an address.
+- Simplify protocol processes like the header. 
+- Provide multicasting.
+- Be open to for change with extension headers.
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.53"> 
+	 <response> no response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.55"> 
+	 <response>To support billions of end systems by using longer addresses. To simplify protocol processing by simplifying the header. To increase security. To coexist with existing protocols.
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.56"> 
+	 <response> 1.To support billions of end-systems
+2.To simplify protocol processing
+3.To increase security
+4.To be open for change (future)
+	 </response>
+     <response_feedback>The four objectives of IPv6 mentioned in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.57"> 
+	 <response>- to support billions of end-systems
+- to simplify protocol processing
+- to provide multicasting
+- to increase security (security means integrated)
+- to coexistence with existing protocols
+	 </response>
+     <response_feedback>The response contains correct objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.58"> 
+	 <response> To support more addresses and not having to worry about running out of them in a nearer future.
+To simplify the protocol by removing unused fields.
+To give better casting options like anycast.
+To be open for changes in the future wich can be appended with the header extension.
+	 </response>
+     <response_feedback>The response states four correct IPv6 objectives.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.59"> 
+	 <response> Supporting of billions of end-systems i.e. more than the number of addresses IPv4 can support
+Reducing of routing tables
+Multicasting support
+Security improvement
+	 </response>
+     <response_feedback>The response answers four correct IPv6 objectives.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.62"> 
+	 <response>1. more global addresses
+2. Increase security
+3. Reduce routing tables
+4. Simplify protocol processing -&gt; simplified header
+	 </response>
+     <response_feedback>The response correctly answers four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.63"> 
+	 <response> To support billions of end-systems
+To reduce routing tables
+To simplify protocol processing
+To increase security
+	 </response>
+     <response_feedback>The response is correct as it contains four IPv6 objectives.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.64"> 
+	 <response> The objectives of IPv6 are: 
+1) To support billions of end-systems: increase the number of addresses through additional address bytes
+2) To simplify protocol processing: to take out unused options in the header and simplify it that way
+3) To provide multicasting: In IPv4 a message could only be sent to directly one receiver, in IPv6 multiple receivers are possible
+4) To be open for change: the usage of extension headers allows us to modify it and make changes in the future.
+	 </response>
+     <response_feedback>The response is correct as it contains four accurate IPv6 objectives.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.65"> 
+	 <response>Support more end systems with an IP range of 128 Bits instead of 32 Bits as in IPv4
+Be open for change (extension headers). You can add optional header information without being limited in size (it only has to fit in the whole size of the packet). 
+Increased Security, due to the fact that IPSec will most likely be mandatory in IPv6, hence you can improve the confidentiality, authenticity and data integrity.
+Provides multicasting so bandwidth-intensive packets can be sent to multiple destinations simultaneously which results in savings of the network bandwidth. 
+
+	 </response>
+     <response_feedback>All four IPv6 objectives mentioned in the response are fully correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.66"> 
+	 <response> There are several objectives, but i picked these 4:
+
+- Since we have longer addresses, we can support way more end systems than with IPv4
+
+- IPv6 allows e.g. Service Providers to aggregate prefixes of costumer networks, which leads to lesser routing tables
+
+- IPv6 provides confidentiality, authentication and data integrity which forms the security aspect of IPv6. For example, IPv4 ICMP packages have often been blocked because of their potential of carry malware. Unlike IPv4, IPv6 allows the application of IPSec.
+
+- IPv6 also eliminates NAT, restoring true E2E Connectivity at the IP Layer. This again, enables the use of new services. For example, P2P networks are now easier when it comes to their creation and Maintenance.
+	 </response>
+     <response_feedback>The NAT exists to overcome a shortage of IPv4 addresses and because IPv6 has no such shortage, it does not require NAT. So the last point of true E2E connectivity can be seen as an advantage but it is not a main objective of IPv6.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.67"> 
+	 <response>
+ - support more end-systems by using longer addresses
+- reduce the size of the routing tables
+- simplify the protocol, to allow routers to process packets faster.
+- integrate security
+- provide multicasting
+- support real time data traffic
+	 </response>
+     <response_feedback>All six IPv6 objectives are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.68"> 
+	 <response>-To reduce routing tables
+-To increase security
+-To provide multicasting
+-To support real time data traffic (quality of service)
+
+	 </response>
+     <response_feedback>All four points mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.70"> 
+	 <response> 1. To support more end systems. An IPv6 address is four times longer than IPv4.
+2. To simplify IP header and make it more efficient. I.e., IPv6 doesn’t have checksum, so the checksum doesn’t need to be recalculated at every router hop.
+3. To reduce the size of routing table. IPv6 allows to aggregate the prefixes of their customers' networks into a single prefix and announce this one prefix to the IPv6 Internet.
+4. To reinforce security, IPv6 can run end-to-end encryption. In comparison with IPv6, IPv4 remains an optional extra that isn’t universally used.
+
+	 </response>
+     <response_feedback>The response correctly states four objectives of IPv6 with explanations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.71"> 
+	 <response> The main objectives contain increasing the amount of addressable devices by increasing the address length,extendability by supporting extension headers, the increase of security and the simplification of processing by reducing header complexity.
+	 </response>
+     <response_feedback>The response correctly answers four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.73"> 
+	 <response> - Extending the address space of IPv4 (Longer addresses), to support billions of end systems.
+- Simplify protocol processing (simplified header)
+- Increase security (security means integrated)
+- Allow Multicast
+	 </response>
+     <response_feedback>The response is correct as all four IPv6 objectives are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.74"> 
+	 <response>no response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.77"> 
+	 <response>To support more end-systems
+to increase security
+to be open for future changes
+to simplify protocol processing and reduce routing tables
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.78"> 
+	 <response> 1. To support billions of end-systems.
+2. To increase security.
+3. To provide multicasting.
+4. To reduce routing tables.
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.79"> 
+	 <response> - Bigger adress room
+- Better security 
+- Reduce routing tables
+- Simplify headers
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.80"> 
+	 <response> To support billions of end-systems
+To reduce routing tables
+To simplify protocol processing
+To increase security
+	 </response>
+     <response_feedback>The response is correct as it answers four objectives of IPv6 correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	  <studentAnswer id="IPP_6.1.81"> 
+	 <response>  To support billions of end-systems.
+To reduce routing tables.
+To simplify protocol processing.
+To increase security.
+To provide multicasting.
+To coexistence with existing protocols.
+	 </response>
+     <response_feedback>All the points mentioned in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.82"> 
+	 <response>IPv6 is able to support billions of end-systems because it is using much longer adresses than IPv4.
+Since IPv4 is still very popular and the internet protocols version can't be switched instantly IPv6 have to coexist with other protocols.
+The extension headers used by IPv6 enable changes in the future.
+To simplify protocol processing IPv6 uses simplified headers.
+	 </response>
+     <response_feedback>The response is correct as all the IPv6 objectives are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.83"> 
+	 <response>	1. Supporting billions of end-systems: With its longer addresses IPv6 can support more end-systems. 2. Supporting real time data traffic: The flow label field („traffic class“) allows another quality of service. 3. Simplifying protocol processing: The header in IPv4 is much more complex than the header of IPv6, so with IPv6 the processing of protocols is simpler. 4. Openness for potential change in the future: With the option to use the extension headers, IPv6 provides something that can be useful in the future.
+	 </response>
+     <response_feedback>The response correctly answers all four objectives of IPv6 with explanations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.84"> 
+	 <response> To support billions of end-systems
+To reduce routing tables
+To simplify protocol processing
+To increase security
+	 </response>
+     <response_feedback>All four IPv6 objectives in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.85"> 
+	 <response>  1.Support larger address space. 
+
+The number of user has increased dramatically. In order to support more addresses,  we need IPv6 with longer address (128 bits) since we are out of addresses with IPv4 (only 32 bits). 
+
+2. IPv6 can perform multicasting(and anycast). 
+
+In other word, it can send to multiple persons with multiple addresses, which ipv4 can not deliver (ipv4 can only have 1 destination address for unicast).
+
+3.  It helps providing flexibility.
+
+It provides a extension header field, which can be used for appending new field(if need it in the future) without affecting the other fixed headers. 
+
+4. IPv6 can simplify the protocol processing.
+
+The header fields in IPv6 is simpler than IPv4. Some header fields, which were rarely used in IPV4, have been removed. Therefore IPv6 can simplify the protocol processing.
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are completely correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.86"> 
+	 <response> 1.to support billions of End-Systems.
+2.to reduce Routing tables.
+3.to simplify protocol processing.
+4.to increase security.
+5.to support real time data traffic.
+	 </response>
+     <response_feedback>All five IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.87"> 
+	 <response>no response
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.88"> 
+	 <response>The objective of IPv6 is to support assigning IP to new systems, and simplify the header.
+
+1. Supporting billions of end systems by providing longer address.
+2. Simplifying protocol processing by providing simplified header.
+3. Supporting real time data traffic by creating flow label and differentiating traffic class.
+4. Support multicasting and mobility or roaming.
+5. Open for change in future. like extension header,
+	 </response>
+     <response_feedback>All the IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.89"> 
+	 <response>-Due to longer address space millions of end systems can be supported
+
+-Integrated security means provide increased safety
+
+-Built-in multicast support
+
+-Eliminates triangular routing and simplifies deployment of mobile IP-based systems and therefore supports mobility (roaming)
+
+-Extension headers make room for future change and development 
+
+	 </response>
+     <response_feedback>All the objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.90"> 
+	 <response> 1) Support billions of hosts,even with inefficient address space allocation.
+2) Reduce the size of the routing tables
+3) Simplify the protocol, to allow routers to process packets faster
+4) Allow the protocol to evolve in the future
+	 </response>
+     <response_feedback>The response is correct as it answers four objectives of IPv6 correctly.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.91"> 
+	 <response>The objectives of IPv6:
+Firstly, to support billions of end-systems.
+Secondly, to reduce routing tables. 
+Thirdly, to simplify protocol processing.
+Fourthly, to increase security and this security means integrated.
+Fifthly, to support real time data traffic (quality of service) such as flow label, traffic class.
+Sixthly, to provide multicasting.
+Seventhly, to support mobility (roaming).
+Eighthly, to be open for change (future). 
+Ninthly, to coexistence with existing protocols.
+
+	 </response>
+     <response_feedback>All the objectives of IPv6 mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.92"> 
+	 <response> - Support more end-systems: 16 byte addresses instead of 4 byte in IPv4
+- Simplify protocol processing: Removed parts of the IPv4 Header that havent been used
+- Provide multicasting: Anycast has been introduced. You can send data to one member of a group
+- Be open for changes: The possibility of "Extension Headers" was introduced to be able to adapt the header in the future
+
+	 </response>
+     <response_feedback>The response is correct because all stated objectives of IPv 6 and explanations are correct.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.93"> 
+	 <response>- to support billions of devices (especially in need because of many new IoT devices)
+- to reduce routing tables
+- to simplify protocol processing (simplified header)
+- to provide multicasting
+	 </response>
+     <response_feedback>All four IPv6 objectives mentioned in the response are completely accurate.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.94"> 
+	 <response>1.	Supporting billions of end-systems: With its longer addresses IPv6 can support more end-systems.
+2.	Supporting real time data traffic: The flow label field („traffic class“) allows another quality of service.
+3.	Simplifying protocol processing: The header in IPv4 is much more complex than the header of IPv6, so with IPv6 the processing of protocols is simpler. 
+4.	Openness for potential change in the future: With the option to use the extension headers, IPv6 provides something that can be useful in the future.</response>
+     <response_feedback>The response is correct as it accurately answers all four objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.95"> 
+	 <response> - to support more (billions) of end systems: Expand address space ( 2^32 -&gt; 2^128 )
+- Simplify headers ( e.g. by removing unused information )
+- Improve security
+- Provide anycast support
+- To be open for future change by using optional extension headers
+
+	 </response>
+     <response_feedback>The response states correct objectives of IPv6.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="IPP_6.1.96"> 
+	 <response> To support billions of end-systems: IPv6 provides a larger address space for the growing internet; Each device can get a specific address. 
+
+To reduce routing tables: IPv6 aims for efficient routing and flexibility in the future.
+
+To simplify protocol processing: since a new version is used, headers can be made less complicated by taking things out people don’t use -&gt; simplified header.
+
+To increase security: security means integrated. In the IPv4 era, security wasn’t a big issue because of the small number of networks, but now it is a big issue and needs to be resolved for the future success of the internet.
+
+To support real-time data traffic (quality of service) -&gt; flow label and traffic class.
+
+To provide multicasting: In IPv4, only one destination address is supported. With IPv6, it is possible to send a packet to more than one.
+
+To support mobility (roaming): there is no concept of mobile IP devices in IPv4. Therefore, IPv6 builds on mobile IP and provides better support for mobility.
+	 </response>
+     <response_feedback>The response answers correct objectives of IPv6 with explanations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

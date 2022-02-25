@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="1">
+  <questionText>Frage 1: Wie reagierst du, wenn du auf deine Tätigkeit angesprochen wirst?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="1.a1">Der Jobber soll sich in diesem Fall dem Personal gegenüber zu erkennen geben (0.25 P) und das entsprechende Informationsschreiben in der App vorzeigen (0.25 P). Zusätzlich muss notiert werden, zu welchem Zeitpunkt (0.25 P) des Jobs der Jobber enttarnt wurde. Zentrale Frage ist dabei, ob ein neutrales, unvoreingenommenes Verkaufsgespräch stattgefunden hat. Der Job soll mit Erlaubnis der Mitarbeiter bis zum Ende durchgeführt (0.25 P) werden.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das Informationsschreiben vor</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, bitte halte fest wann genau du angesprochen wurdest. Sofern es das Personal gestattet, kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich zeige das Informationsschreiben</response>
+      <response_feedback>Bitte bedenke, dass es sich bei dem Schreiben nur um eine Information handelt und bitte vermerke noch zusätzlich wann genau du angesprochen wurdest und mit der Erlaubnis des Personals kannst du den Check auch gerne noch abschließen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das Informationsschreiben vor. Mit Erlaubnis des Mitarbeiters mache ich den Job zu Ende. Ich vermerke, dass ich erkannt wurde.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zeige das Informationsschreiben</response>
+      <response_feedback>Bitte bedenke, dass es sich bei dem Schreiben nicht um eine Legitimation sonder nur um einen Information handelt. Solltest du angesprochen werden, bitte vermerke  den Zeitpunkt in der App. Sofern das Personal es gestattet, kannst du auch gerne den Check noch zu Ende führen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Freundlich und versuche meine gegenüber es zu erklären was ich mach</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden,  bitte gib dich sofort zu erkennen und halte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu erkennen geben und Info schreiben vorzeigen</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, halte den Zeitpunkt fest wann genau du angesprochen wurdest und mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu erkennen geben und Infoschreiben vorlegen.</response>
+      <response_feedback>Korrekt. Bitte mache noch einen entsprechenden Vermerk wann du angesprochen wurdest und mit der Erlaubnis des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zeige das infornationsschreiben und bin freundlich</response>
+      <response_feedback>Wir würden dich bitten, immer freundlich zu bleiben. Solltest du dennoch auf deine Tätigkeit angesprochen werden, gebe dich bitte sofort als Jobber zu erkennen und halte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich bleibe höflich, zeige das Informationsschreiben vor und bitte darum den Auftrag zu Ende führen zu dürfen.</response>
+      <response_feedback>Bitte halte in der App noch fest, wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zeige höflich das Legitimationsschreiben vor.</response>
+      <response_feedback>Bitte bedenke, dass es sich bei dem Schreiben nicht um ein Legitimationsschreiben sondern nur um eine Information handelt, welche erklärt wer du bist, was du machst und in wessen Auftrag du hier bist. Solltest du angesprochen werden, bitte vermerke  den genauen Zeitpunkt in der App. Das Personal musst du nicht mit einbeziehen, sofern es gestattet wird, beende den Check gerne noch.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Informationsschreiben vorzeigen, fragen ob es okay ist und hinterher angeben, dass man erkannt wurde.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen. Zeige das Informationsschreiben vor und führe den Check zu ende.</response>
+      <response_feedback>Bitte führe den Check nur zu Ende sofern das Personal dies ausdrücklich gestattet. Bitte halte auch fest wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich bleibe ich und stelle mich vor,und zeige das Schreiben was ich von euch bekommen habe vor.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, halte bitte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und mache mit der Erlaubnis des Mitarbeiters weiter</response>
+      <response_feedback>Bitte vergiss in diesem Falle nicht zu vermerken wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und lege das Informationsschreiben vor.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, bitte halte fest wann genau du angesprochen wurdest. Bitte führe den Check nur zu Ende falls es das Personal explizit gestattet.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das Info-Schreiben vor. Mit Einverständnis des Mitarbeiters führe ich den Check durch - Vermerke das in der Aufgabe</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zeige das Informatiosschreiben vor</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden,  gib dich zu erkennen und halte noch fest wann genau du angesprochen wurdest und mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und lege ein informationsschreiben vor. Den Test führe ich zuende.</response>
+      <response_feedback>Bitte mache noch eine entsprechende Angabe in der App wann genau du angesprochen wurdest. Bitte führe den Check nur zu Ende wenn es das Personal ausdrücklich gestattet.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu erkennen geben und Legitimationsschreiben vorzeigen.</response>
+      <response_feedback>Bitte bedenke, dass es sich bei dem Schreiben nicht um eine Legitimation sonder nur um einen Information handelt. Solltest du angesprochen werden, bitte vermerke  den genauen Zeitpunkt in der App. Sollte es das Personal gestatten, kannst du den Job auch  gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das Informationsschreiben vor</response>
+      <response_feedback>Bitte halte in der App noch fest, wann genau du angesprochen wurdest. Sofern es das Personal gestattet, kannst du den Check auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich gebe mich zu erkennen und lege das Informationsschreiben vor.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, bitte halte fest wann genau du angesprochen wurdest. Bitte führe den Check nur zu Ende falls es das Personal explizit gestattet.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zeige mein Informationsschreiben</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden,  bitte gib dich sofort zu erkennen und halte fest, dass du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich erst dann zu erkennen, wenn ich enttarnt wurde und zeige dann das von Euch in der Jobbeschreibung  vorhandene Infoschreiben vor. Ich führe den Check mit Erlaubnis der Mitarbeiter zu Ende durch und vermerke es bei der  der anschliessenden Dokumentation/ der Beantwortung der Fragen.</response>
+      <response_feedback>Korrekt!</response_feedback>
+      <score>1.0</score>
+      <verification_feedback>Correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen wenn nötig und zeige das Legimitationsschreiben vor das für mich in dem fall im Fragebogen hinterlegt wurde.</response>
+      <response_feedback>Bitte bedenke, dass es sich bei dem Schreiben nicht um eine Legitimation, sondern nur um eine Information handelt, welche erklärt wer du bist, was du machst und in wessen Auftrag du hier bist. Solltest du angesprochen werden, bitte vermerke  den genauen Zeitpunkt in der App. Das Personal musst du nicht mit einbeziehen, sofern es gestattet wird, beende den Check gerne noch.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Es wäre sehr gut für mich</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, bitte bleib auf jeden Fall ehrlich und gebe dich bitte sofort als Jobber zu erkennen. Dafür ist im Zweifelsfall ein Schreiben im Job hinterlegt welches erklärt wer du bist und in wessen Auftrag du handelst. Bitte halte noch fest wann genau du angesprochen wurdest und mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige ihm das jop schreiben. Zusätzlich führe ich den jop zu Ende mit Erlaubniss des mitarbeitets</response>
+      <response_feedback>Das Schreiben legitimiert dich allerdings zu nichts. Es ist lediglich eine Information wer du bist und in wessen Auftrag du handelst. Halte auch fest bei welchem Schritt der Prüfung du angesprochen wurdest und bitte führe den Check nur mit der Erlaubnis des Personals noch zu Ende.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>höflich und nett, ich erkläre warum ich beispielsweise die Sanitäranlagen fotografierw</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden,  bitte gib dich sofort zu erkennen und halte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.0</score>
+      <verification_feedback>Incorrect</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Wenn ich auf die Tätigkeit als fester angesprochen werde, zeige ich das Legitimationsschreiben</response>
+      <response_feedback>Bei dem Schreiben handelt es sich nicht um ein Legitimationsschreiben sondern lediglich um eine Information. Bitte vermerke den Zeitpunkt an welchem du angesprochen wurdest und mit der Erlaubnis des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich lege dem Mitarbeiter das Informationsschreiben vor. Führe Die Tätigkeit mit Erlaubnis weiter aus.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, bitte gib dich sofort zu erkennen und halte fest wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich dann zu erkennen, zeige das Erlaubnisformular und versuche mit Erlaubnis den test zu Ende zu führen.</response>
+      <response_feedback>Bitte bedenke, dass es sich bei dem Schreiben nicht um eine Erlaubnis sondern nur um eine Information handelt, welche erklärt wer du bist, was du machst und in wessen Auftrag du hier bist. Solltest du angesprochen werden, bitte vermerke  den genauen Zeitpunkt in der App.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das informationsschreiben. Ich vermerke in der Aufgabe das ich erkannt wurde.</response>
+      <response_feedback>Sofern es das Personal gestattet, kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich bekannt und zeige, dass ich dies mache aber ich versuche unentdeckt zu bleiben</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden,  bitte gib dich sofort zu erkennen und halte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe noch zu erkennen und zeige das Infoschreiben vor. Mit Erlaubnis des Shellmitarbeiters führe ich den Test zu Ende.</response>
+      <response_feedback>Bitte vermerke noch in der App wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich erkläre was ich tue und mache mit der Erlaubnis des Mitarbeiters weiter</response>
+      <response_feedback>Bitte halte in der App noch fest, wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>zeige Erlaubnisschein vor und vermerke es als Kommentar</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, bitte halte fest wann genau du angesprochen wurdest. Sofern es das Personal gestattet, kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und vermerke es.</response>
+      <response_feedback>Sofern es das Personal gestattet, kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und bitte den Mitarbeiter höflich mit mir zusammen zu arbeiten</response>
+      <response_feedback>Sofern das Personal es gestattet, kannst du den Check ruhig alleine durchführen. Halte nur fest wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.25</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Sollte ich als Tester angesprochen oder erkannt werden, kann ich mich zu erkennen geben und ein Schreiben zum Job vorzeigen.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, halte bitte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen, zeige Ihnen dieses Schreiben und frage obe Ich fortfahren darf.</response>
+      <response_feedback>Sollte das Personal dies gestatten, kannst du den Check auch gerne noch abschließen. Bitte halte nur in fest, wann genau du auf deine Tätigkeit angesprochen wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das Referenzschreiben.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden, halte bitte noch fest wann genau du angesprochen wurdest. Mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>ich gebe mich zu erkennen bzw gebe das Informationsschreiben von euch an das Personal.</response>
+      <response_feedback>Solltest du auf deine Tätigkeit angesprochen werden,  halte bitte noch fest wann genau du angesprochen wurdest und mit der Zustimmung des Personals kannst du den Job auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich zeige dann das Schreiben und führe die Aufgaben mit der Staff Erlaubnis weiter aus.</response>
+      <response_feedback>Bitte halte noch in der App fest wann genau du angesprochen wurdest.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Ich gebe mich zu erkennen und zeige das Legitimationsschreiben,welches dem Job beigefügt ist vor. Evtl. mache ich die Checks mit Erlaubnis des Stationspersonals.</response>
+      <response_feedback>Bei dem Schreiben handelt es sich nicht um ein Legitimationsschreiben sondern lediglich um eine Information. Bitte vermerke den Zeitpunkt an welchem du angesprochen wurdest.</response_feedback>
+      <score>0.75</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+    <studentAnswer>
+      <response>Zu erkennen geben, Anschreiben vorzeigen</response>
+      <response_feedback>Bitte vermerke noch zusätzlich wann genau du angesprochen wurdest und mit der Erlaubnis des Personals kannst du den Check auch gerne noch abschließen.</response_feedback>
+      <score>0.5</score>
+      <verification_feedback>Partially correct</verification_feedback>
+    </studentAnswer>
+  </studentAnswers>
+</question>

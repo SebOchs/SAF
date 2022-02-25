@@ -1,0 +1,895 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="12.1" module="PE">
+   <questionText>Let us assume that you flip a coin 6 times where the probability of heads (H) showing
+up is 0.6. Please arrange the following events in the increasing order of their
+likelihood (i.e., least probable → most probable):
+● Event A: you see at least three H’s
+● Event B: you see the sequence HHHTTT
+● Event C: you see exactly three H’s
+Include justification in your answer
+headers.</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="PE_12.1_a1">
+	 The correct sequence is BCA , where B is the least probable. One of the following justifications should be given:
+		● Event B is a subset/part/special case of C, and C is a subset/part/special case of A
+		● Event B is more specific/strict than C and C is more specific/strict than A
+		● An actual, correct calculation of the probabilities:
+		○ P(B) = 0.6 * 0.6 * 0.6 * 0.4 * 0.4 *0.4 = 0.6^3 *0.4^3 = 0.013824 
+		○ P(C) = (6 choose 3) * P(B) = 0.27648 
+		○ P(A) = P(C) + P(Y=4) + P(Y=5) + P(Y=6) = 1 - P(Y=0) - P(Y=1) - P(Y=2)
+		= (6 choose 3) * 0.6^3 * 0.4^3 + (6 choose 4) * 0.6^4 * 0.4^2 +(6 choose 5) *
+		0.6^5 * 0.4 + (6 choose 6) * 0.6^6
+		= 0.27648 + 15 * 0.020736 + 6 * 0.031104 + 1 * 0.046656
+		= 0.8208 
+		○ The answer may be rounded to up to 2 decimal places, e.g. P(B) = 0.01 or
+		P(B) = 0.014
+		○ It is also sufficient to give a formula without the actual calculation, if it is apparent that P(B) less than P(C) less than P(A), e.g. by stating P(C) = 20 * P(B)
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="PE_12.1.1"> 
+	 <response>No submission. 
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.2"> 
+	 <response>B, C, A
+Justification:
+Event B (exact HHTTT) is one variant of event C, which includes more possibilities (e.g. HTHTHT). This means that event B is a more special event than event C, everytime event B occurs, event C does also occur, but not the other way around. Thus, event C is more likely than event B.
+Every time event C (exactly three H's) occurs, event A does also occur (at least three H's). Additionally, event A can occur with additional results not part of event C (like HHHHTT). Therefore, event A is more likely than event C.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.3"> 
+	 <response>First least probable: You see the sequence HHHTTT: in order for you to get exactly this order the likelihood would be very small, because in the case of throwing a coin 6 times there are 64 possible combinations and this sequence just considers one of them.
+Second least probable: You see exactly three H´s: This would be a binomial distribution with N= 6 (you flip the coin six times) and k=3 (you get exactly 3 H) with p= 0.6. The likelihood would be of 27,65%
+Most probable: you see at least three H´s (that means the likelihood you see 3, 4 , 5 and 6 heads)
+This would be the sum of the likelihood of seeing 3, 4 , 5 or 6 heads. with N=6 and k= 3,4,5 and 6 and p= 0.60. The likelihood would be 82,02%</response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.4"> 
+	 <response>-	Event A: P(#H &gt;= 3) = P(3)+P(4)+P(5)+P(6) = 0.8208
+-	Event B: P = 0.6^3*0.4^3 = 0.0138
+-	Event C: P = P(3) = #possible combination * 0.6^3 * 0.4^3 = 0.2765
+        =&gt; B, C, A
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.6"> 
+	 <response>p(B) less than p(C) and p(C) less than p(A)
+
+p(A) must be smaller then p(C) because cases whith more then 3 H's are invalid. p(C) must be smaller then p(B) because the H's and T's must be sorted.
+	 </response>
+     <response_feedback>The response correctly states the sequence of the three given events. However, the justification states the opposite which is incorrect.
+</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.7"> 
+	 <response>Probability of A: Sum of (6nCrX*(0,6)^X*(0,4)^(6-X)) with X = {3,4,5,6}  = 0.8208
+Probability of B: (0,6)^3*(0,4)^3 = 0,013824
+Probability of C: (6nCr3 * (0,6)^3 * (0,4)^3) = 0,27648
+
+with nCr = Binomial coefficient (N over k)
+
+The likelihood of the Events occurring are: B--&gt;C--&gt;A
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.8"> 
+	 <response>B -&gt; C -&gt; A
+
+B is the least propable, because there is only this one combination out of 64 possible combinations. The propability is 1,38% ( 0,6*0,6*0,6*0,3*0,3*0,3). C is more propable, because out of the 64 combinations, 20 combinations can satisfy this condition (formula would be 6!/3!*3!) and results in 27,63% propability. The most propable case is A, because it contains B and has the propabilities of having 4 Hs, 5Hs and 6Hs added onto it, which results in 82,08% propability.  
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification but the probability of event C is incorrect. The correct value is 27.648% (rounding mistake).</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.9"> 
+	 <response> 
+You can calculate the probabilities according to the binomial distribution.Event B: p = 0,013
+Event C: p = 0,2765
+Event A: p = 0,82 </response>
+     <response_feedback>The response does not explicitly state the order of the events but it contains the correct probabilities of all events which are sufficient to identify the correct order.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.10"> 
+	 <response>Event A ist the most probable event, because there are many sequences that accomplish it. So all the probabilities of these sequences can be added to calculate the probability of Event A.
+Event C iss less proabable than A, because there are less sequences to accomplish ist than there are to accomplish A. For example A sequence with 4 H's would fulfill A but not C. But all of the sequences that fulfill C also would fulfill A. So C has the same probabilities that are beeing added to calculate the probability of A, but A has additional probabilities.
+Event B ist the least probable, because the only sequence that fulfills it, is HHHTTT. And since this sequence also fulfills A and C, the probability of the occurrence of this sequence is just one of the probabilities that are been added to calculate the probability of A and C. 
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.11"> 
+	 <response>Empty submission.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.13"> 
+	 <response>Calculate the probabilities (for event A and event C we used the binomial distribution formula):
+
+Formula: (N over k)*p^k*(1-p)^(N-k) with N = 6, p=0,6
+ 
+P(Event A) = P(k&gt;=3) = P(k=3) + P(k=4) + P(k=5) + P(k=6) =  0.27648 + 0.31104 + 0.186624 + 0.046656 = 0.8208
+P(Event B) = 0.6*0.6*0.6*0.4*0.4*0.4 = 0.013824
+P(Event C) = P(k=3) =  0.27648
+
+Therefore the increasing order is: 
+B → C →  A
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.14"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.15"> 
+	 <response>least probable: B (likelihood = 0.6^3 * 0.4^3)
+second least: C ( we don't care about order, so there are 6!/ (3!*3!) possibilities)
+most probably: A since it includes C but also the probability for 4, 5 or 6 H's
+	 </response>
+     <response_feedback>The response is partially correct because the event C also includes the event P(B). Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.16"> 
+	 <response>B -&gt; C -&gt; A 
+A: 0.6^3 * 0.4^3 * 20 + 0.6^4 * 0.4^2 * 15+ 0.6^5 * 0.4 * 6 + 0.6^6 = 0.8208
+B: 0.6^3 * 0.4^3 = 0.013824
+C: 0.6^3 * 0.4^3 * 20 = 0.27648
+	 </response>
+     <response_feedback>The response states the correct order of events with the calculation of all event probabilities.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.17"> 
+	 <response>Event B; Event C; Event A 
+
+The reason for this order is, that Event B is an element of the set of events described by Event C. Therefor the likelihood of C must be at least the one of B. 
+
+Equally, the set described by Event C is a subset of the set described by Event A. The likelihood of Event A is therefore at least the one of B. 
+
+The likelihood of the atomic event heads does not influence this reasoning.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.18"> 
+	 <response> Event A: P = P[Y=3] + P[Y=4] + P[Y=5] + P[Y=6] = 20*0,6^3*0,4^3 + 15*0,6^4*0,4^2 + 6*0,6^5*0,4^1 + 1*0,6^6*0,4^0 = 0,27648 + 0,31104 + 0,186624 + 0,046656 = 0,8208 = 82,08%
+Event B: P = 0,6*0,6*0,6*0,4*0,4*0,4 = 0,013824 = 1,3824%
+Event C: P[Y=3] = (6 over 3) * 0,6^3 * (1-0,6)^3 = 20*0,216*0,064 = 0,27648 = 27,648%
+So the first event A is the sum of the probabilities for three H's, four H's, five H's and six H's which leads to the result seen above which is a probability of 0,8208. The second event B, which is basically just a multiplication of the probabilities of the given sequence, has a probability of 0,013824 and the third event C has, according to the binomial distribution formula, a probability of 0,27648.
+An arrangement in the increasing order of their likelihood would be:
+1. Event B
+2. Event C
+3. Event A
+	 </response>
+     <response_feedback>The response correctly answers the order of the events and justifying it with probability calculations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.19"> 
+	 <response>Order:
+Event B -&gt; Event C -&gt; Event A
+
+Justification:
+
+B =&gt; is the least probable because we have 2^6 = 64 possible outcomes, and the probability that exactly this one order appears will be only the case once and hence the probability is 1/64.
+
+C =&gt; here we can use the Binomial Random Variable function. With N = 6 and k = 3 we get the result (6, 3)^T*0.6^3*(1-0.6)^3= 0.27648
+
+A =&gt; A already includes the the probability of C and B, and in additon you sum up the other combinations of outcomes where there are at least 3 H´s. Knowing that you can conclude that the calculated probability will be the highest and hence the most probable.
+
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.20"> 
+	 <response>Order: least probable → most probable:  B, C, A
+
+* The LEAST probable event is the event B since we expect a single, exact sequence, so P[B] = P[X_1=H X_2=H X_3=H X_4=T X_5=T X_6=T] =  0.6^3*(1-0.6)^3 ≈ 0.014
+[Note: X_i denotes result of i-th flip in a sequence of 6 flips]
+
+* The MOST probable event is the event A since every sequence containing H at least 3 times is accepted, which matches to sequences showing up H 3, 4, 5 or 6 times in our case, which leads to (6 over 3) + (6 over 4) + (6 over 5) + 1 possible sequences = 42 possibilities with 41 of them being less strict than event B. P[A] = P[ 3 ≤ X ≤ 6 ] = P[ X=3 ] + P[ X=4 ] + P[ X=5 ] + P[ X=6 ] ≈ 0.821
+with P[ X=k ] = (n over k) * p^k * (1-p)^(n-k)
+[Note: X denotes the number of H showed up after 6 flips]
+
+* The event in between is event C (exactly three H), which is a subset of event A, but limited to k = 3 and (6 over 3) = 20 possibilities. It is clear that C is more likely than B because the requirements of C compared to B are less strict, and that C is less likely than A because C is more strict than A with respect to the count of H. P[C] = P[ X=3 ] ≈ 0.276.
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.22"> 
+	 <response>most probable : A
+in the middle   : C
+least probable : B 
+
+According to a probability 0.6, higher than 50 %, it is more likely and most probable that there are at least three H's out of six times flipping the coin, compared to Event C or Event B.
+
+Furthermore, Event C is more likely than Event B. Event B and C have in common that they have exactly three H's, but it is more probable that there are just exactly three H's (Event C) than the exact sequence/order of the three H's and three T's (Event B).
+	 </response>
+     <response_feedback>The response correctly states the order and justification for events B and C. The justification for A is not correct because event A's probability is higher irrespective of P(H) being higher than 50% (unless it is 0 or 1, then P(B), P(C) and P(A) all would be 0).</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.24"> 
+	 <response>P(H) = 0,6 then P(T) = 0,4
+
+Event A: 
+Probability 1: Sum up the probability of all paths in the probability tree where at least 3 H's occur
+Probability 2: Calculate 1 - the probability of all paths in the probability tree where less than 3 H's occur
+
+From Event C, we know that P(C) = 0,26568 (exactly 3 H's).
+So we have to look for the remaining paths with more than 3 H's
+--&gt; 22 paths where more than 3 H's occur in probability tree
+I computed the probability of every path and summed it up to 0,668736.
+Then P(A) = P(C) + 0,668736
+                 = 0,26568 + 0,668736
+                 = 0,934416
+So the probability for Event C is 93,4416%.
+
+Event B: We see the sequence HHHTTT
+P(B) = 0,6 * 0,6 * 0,6 * 0,4 * 0,4 * 0,4
+        = 0,013824
+So the probability is 1,3824%. If you think about the probability tree for this experiment (flipping a coin 6 times) you go exactly the path in the tree which refers to the sequence HHHTTT and calculate the probabilities to get the probability.
+
+Event C: We see exactly 3 H's
+
+Sum up the probability of all paths in the probability tree where exactly 3 H's occur
+In general, the probability that 3 H's occur is 0,6 * 0, 6 * 0,6 * 0,4 * 0,4 * 0,4 = 0,013824
+-&gt; every path where exactly 3 H's occur has this probability
+We have to determine in how many paths in the probability tree exactly 3 H's occur (order does not matter)
+-&gt; 20 paths in the probability tree
+
+So P(C) = 0,013824 * 20 
+             = 0,26568
+So the probability of exactly 3 H's is 26,568%.
+	 </response>
+     <response_feedback>The response is partially correct because the justification for event B is correct. The final result of event C's probability and event A's calculation are incorrect. The correct formula for event A is P(C) + P(Y=4) + P(Y=5) + P(Y=6). Additionally, the response does not state the sequence of the events explicitly.</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.25"> 
+	 <response>Least probable --&gt; most probable
+B,C,A
+
+P(B) = 1 * 0,6^3 * 0,4^3 = 0,0138
+P(C) = (6 over 3) * 0,6^3 * 0,4^3 = 0,2765
+P(A) = P(k=3)+P(k=4)+P(k=5)+P(k=6) = 0,8208
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.26"> 
+	 <response>From less probable to most probable: B, C, A.
+Event B is very unlikely, because it is requiring a strict sequence of heads and tails, which can be calculated by 0.6^3 * 0.4^3 = 1.4%.  Event C is more likely than C, because it just requires 3 heads, which is less strict than B and includes B, it can be calculated by BinCoef(6, 3) * 0.6^3 * 0.4^3 = 27.7%. A is more likely than C, because it is less strict and having at least three heads as well includes C, having exactly three heads. It can be calculated as the sum for all k=3 to 6: BinCoeff(6, k) 0.6^k * 0.4^{6-k} = 81.1%.
+	 </response>
+     <response_feedback>The response correctly answers the events' order with appropriate justification, but the final result of the probability calculation of events C and A is incorrect. The correct values are 27.648% (rounding mistake) and 82.08%, respectively.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.27"> 
+	 <response>Event B, the probability of B is low according to the formula. (0.6^3*).4^3)=0.014
+event c, 0.6^3=0.216
+event A most probable 
+
+if probability of head is 0.6, the of tails will be (1-0.6)=0.4</response>
+     <response_feedback>The events' order is correct in the response, but the calculation of events C is incorrect. Event C is missing the number of possible combinations that exactly three heads can appear and the three tail tosses' probabilities. Also, there is no justification for event A is given in the response.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="PE_12.1.28"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.29"> 
+	 <response>Event A:
+- The number of H’s follows a Binomial distribution with parameters N=6 and p=0.6
+- P[Y&gt;=3] = P[Y=3] + P[Y=4] + P[Y=5] + P[Y=6]
+- P[Y&gt;=3] can be calculated as follows: ((6 choose 3)*0.6^3*(1-0.6)^(6-3))+((6 choose 4)*0.6^4*(1-0.6)^(6-4))+((6 choose 5)*0.6^5*(1-0.6)^(6-5))+((6 choose 6)*0.6^6*(1-0.6)^(6-6))
+- The probability for event A is 0.8208
+
+Event B:
+- The probability that the coin flip results have a specific order is just the product of the probabilities of each desired result
+- P[HHHTTT] = 0.6^3*(1-0.6)^3
+- The probability for event B is 0.013824
+
+Event C:
+- P[Y=3] = (6 choose 3)*0.6^3*(1-0.6)^(6-3)
+- The probability for event C is 0.27648
+
+Hence, the order of the events is B,C,A. This makes sense because B is the most specific event and A the most general.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.30"> 
+	 <response> Event B: P(Event B) = 0,014
+- The flips are independent, so we just multiply the probabilities of the expected outcome
+- The probability is lower than the probability of the other events because we have a defined sequence of the flip, which is harder to achieve.
+
+Event C: P(Event C) = 0,276
+- Binomial distribution
+- Since we need to achieve an exact number of heads the probability is lower than the probability of Event A and higher than the probability of B
+
+Event A: P(Event A) = 0,821
+- We need to calculate the sum of the probabilities of getting exactly 3,4,5,6 heads. Then we receive the probability of getting at least three H’s.
+- Since the order of the H’s is irrelevant the Event is more likely than the others
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.31"> 
+	 <response>Previous defninition: " ** " represents power calculation, e.g. 2**2 == 4. (n¦k) means that pick up k elements from n elements, (n¦k) here is a symbol of combination.
+
+Event A: the converse-negative proposition(CGP) of event A is "you see at most two H's". With 1 subtractes the probility of CGP, we are able to get the result of event A.
+Calculation of Event A: 1 - [ (6¦0) * (0.6 ** 0) * (0.4 ** 6) + (6¦1) * (0.6 ** 1) * (0.4 ** 5) + (6¦2) * (0.6 ** 2) * (0.4 ** 4)] = 0.7968
+
+Event B: since the proposition is "you see the sequence HHHTTT", there is only one solution out of all possibilities.
+Calculation of Event B: (1 / 6!) * (0.6 ** 3) * (0.4 ** 3) = 0.0000192
+
+Event C: you see exactly three H's, the position of each H needs to be taken into account.
+Calculation of Event C: (6¦3) * (0.6 ** 3) * (3¦3) * (0.4 ** 3) = 0.27468
+
+the likelihood in increasing order, i.e. least probable → most probable is
+Event B → Event C → Event A 
+
+	 </response>
+     <response_feedback>The response is partially correct because it contains the correct order of events, but the calculation part for all events is incorrect.</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.32"> 
+	 <response>This is simple probability theory. Since the coin has unequal sides, we have to calculate the probability for any given path manually and then (for A and C) multiply it with the number of occurences
+calculated by the binomial coefficient.
+
+In general one can also guess the probability by sorting the events from most specific to least specific. While A is the most specific and thus includes only a single series of  events, C includes 20 events (6 over 3) and A 42 events ((6 over 3) + (6 over 4) + (6 over 5)  + (6 over 6)).
+
+The exact probabilities in order from least probable to most probable:
+
+B:
+0.6*0.6*0.6*0.4*0.4*0.4 = 0.013824
+
+C:
+(6 over 3) * (0.6*0.6*0.6*0.4*0.4*0.4) 
+ / 2^6 = 0.3125
+
+A:
+(6 over 3) * (0.6*0.6*0.6*0.4*0.4*0.4) + (6 over 4) * (0.6*0.6*0.6*0.6*0.4*0.4) + (6 over 5) * (0.6*0.6*0.6*0.6*0.6*0.4) + 1 * (0.6*0.6*0.6*0.6*0.6*0.6) 
+= 20 * (0.6*0.6*0.6*0.4*0.4*0.4) + 15 * (0.6*0.6*0.6*0.6*0.4*0.4) + 6 * (0.6*0.6*0.6*0.6*0.6*0.4) + 1 * (0.6*0.6*0.6*0.6*0.6*0.6) 
+= 20 * 0.013824 + 15 * 0.020736 + 6 * 0.031104 + 1 * 0.046656
+= 0.8208
+	 </response>
+     <response_feedback>The response is partially correct because the calculation of event C is incorrect. The correct calculation is P(C) = (6 over 3) * (0.6^3 *0.4^3). Apart from that, the response is correct.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.33"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.34"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.35"> 
+	 <response>
+Let p is the probability of heads (H) showing up, then p would be 0.6. Then the probability of tails showing up would be 1 - p. 
+
+The least probable event would be the event B, then C, and the most probable event is A. So, the sequence in the increasing order of their likelihood is B -&gt; C -&gt; A. 
+
+Let’s consider the probability of each event here:
+
+Event B has 3 heads and 3 tails, but they are all in the exact order from the first to the last trial, then the sequence HHHTTT is only one permutation of a sequence of probable results. Then the P(B) = p * p * p * (1 – p) * (1 – p) * (1 – p) = 0.6 * 0.6 * 0.6 * 0.4 * 0.4 * 0.4 = 0.013824 = 1.3824% 
+
+Event C has exactly 3 heads, but the sequence of probable results could be any order. There are 6! / (3! * 3!) = 20 permutations of these sequences, each of the sequence has the probability equal to the P(B). Then P(C) = 20 * P(B) = 0.27648 = 27.648% 
+
+Event A contains not only the event of only 3 H but also 4, 5, 6H in any sequence, then P(C) = 6! / (3! * 3!) * p * p * p * (1 – p) * (1 – p) * (1 – p) + 6! / (2! * 4!) * p * p * p * p * (1 – p) * (1 – p) + 6! / (1! * 5!) * p * p * p * p * p * (1 – p) + 6! / (0! * 6!) * p * p * p * p * p * p = 20 * 0.6^3 * 0.4^3 + 15 * 0.6^4 * 0.4^2 + 6 * 0.6^5 * 0.4 + 0.6^6 = 0.8208 = 82.08%
+	 </response>
+     <response_feedback>The response correctly answers the order of the events and justifying it with probability calculations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.37"> 
+	 <response>B -&gt; C -&gt; A
+B is the least likely, as there is only 1 combination of all 2^6 combinations possible which is exactly this combination.
+C is more likely than B as there are more than 1 combination possible (e.g. HHHTTT, TTTHHH) (10 total).
+A is more likely than C as all combinations that are valid under C are also valid under A plus for example the combination (HHHHTT) which makes it a strict supergroup to the group of combinations valid under C.
+
+	 </response>
+     <response_feedback>The response correctly states the sequence of the three given events. C's justification is partially correct as the total number of possible combinations for C is 20, not 10. The justification provided for A is also partially correct as C is a more strict subgroup than A.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.38"> 
+	 <response>Let S_X is a subset of {H,T}^6 be the set of sequences belonging to an event X. Then S_B is a proper subset of S_C and S_C is a proper subset of S_A, i.e. S_B proper subset of S_C and S_C proper subset of S_A. As a consequence you get (likelihood of B) less than (likelihood of C) and (likelihood of C) less than (likelihood of A).
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.40"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.41"> 
+	 <response>Event B less than  Event C and Event C less than Event A
+
+Event A: P(X&gt;2) = 1-P(X less than 3)= 1-("6 choose 2")*0.6^2*0.4^4-("6 choose 1")*0.6*0.4^5-0.4^6=82.08%
+Event B: 0.6^3 * 0.4^3 = 1.38%
+Event C: ("6 choose 3")*0.6^3*0.4^3 = 27.65%
+
+As you can see, Event B has the lowest amount of permutation, and Event A has the highest amount of permutations, and that is why B is the least probable and A the most.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with the justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.42"> 
+	 <response> Event B: 0.6^3 * 0.4^3 = 0.013824 = 1.3824%
+Event C: P(X=3) = 20×0,6 ^3× (1-0,6)^3 = 0.27648 = 27.648%
+Event A: P(X&gt;= 3) = P(X=3) + P(X=4) + P(X=5) + P(X=6) = 0.8208 = 82.08 %
+	 </response>
+     <response_feedback>The response does not explicitly state the events' order, but it contains the correct probabilities of all events, which is sufficient to identify the correct order.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.43"> 
+	 <response>B-&gt;C-&gt;A
+
+Event A is the most likely to happen because the binomial distribution of probability getting head P[Y=3] and P[Y=4] and P[Y=5] and P[Y=6] each accumulates the total probability of getting at least 3 heads, thus increasing the chance.
+While event C it has only the probability of P[Y=3].
+Event B is least likely to happen because it is a fixed sequence, not a combination where the sequence doesn't matter like on the event A and C
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>	
+	<studentAnswer id="PE_12.1.44"> 
+	 <response> Least to most probable:
+3. P(B): 0.6^3 * 0.4^3 = 0.013824
+2. P(C): 0.6^3 * 0.4^3 * 20 = 0.27648
+1. P(A): 1 - (0.6^2 * 0.4^4 * 15 + 0.6 * 0.4^5 * 6 + 0.4^6) = 0.8208
+	 </response>
+     <response_feedback>The response correctly answers the order of the events and justifying it with probability calculations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.46"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.47"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.48"> 
+	 <response>From least to most: B C A
+Event B is a centain sequence, hence it has only one combination. P(B) = 0.013824.
+Event C has 20 combinations. P(C) = 0.27648.
+Event A could have four different results: three Hs, four Hs, five Hs or six Hs. It has total 42 combinations. P(A) =0.8208.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.49"> 
+	 <response> We can calculate the probability of each event:
+The least probable event is event B (HHHTTT). The probability is P(B)=0.6^3*0.4^3=0.0138.
+The second least probable event is event C (exactly three times H). We can calculate the probability with the following term: P(C)=(6!/(3!*3!))*0.6^3*0.4^3=0.2765.
+The most probable event is event A (at least three times H). The probability is P(A)=(6!/(3!*3!))*0.6^3*0.4^3 + (6!/(4!*2!))*0.6^4*0.4^2 + (6!/(5!*1!))*0.6^5*0.4^1 + (6!/(6!*0!))*0.6^6*0.4^0 = 0.8208.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events and justifying it with probability calculations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.51"> 
+	 <response>Event B
+Event C
+Event A
+
+The more general the events are, the more likely they will occur. For event B every flip has to achieve a given result, so it is very unlikely.
+For Event C the order is not relevant, which makes it more likely. Event A is the most probable, due to the factor 0.6, because the probability of heads is on average more likely than tails. 
+	 </response>
+     <response_feedback>The response states the correct order of events. However, since event A includes event C, heads having a higher probability than tails is irrelevant (except when P(H) = 1 or 0, in such case all the three even probabilities become equal).</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.52"> 
+	 <response>least probable -&gt; B -&gt; C -&gt; A -&gt; most probable
+B: There is only one case of all possible sequences where event B occur. 
+Calculation: P(B) = 0.6^3*0.4^3 = 0.014
+C: If event B occurs, event C occurs too. Additionally event C includes several more cases (e.g. HTTHHT)
+Calculation: P(C) = 6 over 3 * P(B) = 0.276 
+A: Event A includes every case of event C. Additionally event A includes several more cases (e.g. HHHHTT)
+Calculation: P(A) = sum_x=3_N=6 (6 over x * 0.6^x * 0.4^(1-x)) = 0.821
+The exact probability of H is not relevant in this case (except probability of H is 0 or 1 where the probabilities of some or all events becomes equal). 
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.53"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.54"> 
+	 <response>B less than equal to  C and C less than  A
+
+A:
+E = 6 * (0,6 * 0,6 * 0,6 * 0,6 * 0,6 * 0,6) = 0,27
+
+B:
+    HHHTTT = 0,6*0,6*0,6*0,4*0,4*0,4= 0,013824
+
+C:
+    0,6^3*(1 - 0,6)^(6 - 3) = 0,013824
+	 </response>
+     <response_feedback>The response correctly states the sequence of the three given events, even if P(B) is not equal to P(C). The calculated probability of only event B is correct.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.56"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.57"> 
+	 <response>B is exactly one from 64 possible outcomes, C has more possibilities but since ‘at least 3’ includes ‘exactly 3’ and the probability of H is higher than tails, A is more likely than C.
+	 </response>
+     <response_feedback>The response states the correct order of events. However, since event A includes event C, heads having a higher probability than tails is irrelevant (except when P(H) = 1 or 0, in such case all the three even probabilities become equal).</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.58"> 
+	 <response>Event B as it is 0.6^3*0.04^3 ~ 0.0138
+Event C as it is 6 over 3 * 0.6^3 * 0.4^3 ~0.276
+Event A as it is 6 over 3 * 0.6^3 * 0.4^3 + 6 over 4 * 0.6^4 * 0.4^2 + 6 over 5 * 0.6^5 * 0.4^1 + 6 over 6 * 0.6^6 * 0.4^0 ~ 0.82
+B is a specific sequence and c is different permutations of the same amout of hits so it B + the other combinations, A is all combinations to get 3 plus all the ones to get 4 5 and 6.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events and justifying it with probability calculations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.59"> 
+	 <response>Event A: 0.6^3 + 0.6^4 + 0.6^5 + 0.6^6 = 47.0016%
+Event B: 0.6^3 * 0.4^3 = 1.3824%
+Event C:  (6! / (3!(6-3)!)) * 0.6^3 * 0.4^3 = 27.648%
+
+B -&gt; C -&gt; A
+	 </response>
+     <response_feedback>The response is partially correct because the calculation of event A is incorrect. It misses the probabilities of tails that can appear during flips and the number of combinations.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.60"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.61"> 
+	 <response>A:
+P(X&gt;= 3) = 1 - P(X=0) - P(X=1) - P(X=2)
+P(X=0) = 64/15625
+P(X=1) = 0,036864
+P(X=2) = 0,13824
+P(X less than equal to 3) = 0,8208
+
+B:  
+P = (0,6) ^ 3 * (0,4) ^ 4 = 0,013824
+
+C:
+P(X=3) = 20 * 0,6^3 * 0,4^3 = 0,27648
+
+	 </response>
+     <response_feedback>The response does not explicitly state the events' order, but it contains the correct calculation of all events probabilities, which is sufficient to identify the correct order.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.62"> 
+	 <response>No submission.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.63"> 
+	 <response>The least probable combination is the exact order in Event B. It is more probable that there are just 3 H's in any order like Event C. The most probable Event is A because there can be more than 3 H's.
+	 </response>
+     <response_feedback>The response states the correct order of events. However, the justification just reformulates the probability sequence's meaning instead of a calculation or comparison based explanation.</response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.64"> 
+	 <response>The likelihood from least to most probable is B, C, A. The combination of event B is included in event C whereas C offers additional combinations (three H’s at any position) and therefore is more likely than B. Furthermore, event C is included in event A whereas A offers additional combinations (four, five or six H’s) and therefore is more likely than C. Thus, A is also more likely than B.
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.65"> 
+	 <response>B:
+P(HHHTTT) = 0,6^3 * 0,4^3 = 0,013824
+
+C:
+P(X = 3) = (6 über 3) * (0,6)^3 * (0,4)^3 = 20 * (27/125) * (8/125) = 0,27648
+
+A: (most likely)
+P(X &gt;=  3) = 1 - P (X less than equal to 2) = 1- P(X = 0) + P(X = 1) + P(X = 2)
+= 1 
+- ((6 über 0) * (0,6)^0 * (0,4)^6
++ (6 über 1) * (0,6)^1 * (0,4)^5
++ (6 über 2) * (0,6)^2 * (0,4)^4
+= 1- (0,004096 + 0,03686 + 0,13824) =0,8208
+	 </response>
+     <response_feedback>The response does not explicitly state the order of the events, but it contains the correct calculation of all events probabilities, which is sufficient to identify the correct order.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.66"> 
+	 <response>No submission.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.67"> 
+	 <response> For six flips there is only one combination out of all possible results of H and T, so that the sequence
+HHHTTT occurs. That's why B is the least probable event.
+Since there are more possible combinations of H and T for A or C, those events are more probable
+than B. But since the combinations for seeing exactly three H's are more limited than for seeing at
+least three H's, C is a lot less probable than A.
+Since P[H] = 0.6, we get the probability of tails showing up with 
+
+P[T] = 1 - P[H] = 0.4
+
+So for event B, we get
+
+P[HHHTTT] = 0.6^3 * 0.4^3 = 0.013824
+
+For event C, the number of times of heads showing up follows a binomial distribution, so therefore we get with Y being the number of times
+H is showing up with N = 6 total flips and k = 3 the number of times H showing up being examined:
+
+P[Y=3] = 6!/(3!*(6-3)!) * 0.6^3 * 0.4^(6-3) = 0.27648
+
+For event A, we have the same binomial distribution, but since we also accept H showing up more than 3 times, we add up the probabilities:
+
+P[Y&gt;=3] = P[Y=3] + P[Y=4] + P[Y=5] + P[Y=6] = 6!/(3!*3!)*0.6^3*(0.4)^3 + 6!/(4!*2!)*0.6^4*(0.4)^2 + 6!/(5!*1!)*0.6^5*(0.4)^1 + 0.6^6 = 0.8208
+
+Therefore, we get the likelihoods of the events in increasing order: B, C, A
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.69"> 
+	 <response>
+B -&gt; least likely 
+C -&gt; in between
+A -&gt; most likely
+
+All three Events have the same minimum amount of H's in their sequence which indicates that the probability order is based on the number of permutation. 
+B has least likelihood because it has the least amount of possible permutations (exactly one).
+A has the most amount of permutation because it also allows permutations with more than 3 H's. So the permutations of C are a proper subset of the permutations of Event A. 
+In this case the probability of H is larger than 0.5 so that is even more likely that there are permutations with more than three H's. But it would also hold true if this was not the case.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.71"> 
+	 <response>B, C, A
+Where the most likely event will be A, where we accept 3,4,5 or 6 results of H which themselves are unordered. Second one is C, where we only accept 3 results of H which can still occur at any time (are unordered).
+The most unlikely event is B, where we have ordered probes in the form of HHHTTT, which is only one of 2^6 combinations.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.72"> 
+	 <response> Empty submission.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.73"> 
+	 <response>- Event B (lowest probability because there is only one sequence fulfilling this property)
+- Event C (superset of Event B and additionally containing all other sequences containing three H's)
+- Event A (superset of Event C and additionally containing all sequences with four H's, five H's and six H's)
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.74"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.75"> 
+	 <response>p(H) = 0.6 =&gt; p(T) = 1 - p(H) = 0.4
+
+A: sum k = 3 to 6 {(6 over k) * 0.6^k * 0.4^(6-k)} = 0.8208
+
+B: 0.6^3 * 0.4^3 = 0.013824
+
+C: (6 over 3) * 0.6^3 * 0.4^3 = 0.27648
+
+So the order from least to most probable is B, C, A. Intuitively you could also argue that seeing at least 3 H's (A) is more likely than seeing exactly 3 H's (C), which is more likely than the first 3 flips beeing H's and rest beeing tails (B) (because the order doesnt matter for event C, but it does matter for event B)
+	 </response>
+     <response_feedback>The response correctly answers the order of the events and justifying it with probability calculations.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.77"> 
+	 <response>B -&gt; C -&gt; A
+
+In this case, the probability decreases with the increase of restrictions, because there are less events which fullfill the requirements:
+Event A: it is also possible to see 4,5 or 6 heads
+Event C: The number of heads is fix, but the order is not important: e.g. H,T,T,H,T,H is possible, also HHHTTT
+Event B:  Only sequence HHHTTT is allowed
+	 </response>
+     <response_feedback>The response correctly states the order and justification for the three given events.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.78"> 
+	 <response>Order: Event B, Event C, Event A
+
+Reason: Actually , Event B is a subset of C, and C is a subset of A, so the order must be  B -&gt; C -&gt; A.
+              P(Event B) =  0.6 * 0.6 * 0.6 * 0.4 * 0.4 * 0.4 = 216/15625 = 0.013824
+              due to the equation of the binomial distribution
+              P(Event C) = 864/3125 = 0.27648
+              P(Event A) = 5213/625 = 0.8208</response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.79"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.80"> 
+	 <response>Event B = 0.6 * 0.6 * 0.6 * 0.4 * 0.4 * 0.4 = 0.013824
+Event C = P(k = 3) = 6 über 3 * (0.6)^3 * 0.4^3 = 0.27648
+Event A = P(k &gt;= 3) = 6 über 3 * (0.6)^3 * 0.4^3 + 6 über 4 * (0.6)^4 * 0.4^2 + 6 über 5 * (0.6)^5 * 0.4^1 + 6 über 6 * (0.6)^6 = 0.8208
+
+From least to most probable = B,C,A
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	  <studentAnswer id="PE_12.1.81"> 
+	 <response>P[X=H]=0.6 and  P[X=T]= 0.4
+Event A: 
+P[&gt;=3H]= P[3H]+ P[4H]+ P[5H]+P[6H]
+
+Event B:
+P[HHHTTT] = P[X=H]^3 x P[X=T]^3 = 0.6^3 x 0.4^3 =  0,013824
+
+Event C:
+There are (N k) different combinations leading to exactly 3 trials delivering H and 3 trials delivering T. N=6 and K =3
+P[3H] =  (6!/(3! . (6-3)!)  P[X=H]^3 x P[X=T]^3= 20 x 0,013824= 0,27648
+
+The order of the events:  B → C → A
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.
+</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.82"> 
+	 <response>least probable -&gt; B -&gt; C -&gt; A -&gt; most probable
+
+Event B is a fixed sequence, so there are no variations possible to increase the likelihood of the event happening. It is therefore the least probable of the three events.  
+Event A has to be more probable than event C, because it includes all results of event C, and more.  
+C's sample space is a subset of A's sample space, and B's sample space is a subset of C's sample space, meaning that A is the most likely event and B the least likely.
+With events A and C being more probable than event B, and event A being more probable than event C, the order is clear.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.
+</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.84"> 
+	 <response>No Submission.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.85"> 
+	 <response> No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.86"> 
+	 <response> No submission.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.87"> 
+	 <response>No response.
+	 </response>
+     <response_feedback>The response is empty.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.88"> 
+	 <response> Event B
+Event C
+Event A
+
+Event B: This is because the probability of seeing exactly in sequence HHHTTT is very low as there can be many different combinations such as HTHHTH, HTHTHT and others similar to that but for having the sequence HHHTTT there is only a single combination so the probability is very low.
+
+Event C: Then the probability of seeing exactly three H's as the probability for showing up a head is 0.6 so there is more chances that a head shows up so the probability of head is more so exactly three H's probability is also low.
+
+Event A: The probability of seeing head at least three is more because the probability of head is more 0.6 so the probability of a tail is 0.4 so we consider for this circumstance 0 T, 1T, 2T and 3T so summation of all these gives us the probability of at least three H's
+	 </response>
+     <response_feedback>The response correctly states the sequence of the three given events. The justification for the events C and A is incorrect as the exact probability of H is not relevant (except when P(H) = 1 or 0) as C is a subset of A.</response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.89"> 
+	 <response>Order: B-C-A
+The probability of having HHHTTT is the lowest because its the most specific outcome. Only one possible path. 
+The probability of seeing exactly three H’s is the second lowest. It includes the probability of HHHTTT and all other possible orders to achieve exactly three H’s. 
+Having at least three H’s is the most probable outcome of those three. It includes the probability of B and C plus all outcomes with more than three H’s.  
+
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.90"> 
+	 <response> By calculating using the binomial distribution probability formula, it can be concluded that the probability of event C occurring is 0.2765. 
+The probability of event A occurring is: P[event A]=P[you see exactly three H’s]+P[you see four H’s]+P[you see five H’s]+P[you see six H’s] =P(k=3)+P(k=4)+P(k=5)+P(k=6)= 0.2765+0.311+0.1866+0.0467=0.8208 (P is the binomial distribution)
+The probability of event B occurring is 0.6*0.6*0.6*0.4*0.4*0.4=0.013824. 
+Therefore the order is event B to event C to event A.
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.91"> 
+	 <response>Event B Event C Event A (from least probable to most probable)
+because this is typical binomial distribution with parameters N=6, p=0.6. Event A includes the event of H showing up exactly 3, 4, 5, 6 times. And one of these is Event C. In Event C, there are different sequences of H showing up 3 times and Event B is one of these sequences. 
+P(Event A) = P(k = 3) + P(k=4) + P(k=5) + P(k=6) = 0.821
+P(Event B) = 0.013824
+P(Event C) = P(k=3) = 0.2765
+
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.92"> 
+	 <response>B,C,A
+Event B is a subset of the event C and C is a subset of the event A. If the sequence HHHTTT occurs, event A and C did also occur. And if exactly three H's show up, event A did also occur. Therefore A has a higher probability than C and C has a higher probability than B.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.93"> 
+	 <response>P(Event B) is  less than P(Event C)and P(Event C) less than  P(Event A)
+Event A is the most generic event, whereby event B and C are subsets of the probability set A. Therefore, if event B or C occur, A also occurs. This makes A the most probable event. The same logic applies to C and B, whereby C is a more generic (and therefore probable) event than B.
+In detail: B occurs if the sequence HHHTTT happens. This event has exactly three H's (and three T's). Therefore, this event also includes event C ("exactly three H’s"). But, the set of valid sequences for C is bigger than C, i.e. with sequences like HTHTHT. The sequence of the H's doesn't matter in C. Furthermore, event A is also always true if C is true. But the set of A is bigger, since events like HHHHHT are only in A and not in C.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.94"> 
+	 <response>Event A: P(A) = P(X &gt;= 3) = P(X=3) + P(X=4) + P(X=5) + P(X=6) 
+Event B: P(B) = P(H)^3 * [1-P(H)]^3
+Event C: P(C) =  P(X = 3)
+
+Ordered: least probable --&gt; most probable
+B - is a special case of C because the order is relevant.
+C -  is the general case of B because the order is not relevant. Is part of P(A).
+A - more probably than C because P(A) = P(C) + P(X=4)+... where each summand is &gt; 0
+</response>
+     <response_feedback>The response correctly states the order and justification for the three given events.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.1.95"> 
+	 <response>B → C → A
+    B includes only the sequence HHHTTT.
+    C includes all sequences, where there are 3 H’s. In particular the
+    sequence contained in B.
+    A includes all sequences, where there are at least 3 H’s. So in
+    particular also all sequences contained in C.
+	 </response>
+     <response_feedback>The response correctly answers the order of the events with appropriate justification.</response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

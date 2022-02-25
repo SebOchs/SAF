@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="4.1" module="LM">
+   <questionText>What happens to the "collision domain diameter" if you use CSMA / CD and increase the speed of a network by a factor of 10, eg from 10Mb / s to 100Mb / s (all else being equal)?</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="LM_4.1_a1">
+	 Diameter decreases by a factor of 10, e.g 300m to 30m.
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="LM_4.1.1"> 
+	 <response>Using CSMA/CD, if we increase the speed of a network by a factor of 10, the collision domain diameter will decrease by a factor of 10 (about). This is due to the fact that the sender can recognize collisions only during simultaneous sending. And when we increase the transmission speed, we decrease the transmission time for a given distance. 
+
+This will lead to higher among of collision or we should decrease the LAN size. 
+
+	 </response>
+     <response_feedback> The response is correct as it answers the change in the diameter scale accurately, including some extra details which is correct as well.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.2"> 
+	 <response>With a speed increased by a factor of 10, the collision domain diameter does decrease by a factor of 1/10 when using the same minimum packet size (e.g. 64 byte with Ethernet). This is because the send does finish much quicker (10 times as quick) while the time the electricity change needs to travel from sender to receiver and backwards remains the same.
+	 </response>
+     <response_feedback> The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.3"> 
+	 <response>The collision domain diameter would be 10 times smaller which would have many collisions as a consequence, making it inadvisable to choose these dimensions.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.4"> 
+	 <response>-	The collision domain diameter will decrease by a factor of 10 (e.g. from about 3km to only 300m)
+-	For a network of 10x higher speed, the bit time is 1/10 and the collision constraint is also 1/10.
+-	The above does only cover simple CSMA/CD w/o repeater devices. The usage of repeaters also limits the collision domain and is defined  differently for 10BaseT and 100BaseT 
+	 </response>
+     <response_feedback> The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.6"> 
+	 <response>The collision domain diameter decreases by the same factor. (e.g. from 4000m to 400m with a factor of 10)
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.7"> 
+	 <response>In a CSMA/CD system the sender has to be able to recognize and react to collisions during sending. The minimal frame length is a measurement that stipulates how short a frame is allowed to be that it can travel back and forth through the longest distance between two stations in a network before sending is over. This allows the sender to detect collisions and prepare resending. The variables framelength, networkspeed and maximum distance (collision domain diameter) are dependant on each other.
+
+Therefore, if one increases the speed of a network by a factor of 10, the framelength stays the same and then medium (cable) stays the same, then the collision domain diameter has to decrease by a factor of 10. 
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.8"> 
+	 <response>If you increase the speed by factor 10, the collision domain diameter will shrink by factor 10. 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.9"> 
+	 <response>If you increase the speed you decrease the collision domain diameter. It decreases approximately by the factor of 10 in the example given above.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.11"> 
+	 <response> No response
+	 </response>
+     <response_feedback>The response is an empty submission</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.12"> 
+	 <response> The  "collision domain diameter" shrinks by a factor of 10. I.e. ca 300 m instead of 3000 m. This is necessary to detect a collision. 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.13"> 
+	 <response>The collision domain diameter is shortened by factor 10. Assuming the collision domain diameter is 3000m at 10Mb/s. If the speed is increased to 100Mb/s, the collision domain diameter will be 300m. 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.14"> 
+	 <response>the collision domain diameter have to shrink (divided by 10)
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.15"> 
+	 <response> The collision domain diameter is reduced to about 1/10 if the network speed is increased by factor 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.16"> 
+	 <response>The diameter will be divided by 10. For increasing from 10Mb/s to 100Mb/s the diameter will change from 5120m to 512m.
+
+512bit/(10*10^6 bit/s) = 0,00112s = 51.2 µs
+d_max ≤ 25,6 µs * v_material 
+v_material: v_copper = 2 * 11 km/s
+d_max ≤ 25,6 µs * 2 * 11 km/s
+d_max ≤ 5.12km
+	 </response>
+     <response_feedback> The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.17"> 
+	 <response>The collision domain diameter is decreased by the same factor, the network speed is increased by, i.e. if the collision domain diameter in a 10Mb/s network was 100m, the collision domain diameter in the same network with 100Mb/s would be 10m. 
+
+This is because the sender still must be able to recognize a collision during simultaneous sending. 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.18"> 
+	 <response>The collision domain diameter will shrink with the same factor,so when the original speed is 10Mb/s and the collision domain diameter is 3km, an increase of the speed by the factor 10 to 100Mb/s will decrease the collision domain diameter to 300m.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.19"> 
+	 <response>- the maximal distance between the two locations have to shrink
+- means instead of 3km distance with 10Mbps, the maximal distance with 100Mb/s has to be 300m
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.20"> 
+<response>Under the above conditions, the collision domain diameter would be only one tenth of the original value. The decrease factor of the diameter corresponds to the increase factor of the speed.</response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.21"> 
+	 <response>The maximal possible distance between two locations (diameter) shrinks by factor 10 (e.g. from 3000m to 300m), otherwise no collisions can be detected in the network (collisions can’t be collated to senders). Each time the speed increase with a new standard, the maximum distance shrinks accordingly. E.g. 10 Gb/s has roughly a distance of 3m. Therefore, this is not a LAN anymore and need additional changes.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.22"> 
+	 <response>The collision domain diameter shrinks from 3000m to 300m f.e., or from 10000m to 1000m. 
+So the collision domain diameter is divided by 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.23"> 
+	 <response>In order to still detect collisions while transmitting the collision diameter is required to decrease. If the speed of a network increase by a factor of 10, the range shrinks by a factor of 10.</response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	 <studentAnswer id="LM_4.1.25"> 
+	 <response>The collision domain diameter should decrease by a factor of 1/10, because collisions have to be detected faster.</response>
+Collision_diameter_new = (1/10)*Collision_diameter_old
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.26"> 
+	 <response>If the speed got ten times faster, we have to decrease the maximum collision domain diameter by 90%, that is the distance between the nodes, so that a collision can still be detected while sending. So there is basically a tradeoff between distance and efficiency.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.28"> 
+	 <response>The possible distance is reduced by factor 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.29"> 
+	 <response>The collision domain diameter decreases by a factor of 10, because the frame in this case only takes 1/10th of the time to be transferred.
+
+Example for a minimum frame size of 64 byte and copper wire used as medium:
+    10 Mb/s:
+        Transfer time: 64 byte / 10 Mb/s = 51.2 µs
+        Collision domain diameter: 51.2 µs * 2 * 11 km/s = 10.24 km
+    100 Mb/s:
+        Transfer time: 64 byte / 100 Mb/s = 5.12 µs
+        Collision domain diameter: 5.12 µs * 2 * 11 km/s = 1.024 km
+	 </response>
+     <response_feedback>The response answers the change in diameter scale correctly, including an example.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.30"> 
+	 <response>If we increase the speed of a network by a factor of 10 (all else being equal) then the size of the collision domain diameter gets diminished by a factor of 10.
+
+For example: 3000m and we increase the speed by factor 10 -&gt; 300m 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.31"> 
+	 <response>Senders has to be able to recognize during simultaneous sending when using CSMA/CD.
+
+If the speed of network increases, the maximum distance between two locations has to be shrinked correspondently. Assume that 10Mb/s at 3000m, after shrink the speed is 100Mb/s at 300m. 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.32"> 
+	 <response>The collision domain diameter will decrease by factor 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.33"> 
+	 <response>The maximal distance between stations reduces by a factor of 10.
+
+Ex. : 64 byte sent with 10 Mb/s: Max Distance of 5.12 km
+        64 byte send with 100 Mb/s: Max Distance of 112 km
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.34"> 
+	 <response>If the speed is supposed to be increased by the factor 10 the consequence is that the collision domain diameter is going to be decreased by the same factor (in this case 10). 
+So in this case by increasing from 10Mb/s (let's say it's here 4000m) the collision domain diameter is going to shrink on 400m if we want to increase on 100Mb/s
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.35"> 
+	 <response> Under the above conditions, the collision domain diameter would be only one tenth of the original value. The decrease factor of the diameter corresponds to the increase factor of the speed.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.36"> 
+	 <response> When the speed of a network is increased by a factor of ten, while letting everything else remain the same, the collision domain diameter reduces by the same factor. So, the diameter will decrease by a factor of 10 (that is, divide by 10)
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.37"> 
+	 <response> The collision domain diameter, the maximal distance where collisions can be recognized decreases tenfold. If the collision domain diameter was 3000 meters before, it now is 300 meters.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.38"> 
+	 <response>The collision domain diameter will decrease to about 1/10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.39"> 
+	 <response> The collision domain diameter - inverse proportionately reduces when we increase the speed of network. Meaning, when the collision diameter is 3000m for network with speed of 10Mb/s, when its speed is increased to 100MB/s (factor of 10) collision diameter would reduce to 300m
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.41"> 
+	 <response>For doing so you have to shrink the maximal distance between two locations.
+In the given example the speed of the network should be increased by factor 10 from 10 Mb/s to 100 Mb/s. To achieve this without changing everything else, you have to reduce the collision domain diameter by factor 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.42"> 
+	 <response>then the "collision domain diameter" gets divided by factor 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.43"> 
+	 <response> It will decrease by the factor of 10 as well (divided by 10).
+So : if the original collision domain diameter is 3 kilometers for the speed of 10Mb/s, to have 100Mb/s the diameter would be 300 meters.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	
+	<studentAnswer id="LM_4.1.45"> 
+	 <response>If you increase the speed by a factor of 10 it will divide the collision domain diameter which is the maximum distance by 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.46"> 
+	 <response>The collision domain diameter decreases by a factor of 10. That means the maximum distance between two locations on the network has to be 10 times smaller.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.47"> 
+	 <response> No response
+	 </response>
+     <response_feedback>The response is an empty submission</response_feedback>
+     <score> 0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.49"> 
+	 <response> Collision Domain Diameter means the maximum length of line between two nodes in the network which you can use in respect to the length of used frames, the sending speed and the fact, that you want to be able to detect any kind of data collision during transmission. If we now increase the speed of transmission with all other factors remaining the same - especially the frame length -, the time of transmission for each node decreases. So there is less time of data frames travelling on the line during which the stations could detect a collision. To keep the function of collision detection, the maximum length of line - a.k.a. the Collision Domain Diameter - in the network has to decrease to the same factor. So an increase of transmission speed from 10 Mbit/s to 100 Mbit/s - factor 10 - causes a reduction of Collision Domain Diameter to the factor of 10, too. For example, in Ethernet 802.3 this means a reduction from 3000m to 300m.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.50"> 
+	 <response> With CSMA/CD, if the speed of the network increases by a factor of 10, the collision domain diameter shrinks. The distance decreases by a factor of 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.52"> 
+	 <response>The “collision domain diameter” is the distance two station can have and still detect a collision while sending. It depends on the minimum frame size, the speed of the signal through the medium and the bit rate of the network. If the bit rate increases while nothing else changes in CSMA/CD a frame is transmitted in less time than before. In this time the signal travels a shorter distance thus decreasing the “collision domain diameter”. If the speed of the network increases by a factor of 10 the “collision domain diameter” shrinks by a factor of 1/10
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.53"> 
+	 <response>the collision domain diameter will be increased.
+	 </response>
+     <response_feedback>The response is incorrect as it states that the diameter increases. Instead, for collisions to be detected, the diameter decreases by a factor of 10.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.54"> 
+	 <response>The collision domain diameter (CDD) is reduced to 1/10th of the original. In the given example CDD is reduced from approximately 3000m to about 300m.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.55"> 
+	 <response>The maximum distance has to shrink by the factor of 10 and the LAN also has to get smaller which is not possible or at some point not feasible.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.56"> 
+	 <response>this “ collision domain diameter” will decrease by a factor of 10
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.58"> 
+	 <response>It gets reduced by almost the same factor as the speed is increased.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.59"> 
+	 <response>Collision domain diameter has to shrink, i.e. in this case where the speed is increased by a factor of 10, collision domain diameter has to shrink by a factor of 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.60"> 
+	 <response>If i use CSMA/CD and increase the speed of a network by a factor of 10, the maximum distance between two locations have to shrink. That means that the "collision domain diameter" shrinks also by a factor of 10. For Example if we start at a diameter of 3000m, that shrinks divided by 10 to 300m, if i go to 100 Mb/s
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.61"> 
+	 <response>-the collision domain diameter will be divided by factor 10
+-for example, instead of max. 5120m (collision detection) it will get max. 512m (CD) 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.  </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.62"> 
+	 <response>The collision domain diameter is divided by 10
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.63"> 
+	 <response>The diameter is divided by 10
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.64"> 
+	 <response> If the speed of a network is incremented by a factor of 10, then the collision domain diameter has to be reduced by a factor of 10 in order to still recognize a collision. Thus, there is a trade-off between efficiency and distance.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.66"> 
+	 <response>The Collision domain diameter is reduced by roughly the same factor is the increase of the network speed. In this case, we increase the speed by the factor of 10, so our CDD gets reduced by roughly 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.67"> 
+	 <response>The collision domain diameter will be reduced by the factor of 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.68"> 
+	 <response>The size of "collision domain diameter" is dreduced by about 10 times, e.g. from ca.3000m to ca.300m.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.69"> 
+	 <response> The diameter decreases by factor 10. The increased  Bit rate leads to a reduced bit duration but the transfer speed remains the same. The result of that is a shorter maximal distance between two stations which is allowed so that collisions can still be detected.  
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.70"> 
+	 <response> If transmission time t_t two times larger propagation time t_p, the collision at least can be detected by one side (sender or receiver), i.e., t_t &gt;= 2 * t_p. Thus, t_t / t_p &gt;= 2. What more, t_t = D(bits) / f(bit/sec), where D is data amount and f is the transmission frequency. t_p = a * l, where a is the transmission coefficient and l is the wire length. Therefore, we can conclude the equation with D / (f * a * l) &gt;=2. Under the same D, if f is tenfold, then the wire length should become one tenth.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.71"> 
+	 <response> We suppose, we start with 10Mb/s and we have as collision domain diameter (CDD) 3 km. In this case, if we mutliply the speed by a factor of 10, the maximal distance between two stations (also collision domain diameter) shrinks by a factor of 10. Instead of 3 km CDD we get 300 m. If we multiply it once again, the CDD shrinks to 30 m and so forth.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.72"> 
+	 <response>The collision domain diameter will shrink, exactly by the same Factor Value we increase the speed of Transmission.
+
+i.e .. when we have with Transmission rate of 10 Mbps and a Distance of 3000m, then we gonna have by Transmission rate of 100Mbps just a distance of 300m between the locations the speed ist possible.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.73"> 
+	 <response> The sender must still be able to detect collisions during simultaneous transmission and must also not exceed the maximum network extension. The collision domain diameter for 100 Mb/s is 10 times smaller than for 10 Mb/s if you use CSMA/CD =&gt; 3000m to 300m.
+	 </response>
+     <response_feedback> The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.74"> 
+	 <response> Then the maximum segment length becomes 2000m, which is too long for collision recognition.
+	 </response>
+     <response_feedback>The collision diameter decreases by a factor of 10 rather than becoming 2000m for a collision to be still detected.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.75"> 
+	 <response> The diameter gets smaller by the same factor.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.76"> 
+	 <response> The collision domain diameter decreases by the factor 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.77"> 
+	 <response>The increased speed allows to decrease the dmax, which is the max distance between two stations, in this case by the factor 10. The collision domain diameter decreases by factor 10, too.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.78"> 
+	 <response> The collision domain diameter at 100Mb/s is 1/10 of its number at 10Mb/s.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.79"> 
+	 <response> If the speed increases by eg. the factor 10, the diameter decreases 10 times, since the collision domain is occupied for a shorter time period for one frame.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.80"> 
+	 <response> The possible size will reduce from ca. 3000m to about 300m. The size shrinks proportional to the rate at which the speed increases, therefore we have an increased speed of 10 times the original speed, so we get about 1/10 of the original length ~300mtension would not work. 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	  <studentAnswer id="LM_4.1.81"> 
+	 <response>The collision domain diameter is the distance between two locations/nodes. When increasing the speed the maximum distance between two locations has to shrink.
+	 </response>
+     <response_feedback>The response explains what a collision domain diameter is and that it shrinks with increasing speed. That only partially answers the question as the magnitude of reduction is missing. The correct answer is that the diameter decreases by a factor of 10, for example, from 300m to 30m.</response_feedback>
+     <score> 0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.82"> 
+	 <response>The collision domain diameter will be divided by 10, because the frames are sent faster and there is less time to detect a collision.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.84"> 
+	 <response>The collision domain diameter = 412m, i.e., ca. 300m instead of ca. 3000m 
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.86"> 
+	 <response>The collision Domain Diameter will be increased to 10times compared with the distance in 10Mb/s.
+	 </response>
+     <response_feedback>The diameter is decreased by a factor of 10 instead of increased.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.88"> 
+	 <response>The collision domain diameter reduces by the same factor for example for a network with 10Mb/s has a collision domain diameter of 3000m and when we increase the speed of the network by 10 to 100Mb/s, the collision domain diameter will become 300m.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.89"> 
+	 <response>-The distance between the stations has to shrink by the same factor, here factor 10, the speed of the network increases.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.90"> 
+	 <response>The maximum collision domain diameter decreases to 412 meters, which is redaction of about one tenth. For another example, ca. 300m instead of ca.3km.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.91"> 
+	 <response>
+	Collision domain diameter is the distance between the two furthest nodes. If I use CSMA/CD, then the distance limitation for collision domain diameter will be one tenth as large as before when I increase the speed of a network by a factor of 10.
+
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.92"> 
+	 <response>The collision domain diameter would decrease by the factor of 10.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.93"> 
+	 <response>It is divided by a factor of 10. I.e. if 10Mb/s has a collision domain diameter of 3000m, then 100Mb/s has a collision domain diameter of 300m.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately. </response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.94"> 
+	 <response>It is divided by the same factor of 10.</response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="LM_4.1.96"> 
+	 <response> The collision domain diameter gets smaller when you speed the network by a factor.
+Multiplying the speed by 10, the diameter gets smaller by one-tenth i.e, ca. 300m instead of 3km.
+	 </response>
+     <response_feedback>The response is correct as it answers the change in the diameter scale accurately.</response_feedback>
+     <score> 1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	</studentAnswers></question>

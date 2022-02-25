@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<question id="12.2" module="PE">
+   <questionText>Consider a single server queueing system with a buffer of size 10. Let us assume that 9 packets arrive per second and 10 packets are served per second on an average.
+Assume you monitor the system for exactly one minute after the system reaches
+equilibrium. How many seconds would you expect the system to be in a state in which
+there are less than 10 packets waiting in the queue? You need to justify your answer
+by showing steps involved; calculations, however, need not be included.
+headers.</questionText>
+   <referenceAnswers>
+     <referenceAnswer id="PE_12.2_a1">
+Since we have a buffer size (N) of 10, we will always have less than 10 packets waiting in the queue unless there are exactly 10 packets in the queue. Therefore, we first calculate the probability of the system being full/having 10 packets in the queue. This is also called “blocking probability” or P_B.
+P_B = ((1 - utilization) * utilization^N) / 1 - utilization^(N+1) = ((1-0.9) * 0.9^10) / (1 - 0.9^11) = 0.0508
+Alternatively to the blocking probability, it is also valid to directly calculate P(X less than 10) = (1 -P_B) by summing up the probabilities for 0, 1, …, 9 packets to be in the queue. To calculate the expected time where the system is not blocked in the 60-second observation time-frame, we simply multiply the time frame with P(X less than 10) or the complement of P_B (0.25p) = 60 * (1-P_B) = 56.9512 seconds 
+</referenceAnswer>
+   </referenceAnswers>
+   <studentAnswers><studentAnswer id="PE_12.2.3"> 
+	 <response>One of the most important aspects of these rates that are given is that they are NOT constant. This means that not because the arrival rate is smaller than the serving rate no queue will be formed, what we are contemplating are averages and these can vary through the time. 
+Also it is important to take into account that the time we are contemplating is 60 seconds and we want to know for how long the state was not 10. This means that we will contemplate the probability that the state was from 0 to 9 during this period of time and will multiply the sum of them by 60.
+Result: 56.940 seconds (approximately 57 seconds)
+	 </response>
+     
+     <response_feedback>The response correctly states the non-blocking time and provides a valid justification for the calculation. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.8"> 
+	 <response> No response. 
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.9"> 
+	 <response> 
+You add up all the prolabiertes of the buffer state from 0 to 9 (94,91%) . You multiply this percentage with the time (60 sec). You get the expected time in which there are less than 10 packets in the buffer --&gt;57 sec.</response>
+     
+     <response_feedback>The response correctly states the non-blocking time and provides a valid justification for the calculation. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.14"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.48"> 
+	 <response>It’s expected about 57.97 seconds the system stays in the state which mentioned in the question.
+From the question we can get the ratio of the “arrival” rate and “serve” rate. Under the finite buffer condition we calculate the probability that the buffer is empty. With the help of the balance equation it is able to know the probability that 10 packets are in the buffer. Hence we can get the probability of the state in which there are less than 10 packets waiting in the queue. It’s easy to know the product of 60 seconds and the last calculated probability is the answer. 
+	 </response>
+     
+     <response_feedback>The response is partially correct because it contains correct calculation steps but the final result is incorrect. The correct answer is 56.95 seconds. </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.51"> 
+	 <response>Then you have to calculate the probabilities for 0,1,2,3,...,9 packages in the buffer for arriving rate 9 and serving rate 10. Then you sum up all those probabilities. The result is the percent of one minute with less than 10 packages in the buffer. 
+	 </response>
+     
+     <response_feedback>The response correctly states the steps but does not provide the time out of 1 minute for which the packets in queue are less than 10.
+ </response_feedback>
+     <score>0.5</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.54"> 
+	 <response>Assuming 9 packets arrive each second and 10 are served. On average the buffer should never be full leading to a 60s time where there are less than 10 packets in the queue.
+	 </response>
+     
+     <response_feedback>The stated justification is incorrect as the given rates are not constant and can vary through time, so an average needs to be calculated for the given time. Therefore, the stated time is also incorrect.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.57"> 
+	 <response>57s
+The average arrival rate is 9 and the average service rate is 10. According to the limited buffer size 10 we can calculate PB, which means the probability that the system is full. So the probability that in the state there are less than 10 packets is 1-PB. Based on the 1 minute monitoring time we can get the result 57s
+	 </response>
+     
+     <response_feedback>The response correctly states the non-blocking time and provides a valid justification for the calculation. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.59"> 
+	 <response>For every seconds, there will be less than 10 packets, since more packets are served than the packets arriving in the queue.
+	 </response>
+     
+     <response_feedback>The response implies that the system is waiting for a whole minute which is incorrect as the system is less than full for 56.95 seconds instead.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.63"> 
+	 <response>M/M/1/10 queue: Blocking probability = 0.0508 -&gt; probability less then 10 packets = 0.9492, probability times 60 seconds: 56.9512 s -&gt; It is expected that the system is in a state with less than 10 packets for 56 seconds.
+	 </response>
+     
+     <response_feedback>The response correctly states the non-blocking time and provides a valid justification for the calculation. Note that 56.95 rounds off to 57 seconds, not 56.</response_feedback>
+     <score>0.75</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.67"> 
+	 <response> We have an arrival rate lambda = 9 packets per second, and a service rate mu = 10 packets per second. Therefore, our system utilization is 
+ro = lambda/mu = 9/10.
+Since we start monitoring the system when it reaches equilibrium, we can use the balance equations to calculate the probabilities for each state. We take the equation for the probability p_n, that the system is in state n = 10, meaning there are 10 packets in the waiting queue, and with N = 10, meaning the buffer size of the waiting queue is 10.
+The equation for p_10 is therefore
+p_10 = ((1-ro)*ro^10) / (1-ro^11) = 0.0508
+Now the probability of having less than 10 packets is (1 - p_10), since the normalization condition yields that the sum of all probabilities for the states equals 1, and we can have at most 10 packets in the waiting queue because of the buffer size 10.
+Therefore, we expect that the fraction of the time, in which we are in state p_10, is (p_10 * t), with t being the examined total time. On the other hand, we expect that the fraction of the time, in which we are not in state p_10, meaning we have less than 10 packets in the waiting queue, is ((1 - p_10) * t).
+Since we monitor the system for 60 seconds, we have t = 60s.
+With the last term we get the result 
+((1 - p_10) * 60s) = 56.9512s
+Therefore, we expect the system to have less than 10 packets in the waiting queue for approximately 56.9512 seconds of the total 60 seconds.
+	 </response>
+     
+     <response_feedback>The response correctly states the non-blocking time and provides a valid justification for the calculation. </response_feedback>
+     <score>1</score>
+	<verification_feedback>Correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.68"> 
+	 <response>P=9/10=0.9 
+ N=10 
+P_B=[(1-p)p^10]/1-p^11=0.051
+ A=less than 10 packets 
+P(A)=1-P_B=0.49 
+
+	 </response>
+     
+     <response_feedback>The response correctly states how the blocking probability is calculated. The calculated non-blocking probability is incorrect and the response does not calculate the non-blocking time. </response_feedback>
+     <score>0.25</score>
+	<verification_feedback>Partially correct</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.71"> 
+	 <response>In this case the system will be for the whole time in a state, in which there are less than 10 packets waiting in the queue, due to the fact that there are always more packets processed pro second than arriving.
+Utilisation = arrival rate / service rate = 9 pkts/s / 10 pkts/s = 0.9
+N - average number of packets in the system
+N =  utilisation / 1 - utilisation which gives = 9 packets
+We can also calculate the probability, that the system is full: p_10 = (1-p)*p^10 / (1-p^11) we get 0.05 as a result. Because the utilisation ist the same at every time, the probability that the system is full remains equally.
+	 </response>
+     
+     <response_feedback>The stated justification is incorrect as the given rates are not constant and can vary through time, so an average needs to be calculated for the given time as was done for p_10. Therefore, the stated time is also incorrect.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	<studentAnswer id="PE_12.2.87"> 
+	 <response>No response.
+	 </response>
+     
+     <response_feedback>The response is an empty submission.</response_feedback>
+     <score>0</score>
+	<verification_feedback>Incorrect</verification_feedback></studentAnswer>
+	</studentAnswers></question>
