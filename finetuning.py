@@ -3,8 +3,6 @@ import os
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
 from litT5 import LitScoreFineT5, LitVerFineT5, LitMultiT5
-from torch.cuda import empty_cache, memory_allocated, memory_cached, current_device
-
 
 # Slurm fix
 sys.path.append(os.getcwd())
@@ -26,6 +24,7 @@ N_GPUS = 1
 # Path to model ckpt if finetuning the multitask model
 multi_path = ''
 PRECISION = 32
+
 
 
 ########################################################################################################################
@@ -105,5 +104,4 @@ if __name__ == "__main__":
     #finetuning('score', batch_size=2, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, gpus=N_GPUS)
     print("batch size = {}, acummulated gradients = {}, epochs = {}, patience = {}, topk= {}, precision = {}".format(BATCH_SIZE, ACCUMULATE_GRAD, EPOCH, PATIENCE, N_TOP_MODELS, PRECISION))
     finetuning(MODE, batch_size=BATCH_SIZE,top_k=N_TOP_MODELS, epochs=EPOCH, acc_grad=ACCUMULATE_GRAD, gpus=N_GPUS, precision=PRECISION, model_version=MODEL)
-
 

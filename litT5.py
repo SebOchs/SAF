@@ -1,6 +1,6 @@
 import pytorch_lightning as pl
-from torch.utils.data import DataLoader, random_split
 from transformers import T5ForConditionalGeneration, Adafactor, T5Tokenizer,AutoModelForSeq2SeqLM, AutoTokenizer
+from torch.utils.data import DataLoader, random_split, ConcatDataset, Subset
 from utils import *
 import dataloading as dl
 import warnings
@@ -329,11 +329,18 @@ class LitMultiT5(pl.LightningModule):
         super(LitMultiT5, self).__init__()
         self.model = T5ForConditionalGeneration.from_pretrained('t5-base')
         self.tokenizer = T5Tokenizer.from_pretrained('t5-base')
+        # KN1 dataset
         self.batch_size = batch_size
-        data = dl.T5Dataset('preprocessed/wq_ver_kn1_train.npy')
-        self.train_data, self.val_data = random_split(data, split(len(data)),
-                                                      generator=torch.Generator().manual_seed(42))
-        self.test_data = dl.T5Dataset('preprocessed/wq_ver_kn1_ua.npy')
+        kn1_normal = dl.T5Dataset('preprocessed/ver_kn1_train.npy')
+        kn1_label = dl.T5Dataset('preprocessed/label_only_kn1.npy')
+        self.kn1_train = random_split(kn1_label, split(len(kn1_label)),
+                                                      generator=torch.Generator().manual_seed(42))[0]
+        self.val_data = random_split(kn1_normal, split(len(kn1_normal)),
+                                            generator=torch.Generator().manual_seed(42))[1]
+        self.seb = dl.T5Dataset("preprocessed/seb_train.npy")
+        self.cose = dl.T5Dataset('preprocessed/cose_train.npy')
+        self.esnli = dl.T5Dataset('preprocessed/esnli_train.npy')
+        self.test_data = dl.T5Dataset('preprocessed/ver_kn1_ua.npy')
         self.save_hyperparameters()
 
     def forward(self, tok_seq, attn_seq):
@@ -423,7 +430,16 @@ class LitMultiT5(pl.LightningModule):
         return Adafactor(self.model.parameters(), lr=None, warmup_init=True, relative_step=True)
 
     def train_dataloader(self):
-        return DataLoader(self.train_data, batch_size=self.batch_size, num_workers=0, shuffle=False)
+        train_length = len(self.kn1_train)
+        train_set = ConcatDataset(
+            [
+                get_subset(self.esnli, train_length),
+                get_subset(self.cose, train_length),
+                get_subset(self.seb, train_length),
+                self.kn1_train
+            ]
+        )
+        return DataLoader(train_set, batch_size=self.batch_size, num_workers=0, shuffle=True)
 
     def val_dataloader(self):
         return DataLoader(self.val_data, batch_size=1, num_workers=0, shuffle=False)

@@ -27,6 +27,7 @@ def bert_scoring(data_path, lang="en"):
     else:
         p, r, f1 = score(pred, truth, lang="de", model_type="bert-base-multilingual-cased", rescale_with_baseline=True)
         print("Bert score F1 mean", np.array(f1).mean().item())
+
     # Uncomment to print out the model input, model prediction and gold standard for each data instance in test set
     """
     for i in range(val_data.shape[1]):
@@ -41,3 +42,4 @@ if __name__ == "__main__":
     bert_scoring(DATA)
     print("BERTscoring UA")
     bert_scoring(SECOND_DATA)
+
