@@ -1,6 +1,6 @@
 import numpy as np
 import datasets
-from utils import extract_pred, extract_model_pred
+from .utils import extract_pred, extract_model_pred
 datasets.logging.set_verbosity(40)
 from bert_score import score
 
