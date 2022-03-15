@@ -1,48 +1,60 @@
 import sys
 import os
 import pytorch_lightning as pl
-import bert_scoring
-from litT5 import LitScoreFineT5, LitVerFineT5
+from code import bert_scoring, dataloading as dl
+from code.litT5 import LitSAFT5
 from torch.utils.data import DataLoader
-import dataloading as dl
+
 # Slurm fix
 sys.path.append(os.getcwd())
 # Settings
 ########################################################################################################################
-MODE = "wq_score_jobber"
-DATASET = "jobber"
-LANG = "others"
-MODEL = "models/"+ MODE +"/wq_ver_jobber_mt5_epoch=35-my_metric=0.6245_wq_ver_jobber.ckpt"
-TEST_SET = 'preprocessed/'+ MODE + '_UQ.npy'
-SECOND_TEST_SET = 'preprocessed/'+ MODE + '_UA.npy'
-BERT_DATA = 'models/' + MODE + '/' + DATASET + '_uq_bertscore.npy'
-BERT_SECOND_DATA = 'models/' + MODE + '/' + DATASET + '_ua_bertscore.npy'
+MODEL = 'models/wq_score/wq_score_T5_en_epoch=1-my_metric=0.0005.ckpt'
+UA = True
+UQ = True
+BERT_SCORE = True
 ########################################################################################################################
 
-def testing(model_path, test_set, mode="score_jobber"):
-    # Load test set from file path test_set
-    test_loader = DataLoader(dl.T5Dataset(test_set))
-
-    # Load model from checkpoint file path
-    if MODE.split('_')[1] == 'ver' or MODE.split('_')[0] == 'ver':
-        t5_test = LitVerFineT5.load_from_checkpoint(model_path)
+def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
+    # get mode from model
+    if mode:
+        with_question, label, language = mode
     else:
-        t5_test = LitScoreFineT5.load_from_checkpoint(model_path, mode=mode)
+        mode = model_path.rsplit('/', 1)[1].split('_')
+        if mode[0] == 'wq':
+            with_question, label, language = True, mode[1], mode[3]
+        else:
+            with_question, label, language = False, mode[0], mode[2]
+    mode = '_'.join(['wq', label]) if with_question else label
 
-    trainer = pl.Trainer(gpus=1, progress_bar_refresh_rate=0)
-    trainer.test(t5_test, test_dataloaders=test_loader, verbose=True) #, show_progress_bar=False)
+    # get preprocessed test sets
+    if language == 'en':
+        folder = 'preprocessed/english'
+    elif language == 'ger':
+        folder = 'preprocessed/german'
+    else:
+        raise ValueError("Unsupported language or string")
+    test_set_paths = []
+    if ua:
+        test_set_paths.append(folder + '/' + mode + '_ua.npy')
+    if uq:
+        test_set_paths.append(folder + '/' + mode + '_uq.npy')
+
+    # Load model
+
+    trainer = pl.Trainer(gpus=1, progress_bar_refresh_rate=10)
+    for i in test_set_paths:
+        test_set = i.rsplit('_', 1)[1][:2]
+        print("Testing on", test_set.upper())
+        test_model = LitSAFT5.load_from_checkpoint(model_path, test=test_set, bert_scoring=bert_score)
+        test_loader = DataLoader(dl.T5Dataset(i))
+        trainer.test(test_model, test_dataloaders=test_loader, verbose=True)
+        if bert_score:
+            bert_scoring.bert_scoring('models/' + mode + '/' + language + '_' + i.rsplit('_', 1)[1], language=language,
+                                      label=label)
 
 
 if __name__ == "__main__":
-    """
-    print("Testing model ", MODEL)
-    print("Testing on UQ")
-    testing(MODEL, TEST_SET)
-    print("Testing on UA")
-    testing(MODEL, SECOND_TEST_SET)
-    """
-    print("BERTscoring UQ")
-    bert_scoring.bert_scoring(BERT_DATA, lang=LANG)
-    print("BERTscoring UA")
-    bert_scoring.bert_scoring(BERT_SECOND_DATA, lang=LANG)
+    testing(MODEL, ua=UA, uq=UQ, bert_score=BERT_SCORE)
+
 

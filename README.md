@@ -4,8 +4,8 @@ This repository contains the dataset and code corresponding to the paper *"Your 
    The environment to reproduce our results can be installed in the following way (for windows, uncomment pywin32=300 in requirements.txt):
 > conda create --name baseline python=3.7  
 > conda activate baseline  
-> conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
-> pip install -r requirements.txt
+> conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch  
+> pip install -r requirements.txt  
 > pip install bert-score
 2. Download and copy your data set into the *data* folder or ensure that SAF is there.
 <!---
