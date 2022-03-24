@@ -8,6 +8,7 @@ import datasets
 import torch
 import numpy as np
 from sklearn import metrics as metrics
+from os.path import join
 
 # set seeds
 pl.seed_everything(np.random.randint(0, 1000))
@@ -33,12 +34,12 @@ class LitSAFT5(pl.LightningModule):
             print("Using mt5 Model")
             self.model = AutoModelForSeq2SeqLM.from_pretrained("google/mt5-base")
             self.tokenizer = AutoTokenizer.from_pretrained("google/mt5-base")
-            self.folder = 'preprocessed/german'
+            self.folder = join('preprocessed', 'german')
         elif language == 'en':
             print("Using T5 Model")
             self.model = T5ForConditionalGeneration.from_pretrained('t5-base')
             self.tokenizer = T5Tokenizer.from_pretrained('t5-base')
-            self.folder = 'preprocessed/english'
+            self.folder = join('preprocessed', 'english')
         else:
             raise ValueError("Unsupported language or wrong string")
 
@@ -50,8 +51,8 @@ class LitSAFT5(pl.LightningModule):
         print("Training/Testing on the following datasets: ", language, self.mode)
 
         # Load dataset
-        data = dl.T5Dataset(self.folder + '/' + self.mode + '_train.npy')
-        self.test_data = dl.T5Dataset(self.folder + '/' + self.mode + '_ua.npy')
+        data = dl.T5Dataset(join(self.folder, self.mode + '_train.npy'))
+        self.test_data = dl.T5Dataset(join(self.folder,self.mode + '_ua.npy'))
         if test:
             self.test = test
 
@@ -83,7 +84,7 @@ class LitSAFT5(pl.LightningModule):
     def validation_epoch_end(self, outputs):
         # validation array: first entry are all full text predictions, second entry gold standard, third entry label
         # and fourth entry label prediction
-        if self.label == 'score':
+        if 'score' in self.label:
             val_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
                         [x['label'] for x in outputs], [x['prediction'].split(' ', 1)[0] for x in outputs]]
 
@@ -99,14 +100,14 @@ class LitSAFT5(pl.LightningModule):
                 mse_val, invalid = 1
                 self.log('mse', 0)
 
-        elif self.label == 'ver':
+        elif 'ver' in self.label:
             val_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
                         [x['label'] for x in outputs]]
             pred = extract_pred(val_data[0])
             truth = [x.split(':', 1)[1] for x in val_data[1]]
             label_pred = extract_label(val_data[0])
             acc_data = np.array([val_data[2], label_pred])
-            val_acc = metrics.f1_score(acc_data[0], label_pred)
+            val_acc = metrics.accuracy_score(acc_data[0], label_pred)
             val_weighted = metrics.f1_score(acc_data[0], label_pred, average='weighted')
             val_macro = metrics.f1_score(acc_data[0], label_pred, average='macro',
                                          labels=['incorrect', 'partially correct', 'correct'])
@@ -118,12 +119,12 @@ class LitSAFT5(pl.LightningModule):
         meteor_score = meteor.compute(predictions=pred, references=truth)['meteor']
 
         # log custom metric
-        if self.label == 'score':
+        if 'score' in self.label:
             self.log('my_metric', (sacrebleu_score / 100 + rouge_score + meteor_score) / 3 * (1 - mse_val) *
                      (1 - invalid / len(acc_data[1])))
             print('MSE = {:.4f}, BLEU = {:.4f}, Rouge = {:.4f}, Meteor = {:.4f}'
                   .format(mse_val, sacrebleu_score, rouge_score, meteor_score))
-        elif self.label == 'ver':
+        elif 'ver' in self.label:
             self.log('my_metric', (sacrebleu_score / 100 + rouge_score + meteor_score) / 3 * val_macro)
             self.log('val_macro', val_macro)
             print('Acc = {:.4f}, M-F1 = {:.4f}, W-F1 = {:.4f}, BLEU = {:.4f}, Rouge = {:.4f}, Meteor = {:.4f}'
@@ -145,7 +146,7 @@ class LitSAFT5(pl.LightningModule):
     def test_epoch_end(self, outputs):
         # validation array: first entry are all full text predictions, second entry gold standard, third entry label
         # and fourth entry label prediction
-        if self.label == 'score':
+        if 'score' in self.label:
             test_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
                         [x['label'] for x in outputs], [x['prediction'].split(' ', 1)[0] for x in outputs]]
 
@@ -161,7 +162,7 @@ class LitSAFT5(pl.LightningModule):
                 mse_val, invalid = 1
                 self.log('mse', 0)
 
-        elif self.label == 'ver':
+        elif 'ver' in self.label:
             test_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
                         [x['label'] for x in outputs]]
             pred = extract_pred(test_data[0])
@@ -180,12 +181,12 @@ class LitSAFT5(pl.LightningModule):
         meteor_score = meteor.compute(predictions=pred, references=truth)['meteor']
 
         # log custom metric
-        if self.label == 'score':
+        if 'score' in self.label:
             self.log('my_metric', (sacrebleu_score / 100 + rouge_score + meteor_score) / 3 * (1 - mse_val) *
                      (1 - invalid / len(acc_data[1])))
             print('\nMSE = {:.4f}, BLEU = {:.4f}, Rouge = {:.4f}, Meteor = {:.4f}'
                   .format(mse_val, sacrebleu_score, rouge_score, meteor_score))
-        elif self.label == 'ver':
+        elif 'ver' in self.label:
             self.log('my_metric', (sacrebleu_score / 100 + rouge_score + meteor_score) / 3 * val_macro)
             self.log('val_macro', val_macro)
             print('\nAcc = {:.4f}, M-F1 = {:.4f}, W-F1 = {:.4f}, BLEU = {:.4f}, Rouge = {:.4f}, Meteor = {:.4f}'

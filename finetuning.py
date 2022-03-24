@@ -7,7 +7,7 @@ sys.path.append(os.getcwd())
 ########################################################################################################################
 LANG = 'en' # 'en' or 'ger'
 QUESTION = True # train with or w/o questions
-LABEL = 'score' # 'ver' or 'score'
+LABEL = 'ver_saf' # 'ver' or 'score'
 # Hyperparameters
 BATCH_SIZE = 2 # 2 is best for score, 4 is best for ver
 EPOCH = 80
@@ -16,7 +16,7 @@ ACCUMULATE_GRAD = 6 # best performing was 6 for en, 8 for ger
 N_TOP_MODELS = 1
 PATIENCE = 4
 DISTRIBUTED = False
-N_GPUS = 1
+N_GPUS = 0
 PRECISION = 16
 ########################################################################################################################
 if LANG == 'ger':

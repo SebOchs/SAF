@@ -4,12 +4,14 @@ import pytorch_lightning as pl
 from code import bert_scoring, dataloading as dl
 from code.litT5 import LitSAFT5
 from torch.utils.data import DataLoader
+from os.path import join
 
 # Slurm fix
 sys.path.append(os.getcwd())
 # Settings
+
 ########################################################################################################################
-MODEL = 'models/wq_score/wq_score_T5_en_epoch=1-my_metric=0.0005.ckpt'
+MODEL = 'models/wq_ver_saf/wq_ver_saf_T5_en_epoch=13-my_metric=0.2686.ckpt'
 UA = True
 UQ = True
 BERT_SCORE = True
@@ -29,9 +31,9 @@ def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
 
     # get preprocessed test sets
     if language == 'en':
-        folder = 'preprocessed/english'
+        folder = join('preprocessed', 'english')
     elif language == 'ger':
-        folder = 'preprocessed/german'
+        folder = join('preprocessed', 'german')
     else:
         raise ValueError("Unsupported language or string")
     test_set_paths = []
@@ -55,6 +57,6 @@ def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
 
 
 if __name__ == "__main__":
-    testing(MODEL, ua=UA, uq=UQ, bert_score=BERT_SCORE)
+    testing(MODEL, ua=UA, uq=UQ, bert_score=BERT_SCORE, mode=(True, "ver_saf", "en"))
 
 
