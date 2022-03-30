@@ -3,6 +3,7 @@ import torch
 from sklearn.metrics import mean_squared_error
 import os
 import sys
+
 # Slurm fix
 sys.path.append(os.getcwd())
 
@@ -129,5 +130,14 @@ def save(filepath, data):
     :param data: list of preprocessed data
     :return: Nothing
     """
-    os.makedirs(filepath.rsplit('/', 1)[0], exist_ok=True)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
     np.save(filepath, np.array(data, dtype=object), allow_pickle=True)
+
+
+def to_list(x):
+    """
+    Function to convert a list of list of elements to list of elements
+    :param x: list of list of objects
+    :return: list of objects
+    """
+    return [a for b in x for a in b]

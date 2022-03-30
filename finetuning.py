@@ -1,23 +1,24 @@
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
-from code.litT5 import *
+from source_code.litT5 import *
+from os.path import join
 # Slurm fix
 sys.path.append(os.getcwd())
 
 # Settings
 ########################################################################################################################
-LANG = 'en' # 'en' or 'ger'
+LANG = 'ger' # 'en' or 'ger'
 QUESTION = True # train with or w/o questions
-LABEL = 'ver_saf' # 'ver' or 'score'
+LABEL = 'score' # 'ver' or 'score'
 # Hyperparameters
 BATCH_SIZE = 2 # 2 is best for score, 4 is best for ver
 EPOCH = 80
 ACCUMULATE_GRAD = 6 # best performing was 6 for en, 8 for ger
 # Training settings
 N_TOP_MODELS = 1
-PATIENCE = 4
+PATIENCE = 10
 DISTRIBUTED = False
 N_GPUS = 0
-PRECISION = 16
+PRECISION = 32
 ########################################################################################################################
 if LANG == 'ger':
     MODEL = 'mT5'
@@ -49,10 +50,10 @@ def finetuning(language, with_questions, label, batch_size=4, epochs=64, acc_gra
 
     # Checkpointing
     checkpoint_callback = ModelCheckpoint(
-        dirpath='models/' + mode,
+        dirpath=join('models', mode),
         monitor='my_metric',
         mode="max",
-        filename= mode + '_' + model_version + '_' + language + '_{epoch}-{my_metric:.4f}',
+        filename=mode + '_' + model_version + '_' + language + '_{epoch}-{my_metric:.4f}',
         save_top_k=top_k
     )
     # Early Stopping

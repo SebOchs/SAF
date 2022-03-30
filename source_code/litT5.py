@@ -2,7 +2,7 @@ import pytorch_lightning as pl
 from transformers import T5ForConditionalGeneration, Adafactor, T5Tokenizer, AutoModelForSeq2SeqLM, AutoTokenizer
 from torch.utils.data import DataLoader, random_split
 from .utils import *
-from code import dataloading as dl
+from source_code import dataloading as dl
 import warnings
 import datasets
 import torch
@@ -52,7 +52,7 @@ class LitSAFT5(pl.LightningModule):
 
         # Load dataset
         data = dl.T5Dataset(join(self.folder, self.mode + '_train.npy'))
-        self.test_data = dl.T5Dataset(join(self.folder,self.mode + '_ua.npy'))
+        self.test_data = dl.T5Dataset(join(self.folder, self.mode + '_ua.npy'))
         if test:
             self.test = test
 
@@ -64,9 +64,8 @@ class LitSAFT5(pl.LightningModule):
 
     def forward(self, tok_seq, attn_seq):
         # force min length of prediction
-        state = self.tokenizer.decode(self.model.generate(input_ids=tok_seq, attention_mask=attn_seq, min_length=11,
-                                                          max_length=128)[0], skip_special_tokens=True)
-        return state
+        return [self.tokenizer.decode(x, skip_special_tokens=True) for x in
+                self.model.generate(input_ids=tok_seq, attention_mask=attn_seq, min_length=11, max_length=128)]
 
     def training_step(self, batch, batch_idx):
         text, text_attn, answer, lab = batch
@@ -76,17 +75,19 @@ class LitSAFT5(pl.LightningModule):
     def validation_step(self, batch, batch_idx):
         text, text_attn, answer, lab = batch
         return {'prediction': self(text, text_attn),
-                'truth': self.tokenizer.decode(answer.squeeze(), skip_special_tokens=True),
-                'label': self.tokenizer.decode(lab.squeeze(), skip_special_tokens=True),
-                'original': self.tokenizer.decode(text.squeeze(), skip_special_tokens=True),
+                'truth': [self.tokenizer.decode(x, skip_special_tokens=True) for x in answer],
+                'label': [self.tokenizer.decode(x, skip_special_tokens=True) for x in lab],
+                'original': [self.tokenizer.decode(x, skip_special_tokens=True) for x in text],
                 }
 
     def validation_epoch_end(self, outputs):
         # validation array: first entry are all full text predictions, second entry gold standard, third entry label
         # and fourth entry label prediction
         if 'score' in self.label:
-            val_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
-                        [x['label'] for x in outputs], [x['prediction'].split(' ', 1)[0] for x in outputs]]
+            val_data = [to_list([x['prediction'] for x in outputs]),
+                        to_list([x['truth'] for x in outputs]),
+                        to_list([x['label'] for x in outputs]),
+                        to_list([[y.split(' ')[0] for y in x['prediction']] for x in outputs])]
 
             pred = extract_model_pred(val_data[0])
             truth = [x.split(' ', 2)[2] for x in val_data[1]]
@@ -101,8 +102,10 @@ class LitSAFT5(pl.LightningModule):
                 self.log('mse', 0)
 
         elif 'ver' in self.label:
-            val_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
-                        [x['label'] for x in outputs]]
+            val_data = [to_list([x['prediction'] for x in outputs]),
+                        to_list([x['truth'] for x in outputs]),
+                        to_list([x['label'] for x in outputs])]
+
             pred = extract_pred(val_data[0])
             truth = [x.split(':', 1)[1] for x in val_data[1]]
             label_pred = extract_label(val_data[0])
@@ -112,7 +115,7 @@ class LitSAFT5(pl.LightningModule):
             val_macro = metrics.f1_score(acc_data[0], label_pred, average='macro',
                                          labels=['incorrect', 'partially correct', 'correct'])
 
-            # calculate model selection metrics
+        # calculate model selection metrics
         sacrebleu_score = sacrebleu.compute(predictions=pred,
                                             references=[[x] for x in truth])['score']
         rouge_score = rouge.compute(predictions=pred, references=truth)['rouge2'].mid.fmeasure
@@ -138,17 +141,19 @@ class LitSAFT5(pl.LightningModule):
         text, text_attn, answer, lab = batch
         # print("Test stepping")
         return {'prediction': self(text, text_attn),
-                'truth': self.tokenizer.decode(answer.squeeze(), skip_special_tokens=True),
-                'label': self.tokenizer.decode(lab.squeeze(), skip_special_tokens=True),
-                'original': self.tokenizer.decode(text.squeeze(), skip_special_tokens=True),
+                'truth': [self.tokenizer.decode(x, skip_special_tokens=True) for x in answer],
+                'label': [self.tokenizer.decode(x, skip_special_tokens=True) for x in lab],
+                'original': [self.tokenizer.decode(x, skip_special_tokens=True) for x in text],
                 }
 
     def test_epoch_end(self, outputs):
         # validation array: first entry are all full text predictions, second entry gold standard, third entry label
         # and fourth entry label prediction
         if 'score' in self.label:
-            test_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
-                        [x['label'] for x in outputs], [x['prediction'].split(' ', 1)[0] for x in outputs]]
+            test_data = [to_list([x['prediction'] for x in outputs]),
+                         to_list([x['truth'] for x in outputs]),
+                         to_list([x['label'] for x in outputs]),
+                         to_list([[y.split(' ')[0] for y in x['prediction']] for x in outputs])]
 
             pred = extract_model_pred(test_data[0])
             truth = [x.split(' ', 2)[2] for x in test_data[1]]
@@ -163,8 +168,9 @@ class LitSAFT5(pl.LightningModule):
                 self.log('mse', 0)
 
         elif 'ver' in self.label:
-            test_data = [[x['prediction'] for x in outputs], [x['truth'] for x in outputs],
-                        [x['label'] for x in outputs]]
+            test_data = [to_list([x['prediction'] for x in outputs]),
+                         to_list([x['truth'] for x in outputs]),
+                         to_list([x['label'] for x in outputs])]
             pred = extract_pred(test_data[0])
             truth = [x.split(':', 1)[1] for x in test_data[1]]
             label_pred = extract_label(test_data[0])
@@ -197,7 +203,7 @@ class LitSAFT5(pl.LightningModule):
         self.log('METEOR', meteor_score)
 
         if self.bert_scoring:
-            save('models/' + self.mode + '/' + '_'.join([self.language, self.test]), test_data)
+            save(join('models', self.mode, '_'.join([self.language, self.test]) + '.npy'), test_data)
 
     def configure_optimizers(self):
         return Adafactor(self.model.parameters(), lr=None, warmup_init=True, relative_step=True)
@@ -206,7 +212,7 @@ class LitSAFT5(pl.LightningModule):
         return DataLoader(self.train_data, batch_size=self.batch_size, num_workers=0, shuffle=False)
 
     def val_dataloader(self):
-        return DataLoader(self.val_data, batch_size=1, num_workers=0, shuffle=False)
+        return DataLoader(self.val_data, batch_size=self.batch_size, num_workers=0, shuffle=False)
 
     def test_dataloader(self):
-        return DataLoader(self.test_data, batch_size=1, num_workers=0, shuffle=False)
+        return DataLoader(self.test_data, batch_size=self.batch_size, num_workers=0, shuffle=False)

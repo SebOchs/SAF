@@ -1,8 +1,8 @@
 import sys
 import os
 import pytorch_lightning as pl
-from code import bert_scoring, dataloading as dl
-from code.litT5 import LitSAFT5
+from source_code import bert_scoring, dataloading as dl
+from source_code.litT5 import LitSAFT5
 from torch.utils.data import DataLoader
 from os.path import join
 
@@ -11,7 +11,7 @@ sys.path.append(os.getcwd())
 # Settings
 
 ########################################################################################################################
-MODEL = 'models/wq_ver_saf/wq_ver_saf_T5_en_epoch=13-my_metric=0.2686.ckpt'
+MODEL = 'models/wq_score/wq_score_mT5_ger_epoch=17-my_metric=0.1950.ckpt'
 UA = True
 UQ = True
 BERT_SCORE = True
@@ -38,9 +38,9 @@ def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
         raise ValueError("Unsupported language or string")
     test_set_paths = []
     if ua:
-        test_set_paths.append(folder + '/' + mode + '_ua.npy')
+        test_set_paths.append(join(folder, mode + '_ua.npy'))
     if uq:
-        test_set_paths.append(folder + '/' + mode + '_uq.npy')
+        test_set_paths.append(join(folder, mode + '_uq.npy'))
 
     # Load model
 
@@ -52,11 +52,11 @@ def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
         test_loader = DataLoader(dl.T5Dataset(i))
         trainer.test(test_model, test_dataloaders=test_loader, verbose=True)
         if bert_score:
-            bert_scoring.bert_scoring('models/' + mode + '/' + language + '_' + i.rsplit('_', 1)[1], language=language,
+            bert_scoring.bert_scoring(join('models', mode, language + '_' + i.rsplit('_', 1)[1]), language=language,
                                       label=label)
 
 
 if __name__ == "__main__":
-    testing(MODEL, ua=UA, uq=UQ, bert_score=BERT_SCORE, mode=(True, "ver_saf", "en"))
+    testing(MODEL, ua=UA, uq=UQ, bert_score=BERT_SCORE)
 
 
