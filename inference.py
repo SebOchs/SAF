@@ -63,7 +63,7 @@ def inference(model_path, json_path, q='question', ref='reference answer', stud=
             else:
                 raise ValueError("language parameter only accepts strings \'ger\' and \'en\' for German or "
                                  "English respectively.")
-            texts.append(text)
+            texts.append(text.lower())
 
         tokenized = tokenizer(texts, padding=True, truncation=True, max_length=256, return_tensors="pt")
 
