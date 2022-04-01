@@ -17,12 +17,13 @@ UQ = True
 BERT_SCORE = True
 ########################################################################################################################
 
+
 def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
     # get mode from model
     if mode:
         with_question, label, language = mode
     else:
-        mode = model_path.rsplit('/', 1)[1].split('_')
+        mode = os.path.normpath(model_path).split(os.sep)[2].split('_')
         if mode[0] == 'wq':
             with_question, label, language = True, mode[1], mode[3]
         else:
@@ -58,5 +59,3 @@ def testing(model_path, ua=True, uq=False, bert_score=False, mode=None):
 
 if __name__ == "__main__":
     testing(MODEL, ua=UA, uq=UQ, bert_score=BERT_SCORE)
-
-

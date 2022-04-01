@@ -141,3 +141,16 @@ def to_list(x):
     :return: list of objects
     """
     return [a for b in x for a in b]
+
+
+def batch(batch_encoding, batch_size=1):
+    """
+    Generate batches from list of objects
+    :param batch_encoding: Huggingface batch encoding (result from tokenizer)
+    :param batch_size: integer / size of batches
+    :return: generator / returns batches from list
+    """
+    length = len(batch_encoding.input_ids)
+    for idx in range(0, length, batch_size):
+        yield {'input_ids': batch_encoding.input_ids[idx:min(idx + batch_size, length)],
+               'attention_mask': batch_encoding.attention_mask[idx:min(idx + batch_size, length)]}
