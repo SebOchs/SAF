@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <question id="2.1" module="LM">
-   <questionText>What is "frame bursting"? So give one advantage and disadvantag e Compared to the carrier extension.</questionText>
+   <questionText>What is "frame bursting"? Also, give 1 advantage and disadvantage compared to the carrier extension.</questionText>
    <referenceAnswers>
      <referenceAnswer id="LM_4.2_a1">
 	  Frame bursting reduces the overhead for transmitting small frames by concatenating a sequence of multiple frames in one single transmission, without ever releasing control of the channel.
