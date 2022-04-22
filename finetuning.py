@@ -27,7 +27,7 @@ elif LANG == 'en':
 
 
 def finetuning(language, with_questions, label, batch_size=4, epochs=64, acc_grad=8, top_k=3, ddp=False, gpus=1,
-               precision=16, model_version="mT5"):
+               precision=32, model_version="mT5"):
     """
     Finetuning function to set up model training
     :param language: String / indicates language
