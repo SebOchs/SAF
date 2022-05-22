@@ -19,6 +19,8 @@ Download and copy the data set into the repository.
 > python testing.py
 6. Testing saves the model predictions to a file, which can then be utilized to calculate and print out the BERT score. As file convention, the file should start with the experiment mode.
 > python bert_scoring.py
+7. We also provide an example script for inference with a finetuned model (using our code) and a json file that contains a question, a reference answer, and a list of student answers.  
+> python inference.py  
 
 You may also adjust the seeding in the litT5.py script.
 
