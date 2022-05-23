@@ -25,6 +25,20 @@ Download and copy the data set into the repository.
 You may also adjust the seeding in the litT5.py script.
 
 If you found this code or dataset helpful in your research, please consider citing:
-<!---
-Insert bibtex here, once published
--->
+```bibtex
+@inproceedings{filighera-etal-2022-answer,
+    title = "Your Answer is Incorrect... Would you like to know why? Introducing a Bilingual Short Answer Feedback Dataset",
+    author = "Filighera, Anna  and
+      Parihar, Siddharth  and
+      Steuer, Tim  and
+      Meuser, Tobias  and
+      Ochs, Sebastian",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.587",
+    pages = "8577--8591",
+   }
+```
